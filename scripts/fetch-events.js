@@ -45,6 +45,7 @@ function reserve(html, ctx, origin) {
 }
 
 // Monthly sources are processed independently so one missing month never removes the other.
+// Billboard Live YOKOHAMA is parsed from its server-rendered schedule payload.
 const sources = {
   dolphy: (y,m) => [m === month ? 'https://dolphy-jazzspot.com/live_schedule.html' : `https://dolphy-jazzspot.com/live_schedule${y}_${m}.html`],
   bluenote: (y,m) => [`https://reserve.bluenote.co.jp/reserve/schedule/move/${y}${pad(m)}/`],
