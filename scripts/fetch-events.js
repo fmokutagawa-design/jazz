@@ -44,6 +44,7 @@ const sources = {
   cottonclub: (y,m) => [`https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/${y}${pad(m)}/`],
   swing: (y,m) => [`https://ginzaswing.jp/schedules/?month=${y}-${pad(m)}`],
   first: (y,m) => [`https://naniaru.com/events/schedule?ba=off&be=off&bp=off&month=${m}&period=0&pid=1000002305&year=${y}`],
+  kanmachi63: () => ['http://kanmachi63.blog.fc2.com/'],
 };
 
 function parse(id, html, ctx) {
@@ -63,6 +64,17 @@ function parse(id, html, ctx) {
   }
   if (id === 'swing') {
     const out=[];const re=/<h2[^>]*>\s*<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>[\s\S]{0,3000}?(\d{4})\/(\d{2})\/(\d{2})([\s\S]{0,3000}?)(?=<h2|$)/gi;let m;while((m=re.exec(html))){const artist=strip(m[2]);if(artist&&!/スケジュール表|お知らせ/.test(artist))out.push({date:`${m[3]}-${m[4]}-${m[5]}`,open:time(strip(m[6]),'open|開場'),start:time(strip(m[6]),'start|開演|1st'),artist:artist.slice(0,200),price:price(strip(m[6])),image:null,media:[],source:absolute(m[1],'https://ginzaswing.jp')});}return out;
+  }
+  if (id === 'kanmachi63') {
+    const out=[]; const text=strip(html).normalize('NFKC');
+    const re=/(\d{1,2})月(\d{1,2})日\s*[（(]([^）)]*)[）)]([\s\S]*?)(?=\d{1,2}月\d{1,2}日\s*[（(]|$)/g; let m;
+    while((m=re.exec(text))){
+      const mo=+m[1], day=+m[2]; if(mo!==ctx.m)continue;
+      const block=m[4].trim(); const explicitStart=time(block,'1st|start|開演');
+      const daytime=explicitStart!=='公式で確認'||/[土日祝]/.test(m[3]);
+      const artist=block.replace(/^\s*(?:1st\s*\d{1,2}:\d{2}[^\s]*\s*)?(?:2nd\s*\d{1,2}:\d{2}[^\s]*\s*)?/i,'').trim();
+      if(artist)out.push({date:iso(ctx.y,mo,day),open:daytime?'14:30':'19:00',start:explicitStart!=='公式で確認'?explicitStart:(daytime?'15:00':'19:30'),artist:artist.slice(0,200),price:'3,300円',image:null,media:[],source:ctx.url});
+    } return out;
   }
   if (id === 'first') {
     const out=[]; const names={Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
@@ -93,7 +105,11 @@ function parse(id, html, ctx) {
         for (let i = replacement.length - 1; i >= 0; i--) if (replacement[i].date.startsWith(ym)) replacement.splice(i, 1);
         replacement.push(...incoming); changed = true;
       }
-      reports.push({venueId,month:ym,status:plausible ? (failures ? 'partial' : 'ok') : (incoming.length ? 'rejected' : 'empty'),count:incoming.length,kept:existing.length});
+      {
+        const status = plausible ? (failures ? 'partial' : 'ok') : (incoming.length ? 'rejected' : (failures ? 'failed' : 'empty'));
+        const reason = status === 'ok' ? '取得済み' : status === 'partial' ? '一部取得' : status === 'rejected' ? '不完全なため旧データ維持' : status === 'failed' ? '取得失敗' : '取得結果0件・公式有無未確認';
+        reports.push({venueId,month:ym,status,reason,count:incoming.length,kept:existing.length});
+      }
     }
     if (changed) fresh.set(venueId,replacement);
   }
