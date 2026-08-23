@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T05:08:30.980Z",
+  "updatedAt": "2026-08-23T05:55:40.708Z",
   "venues": [
     {
       "id": "wonderwall",
@@ -2332,6 +2332,7 @@
       "venueId": "dolphy",
       "month": "2026-08",
       "status": "ok",
+      "reason": "取得済み",
       "count": 11,
       "kept": 11
     },
@@ -2339,6 +2340,7 @@
       "venueId": "dolphy",
       "month": "2026-09",
       "status": "ok",
+      "reason": "取得済み",
       "count": 32,
       "kept": 32
     },
@@ -2346,6 +2348,7 @@
       "venueId": "bluenote",
       "month": "2026-08",
       "status": "rejected",
+      "reason": "不完全なため旧データ維持",
       "count": 4,
       "kept": 7
     },
@@ -2353,6 +2356,7 @@
       "venueId": "bluenote",
       "month": "2026-09",
       "status": "rejected",
+      "reason": "不完全なため旧データ維持",
       "count": 12,
       "kept": 29
     },
@@ -2360,6 +2364,7 @@
       "venueId": "cottonclub",
       "month": "2026-08",
       "status": "ok",
+      "reason": "取得済み",
       "count": 6,
       "kept": 6
     },
@@ -2367,34 +2372,23 @@
       "venueId": "cottonclub",
       "month": "2026-09",
       "status": "rejected",
+      "reason": "不完全なため旧データ維持",
       "count": 14,
       "kept": 24
     },
     {
-      "venueId": "kingsbar",
-      "month": "2026-08",
-      "status": "empty",
-      "count": 0,
-      "kept": 5
-    },
-    {
-      "venueId": "kingsbar",
-      "month": "2026-09",
-      "status": "empty",
-      "count": 0,
-      "kept": 0
-    },
-    {
       "venueId": "swing",
       "month": "2026-08",
-      "status": "ok",
-      "count": 8,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 8
     },
     {
       "venueId": "swing",
       "month": "2026-09",
-      "status": "ok",
+      "status": "partial",
+      "reason": "一部取得",
       "count": 20,
       "kept": 20
     },
@@ -2402,6 +2396,7 @@
       "venueId": "first",
       "month": "2026-08",
       "status": "ok",
+      "reason": "取得済み",
       "count": 5,
       "kept": 5
     },
@@ -2409,8 +2404,25 @@
       "venueId": "first",
       "month": "2026-09",
       "status": "ok",
+      "reason": "取得済み",
       "count": 13,
       "kept": 13
+    },
+    {
+      "venueId": "kanmachi63",
+      "month": "2026-08",
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
+      "kept": 0
+    },
+    {
+      "venueId": "kanmachi63",
+      "month": "2026-09",
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
+      "kept": 20
     }
   ],
   "coverageStatus": {
