@@ -93,7 +93,7 @@ function renderEvents(){
   const q=state.query.toLowerCase();
   const events=data.events.filter(e=>{const v=venueMap.get(e.venueId);const hasMedia=(e.media||[]).length||(v.mediaLinks||[]).length;return (state.date? e.date===state.date : matchesRange(e.date))&&(state.venue==='all'||e.venueId===state.venue)&&(state.area==='all'||v.area===state.area)&&(!q||`${e.artist} ${v.name}`.toLowerCase().includes(q))&&(!state.mediaOnly||hasMedia)});
   document.querySelector('#resultCount').textContent=events.length;
-  eventGrid.innerHTML=events.length?events.map(e=>{const v=venueMap.get(e.venueId);const [y,m,d]=e.date.split('-');const art=e.image?`background-image:linear-gradient(#07101155,#071011bb),url('${e.image}');background-size:cover;background-position:center`:'';const eventMedia=e.media||[];const venueMedia=eventMedia.length?[]:(v.mediaLinks||[]);const badge=eventMedia.length?'▶ 公演映像あり':venueMedia.length?'▶ 会場映像あり':'';
+  eventGrid.innerHTML=events.length?events.map(e=>{const v=venueMap.get(e.venueId);const [y,m,d]=e.date.split('-');const art=e.image?`background-image:linear-gradient(#07101122,#07101155),url('${e.image}');background-size:cover,contain;background-repeat:no-repeat,no-repeat;background-position:center,center`:'';const eventMedia=e.media||[];const venueMedia=eventMedia.length?[]:(v.mediaLinks||[]);const badge=eventMedia.length?'▶ 公演映像あり':venueMedia.length?'▶ 会場映像あり':'';
 const officialActions=e.reservationStatus==='web'
   ? `<a href="${e.reservationUrl}" target="_blank" rel="noopener">Web予約</a>${e.detailUrl?`<a class="secondary" href="${e.detailUrl}" target="_blank" rel="noopener">公演詳細</a>`:''}`
   : e.reservationStatus==='check'
