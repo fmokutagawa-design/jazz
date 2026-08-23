@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T01:27:41.702Z",
+  "updatedAt": "2026-08-23T04:59:25.070Z",
   "venues": [
     {
       "id": "spirit",
@@ -203,7 +203,7 @@
       "open": "18:00",
       "start": "18:30",
       "artist": "SILVER BLUE",
-      "price": "¥3,500",
+      "price": "￥3,500",
       "image": null,
       "media": [],
       "source": "https://naniaru.com/events/view/14433"
@@ -233,13 +233,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-08-24",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "AI FURUSATO meets MASATO HONDA",
-      "price": "¥6,500",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5696.jpg?20260823",
+      "open": "17:30",
+      "start": "18:30",
+      "artist": "24 mon. AI FURUSATO meets MASATO HONDA",
+      "price": "公式で確認",
+      "image": null,
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/ai-furusato-masato-honda-260824/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5711"
     },
     {
       "venueId": "dolphy",
@@ -289,13 +289,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-08-25",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "丸の内寄席 vol.5 落語×JAZZ",
-      "price": "¥6,800",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5727.jpg?20260823",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "25 tue. 丸の内寄席 vol.5 落語×JAZZ",
+      "price": "公式で確認",
+      "image": null,
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/marunouchi-vaudeville-show-260825/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5696"
     },
     {
       "venueId": "dolphy",
@@ -356,13 +356,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-08-26",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "村田陽一 ビッグバンド",
-      "price": "¥7,700",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5721.jpg?20260823",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "26 wed. 村田陽一 ビッグバンド",
+      "price": "公式で確認",
+      "image": null,
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/yoichi-murata-260826/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5727"
     },
     {
       "venueId": "dolphy",
@@ -381,7 +381,7 @@
       "open": "18:30",
       "start": "19:00",
       "artist": "灯音 (とうおん)",
-      "price": "¥1,500",
+      "price": "￥1,500",
       "image": null,
       "media": [],
       "source": "https://naniaru.com/events/view/14796"
@@ -448,7 +448,7 @@
       "open": "18:00",
       "start": "19:00",
       "artist": "岩崎佳子クインテット",
-      "price": "¥3,500",
+      "price": "￥3,500",
       "image": null,
       "media": [],
       "source": "https://naniaru.com/events/view/14551"
@@ -501,13 +501,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-08-28",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "小比類巻かほる Kohhy6",
-      "price": "¥8,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5664.jpg?20260823",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "27 thu. PRIVATE 28 fri. [ Pops / vocal ] --> 小比類巻かほる Kohhy6 29 sat.",
+      "price": "公式で確認",
+      "image": null,
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kahoru-kohiruimaki-260828/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5721"
     },
     {
       "venueId": "dolphy",
@@ -519,6 +519,17 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
+    },
+    {
+      "venueId": "first",
+      "date": "2026-08-28",
+      "open": "18:30",
+      "start": "19:30",
+      "artist": "山本剛トリオ",
+      "price": "￥4,000",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14527"
     },
     {
       "venueId": "venus",
@@ -553,17 +564,6 @@
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3954.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3954"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-08-29",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "小比類巻かほる Kohhy6",
-      "price": "¥8,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5664.jpg?20260823",
-      "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kahoru-kohiruimaki-260828/"
     },
     {
       "venueId": "dolphy",
@@ -602,13 +602,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-08-30",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "音月桂 LIVE CONCERT “KEI” vol.1",
-      "price": "¥12,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5702.jpg?20260823",
+      "open": "14:30",
+      "start": "15:30",
+      "artist": "30 sun. 音月桂 LIVE CONCERT “KEI” vol.1",
+      "price": "公式で確認",
+      "image": null,
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kei-otozuki-260830/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5664"
     },
     {
       "venueId": "dolphy",
@@ -631,6 +631,17 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
+    },
+    {
+      "venueId": "first",
+      "date": "2026-08-30",
+      "open": "18:00",
+      "start": "18:30",
+      "artist": "Jackie Ozeki Presenting Real Deal Blues Night",
+      "price": "￥2,500",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14665"
     },
     {
       "venueId": "kingsbar",
@@ -668,13 +679,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-08-31",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "西村ケント",
-      "price": "¥6,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5723.jpg?20260823",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "31 mon. 西村ケント",
+      "price": "公式で確認",
+      "image": null,
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kent-nishimura-260831/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5702"
     },
     {
       "venueId": "dolphy",
@@ -755,6 +766,17 @@
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"
     },
     {
+      "venueId": "first",
+      "date": "2026-09-03",
+      "open": "18:30",
+      "start": "19:00",
+      "artist": "Vocal Session 2.3ステージ Vocal 参加者に歌っていただきます。 Vocal 参加者、募集中！",
+      "price": "￥3,000",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14797"
+    },
+    {
       "venueId": "swing",
       "date": "2026-09-03",
       "open": "18:00",
@@ -788,6 +810,17 @@
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
     },
     {
+      "venueId": "first",
+      "date": "2026-09-04",
+      "open": "18:30",
+      "start": "19:30",
+      "artist": "Yuta Okuno Quintet",
+      "price": "￥3,000",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14951"
+    },
+    {
       "venueId": "swing",
       "date": "2026-09-04",
       "open": "18:00",
@@ -819,6 +852,17 @@
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823",
       "media": [],
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+    },
+    {
+      "venueId": "first",
+      "date": "2026-09-05",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "FIRST SATURDAY JAM (毎月第1土曜日)",
+      "price": "￥2,300",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14436"
     },
     {
       "venueId": "kanmachi63",
@@ -863,6 +907,17 @@
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823",
       "media": [],
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+    },
+    {
+      "venueId": "first",
+      "date": "2026-09-06",
+      "open": "15:00",
+      "start": "16:00",
+      "artist": "川名祥哉TRIO",
+      "price": "￥4,000",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14437"
     },
     {
       "venueId": "kanmachi63",
@@ -940,6 +995,17 @@
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
       "media": [],
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+    },
+    {
+      "venueId": "first",
+      "date": "2026-09-09",
+      "open": "18:30",
+      "start": "19:00",
+      "artist": "Special Organ Trio",
+      "price": "￥3,500",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14695"
     },
     {
       "venueId": "bluenote",
@@ -1052,6 +1118,17 @@
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
     },
     {
+      "venueId": "first",
+      "date": "2026-09-12",
+      "open": "13:30",
+      "start": "14:00",
+      "artist": "土曜昼セッション(毎月第2土曜日)",
+      "price": "￥2,500",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14438"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-12",
       "open": "14:30",
@@ -1094,6 +1171,17 @@
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
       "media": [],
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+    },
+    {
+      "venueId": "first",
+      "date": "2026-09-13",
+      "open": "13:30",
+      "start": "14:00",
+      "artist": "日曜セッション (毎月第2日曜日)",
+      "price": "￥2,300",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14439"
     },
     {
       "venueId": "kanmachi63",
@@ -1193,6 +1281,17 @@
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5713.jpg?20260823",
       "media": [],
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/makitasports-260916/"
+    },
+    {
+      "venueId": "first",
+      "date": "2026-09-16",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "高田ひろ子トリオ",
+      "price": "￥4,000",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14698"
     },
     {
       "venueId": "swing",
@@ -1491,6 +1590,17 @@
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/ulysses-owens-jr-260924/"
     },
     {
+      "venueId": "first",
+      "date": "2026-09-24",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "岩崎佳子カルテット",
+      "price": "￥3,500",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14855"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-24",
       "open": "14:30",
@@ -1545,6 +1655,17 @@
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/konishi-ryosei-260925/"
     },
     {
+      "venueId": "first",
+      "date": "2026-09-25",
+      "open": "18:30",
+      "start": "19:30",
+      "artist": "山本剛トリオ",
+      "price": "￥4,000",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14552"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-25",
       "open": "14:30",
@@ -1587,6 +1708,17 @@
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5716.jpg?20260823",
       "media": [],
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/misako-koja-260926/"
+    },
+    {
+      "venueId": "first",
+      "date": "2026-09-26",
+      "open": "16:30",
+      "start": "17:00",
+      "artist": "HANAKAN JAM Session",
+      "price": "￥2,500",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14440"
     },
     {
       "venueId": "kanmachi63",
@@ -1633,6 +1765,17 @@
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kiyoshi-maekawa-260927/"
     },
     {
+      "venueId": "first",
+      "date": "2026-09-27",
+      "open": "16:30",
+      "start": "17:00",
+      "artist": "山本麻理子 Piano Trio Live",
+      "price": "￥2,500",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14441"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-28",
       "open": "3:30",
@@ -1642,6 +1785,17 @@
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3943.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3943"
+    },
+    {
+      "venueId": "first",
+      "date": "2026-09-28",
+      "open": "18:30",
+      "start": "19:30",
+      "artist": "REUNION Vol.19 Hiro Yamanaka & Friends",
+      "price": "￥3,500",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/14553"
     },
     {
       "venueId": "kanmachi63",
@@ -1766,27 +1920,73 @@
   "crawlReports": [
     {
       "venueId": "bluenote",
+      "month": "2026-08",
       "status": "rejected",
-      "count": 16,
-      "kept": 36
+      "count": 4,
+      "kept": 7
+    },
+    {
+      "venueId": "bluenote",
+      "month": "2026-09",
+      "status": "rejected",
+      "count": 12,
+      "kept": 29
     },
     {
       "venueId": "cottonclub",
+      "month": "2026-08",
+      "status": "ok",
+      "count": 6,
+      "kept": 7
+    },
+    {
+      "venueId": "cottonclub",
+      "month": "2026-09",
       "status": "rejected",
-      "count": 20,
-      "kept": 31
+      "count": 14,
+      "kept": 24
     },
     {
       "venueId": "kingsbar",
+      "month": "2026-08",
       "status": "empty",
       "count": 0,
       "kept": 5
     },
     {
+      "venueId": "kingsbar",
+      "month": "2026-09",
+      "status": "empty",
+      "count": 0,
+      "kept": 0
+    },
+    {
       "venueId": "swing",
+      "month": "2026-08",
+      "status": "empty",
+      "count": 0,
+      "kept": 0
+    },
+    {
+      "venueId": "swing",
+      "month": "2026-09",
       "status": "empty",
       "count": 0,
       "kept": 20
+    },
+    {
+      "venueId": "first",
+      "month": "2026-08",
+      "status": "ok",
+      "count": 5,
+      "kept": 3
+    },
+    {
+      "venueId": "first",
+      "month": "2026-09",
+      "status": "ok",
+      "count": 13,
+      "kept": 0
     }
   ]
 }
