@@ -22,12 +22,14 @@ async function get(url) {
 }
 
 function reserve(html, ctx, origin) {
-  const out = []; const re = /<a[^>]+href=["']([^"']*\/reserve\/schedule\/exec\/\d+)["'][^>]*>([\s\S]{0,1200}?)<\/a>/gi; let m;
+  const out = []; const re = /<a[^>]+href=["']([^"']*\/reserve\/schedule\/exec\/\d+)["'][^>]*>[\s\S]*?(?=<a[^>]+href=["'][^"']*\/reserve\/schedule\/exec\/\d+["']|$)/gi; let m;
   while ((m = re.exec(html))) {
-    const text = strip(m[2]); const dm = /(\d{1,2})[\/月](\d{1,2})/.exec(text); if (!dm) continue;
+    const text = strip(m[0]); const dm = new RegExp(`${ctx.y}\\s*[./年 ]\\s*${ctx.m}\\s*[./月 ]\\s*(\\d{1,2})`).exec(text) || new RegExp(`${ctx.m}[./月](\\d{1,2})`).exec(text); if (!dm) continue;
     let open = time(text, 'open|開場'), start = time(text, 'start|開演');
     const to24 = t => { const x = /^(\d{1,2}):(\d{2})$/.exec(t); if (!x) return t; let h = +x[1]; if (h < 12) h += 12; return `${h}:${x[2]}`; };
-    out.push({ date: iso(ctx.y, Number(dm[1]), Number(dm[2])), open: to24(open), start: to24(start), artist: text.replace(/\d{1,2}[\/月]\d{1,2}日?\s*[（(].?[）)]?/, '').slice(0, 200), price: price(text), image: null, media: [], source: absolute(m[1], origin) });
+    const day = Number(dm[1]);
+    const title = text.replace(/^.*?<\/a>/, '').replace(/Music charge[\s\S]*$/i, '').trim() || text.split(/Music charge/i)[0].trim();
+    out.push({ date: iso(ctx.y, ctx.m, day), open: to24(open), start: to24(start), artist: title.slice(0, 200), price: price(text), image: null, media: [], source: absolute(m[1], origin) });
   }
   return out;
 }
@@ -66,10 +68,10 @@ function parse(id, html, ctx) {
     for (const ctx of months) for (const url of urls(ctx.y,ctx.m)) try { const html=await get(url); rows.push(...parse(venueId,html,{...ctx,url})); } catch(e) { failures++; console.error(venueId,url,e.message); }
     const clean=[...new Map(rows.filter(e=>e.date>=today&&e.artist).map(e=>[`${e.date}|${e.artist}`,e])).values()];
     if (clean.length) fresh.set(venueId,clean);
-    reports.push({venueId,status:failures?'partial':'ok',count:clean.length});
+    reports.push({venueId,status:clean.length ? (failures ? 'partial' : 'ok') : 'empty',count:clean.length});
   }
   const untouched = previous.events.filter(e => !fresh.has(e.venueId) && e.date >= today);
   const events = [...untouched, ...[...fresh.entries()].flatMap(([venueId, rows]) => rows.map(e => ({venueId,...e})))].sort((a,b)=>a.date.localeCompare(b.date)||a.venueId.localeCompare(b.venueId));
-  fs.writeFileSync(dataPath, JSON.stringify({...previous,updatedAt:new Date().toISOString(),events,crawlReports:reports},null,2)+'\n');
+  fs.writeFileSync(dataPath, JSON.stringify({...previous,updatedAt:fresh.size ? new Date().toISOString() : previous.updatedAt,events,crawlReports:reports},null,2)+'\n');
   console.log(`saved ${events.length} events`);
 })().catch(e=>{console.error(e);process.exit(1)});
