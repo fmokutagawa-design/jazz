@@ -39,6 +39,7 @@ const sources = {
   cottonclub: (y,m) => [`https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/${y}${pad(m)}/`],
   kingsbar: (y,m) => [`https://livebar.net/kingsbar/schedule?year=${y}&month=${m}`],
   swing: (y,m) => [`https://ginzaswing.jp/schedules/?month=${y}-${pad(m)}`],
+  first: (y,m) => [`https://naniaru.com/events/schedule?ba=off&be=off&bp=off&month=${m}&period=0&pid=1000002305&year=${y}`],
 };
 
 function parse(id, html, ctx) {
@@ -58,6 +59,15 @@ function parse(id, html, ctx) {
   if (id === 'swing') {
     const out=[];const re=/<h2[^>]*>\s*<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>[\s\S]{0,700}?(\d{4})\/(\d{2})\/(\d{2})([\s\S]{0,500}?)(?=<h2|$)/gi;let m;while((m=re.exec(html))){const artist=strip(m[2]);if(artist&&!/スケジュール表|お知らせ/.test(artist))out.push({date:`${m[3]}-${m[4]}-${m[5]}`,open:time(strip(m[6]),'open|開場'),start:time(strip(m[6]),'start|開演|1st'),artist:artist.slice(0,200),price:price(strip(m[6])),image:null,media:[],source:absolute(m[1],'https://ginzaswing.jp')});}return out;
   }
+  if (id === 'first') {
+    const out=[]; const names={Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
+    for(const row of html.split(/<tr[^>]*>/i).slice(1)){
+      const text=strip(row), dm=/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2})\s+(\d{4})\b/.exec(text); if(!dm||names[dm[1]]!==ctx.m)continue;
+      const link=/<a[^>]+href=["']([^"']*\/events\/view\/\d+)["'][^>]*>([\s\S]*?)<\/a>/i.exec(row); if(!link)continue;
+      const artist=strip(link[2]); if(!artist)continue;
+      out.push({date:iso(+dm[3],ctx.m,+dm[2]),open:time(text,'open|開場'),start:time(text,'start|開演'),artist:artist.slice(0,200),price:price(text),image:null,media:[],source:absolute(link[1],'https://naniaru.com')});
+    } return out;
+  }
   return [];
 }
 
@@ -67,10 +77,20 @@ function parse(id, html, ctx) {
     const rows=[]; let failures=0;
     for (const ctx of months) for (const url of urls(ctx.y,ctx.m)) try { const html=await get(url); rows.push(...parse(venueId,html,{...ctx,url})); } catch(e) { failures++; console.error(venueId,url,e.message); }
     const clean=[...new Map(rows.filter(e=>e.date>=today&&e.artist).map(e=>[`${e.date}|${e.artist}`,e])).values()];
-    const oldCount = previous.events.filter(e => e.venueId === venueId && e.date >= today).length;
-    const plausible = clean.length > 0 && (oldCount === 0 || clean.length >= Math.ceil(oldCount * 0.8));
-    if (plausible) fresh.set(venueId,clean);
-    reports.push({venueId,status:plausible ? (failures ? 'partial' : 'ok') : (clean.length ? 'rejected' : 'empty'),count:clean.length,kept:oldCount});
+    let changed = false;
+    const replacement = previous.events.filter(e => e.venueId === venueId && e.date >= today);
+    for (const ctx of months) {
+      const ym = `${ctx.y}-${pad(ctx.m)}`;
+      const incoming = clean.filter(e => e.date.startsWith(ym));
+      const existing = replacement.filter(e => e.date.startsWith(ym));
+      const plausible = incoming.length > 0 && (existing.length === 0 || incoming.length >= Math.ceil(existing.length * 0.8));
+      if (plausible) {
+        for (let i = replacement.length - 1; i >= 0; i--) if (replacement[i].date.startsWith(ym)) replacement.splice(i, 1);
+        replacement.push(...incoming); changed = true;
+      }
+      reports.push({venueId,month:ym,status:plausible ? (failures ? 'partial' : 'ok') : (incoming.length ? 'rejected' : 'empty'),count:incoming.length,kept:existing.length});
+    }
+    if (changed) fresh.set(venueId,replacement);
   }
   const untouched = previous.events.filter(e => !fresh.has(e.venueId) && e.date >= today);
   const events = [...untouched, ...[...fresh.entries()].flatMap(([venueId, rows]) => rows.map(e => ({venueId,...e})))].sort((a,b)=>a.date.localeCompare(b.date)||a.venueId.localeCompare(b.venueId));
