@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T05:55:40.708Z",
+  "updatedAt": "2026-08-23T05:56:38.834Z",
   "venues": [
     {
       "id": "wonderwall",
@@ -179,6 +179,17 @@
       "source": "https://naniaru.com/events/view/14433"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-08-23",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "“DARKMATTER“ 90分1セット tabla.大村亘 fl.efect.酒井麻生代 ageffect閑喜弦介",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "kingsbar",
       "date": "2026-08-23",
       "open": "公式で確認",
@@ -232,6 +243,17 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-08-24",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "gt.定仙哲也 b.座小田諒一 ds.原大力",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -468,6 +490,17 @@
       "source": "https://naniaru.com/events/view/14551"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-08-27",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "pf.リンヘイテツ b.座小田諒一 他未定",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "kingsbar",
       "date": "2026-08-27",
       "open": "公式で確認",
@@ -557,6 +590,17 @@
       "source": "https://naniaru.com/events/view/14527"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-08-28",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "pf.関谷友加里 ts.橋爪亮督 gt.馬場孝喜",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "swing",
       "date": "2026-08-28",
       "open": "公式で確認",
@@ -611,6 +655,17 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-08-29",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "pf.西山瞳 b.小牧良平",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -689,6 +744,17 @@
       "image": null,
       "media": [],
       "source": "https://naniaru.com/events/view/14665"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-08-30",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "ts.ss.山口真文 gt.東海林由孝 b.小牧良平 ds.山崎隼 本日、出演者の都合により",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "kingsbar",
@@ -982,11 +1048,11 @@
       "date": "2026-09-05",
       "open": "14:30",
       "start": "15:00",
-      "artist": "nd16:15～ gt.馬場孝喜 b.落合康介",
-      "price": "¥3,300",
+      "artist": "gt.馬場孝喜 b.落合康介",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -1048,11 +1114,11 @@
       "date": "2026-09-06",
       "open": "14:30",
       "start": "15:00",
-      "artist": "nd16:15～ tp.石川広行 ag.閑喜弦介",
-      "price": "¥3,300",
+      "artist": "tp.石川広行 ag.閑喜弦介",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "bluenote",
@@ -1090,13 +1156,13 @@
     {
       "venueId": "kanmachi63",
       "date": "2026-09-07",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "gt.馬場孝喜 pf.布施音人 9月10日（木） ts.etc.竹内直 gt.井上智",
-      "price": "¥3,300",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "gt.馬場孝喜 pf.布施音人",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "bluenote",
@@ -1200,13 +1266,13 @@
     {
       "venueId": "kanmachi63",
       "date": "2026-09-10",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "ts.etc.竹内直 gt.井上智 9月11日（土） nd16:15～",
-      "price": "¥3,300",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "ts.etc.竹内直 gt.井上智",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -1257,11 +1323,11 @@
       "date": "2026-09-11",
       "open": "14:30",
       "start": "15:00",
-      "artist": "nd16:15～ ts.ss.かみむら泰一 ts.橋爪亮督 b.落合康介",
-      "price": "¥3,300",
+      "artist": "ts.ss.かみむら泰一 ts.橋爪亮督 b.落合康介",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -1323,11 +1389,11 @@
       "date": "2026-09-12",
       "open": "14:30",
       "start": "15:00",
-      "artist": "nd16:15～ pf.西山瞳 gt.市野元彦",
-      "price": "¥3,300",
+      "artist": "pf.西山瞳 gt.市野元彦",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -1389,11 +1455,11 @@
       "date": "2026-09-13",
       "open": "14:30",
       "start": "15:00",
-      "artist": "nd16:15～ 渋谷毅さんの想い出 gt.石渡明廣 SOLO",
-      "price": "¥3,300",
+      "artist": "渋谷毅さんの想い出 gt.石渡明廣 SOLO",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "bluenote",
@@ -1574,13 +1640,13 @@
     {
       "venueId": "kanmachi63",
       "date": "2026-09-17",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "vo.清水翠 pf.田中信正 9月18日（金） pf.リンヘイテツ b.西嶋徹 ds.則武諒",
-      "price": "¥3,300",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "vo.清水翠 pf.田中信正",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -1618,13 +1684,13 @@
     {
       "venueId": "kanmachi63",
       "date": "2026-09-18",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "pf.リンヘイテツ b.西嶋徹 ds.則武諒 9月19日(土) nd16:15～",
-      "price": "¥3,300",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "pf.リンヘイテツ b.西嶋徹 ds.則武諒",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -1675,11 +1741,11 @@
       "date": "2026-09-19",
       "open": "14:30",
       "start": "15:00",
-      "artist": "nd16:15～ ss.ジョー ローゼンバーグ pf.永武幹子 b.落合康介 ds.森下啓",
-      "price": "¥3,300",
+      "artist": "ss.ジョー ローゼンバーグ pf.永武幹子 b.落合康介 ds.森下啓",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -1740,11 +1806,11 @@
       "date": "2026-09-20",
       "open": "14:30",
       "start": "15:00",
-      "artist": "nd16:15～ ag.閑喜弦介 as.高正貴 b.座小田諒一",
-      "price": "¥3,300",
+      "artist": "ag.閑喜弦介 as.高正貴 b.座小田諒一",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "bluenote",
@@ -1795,11 +1861,11 @@
       "date": "2026-09-21",
       "open": "14:30",
       "start": "15:00",
-      "artist": "nd16:15～ ts.竹内直 gt.佐々木マン正治 gt.丹波悦子",
-      "price": "¥3,300",
+      "artist": "ts.竹内直 gt.佐々木マン正治 gt.丹波悦子",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "bluenote",
@@ -1839,11 +1905,11 @@
       "date": "2026-09-22",
       "open": "14:30",
       "start": "15:00",
-      "artist": "DARK MATTER“ 90分1セット ts.electronics橋爪亮督 tabla大村亘 eb.etc阿部真武",
-      "price": "¥3,300",
+      "artist": "“DARK MATTER“ 90分1セット ts.electronics橋爪亮督 tabla大村亘 eb.etc阿部真武",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "bluenote",
@@ -1883,11 +1949,11 @@
       "date": "2026-09-23",
       "open": "14:30",
       "start": "15:00",
-      "artist": "nd16:15～ vo.pf.蜂谷真紀 sax.かみむら泰一 tb.etc青木タイセイ",
-      "price": "¥3,300",
+      "artist": "vo.pf.蜂谷真紀 sax.かみむら泰一 tb.etc青木タイセイ",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "bluenote",
@@ -1936,13 +2002,13 @@
     {
       "venueId": "kanmachi63",
       "date": "2026-09-24",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "pf.小太刀のばら b.甲斐正貴 ds.藤井信雄 9月25日（金） gt.福冨博 tb.etc青木タイセイ b.西嶋徹",
-      "price": "¥3,300",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "pf.小太刀のばら b.甲斐正貴 ds.藤井信雄",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -2012,13 +2078,13 @@
     {
       "venueId": "kanmachi63",
       "date": "2026-09-25",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "gt.福冨博 tb.etc青木タイセイ b.西嶋徹 9月26日（土） nd16:15～",
-      "price": "¥3,300",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "gt.福冨博 tb.etc青木タイセイ b.西嶋徹",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -2080,11 +2146,11 @@
       "date": "2026-09-26",
       "open": "14:30",
       "start": "15:00",
-      "artist": "nd16:15～ pf.望月慎一朗 gt.石井信義 ds.大村亘",
-      "price": "¥3,300",
+      "artist": "pf.望月慎一朗 gt.石井信義 ds.大村亘",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -2190,22 +2256,22 @@
       "date": "2026-09-28",
       "open": "14:30",
       "start": "15:00",
-      "artist": "nd16:15～ ts.ss.山口真文 gt.東海林由孝 b.小牧良平 ds.山崎隼",
-      "price": "¥3,300",
+      "artist": "ts.ss.山口真文 gt.東海林由孝 b.小牧良平 ds.山崎隼",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "kanmachi63",
       "date": "2026-09-28",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "gt.馬場孝喜 b.甲斐正樹 ds.今泉総之輔 9月30日（火） gt.栗田妙子 ss.ませひろこ",
-      "price": "¥3,300",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "gt.馬場孝喜 b.甲斐正樹 ds.今泉総之輔",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -2288,12 +2354,12 @@
       "venueId": "kanmachi63",
       "date": "2026-09-30",
       "open": "14:30",
-      "start": "15:00",
-      "artist": "gt.栗田妙子 ss.ませひろこ",
-      "price": "¥3,300",
+      "start": "19:30",
+      "artist": "gt.栗田妙子 ss.ませひろこ ライブ開催の有無 時間変更などホームページ、Facebookでご確認ください。 平日 OPEN**19:00~** 1st 19:30~20:30 2nd 20:45~21:45 CLOSE 22:30 土・日・祝日 OPEN **14:30~** 1st 15:00~16:00 2nd 16:15~17:15 CLOSE 18:00 ミュージックチャージ 3,3",
+      "price": "3,300円",
       "image": null,
       "media": [],
-      "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "swing",
@@ -2379,16 +2445,16 @@
     {
       "venueId": "swing",
       "month": "2026-08",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 8,
       "kept": 8
     },
     {
       "venueId": "swing",
       "month": "2026-09",
-      "status": "partial",
-      "reason": "一部取得",
+      "status": "ok",
+      "reason": "取得済み",
       "count": 20,
       "kept": 20
     },
@@ -2411,17 +2477,17 @@
     {
       "venueId": "kanmachi63",
       "month": "2026-08",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 6,
       "kept": 0
     },
     {
       "venueId": "kanmachi63",
       "month": "2026-09",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 20,
       "kept": 20
     }
   ],
