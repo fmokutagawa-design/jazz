@@ -54,9 +54,40 @@ const sources = {
   kanmachi63: () => ['https://r.jina.ai/http://kanmachi63.blog.fc2.com/'],
   wonderwall: () => ['https://wonderwall-yokohama.jp/calendar/'],
   barbarbar: (y,m) => [`https://www.barbarbar.jp/calendar.php?year=${y}&month=${m}`],
+  billboard_yokohama: (y,m) => [`https://www.billboard-live.com/yokohama/schedules?month=${y}-${pad(m)}-01`],
 };
 
 function parse(id, html, ctx) {
+  if (id === 'billboard_yokohama') {
+    const out = [];
+    const normalized = html.replace(/\\\"/g, '"').replace(/\\\\n/g, ' ');
+    const re = /"block_settings":(\[[\s\S]*?\]),"holiday":([\s\S]*?)"result_status":"([^"]+)"/g;
+    let m;
+    while ((m = re.exec(normalized))) {
+      const block = m[2];
+      const date = /"play_date":"(\d{4}-\d{2}-\d{2})"/.exec(block)?.[1];
+      const eventId = /"event_id":"([^"]+)"/.exec(block)?.[1];
+      const artist = /"title_name":"([^"]+)"/.exec(block)?.[1];
+      if (!date || !eventId || !artist || !date.startsWith(`${ctx.y}-${pad(ctx.m)}`)) continue;
+      const detailUrl = `https://www.billboard-live.com/yokohama/show?event_id=${eventId}&date=${date}`;
+      const prices = [...m[1].matchAll(/"price":(\d+)/g)].map(x => Number(x[1])).filter(Boolean);
+      const web = m[3] === 'allOK';
+      out.push({
+        date,
+        open: /"play_open":"([^"]+)"/.exec(block)?.[1] || '公式で確認',
+        start: /"play_start":"([^"]+)"/.exec(block)?.[1] || '公式で確認',
+        artist: artist.slice(0, 200),
+        price: prices.length ? `${Math.min(...prices).toLocaleString('ja-JP')}円〜` : '公式で確認',
+        image: null,
+        media: [],
+        source: detailUrl,
+        reservationUrl: web ? detailUrl : null,
+        detailUrl,
+        reservationStatus: web ? 'web' : 'check'
+      });
+    }
+    return out;
+  }
   if (id === 'bluenote') return reserve(html, ctx, 'https://reserve.bluenote.co.jp');
   if (id === 'cottonclub') return reserve(html, ctx, 'https://reserve.cottonclubjapan.co.jp');
   if (id === 'dolphy') {
@@ -119,7 +150,7 @@ function parse(id, html, ctx) {
   for (const [venueId, urls] of Object.entries(sources)) {
     const rows=[]; let failures=0;
     for (const ctx of months) for (const url of urls(ctx.y,ctx.m)) try { const html=await get(url); rows.push(...parse(venueId,html,{...ctx,url})); } catch(e) { failures++; console.error(venueId,url,e.message); }
-    const clean=[...new Map(rows.filter(e=>e.date>=today&&e.artist).map(e=>[`${e.date}|${e.artist}`,e])).values()];
+    const clean=[...new Map(rows.filter(e=>e.date>=today&&e.artist).map(e=>[`${e.date}|${e.artist}|${e.start}`,e])).values()];
     let changed = false;
     const replacement = previous.events.filter(e => e.venueId === venueId && e.date >= today);
     for (const ctx of months) {
