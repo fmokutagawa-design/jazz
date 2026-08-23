@@ -2,6 +2,10 @@ name: Update jazz events
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/fetch-events.js'
+      - '.github/workflows/update-events.yml'
   schedule:
     - cron: '15 21 * * *'
     - cron: '15 09 * * *'
