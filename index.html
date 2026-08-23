@@ -17,7 +17,7 @@
     <div class="hero-copy">
       <p class="eyebrow">YOKOHAMA · TOKYO</p>
       <h1>今夜、どこで<br>誰を聴く？</h1>
-      <p>綱島から行きやすい10会場のライブ情報と映像を、ひとつの場所に。</p>
+      <p>綱島から行きやすい11会場のライブ情報と映像を、ひとつの場所に。</p>
     </div>
   </header>
 
@@ -67,6 +67,7 @@ function rebuildCrawlIndex(){
 }
 rebuildCrawlIndex();
 const eventCount = id => data.events.filter(e => e.venueId === id).length;
+const jstToday = (() => { const parts = new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()); const values = Object.fromEntries(parts.map(p => [p.type,p.value])); return `${values.year}-${values.month}-${values.day}`; })();
 const state = {range:'today', area:'all', venue:'all', date:'', query:'', mediaOnly:false};
 const eventGrid = document.querySelector('#eventGrid');
 const venueGrid = document.querySelector('#venueGrid');
