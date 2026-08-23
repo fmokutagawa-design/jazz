@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T04:50:43.130Z",
+  "updatedAt": "2026-08-23T01:27:41.702Z",
   "venues": [
     {
       "id": "spirit",
@@ -233,13 +233,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-08-24",
-      "open": "17:30",
-      "start": "18:30",
-      "artist": "24 mon. AI FURUSATO meets MASATO HONDA",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "AI FURUSATO meets MASATO HONDA",
+      "price": "¥6,500",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5696.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5711"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/ai-furusato-masato-honda-260824/"
     },
     {
       "venueId": "dolphy",
@@ -278,24 +278,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-08-25",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "25 tue. MONDAY MICHIRU Special Summer Live 2026",
-      "price": "公式で確認",
-      "image": null,
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "MONDAY MICHIRU Special Summer Live 2026",
+      "price": "¥8,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3969.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3952"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3969"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-08-25",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "25 tue. 丸の内寄席 vol.5 落語×JAZZ",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "丸の内寄席 vol.5 落語×JAZZ",
+      "price": "¥6,800",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5727.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5696"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/marunouchi-vaudeville-show-260825/"
     },
     {
       "venueId": "dolphy",
@@ -345,24 +345,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-08-26",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "26 wed. AKIKO YANO TRIO featuring WILL LEE & CHRIS PARKER 27 thu.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "AKIKO YANO TRIO featuring WILL LEE & CHRIS PARKER",
+      "price": "¥12,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3953.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3969"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3953"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-08-26",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "26 wed. 村田陽一 ビッグバンド",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "村田陽一 ビッグバンド",
+      "price": "¥7,700",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5721.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5727"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/yoichi-murata-260826/"
     },
     {
       "venueId": "dolphy",
@@ -419,6 +419,17 @@
       "image": "https://www.barbarbar.jp/calendar/uploads/b9082d6d44b5fdc4bb26f29041d18c8c.jpg",
       "media": [],
       "source": "https://www.barbarbar.jp/schedule.html"
+    },
+    {
+      "venueId": "bluenote",
+      "date": "2026-08-27",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "AKIKO YANO TRIO featuring WILL LEE & CHRIS PARKER",
+      "price": "¥12,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3953.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3953"
     },
     {
       "venueId": "dolphy",
@@ -479,24 +490,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-08-28",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "28 fri. AYATAKE EZAKI with guest KEI MATSUMARU 2026 Japan Tour - Tokyo 29 sat.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "AYATAKE EZAKI with guest KEI MATSUMARU 2026 Japan Tour - Tokyo",
+      "price": "¥8,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3954.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3953"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3954"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-08-28",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "27 thu. PRIVATE 28 fri. [ Pops / vocal ] --> 小比類巻かほる Kohhy6 29 sat.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "小比類巻かほる Kohhy6",
+      "price": "¥8,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5664.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5721"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kahoru-kohiruimaki-260828/"
     },
     {
       "venueId": "dolphy",
@@ -533,6 +544,28 @@
       "source": "https://www.barbarbar.jp/schedule.html"
     },
     {
+      "venueId": "bluenote",
+      "date": "2026-08-29",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "AYATAKE EZAKI with guest KEI MATSUMARU 2026 Japan Tour - Tokyo",
+      "price": "¥8,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3954.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3954"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-08-29",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "小比類巻かほる Kohhy6",
+      "price": "¥8,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5664.jpg?20260823",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kahoru-kohiruimaki-260828/"
+    },
+    {
       "venueId": "dolphy",
       "date": "2026-08-29",
       "open": "18:30",
@@ -558,24 +591,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-08-30",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "30 sun. MARY HALVORSON’s AMARYLLIS SEXTET 31 mon.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "3:30",
+      "start": "4:30",
+      "artist": "MARY HALVORSON’s AMARYLLIS SEXTET",
+      "price": "¥8,800",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3959.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3954"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3959"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-08-30",
-      "open": "14:30",
-      "start": "15:30",
-      "artist": "30 sun. 音月桂 LIVE CONCERT “KEI” vol.1",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "音月桂 LIVE CONCERT “KEI” vol.1",
+      "price": "¥12,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5702.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5664"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kei-otozuki-260830/"
     },
     {
       "venueId": "dolphy",
@@ -622,15 +655,26 @@
       "source": "https://www.barbarbar.jp/schedule.html"
     },
     {
+      "venueId": "bluenote",
+      "date": "2026-08-31",
+      "open": "3:30",
+      "start": "4:30",
+      "artist": "MARY HALVORSON’s AMARYLLIS SEXTET",
+      "price": "¥8,800",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3959.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3959"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-08-31",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "31 mon. 西村ケント",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "西村ケント",
+      "price": "¥6,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5723.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5702"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kent-nishimura-260831/"
     },
     {
       "venueId": "dolphy",
@@ -656,6 +700,17 @@
       "note": "公式スケジュール画像から読み取り"
     },
     {
+      "venueId": "bluenote",
+      "date": "2026-09-01",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
+      "price": "¥11,800",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"
+    },
+    {
       "venueId": "swing",
       "date": "2026-09-01",
       "open": "18:00",
@@ -665,6 +720,17 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260901-2/"
+    },
+    {
+      "venueId": "bluenote",
+      "date": "2026-09-02",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
+      "price": "¥11,800",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"
     },
     {
       "venueId": "swing",
@@ -678,6 +744,17 @@
       "source": "https://ginzaswing.jp/20260902-2/"
     },
     {
+      "venueId": "bluenote",
+      "date": "2026-09-03",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
+      "price": "¥11,800",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"
+    },
+    {
       "venueId": "swing",
       "date": "2026-09-03",
       "open": "18:00",
@@ -687,6 +764,28 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260904-2/"
+    },
+    {
+      "venueId": "bluenote",
+      "date": "2026-09-04",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
+      "price": "¥11,800",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-09-04",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
+      "price": "¥11,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
     },
     {
       "venueId": "swing",
@@ -702,13 +801,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-05",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "5 sat. BILL LAURANCE TRIO 6 sun.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "3:30",
+      "start": "4:30",
+      "artist": "BILL LAURANCE TRIO",
+      "price": "¥8,800",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3973.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3973"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-09-05",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
+      "price": "¥11,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
     },
     {
       "venueId": "kanmachi63",
@@ -733,6 +843,28 @@
       "source": "https://ginzaswing.jp/20260905-3/"
     },
     {
+      "venueId": "bluenote",
+      "date": "2026-09-06",
+      "open": "3:30",
+      "start": "4:30",
+      "artist": "BILL LAURANCE TRIO",
+      "price": "¥8,800",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3973.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3973"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-09-06",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
+      "price": "¥11,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-06",
       "open": "14:30",
@@ -746,13 +878,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-07",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "7 mon. THE RESIDENTS：ESKIMO 8 tue. 9 wed.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "THE RESIDENTS：ESKIMO",
+      "price": "¥11,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3973"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3983"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-09-07",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
+      "price": "¥11,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
     },
     {
       "venueId": "kanmachi63",
@@ -766,26 +909,59 @@
       "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
     },
     {
+      "venueId": "bluenote",
+      "date": "2026-09-08",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "THE RESIDENTS：ESKIMO",
+      "price": "¥11,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3983"
+    },
+    {
+      "venueId": "bluenote",
+      "date": "2026-09-09",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "THE RESIDENTS：ESKIMO",
+      "price": "¥11,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3983"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-09",
-      "open": "17:30",
-      "start": "19:00",
-      "artist": "8 tue. 9 wed. コントと音楽 vol.7 「今宵、丸の内で」 10 thu. 11 fri. 12 sat. 13 sun.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
+      "price": "¥11,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5686"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
     },
     {
       "venueId": "bluenote",
       "date": "2026-09-10",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "10 thu. TILL BRONNER \"ITALIA\" 11 fri. 12 sat. 13 sun.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "TILL BRONNER \"ITALIA\"",
+      "price": "¥11,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3983"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-09-10",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
+      "price": "¥11,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
     },
     {
       "venueId": "kanmachi63",
@@ -810,6 +986,28 @@
       "source": "https://ginzaswing.jp/20260910-2/"
     },
     {
+      "venueId": "bluenote",
+      "date": "2026-09-11",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "TILL BRONNER \"ITALIA\"",
+      "price": "¥11,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-09-11",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
+      "price": "¥11,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-11",
       "open": "14:30",
@@ -830,6 +1028,28 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260911-2/"
+    },
+    {
+      "venueId": "bluenote",
+      "date": "2026-09-12",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "TILL BRONNER \"ITALIA\"",
+      "price": "¥11,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-09-12",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
+      "price": "¥11,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
     },
     {
       "venueId": "kanmachi63",
@@ -854,6 +1074,28 @@
       "source": "https://ginzaswing.jp/20260912-2/"
     },
     {
+      "venueId": "bluenote",
+      "date": "2026-09-13",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "TILL BRONNER \"ITALIA\"",
+      "price": "¥11,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-09-13",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
+      "price": "¥11,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-13",
       "open": "14:30",
@@ -867,24 +1109,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-14",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "14 mon. aron! \"Too Close For Running\" 15 tue.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "aron! \"Too Close For Running\"",
+      "price": "¥8,800",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3994.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3994"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-09-14",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "14 mon. NAOKO TERAI QUARTET \"The Precious Night 2026\" at COTTON CLUB",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "NAOKO TERAI QUARTET \"The Precious Night 2026\" at COTTON CLUB",
+      "price": "¥8,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5728.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5687"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/naoko-terai-260914/"
     },
     {
       "venueId": "swing",
@@ -898,15 +1140,26 @@
       "source": "https://ginzaswing.jp/20260914-2/"
     },
     {
+      "venueId": "bluenote",
+      "date": "2026-09-15",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "aron! \"Too Close For Running\"",
+      "price": "¥8,800",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3994.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3994"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-15",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "15 tue. AYA HIRANO ANNIVERSARY LIVE 2026 ～COTTON CLUB～",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "AYA HIRANO ANNIVERSARY LIVE 2026 ～COTTON CLUB～",
+      "price": "¥8,800",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5732.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5728"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/aya-hirano-260915/"
     },
     {
       "venueId": "swing",
@@ -922,24 +1175,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-16",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "16 wed. CHRISTIAN McBRIDE & URSA MAJOR 17 thu. 18 fri.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "CHRISTIAN McBRIDE & URSA MAJOR",
+      "price": "¥9,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3994"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3974"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-09-16",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "16 wed. LIVE＠マキタスポーツ ～マキタスポーツ×タブレット純～",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "LIVE＠マキタスポーツ ～マキタスポーツ×タブレット純～",
+      "price": "¥11,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5713.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5732"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/makitasports-260916/"
     },
     {
       "venueId": "swing",
@@ -953,15 +1206,26 @@
       "source": "https://ginzaswing.jp/20260916-2/"
     },
     {
+      "venueId": "bluenote",
+      "date": "2026-09-17",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "CHRISTIAN McBRIDE & URSA MAJOR",
+      "price": "¥9,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3974"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-17",
-      "open": "18:30",
-      "start": "20:00",
-      "artist": "17 thu. 古舘と客人と vol.39 古舘伊知郎 山田洋次",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "古舘と客人と vol.39 古舘伊知郎 山田洋次",
+      "price": "¥8,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5725.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5713"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/ichiro-furutachi-260917/"
     },
     {
       "venueId": "kanmachi63",
@@ -984,6 +1248,17 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260917-2/"
+    },
+    {
+      "venueId": "bluenote",
+      "date": "2026-09-18",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "CHRISTIAN McBRIDE & URSA MAJOR",
+      "price": "¥9,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3974"
     },
     {
       "venueId": "kanmachi63",
@@ -1010,24 +1285,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-19",
-      "open": "16:00",
-      "start": "17:00",
-      "artist": "19 sat. Chara Anniversary Countdown Live!! \"1991 to 2026\" 20 sun.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "4:00",
+      "start": "5:00",
+      "artist": "Chara Anniversary Countdown Live!! \"1991 to 2026\"",
+      "price": "¥11,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3995.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3974"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3995"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-09-19",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "18 fri. PRIVATE 19 sat. JAHARI STAMPLEY : SOUL FAMILY featuring TAISHI KUBOTA / SENRI KAWAGUCHI 20 sun.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "JAHARI STAMPLEY : SOUL FAMILY featuring TAISHI KUBOTA / SENRI KAWAGUCHI",
+      "price": "¥8,800",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5708.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5725"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/jahari-stampley-260919/"
     },
     {
       "venueId": "kanmachi63",
@@ -1064,24 +1339,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-20",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "30 wed. PREV NEXT 2026 6 2026 7 2026 8 2026 9 2026 10 2026 11 2026 12 2027 1 2027 2 2027 3 Archive 2026.07 2026.06 2026.05 2026.04 2026.03 2026.02 2026.01 2025.12 2025.11 2025.10 2025.09 2025.08 2025.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "4:00",
+      "start": "5:00",
+      "artist": "Chara Anniversary Countdown Live!! \"1991 to 2026\"",
+      "price": "¥11,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3995.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3984"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3995"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-09-20",
       "open": "公式で確認",
       "start": "公式で確認",
-      "artist": "PREV NEXT 2026 6 2026 7 2026 8 2026 9 2026 10 2026 11 2026 12 2027 1 2027 2 2027 3 Archive 2026.07 2026.06 2026.05 2026.04 2026.03 2026.02 2026.01 2025.12 2025.11 2025.10 2025.09 2025.08 2025.07 2025.",
-      "price": "公式で確認",
-      "image": null,
+      "artist": "JAHARI STAMPLEY : SOUL FAMILY featuring TAISHI KUBOTA / SENRI KAWAGUCHI",
+      "price": "¥8,800",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5708.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5730"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/jahari-stampley-260919/"
     },
     {
       "venueId": "kanmachi63",
@@ -1097,24 +1372,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-21",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "21 mon. THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND 22 tue. 23 wed.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "3:30",
+      "start": "4:30",
+      "artist": "THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND",
+      "price": "¥12,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3995"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3992"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-09-21",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "21 mon. 櫻井哲夫 JACO PASTORIUS TRIBUTE SESSION",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "櫻井哲夫 JACO PASTORIUS TRIBUTE SESSION",
+      "price": "¥7,500",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5699.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5708"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/tetsuo-sakurai-260921/"
     },
     {
       "venueId": "kanmachi63",
@@ -1128,15 +1403,26 @@
       "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
     },
     {
+      "venueId": "bluenote",
+      "date": "2026-09-22",
+      "open": "3:30",
+      "start": "4:30",
+      "artist": "THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND",
+      "price": "¥12,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3992"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-22",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "22 tue. RACHAEL YAMAGATA Starlit Alchemy Tour 23 wed.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "RACHAEL YAMAGATA Starlit Alchemy Tour",
+      "price": "¥9,900",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5738.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5699"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/rachael-yamagata-260922/"
     },
     {
       "venueId": "kanmachi63",
@@ -1148,6 +1434,28 @@
       "image": null,
       "media": [],
       "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+    },
+    {
+      "venueId": "bluenote",
+      "date": "2026-09-23",
+      "open": "3:30",
+      "start": "4:30",
+      "artist": "THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND",
+      "price": "¥12,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3992"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-09-23",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "RACHAEL YAMAGATA Starlit Alchemy Tour",
+      "price": "¥9,900",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5738.jpg?20260823",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/rachael-yamagata-260922/"
     },
     {
       "venueId": "kanmachi63",
@@ -1163,24 +1471,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-24",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "24 thu. SEPTETO SANTIAGUERO Vivela! Salsa Tour 2026",
-      "price": "公式で確認",
-      "image": null,
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "SEPTETO SANTIAGUERO Vivela! Salsa Tour 2026",
+      "price": "¥13,800",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3968.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3992"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3968"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-09-24",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "24 thu. ULYSSES OWENS JR. & GENERATION Y",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "ULYSSES OWENS JR. & GENERATION Y",
+      "price": "¥9,500",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5717.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5738"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/ulysses-owens-jr-260924/"
     },
     {
       "venueId": "kanmachi63",
@@ -1217,24 +1525,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-25",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "25 fri. ULYSSES OWENS JR. & GENERATION Y 26 sat.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "ULYSSES OWENS JR. & GENERATION Y",
+      "price": "¥9,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3996.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3968"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3996"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-09-25",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "25 fri. KONISHI RYOSEI Autumn Live 2026 「色なき風と、月待言結び。」",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "KONISHI RYOSEI Autumn Live 2026 「色なき風と、月待言結び。」",
+      "price": "¥9,800",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5744.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5717"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/konishi-ryosei-260925/"
     },
     {
       "venueId": "kanmachi63",
@@ -1257,6 +1565,28 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260925-2/"
+    },
+    {
+      "venueId": "bluenote",
+      "date": "2026-09-26",
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "ULYSSES OWENS JR. & GENERATION Y",
+      "price": "¥9,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3996.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3996"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-09-26",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "古謝美佐子 with 文楽人形 (勘緑 & 木偶舎) at COTTON CLUB 2026",
+      "price": "¥8,800",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5716.jpg?20260823",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/misako-koja-260926/"
     },
     {
       "venueId": "kanmachi63",
@@ -1283,24 +1613,35 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-27",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "27 sun. ANDREA MOTIS Guitar Trio \"Intimate\" 28 mon.",
-      "price": "公式で確認",
-      "image": null,
+      "open": "3:30",
+      "start": "4:30",
+      "artist": "ANDREA MOTIS Guitar Trio \"Intimate\"",
+      "price": "¥8,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3943.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3996"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3943"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-09-27",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "27 sun. KIYOSHI MAEKAWA LIVE2026 BEYOND ～その先へ～",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "KIYOSHI MAEKAWA LIVE2026 BEYOND ～その先へ～",
+      "price": "¥11,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5703.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5716"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kiyoshi-maekawa-260927/"
+    },
+    {
+      "venueId": "bluenote",
+      "date": "2026-09-28",
+      "open": "3:30",
+      "start": "4:30",
+      "artist": "ANDREA MOTIS Guitar Trio \"Intimate\"",
+      "price": "¥8,500",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3943.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3943"
     },
     {
       "venueId": "kanmachi63",
@@ -1338,24 +1679,24 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-29",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "29 tue. JHARIS YOKLEY + BIGYUKI",
-      "price": "公式で確認",
-      "image": null,
+      "open": "5:00",
+      "start": "6:00",
+      "artist": "JHARIS YOKLEY + BIGYUKI",
+      "price": "¥8,000",
+      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3984.jpg?20260823",
       "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3943"
+      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3984"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-09-29",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "28 mon. 29 tue. AYA HIRANO ANNIVERSARY LIVE 2026 ～COTTON CLUB～",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "AYA HIRANO ANNIVERSARY LIVE 2026 ～COTTON CLUB～",
+      "price": "¥8,800",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5733.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5703"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/aya-hirano-260915/"
     },
     {
       "venueId": "swing",
@@ -1371,13 +1712,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-30",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "30 wed. WEST ROAD BLUES BAND",
-      "price": "公式で確認",
-      "image": null,
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "WEST ROAD BLUES BAND",
+      "price": "¥9,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5730.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5733"
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/westroad-bluesband-260930/"
     },
     {
       "venueId": "kanmachi63",
@@ -1424,24 +1765,103 @@
   ],
   "crawlReports": [
     {
+      "id": "barbarbar",
+      "venueId": "barbarbar",
+      "status": "ok",
+      "count": 7,
+      "url": "https://www.barbarbar.jp/calendar.php",
+      "bytes": 46103,
+      "titles": 0
+    },
+    {
+      "id": "dolphy",
+      "venueId": "dolphy",
+      "status": "ok",
+      "count": 11,
+      "url": "https://dolphy-jazzspot.com/live_schedule.html",
+      "bytes": 22793,
+      "titles": 0
+    },
+    {
+      "id": "bluenote",
       "venueId": "bluenote",
       "status": "ok",
-      "count": 16
+      "count": 7,
+      "url": "https://reserve.bluenote.co.jp/reserve/schedule/",
+      "bytes": 101087,
+      "titles": 17
     },
     {
+      "id": "bluenote-next",
+      "venueId": "bluenote",
+      "status": "ok",
+      "count": 29,
+      "url": "https://reserve.bluenote.co.jp/reserve/schedule/move/202609/",
+      "bytes": 92363,
+      "titles": 12
+    },
+    {
+      "id": "cottonclub",
       "venueId": "cottonclub",
       "status": "ok",
-      "count": 20
+      "count": 7,
+      "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/",
+      "bytes": 101159,
+      "titles": 22
     },
     {
-      "venueId": "kingsbar",
-      "status": "empty",
-      "count": 0
+      "id": "cottonclub-next",
+      "venueId": "cottonclub",
+      "status": "ok",
+      "count": 24,
+      "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/202609/",
+      "bytes": 88374,
+      "titles": 15
     },
     {
+      "id": "swing",
       "venueId": "swing",
-      "status": "empty",
-      "count": 0
+      "status": "ok",
+      "count": 20,
+      "url": "https://ginzaswing.jp/schedules/?month=2026-09",
+      "bytes": 166224,
+      "titles": 0
+    },
+    {
+      "id": "kanmachi63",
+      "venueId": "kanmachi63",
+      "status": "ok",
+      "count": 20,
+      "url": "https://kanmachi63.blog.fc2.com/blog-entry-248.html",
+      "bytes": 13729,
+      "titles": 0
+    },
+    {
+      "id": "kingsbar",
+      "venueId": "kingsbar",
+      "status": "ok",
+      "count": 5,
+      "url": "https://livebar.net/kingsbar/schedule",
+      "bytes": 125612,
+      "titles": 0
+    },
+    {
+      "id": "first",
+      "venueId": "first",
+      "status": "ok",
+      "count": 3,
+      "url": "https://naniaru.com/places/view/first",
+      "bytes": 16800,
+      "titles": 0
+    },
+    {
+      "id": "venus",
+      "venueId": "venus",
+      "status": "ok",
+      "count": 7,
+      "url": "https://www.venus-hk-j.com/liveschedule",
+      "bytes": 1092279,
+      "titles": 0
     }
   ]
 }
