@@ -35,6 +35,7 @@ function reserve(html, ctx, origin) {
 }
 
 const sources = {
+  dolphy: (y,m) => [m === month ? 'https://dolphy-jazzspot.com/live_schedule.html' : `https://dolphy-jazzspot.com/live_schedule${y}_${m}.html`],
   bluenote: (y,m) => [`https://reserve.bluenote.co.jp/reserve/schedule/move/${y}${pad(m)}/`],
   cottonclub: (y,m) => [`https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/${y}${pad(m)}/`],
   kingsbar: (y,m) => [`https://livebar.net/kingsbar/schedule?year=${y}&month=${m}`],
@@ -57,7 +58,7 @@ function parse(id, html, ctx) {
     const out=[]; const re=/<a[^>]+href=["']([^"']*\/events\/\d+)["'][^>]*>([\s\S]{0,700}?)<\/a>/gi;let m;while((m=re.exec(html))){const text=strip(m[2]),dm=/(\d{1,2})[\/月](\d{1,2})/.exec(text);if(dm)out.push({date:iso(ctx.y,+dm[1],+dm[2]),open:time(text,'open|開場'),start:time(text,'start|開演'),artist:text.replace(/\d{1,2}[\/月]\d{1,2}日?/,'').slice(0,180),price:price(text),image:null,media:[],source:absolute(m[1],'https://livebar.net')});}return out;
   }
   if (id === 'swing') {
-    const out=[];const re=/<h2[^>]*>\s*<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>[\s\S]{0,700}?(\d{4})\/(\d{2})\/(\d{2})([\s\S]{0,500}?)(?=<h2|$)/gi;let m;while((m=re.exec(html))){const artist=strip(m[2]);if(artist&&!/スケジュール表|お知らせ/.test(artist))out.push({date:`${m[3]}-${m[4]}-${m[5]}`,open:time(strip(m[6]),'open|開場'),start:time(strip(m[6]),'start|開演|1st'),artist:artist.slice(0,200),price:price(strip(m[6])),image:null,media:[],source:absolute(m[1],'https://ginzaswing.jp')});}return out;
+    const out=[];const re=/<h2[^>]*>\s*<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>[\s\S]{0,3000}?(\d{4})\/(\d{2})\/(\d{2})([\s\S]{0,3000}?)(?=<h2|$)/gi;let m;while((m=re.exec(html))){const artist=strip(m[2]);if(artist&&!/スケジュール表|お知らせ/.test(artist))out.push({date:`${m[3]}-${m[4]}-${m[5]}`,open:time(strip(m[6]),'open|開場'),start:time(strip(m[6]),'start|開演|1st'),artist:artist.slice(0,200),price:price(strip(m[6])),image:null,media:[],source:absolute(m[1],'https://ginzaswing.jp')});}return out;
   }
   if (id === 'first') {
     const out=[]; const names={Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
