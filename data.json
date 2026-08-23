@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T04:34:31.107Z",
+  "updatedAt": "2026-08-23T04:42:21.288Z",
   "venues": [
     {
       "id": "spirit",
@@ -2479,11 +2479,6 @@
     }
   ],
   "crawlReports": [
-    {
-      "venueId": "barbarbar",
-      "status": "ok",
-      "count": 40
-    },
     {
       "venueId": "dolphy",
       "status": "ok",
