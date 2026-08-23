@@ -14,6 +14,11 @@ const strip = s => (s || '').replace(/<script[\s\S]*?<\/script>/gi, ' ').replace
 const time = (s, key) => { const m = new RegExp(`(?:${key})\\D{0,4}(\\d{1,2})[:：](\\d{2})|(\\d{1,2})[:：](\\d{2})\\s*(?:${key})`, 'i').exec(s || ''); return m ? `${Number(m[1] || m[3])}:${m[2] || m[4]}` : '公式で確認'; };
 const price = s => (/(?:[¥￥]\s?[\d,]{3,}|[\d,]{3,}\s?円)/.exec(s || '') || ['公式で確認'])[0].replace(/\s/g, '');
 const absolute = (u, base) => { try { return new URL(u, base).href; } catch { return u; } };
+const pageImage = (html, base) => {
+  const matches = [...String(html || '').matchAll(/<img[^>]+(?:data-lazy|data-src|src)=[^A-Za-z0-9]([^ >]+)/gi)];
+  const urls = matches.map(m => absolute(m[1].replace(/[\"']/g, ''), base));
+  return urls.find(u => !/(logo|icon|spinner|loading|calendar|common|header|footer|svg)/i.test(u)) || null;
+};
 
 async function get(url) {
   const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 jazz-near-tsunashima/1.0', accept: 'text/html' }, signal: AbortSignal.timeout(20000) });
@@ -73,6 +78,9 @@ function parse(id, html, ctx) {
       const detailUrl = `https://www.billboard-live.com/yokohama/show?event_id=${eventId}&date=${date}`;
       const prices = [...m[1].matchAll(/"price":(\d+)/g)].map(x => Number(x[1])).filter(Boolean);
       const web = m[3] === 'allOK';
+      const imageMatch = new RegExp('dtl_' + eventId + '_1_[^\" ]+\\.(?:jpe?g|png|webp)', 'i').exec(normalized);
+      const imageName = imageMatch ? imageMatch[0] : null;
+      const billboardImage = imageName ? 'https://www.billboard-live.com/public/event_img/' + eventId + '/detail/' + imageName : null;
       const start = /"play_start":"([^"]+)"/.exec(block)?.[1] || '公式で確認';
       const startParts = /^(\d{1,2}):(\d{2})$/.exec(start);
       const inferredOpen = startParts ? `${String((Number(startParts[1]) + 23) % 24).padStart(2, '0')}:${startParts[2]}` : '公式で確認';
@@ -82,7 +90,7 @@ function parse(id, html, ctx) {
         start,
         artist: artist.slice(0, 200),
         price: prices.length ? `${Math.min(...prices).toLocaleString('ja-JP')}円〜` : '公式で確認',
-        image: null,
+        image: billboardImage,
         media: [],
         source: detailUrl,
         reservationUrl: web ? detailUrl : null,
@@ -96,7 +104,7 @@ function parse(id, html, ctx) {
   if (id === 'cottonclub') return reserve(html, ctx, 'https://reserve.cottonclubjapan.co.jp');
   if (id === 'dolphy') {
     const out = [];
-    for (const row of html.split(/<tr[^>]*>/i).slice(1)) { const text = strip(row), dm = /^\s*(\d{1,2})\s*\/\s*(\d{1,2})\s*[（(]/.exec(text); if (!dm) continue; const artist = text.replace(/^.*?[）)]/, '').replace(/\d{1,2}[:：]\d{2}\s*(?:open|start)/gi, ' ').replace(/(?:前|当|チャージ).*$/, '').trim(); if (artist && !/^(休演|休み|CLOSE)/.test(artist)) out.push({ date: iso(ctx.y,+dm[1],+dm[2]), open:time(text,'open|開場'), start:time(text,'start|開演'), artist:artist.slice(0,200), price:price(text), image:null, media:[], source:ctx.url }); }
+    for (const row of html.split(/<tr[^>]*>/i).slice(1)) { const text = strip(row), dm = /^\s*(\d{1,2})\s*\/\s*(\d{1,2})\s*[（(]/.exec(text); if (!dm) continue; const artist = text.replace(/^.*?[）)]/, '').replace(/\d{1,2}[:：]\d{2}\s*(?:open|start)/gi, ' ').replace(/(?:前|当|チャージ).*$/, '').trim(); if (artist && !/^(休演|休み|CLOSE)/.test(artist)) out.push({ date: iso(ctx.y,+dm[1],+dm[2]), open:time(text,'open|開場'), start:time(text,'start|開演'), artist:artist.slice(0,200), price:price(text), image:pageImage(row,ctx.url), media:[], source:ctx.url }); }
     return out;
   }
   if (id === 'wonderwall') {
@@ -121,10 +129,10 @@ function parse(id, html, ctx) {
   }
   if (id === 'kingsbar') {
     const out=[]; const re=/<a[^>]+href=["']([^"']*\/events\/\d+)["'][^>]*>([\s\S]*?)(?=<a[^>]+href=["'][^"']*\/events\/\d+["']|$)/gi;let m;
-    while((m=re.exec(html))){const text=strip(m[0]),dm=/(\d{4})[\/年.-](\d{1,2})[\/月.-](\d{1,2})|(?<!\d)(\d{1,2})[\/月](\d{1,2})/.exec(text);if(!dm)continue;const mo=+(dm[2]||dm[4]),day=+(dm[3]||dm[5]);if(mo!==ctx.m)continue;const anchor=/<a[^>]*>([\s\S]*?)<\/a>/i.exec(m[0]);const artist=strip(anchor?.[1]||'').replace(/\d{1,2}[\/月]\d{1,2}日?/,'').trim();if(artist)out.push({date:iso(ctx.y,mo,day),open:time(text,'open|開場'),start:time(text,'start|開演'),artist:artist.slice(0,180),price:price(text),image:null,media:[],source:absolute(m[1],'https://livebar.net')});}return out;
+    while((m=re.exec(html))){const text=strip(m[0]),dm=/(\d{4})[\/年.-](\d{1,2})[\/月.-](\d{1,2})|(?<!\d)(\d{1,2})[\/月](\d{1,2})/.exec(text);if(!dm)continue;const mo=+(dm[2]||dm[4]),day=+(dm[3]||dm[5]);if(mo!==ctx.m)continue;const anchor=/<a[^>]*>([\s\S]*?)<\/a>/i.exec(m[0]);const artist=strip(anchor?.[1]||'').replace(/\d{1,2}[\/月]\d{1,2}日?/,'').trim();if(artist)out.push({date:iso(ctx.y,mo,day),open:time(text,'open|開場'),start:time(text,'start|開演'),artist:artist.slice(0,180),price:price(text),image:pageImage(m[0],'https://livebar.net'),media:[],source:absolute(m[1],'https://livebar.net')});}return out;
   }
   if (id === 'swing') {
-    const out=[];const re=/<h2[^>]*>\s*<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>[\s\S]{0,3000}?(\d{4})\/(\d{2})\/(\d{2})([\s\S]{0,3000}?)(?=<h2|$)/gi;let m;while((m=re.exec(html))){const artist=strip(m[2]);if(artist&&!/スケジュール表|お知らせ/.test(artist))out.push({date:`${m[3]}-${m[4]}-${m[5]}`,open:time(strip(m[6]),'open|開場'),start:time(strip(m[6]),'start|開演|1st'),artist:artist.slice(0,200),price:price(strip(m[6])),image:null,media:[],source:absolute(m[1],'https://ginzaswing.jp')});}return out;
+    const out=[];const re=/<h2[^>]*>\s*<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>[\s\S]{0,3000}?(\d{4})\/(\d{2})\/(\d{2})([\s\S]{0,3000}?)(?=<h2|$)/gi;let m;while((m=re.exec(html))){const artist=strip(m[2]);if(artist&&!/スケジュール表|お知らせ/.test(artist))out.push({date:`${m[3]}-${m[4]}-${m[5]}`,open:time(strip(m[6]),'open|開場'),start:time(strip(m[6]),'start|開演|1st'),artist:artist.slice(0,200),price:price(strip(m[6])),image:pageImage(m[6],'https://ginzaswing.jp'),media:[],source:absolute(m[1],'https://ginzaswing.jp')});}return out;
   }
   if (id === 'kanmachi63') {
     const out=[]; const text=strip(html).normalize('NFKC');
@@ -143,7 +151,7 @@ function parse(id, html, ctx) {
       const text=strip(row), dm=/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2})\s+(\d{4})\b/.exec(text); if(!dm||names[dm[1]]!==ctx.m)continue;
       const link=/<a[^>]+href=["']([^"']*\/events\/view\/\d+)["'][^>]*>([\s\S]*?)<\/a>/i.exec(row); if(!link)continue;
       const artist=strip(link[2]); if(!artist)continue;
-      out.push({date:iso(+dm[3],ctx.m,+dm[2]),open:time(text,'open|開場'),start:time(text,'start|開演'),artist:artist.slice(0,200),price:price(text),image:null,media:[],source:absolute(link[1],'https://naniaru.com')});
+      out.push({date:iso(+dm[3],ctx.m,+dm[2]),open:time(text,'open|開場'),start:time(text,'start|開演'),artist:artist.slice(0,200),price:price(text),image:pageImage(row,'https://naniaru.com'),media:[],source:absolute(link[1],'https://naniaru.com')});
     } return out;
   }
   return [];
