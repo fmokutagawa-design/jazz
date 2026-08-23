@@ -18,7 +18,11 @@ const absolute = (u, base) => { try { return new URL(u, base).href; } catch { re
 async function get(url) {
   const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 jazz-near-tsunashima/1.0', accept: 'text/html' }, signal: AbortSignal.timeout(20000) });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return await res.text();
+  const buf = await res.arrayBuffer();
+  const head = new TextDecoder('latin1').decode(buf.slice(0, 4096));
+  const charset = /charset=["']?([\w-]+)/i.exec(head)?.[1] || res.headers.get('content-type')?.match(/charset=([\w-]+)/i)?.[1] || 'utf-8';
+  const encoding = /shift[_-]?jis|sjis|windows-31j/i.test(charset) ? 'shift_jis' : /euc-?jp/i.test(charset) ? 'euc-jp' : 'utf-8';
+  return new TextDecoder(encoding).decode(buf);
 }
 
 function reserve(html, ctx, origin) {
