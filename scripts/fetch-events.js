@@ -73,7 +73,7 @@ function parse(id, html, ctx) {
       const mo=+m[1], day=+m[2]; if(mo!==ctx.m)continue;
       const block=m[4].trim(); const explicitStart=time(block,'1st|start|開演');
       const daytime=explicitStart!=='公式で確認'||/[土日祝]/.test(m[3]);
-      const artist=block.replace(/^\s*(?:1st\s*\d{1,2}:\d{2}[^\s]*\s*)?(?:2nd\s*\d{1,2}:\d{2}[^\s]*\s*)?/i,'').trim();
+      const artist=block.replace(/^\s*(?:1st\s*\d{1,2}:\d{2}[^\s]*\s*)?(?:2nd\s*\d{1,2}:\d{2}[^\s]*\s*)?/i,'').replace(/\s*(?:本日、|ライブ開催の有無|Posted).*$/,'').trim();
       if(artist)out.push({date:iso(ctx.y,mo,day),open:daytime?'14:30':'19:00',start:explicitStart!=='公式で確認'?explicitStart:(daytime?'15:00':'19:30'),artist:artist.slice(0,200),price:'3,300円',image:null,media:[],source:'http://kanmachi63.blog.fc2.com/'});
     } return out;
   }
