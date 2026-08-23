@@ -45,7 +45,7 @@ const sources = {
   cottonclub: (y,m) => [`https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/${y}${pad(m)}/`],
   swing: (y,m) => [`https://ginzaswing.jp/schedules/?month=${y}-${pad(m)}`],
   first: (y,m) => [`https://naniaru.com/events/schedule?ba=off&be=off&bp=off&month=${m}&period=0&pid=1000002305&year=${y}`],
-  kanmachi63: () => ['http://kanmachi63.blog.fc2.com/'],
+  kanmachi63: () => ['https://r.jina.ai/http://kanmachi63.blog.fc2.com/'],
 };
 
 function parse(id, html, ctx) {
@@ -74,7 +74,7 @@ function parse(id, html, ctx) {
       const block=m[4].trim(); const explicitStart=time(block,'1st|start|開演');
       const daytime=explicitStart!=='公式で確認'||/[土日祝]/.test(m[3]);
       const artist=block.replace(/^\s*(?:1st\s*\d{1,2}:\d{2}[^\s]*\s*)?(?:2nd\s*\d{1,2}:\d{2}[^\s]*\s*)?/i,'').trim();
-      if(artist)out.push({date:iso(ctx.y,mo,day),open:daytime?'14:30':'19:00',start:explicitStart!=='公式で確認'?explicitStart:(daytime?'15:00':'19:30'),artist:artist.slice(0,200),price:'3,300円',image:null,media:[],source:ctx.url});
+      if(artist)out.push({date:iso(ctx.y,mo,day),open:daytime?'14:30':'19:00',start:explicitStart!=='公式で確認'?explicitStart:(daytime?'15:00':'19:30'),artist:artist.slice(0,200),price:'3,300円',image:null,media:[],source:'http://kanmachi63.blog.fc2.com/'});
     } return out;
   }
   if (id === 'first') {
