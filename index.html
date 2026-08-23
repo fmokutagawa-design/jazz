@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111718">
+  <title>Jazz Near Tsunashima</title>
+  <style>
+:root{--ink:#101718;--paper:#f2eee6;--cream:#fbf8f1;--red:#b53a2d;--gold:#c99a45;--muted:#6c706e;--line:#d8d1c5}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans JP",sans-serif}.hero{min-height:470px;padding:22px clamp(20px,5vw,72px);color:#fff;background:linear-gradient(90deg,rgba(7,12,13,.92),rgba(7,12,13,.58)),radial-gradient(circle at 76% 38%,#8f3f2a 0 2%,transparent 23%),linear-gradient(135deg,#17282b,#0a0e0f 65%)}nav{display:flex;align-items:center;justify-content:space-between}.brand{font-size:.76rem;letter-spacing:.22em;font-weight:700}.ghost{border:1px solid #ffffff66;background:transparent;color:#fff;padding:9px 14px;border-radius:999px}.hero-copy{max-width:650px;margin-top:90px}.eyebrow{color:var(--gold);font-size:.72rem;font-weight:700;letter-spacing:.22em}.hero h1{font-family:"Playfair Display","Noto Sans JP",serif;font-size:clamp(3.2rem,8vw,6.3rem);line-height:.96;margin:.15em 0}.hero-copy>p:last-child{max-width:480px;color:#e3e3dc;line-height:1.8}main{max-width:1180px;margin:-42px auto 0;padding:0 20px 80px;position:relative}.controls{background:var(--cream);padding:20px;border-radius:12px;box-shadow:0 18px 50px #1113}.date-tabs{display:flex;gap:8px;overflow:auto;border-bottom:1px solid var(--line);padding-bottom:14px}.date-tabs button{border:0;background:transparent;padding:8px 12px;color:var(--muted);white-space:nowrap}.date-tabs button.active{color:var(--red);font-weight:700;border-bottom:2px solid var(--red)}.control-row{display:grid;grid-template-columns:1fr 1fr 1fr 1.6fr auto;gap:14px;align-items:end;padding-top:16px}input[type=date]{width:100%;border:1px solid var(--line);background:#fff;border-radius:7px;padding:11px;font:inherit}.reset{border:0;background:none;color:var(--red);font-size:.72rem;text-decoration:underline;padding:0;margin-top:6px}label span{display:block;font-size:.72rem;color:var(--muted);margin-bottom:6px}select,input[type=search]{width:100%;border:1px solid var(--line);background:#fff;border-radius:7px;padding:12px;font:inherit}.check{display:flex;gap:7px;align-items:center;height:45px}.check span{margin:0;white-space:nowrap}.summary{display:flex;justify-content:space-between;color:var(--muted);margin:28px 2px 12px}.summary p{margin:0}.summary strong{font-size:1.45rem;color:var(--ink)}.event-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.event-card{background:var(--cream);border-radius:10px;overflow:hidden;display:grid;grid-template-columns:155px 1fr;min-height:215px;box-shadow:0 8px 25px #1111}.event-art{min-height:215px;background:linear-gradient(160deg,var(--tone,#293c40),#080b0c);position:relative;padding:14px;color:#fff}.event-art::after{content:"♪";position:absolute;right:12px;bottom:-20px;font-family:serif;font-size:8rem;color:#ffffff12}.event-date{font-family:"Playfair Display",serif;font-size:2.2rem;line-height:1}.event-month{font-size:.68rem;letter-spacing:.15em}.media-pill{position:absolute;left:12px;bottom:12px;background:#fff;color:#111;border-radius:999px;padding:5px 8px;font-size:.66rem}.event-body{padding:18px}.area{font-size:.68rem;color:var(--red);font-weight:700;letter-spacing:.08em}.event-body h3{font-size:1.05rem;line-height:1.55;margin:5px 0}.venue-name{color:var(--muted);font-size:.83rem}.event-meta{display:flex;gap:12px;margin:13px 0;font-size:.78rem}.event-actions{display:flex;gap:8px;flex-wrap:wrap}.event-actions a{font-size:.73rem;text-decoration:none;padding:7px 9px;border-radius:5px;background:var(--ink);color:#fff}.event-actions a.secondary{background:transparent;color:var(--ink);border:1px solid var(--line)}.empty{grid-column:1/-1;text-align:center;background:var(--cream);padding:55px;border-radius:10px;color:var(--muted)}.venues-section{margin-top:72px}.section-title h2{font-family:"Playfair Display","Noto Sans JP",serif;font-size:2.5rem;margin:0}.venue-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}.venue-card{background:var(--cream);padding:18px;border-top:3px solid var(--tone);border-radius:5px}.venue-card h3{margin:0 0 8px;font-size:.95rem}.venue-card p{font-size:.75rem;color:var(--muted);margin:5px 0}.venue-card a{font-size:.72rem;color:var(--red);display:inline-block;margin-right:10px}.venue-card .flag{display:inline-block;font-size:.62rem;padding:2px 7px;border-radius:999px;background:#e7dfd0;color:#6b5a3c;margin-left:6px}.venue-card .flag.ng{background:#f0d9d5;color:#8e3125}.crawl-table{width:100%;border-collapse:collapse;margin-top:18px;font-size:.78rem;background:var(--cream);border-radius:8px;overflow:hidden}.crawl-table th,.crawl-table td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line)}.crawl-table th{font-size:.7rem;color:var(--muted);letter-spacing:.08em}.crawl-table td.n{text-align:right;font-variant-numeric:tabular-nums}.crawl-table tr.miss td{background:#f7ece9}.progress{background:var(--cream);border-radius:10px;padding:16px 18px;margin-top:18px;font-size:.78rem;line-height:1.9;max-height:230px;overflow:auto}.progress b{display:block;font-size:.82rem;margin-bottom:6px}.progress .ok{color:#2f6b45}.progress .ng{color:var(--red)}.stale{background:#f7ece9;color:#8e3125;border-radius:8px;padding:10px 14px;font-size:.75rem;margin-top:14px}.note-line{color:var(--muted);font-size:.78rem;margin-top:10px;line-height:1.7}dialog{max-width:560px;border:0;border-radius:12px;padding:32px;line-height:1.8;box-shadow:0 30px 90px #0007}dialog::backdrop{background:#071011cc}.dialog-close{position:absolute;right:16px;top:12px;border:0;background:none;font-size:1.8rem}@media(max-width:760px){.hero{min-height:410px}.hero-copy{margin-top:80px}.control-row{grid-template-columns:1fr 1fr}.event-grid{grid-template-columns:1fr}.venue-grid{grid-template-columns:1fr 1fr}.summary{font-size:.75rem}.event-card{grid-template-columns:115px 1fr}.event-art{min-height:230px}}@media(max-width:430px){.venue-grid{grid-template-columns:1fr}.ghost{font-size:.68rem}.event-body{padding:14px}.event-meta{flex-direction:column;gap:3px}}
+
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <nav><span class="brand">JAZZ NEAR TSUNASHIMA</span><span><button id="refreshButton" class="ghost" style="margin-right:8px">公開データを再読込</button><button id="aboutButton" class="ghost">この一覧について</button></span></nav>
+    <div class="hero-copy">
+      <p class="eyebrow">YOKOHAMA · TOKYO</p>
+      <h1>今夜、どこで<br>誰を聴く？</h1>
+      <p>綱島から行きやすい14会場のライブ情報と映像を、ひとつの場所に。</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="絞り込み">
+      <div class="date-tabs" id="dateTabs">
+        <button data-range="all" class="active">すべて</button>
+        <button data-range="today">今日</button>
+        <button data-range="weekend">今週末</button>
+        <button data-range="30days">30日以内</button>
+      </div>
+      <div class="control-row">
+        <label><span>エリア</span><select id="areaFilter"><option value="all">すべて</option><option value="near">綱島・日吉</option><option value="yokohama">横浜中心部</option><option value="tokyo">東京</option></select></label>
+        <label><span>会場</span><select id="venueFilter"><option value="all">すべて</option></select></label>
+        <label><span>日付</span><input id="dateInput" type="date"><button id="dateReset" class="reset" type="button">日付指定を解除</button></label>
+        <label><span>出演者・キーワード</span><input id="searchInput" type="search" placeholder="名前を入力"></label>
+        <label class="check"><input id="mediaOnly" type="checkbox"><span>映像ありのみ</span></label>
+      </div>
+    </section>
+
+    <section id="progress" class="progress" hidden></section>
+    <section class="summary"><p><strong id="resultCount">0</strong>件の公演</p><p id="updatedAt"></p></section>
+    <section id="eventGrid" class="event-grid" aria-live="polite"></section>
+
+    <section class="venues-section">
+      <div class="section-title"><p class="eyebrow">VENUES</p><h2>対象の14会場</h2></div>
+      <div id="venueGrid" class="venue-grid"></div>
+      <div class="section-title" style="margin-top:48px"><p class="eyebrow">CRAWL STATUS</p><h2>取得状況</h2></div>
+      <table class="crawl-table" id="crawlTable"></table>
+      <p class="note-line" id="crawlNote"></p>
+    </section>
+  </main>
+
+  <dialog id="aboutDialog">
+    <button id="closeAbout" class="dialog-close" aria-label="閉じる">×</button>
+    <h2>この一覧について</h2>
+    <p>各会場の公式情報を共通形式にまとめる試作版です。日時や料金は変更される場合があるため、予約前に必ず「公式で確認」を開いてください。</p>
+    <p>YouTubeとXは、会場または出演者が公開したものだけを掲載する方針です。映像そのものは転載せず、公式の埋め込み機能または元投稿へのリンクを使います。</p>
+  </dialog>
+  <script type="module">
+const data = {"updatedAt":"2026-08-23T01:27:41.702Z","venues":[{"id":"spirit","name":"綱島Spirit","area":"near","areaLabel":"綱島","station":"綱島駅 徒歩約3分","url":"https://www.jazz.co.jp/LiveHouse/top/top.html?LV_ID=963","tone":"#a14332","status":"現行日程元を確認できず"},{"id":"wonderwall","name":"WonderWall-Yokohama","area":"near","areaLabel":"日吉","station":"日吉駅 徒歩3分","url":"https://wonderwall-yokohama.jp/calendar/","tone":"#315d61","status":"公式日程あり"},{"id":"dolphy","name":"Jazz Spot DOLPHY","area":"yokohama","areaLabel":"桜木町・野毛","station":"日の出町駅 徒歩3分","url":"https://dolphy-jazzspot.com/live_schedule.html","tone":"#725739","status":"公式日程あり","mediaLinks":[{"type":"youtube","url":"http://www.youtube.com/channel/UCedeaa71EO9p70qxydzLz2A"}]},{"id":"barbarbar","name":"Bar Bar Bar","area":"yokohama","areaLabel":"関内","station":"関内駅 徒歩2分","url":"https://www.barbarbar.jp/schedule.html","tone":"#7d2c2e","status":"公式日程あり","mediaLinks":[{"type":"x","url":"https://x.com/Bar3_mt"}]},{"id":"venus","name":"Jazzbar VENUS","area":"yokohama","areaLabel":"関内","station":"日本大通り駅 徒歩8分","url":"https://www.venus-hk-j.com/liveschedule","tone":"#734b6f","status":"画像日程"},{"id":"kanmachi63","name":"上町63","area":"yokohama","areaLabel":"馬車道","station":"馬車道駅周辺","url":"https://kanmachi63.blog.fc2.com/","tone":"#626c4f","status":"公式日程あり"},{"id":"kingsbar","name":"King’s Bar","area":"yokohama","areaLabel":"馬車道","station":"馬車道駅 徒歩1分","url":"https://kings.bufsiz.jp/","tone":"#8a6a31","status":"公式日程あり"},{"id":"first","name":"FIRST","area":"yokohama","areaLabel":"日の出町","station":"日の出町駅周辺","url":"http://jazz-yama-first.sakura.ne.jp/","tone":"#414c6c","status":"確認中"},{"id":"jazzis","name":"Jazz is","area":"yokohama","areaLabel":"関内","station":"関内駅周辺","url":"https://www.jazz.co.jp/LiveHouse/top.html?LV_ID=1027","tone":"#335364","status":"オンライン日程はComing Soon"},{"id":"yoidore","name":"よいどれ伯爵","area":"yokohama","areaLabel":"関内","station":"関内駅周辺","url":"https://grafyoidore.wixsite.com/grafyoidore","tone":"#574c3f","status":"公式リンク先の日程更新停止"},{"id":"swing","name":"銀座Swing","area":"tokyo","areaLabel":"銀座・有楽町","station":"有楽町駅 徒歩3分","url":"https://ginzaswing.jp/","tone":"#9c3c30","status":"公式日程あり","mediaLinks":[{"type":"youtube","url":"https://youtube.com/@ginzaswing1976"},{"type":"x","url":"https://twitter.com/ginza_swing"}]},{"id":"bluenote","name":"BLUE NOTE TOKYO","area":"tokyo","areaLabel":"南青山","station":"表参道駅 徒歩約8分","url":"https://www.bluenote.co.jp/jp/","tone":"#243a5c","status":"公式日程あり","mediaLinks":[{"type":"youtube","url":"https://www.youtube.com/user/BlueNoteTokyoTV"},{"type":"x","url":"https://twitter.com/BlueNoteTokyo"}]},{"id":"cottonclub","name":"COTTON CLUB","area":"tokyo","areaLabel":"丸の内","station":"東京駅 徒歩2分","url":"https://www.cottonclubjapan.co.jp/jp/","tone":"#6f2931","status":"公式日程あり","mediaLinks":[{"type":"youtube","url":"https://www.youtube.com/user/CottonClubJapanTV"},{"type":"x","url":"https://twitter.com/cottonclubjapan"}]}],"events":[{"venueId":"dolphy","date":"2026-08-23","open":"13:00","start":"13:30","artist":"太田剣(as) ＆ 石井彰(p) DUO","price":"前4000円/当4500円","image":null,"media":[],"source":"https://dolphy-jazzspot.com/live_schedule.html"},{"venueId":"dolphy","date":"2026-08-23","open":"18:00","start":"19:00","artist":"noon presents～Scent of Summer Live 2026～ noon(vo)成田祐一(p)工藤精(b)","price":"前4500円/当5000円","image":null,"media":[],"source":"https://dolphy-jazzspot.com/live_schedule.html"},{"venueId":"first","date":"2026-08-23","open":"18:00","start":"18:30","artist":"SILVER BLUE","price":"¥3,500","image":null,"media":[],"source":"https://naniaru.com/events/view/14433"},{"venueId":"kingsbar","date":"2026-08-23","open":"公式で確認","start":"12:30","artist":"いのちの音色 スペシャルLIVE","price":"3000円","image":null,"media":[],"source":"https://livebar.net/kingsbar/events/3530"},{"venueId":"barbarbar","date":"2026-08-24","open":"18:30","start":"19:30","artist":"※Vincent Herring & Erena Terakubo “Alto Madnes Japan Tour 2026”","price":"8,800円","image":"https://www.barbarbar.jp/calendar/uploads/bb7cfff723ae79120fbb51a3de459a2b.jpg","media":[],"source":"https://www.barbarbar.jp/schedule.html"},{"venueId":"cottonclub","date":"2026-08-24","open":"公式で確認","start":"公式で確認","artist":"AI FURUSATO meets MASATO HONDA","price":"¥6,500","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5696.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/ai-furusato-masato-honda-260824/"},{"venueId":"dolphy","date":"2026-08-24","open":"18:30","start":"19:30","artist":"Tabaty(vo)Soul Music Jam 荻原亮(g) 小室響(p) 笹井BJ克彦(b)福森康(ds)","price":"前4000円/当4500円","image":null,"media":[],"source":"https://dolphy-jazzspot.com/live_schedule.html"},{"venueId":"venus","date":"2026-08-24","open":"公式画像で確認","start":"19:40","artist":"Chisa vo. 斎藤クミコ pf.","price":"公式画像で確認","image":"https://static.wixstatic.com/media/5fcc8d_a691a5ddf71042b6988e04bce2241f64~mv2.png/v1/fill/w_535,h_755,al_c,q_90,enc_avif,quality_auto/202608_schedule3.png","media":[],"source":"https://www.venus-hk-j.com/liveschedule","note":"公式スケジュール画像から読み取り"},{"venueId":"barbarbar","date":"2026-08-25","open":"18:00","start":"19:00","artist":"■The Canarry","price":"公式で確認","image":"https://www.barbarbar.jp/calendar/uploads/96f6fcefb33eeecf0927a063347af189.jpg","media":[],"source":"https://www.barbarbar.jp/schedule.html"},{"venueId":"bluenote","date":"2026-08-25","open":"5:00","start":"6:00","artist":"MONDAY MICHIRU Special Summer Live 2026","price":"¥8,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3969.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3969"},{"venueId":"cottonclub","date":"2026-08-25","open":"公式で確認","start":"公式で確認","artist":"丸の内寄席 vol.5 落語×JAZZ","price":"¥6,800","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5727.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/marunouchi-vaudeville-show-260825/"},{"venueId":"dolphy","date":"2026-08-25","open":"18:30","start":"19:30","artist":"皆川トオル(sax)ブルースユニット 福永貴之(org)瀬戸尚幸(b)小山田和正(ds)","price":"前4000円/当4500円","image":null,"media":[],"source":"https://dolphy-jazzspot.com/live_schedule.html"},{"venueId":"kingsbar","date":"2026-08-25","open":"公式で確認","start":"18:30","artist":"ロック＆ブルース・ジャムセッション","price":"2200円","image":null,"media":[],"source":"https://livebar.net/kingsbar/events/3531"},{"venueId":"venus","date":"2026-08-25","open":"公式画像で確認","start":"19:40","artist":"Special Trio　長沢成史 gt. 宮脇惇 cl.","price":"公式画像で確認","image":"https://static.wixstatic.com/media/5fcc8d_a691a5ddf71042b6988e04bce2241f64~mv2.png/v1/fill/w_535,h_755,al_c,q_90,enc_avif,quality_auto/202608_schedule3.png","media":[],"source":"https://www.venus-hk-j.com/liveschedule","note":"公式スケジュール画像から読み取り"},{"venueId":"barbarbar","date":"2026-08-26","open":"18:00","start":"19:00","artist":"●平賀マリカ&大野智子Trio","price":"公式で確認","image":"https://www.barbarbar.jp/calendar/uploads/52d74b5ee06621657e563a4a3acceeab.jpg","media":[],"source":"https://www.barbarbar.jp/schedule.html"},{"venueId":"bluenote","date":"2026-08-26","open":"5:00","start":"6:00","artist":"AKIKO YANO TRIO featuring WILL LEE & CHRIS PARKER","price":"¥12,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3953.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3953"},{"venueId":"cottonclub","date":"2026-08-26","open":"公式で確認","start":"公式で確認","artist":"村田陽一 ビッグバンド","price":"¥7,700","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5721.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/yoichi-murata-260826/"},{"venueId":"dolphy","date":"2026-08-26","open":"18:30","start":"19:30","artist":"Jabuticaba 永武幹子(p)加納奈実(as/ss)","price":"前4000円/当4500円","image":null,"media":[],"source":"https://dolphy-jazzspot.com/live_schedule.html"},{"venueId":"first","date":"2026-08-26","open":"18:30","start":"19:00","artist":"灯音 (とうおん)","price":"¥1,500","image":null,"media":[],"source":"https://naniaru.com/events/view/14796"},{"venueId":"kingsbar","date":"2026-08-26","open":"公式で確認","start":"18:30","artist":"誰でも参加できるジャムセッション","price":"1000円","image":null,"media":[],"source":"https://livebar.net/kingsbar/events/3533"},{"venueId":"venus","date":"2026-08-26","open":"公式画像で確認","start":"19:40","artist":"Special Duo　飯田さつき vo. 納谷嘉彦 pf.","price":"公式画像で確認","image":"https://static.wixstatic.com/media/5fcc8d_a691a5ddf71042b6988e04bce2241f64~mv2.png/v1/fill/w_535,h_755,al_c,q_90,enc_avif,quality_auto/202608_schedule3.png","media":[],"source":"https://www.venus-hk-j.com/liveschedule","note":"公式スケジュール画像から読み取り"},{"venueId":"barbarbar","date":"2026-08-27","open":"18:00","start":"19:00","artist":"●松村聖華&岩崎大輔Trio","price":"公式で確認","image":"https://www.barbarbar.jp/calendar/uploads/b9082d6d44b5fdc4bb26f29041d18c8c.jpg","media":[],"source":"https://www.barbarbar.jp/schedule.html"},{"venueId":"bluenote","date":"2026-08-27","open":"5:00","start":"6:00","artist":"AKIKO YANO TRIO featuring WILL LEE & CHRIS PARKER","price":"¥12,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3953.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3953"},{"venueId":"dolphy","date":"2026-08-27","open":"18:30","start":"19:30","artist":"ドルフィースペシャルセッション 川嶋哲郎(ts/fl/cl) 中村恵介(tp)片倉真由子(p) 坂井紅介(b) 江藤良人(ds)","price":"前4500円/当5000円","image":null,"media":[],"source":"https://dolphy-jazzspot.com/live_schedule.html"},{"venueId":"first","date":"2026-08-27","open":"18:00","start":"19:00","artist":"岩崎佳子クインテット","price":"¥3,500","image":null,"media":[],"source":"https://naniaru.com/events/view/14551"},{"venueId":"kingsbar","date":"2026-08-27","open":"公式で確認","start":"15:00","artist":"Marizona工房","price":"2200円","image":null,"media":[],"source":"https://livebar.net/kingsbar/events/3534"},{"venueId":"venus","date":"2026-08-27","open":"公式画像で確認","start":"19:40","artist":"長島百合子 vo. 楠直孝 pf.","price":"公式画像で確認","image":"https://static.wixstatic.com/media/5fcc8d_a691a5ddf71042b6988e04bce2241f64~mv2.png/v1/fill/w_535,h_755,al_c,q_90,enc_avif,quality_auto/202608_schedule3.png","media":[],"source":"https://www.venus-hk-j.com/liveschedule","note":"公式スケジュール画像から読み取り"},{"venueId":"barbarbar","date":"2026-08-28","open":"18:00","start":"19:00","artist":"■寿永アリサ ラテンワールドミュージックセッション","price":"公式で確認","image":"https://www.barbarbar.jp/calendar/uploads/7584aa21b482b1c2b99d04df35f27817.jpg","media":[],"source":"https://www.barbarbar.jp/schedule.html"},{"venueId":"bluenote","date":"2026-08-28","open":"5:00","start":"6:00","artist":"AYATAKE EZAKI with guest KEI MATSUMARU 2026 Japan Tour - Tokyo","price":"¥8,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3954.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3954"},{"venueId":"cottonclub","date":"2026-08-28","open":"公式で確認","start":"公式で確認","artist":"小比類巻かほる Kohhy6","price":"¥8,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5664.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/kahoru-kohiruimaki-260828/"},{"venueId":"dolphy","date":"2026-08-28","open":"18:30","start":"19:30","artist":"BCG REPUBLIC ハクエイ・キム(p) 杉本智和(b) 本田珠也(ds)","price":"前4500円/当5000円","image":null,"media":[],"source":"https://dolphy-jazzspot.com/live_schedule.html"},{"venueId":"venus","date":"2026-08-28","open":"公式画像で確認","start":"19:40","artist":"金井優佳 vo. 小泉明子 pf.","price":"公式画像で確認","image":"https://static.wixstatic.com/media/5fcc8d_a691a5ddf71042b6988e04bce2241f64~mv2.png/v1/fill/w_535,h_755,al_c,q_90,enc_avif,quality_auto/202608_schedule3.png","media":[],"source":"https://www.venus-hk-j.com/liveschedule","note":"公式スケジュール画像から読み取り"},{"venueId":"barbarbar","date":"2026-08-29","open":"18:00","start":"19:00","artist":"■MAYA&松尾明Quartet","price":"公式で確認","image":"https://www.barbarbar.jp/calendar/uploads/b5a052fd89786a071eeae554ee0c2baf.jpg","media":[],"source":"https://www.barbarbar.jp/schedule.html"},{"venueId":"bluenote","date":"2026-08-29","open":"5:00","start":"6:00","artist":"AYATAKE EZAKI with guest KEI MATSUMARU 2026 Japan Tour - Tokyo","price":"¥8,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3954.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3954"},{"venueId":"cottonclub","date":"2026-08-29","open":"公式で確認","start":"公式で確認","artist":"小比類巻かほる Kohhy6","price":"¥8,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5664.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/kahoru-kohiruimaki-260828/"},{"venueId":"dolphy","date":"2026-08-29","open":"18:30","start":"19:30","artist":"高遠彩子(vo)グループ 福島久雄(g) 会田桃子(vln) ヤヒロトモヒロ(perc) 宮崎佳彦(cl)","price":"前4500円/当5000円","image":null,"media":[],"source":"https://dolphy-jazzspot.com/live_schedule.html"},{"venueId":"venus","date":"2026-08-29","open":"公式画像で確認","start":"14:00","artist":"お昼のVocal Session／Special Duo　里見紀子 vln. 田村博 pf.","price":"公式画像で確認","image":"https://static.wixstatic.com/media/5fcc8d_a691a5ddf71042b6988e04bce2241f64~mv2.png/v1/fill/w_535,h_755,al_c,q_90,enc_avif,quality_auto/202608_schedule3.png","media":[],"source":"https://www.venus-hk-j.com/liveschedule","note":"公式スケジュール画像から読み取り"},{"venueId":"bluenote","date":"2026-08-30","open":"3:30","start":"4:30","artist":"MARY HALVORSON’s AMARYLLIS SEXTET","price":"¥8,800","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3959.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3959"},{"venueId":"cottonclub","date":"2026-08-30","open":"公式で確認","start":"公式で確認","artist":"音月桂 LIVE CONCERT “KEI” vol.1","price":"¥12,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5702.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/kei-otozuki-260830/"},{"venueId":"dolphy","date":"2026-08-30","open":"12:30","start":"13:00","artist":"横浜詩人会 朗読会「夏の日の詩とジャズ」 伴奏 小室響(p)","price":"チャージ1000円+1ドリンクオーダー","image":null,"media":[],"source":"https://dolphy-jazzspot.com/live_schedule.html"},{"venueId":"dolphy","date":"2026-08-30","open":"18:00","start":"19:00","artist":"MAREE ARAKY(vo) &times;秋田慎二(p)DUO","price":"前4000円/当4500円","image":null,"media":[],"source":"https://dolphy-jazzspot.com/live_schedule.html"},{"venueId":"kingsbar","date":"2026-08-30","open":"公式で確認","start":"16:00","artist":"是方さんと大セッション大会 Vol.33","price":"3500円","image":null,"media":[],"source":"https://livebar.net/kingsbar/events/3535"},{"venueId":"barbarbar","date":"2026-08-31","open":"18:00","start":"19:00","artist":"●Sachico&藤野聡Trio","price":"公式で確認","image":"https://www.barbarbar.jp/calendar/uploads/71dec74e54f304b4bc61e362ba7721c0.jpg","media":[],"source":"https://www.barbarbar.jp/schedule.html"},{"venueId":"bluenote","date":"2026-08-31","open":"3:30","start":"4:30","artist":"MARY HALVORSON’s AMARYLLIS SEXTET","price":"¥8,800","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3959.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3959"},{"venueId":"cottonclub","date":"2026-08-31","open":"公式で確認","start":"公式で確認","artist":"西村ケント","price":"¥6,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5723.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/kent-nishimura-260831/"},{"venueId":"dolphy","date":"2026-08-31","open":"18:30","start":"19:30","artist":"古野光昭(b) スペシャルカルテット 曽我部泰紀(sax)魚返明未(p)柳沼佑育(ds)","price":"前4000円/当4500円","image":null,"media":[],"source":"https://dolphy-jazzspot.com/live_schedule.html"},{"venueId":"venus","date":"2026-08-31","open":"公式画像で確認","start":"19:40","artist":"ダーナ潮田 vo. 小泉明子 pf.","price":"公式画像で確認","image":"https://static.wixstatic.com/media/5fcc8d_a691a5ddf71042b6988e04bce2241f64~mv2.png/v1/fill/w_535,h_755,al_c,q_90,enc_avif,quality_auto/202608_schedule3.png","media":[],"source":"https://www.venus-hk-j.com/liveschedule","note":"公式スケジュール画像から読み取り"},{"venueId":"bluenote","date":"2026-09-01","open":"5:00","start":"6:00","artist":"MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES","price":"¥11,800","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"},{"venueId":"swing","date":"2026-09-01","open":"18:00","start":"公式で確認","artist":"9.1(火)vib.松山 夏子 ゲストvo.佐藤ひびき","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260901-2/"},{"venueId":"bluenote","date":"2026-09-02","open":"5:00","start":"6:00","artist":"MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES","price":"¥11,800","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"},{"venueId":"swing","date":"2026-09-02","open":"18:00","start":"公式で確認","artist":"9.2(水) vln.牧山 純子ｸﾗﾋﾞｵｰﾗ.折重 由美子","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260902-2/"},{"venueId":"bluenote","date":"2026-09-03","open":"5:00","start":"6:00","artist":"MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES","price":"¥11,800","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"},{"venueId":"swing","date":"2026-09-03","open":"18:00","start":"19:00","artist":"9.3(木)vln.平松 加奈 p.奥山 勝 b.箭島 裕治 per.海沼 正利","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260904-2/"},{"venueId":"bluenote","date":"2026-09-04","open":"5:00","start":"6:00","artist":"MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES","price":"¥11,800","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"},{"venueId":"cottonclub","date":"2026-09-04","open":"公式で確認","start":"公式で確認","artist":"コントと音楽 vol.7 「今宵、丸の内で」","price":"¥11,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"},{"venueId":"swing","date":"2026-09-04","open":"18:00","start":"19:00","artist":"9.4(金) 薗田憲一とデキシーキング","price":"¥4,500","image":null,"media":[],"source":"https://ginzaswing.jp/20260904-3/"},{"venueId":"bluenote","date":"2026-09-05","open":"3:30","start":"4:30","artist":"BILL LAURANCE TRIO","price":"¥8,800","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3973.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3973"},{"venueId":"cottonclub","date":"2026-09-05","open":"公式で確認","start":"公式で確認","artist":"コントと音楽 vol.7 「今宵、丸の内で」","price":"¥11,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"},{"venueId":"kanmachi63","date":"2026-09-05","open":"14:30","start":"15:00","artist":"nd16:15～ gt.馬場孝喜 b.落合康介","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-05","open":"公式で確認","start":"公式で確認","artist":"9.5(土) 「セルジオ・メンデス・トリビュート」","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260905-3/"},{"venueId":"bluenote","date":"2026-09-06","open":"3:30","start":"4:30","artist":"BILL LAURANCE TRIO","price":"¥8,800","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3973.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3973"},{"venueId":"cottonclub","date":"2026-09-06","open":"公式で確認","start":"公式で確認","artist":"コントと音楽 vol.7 「今宵、丸の内で」","price":"¥11,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"},{"venueId":"kanmachi63","date":"2026-09-06","open":"14:30","start":"15:00","artist":"nd16:15～ tp.石川広行 ag.閑喜弦介","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"bluenote","date":"2026-09-07","open":"5:00","start":"6:00","artist":"THE RESIDENTS：ESKIMO","price":"¥11,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3983"},{"venueId":"cottonclub","date":"2026-09-07","open":"公式で確認","start":"公式で確認","artist":"コントと音楽 vol.7 「今宵、丸の内で」","price":"¥11,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"},{"venueId":"kanmachi63","date":"2026-09-07","open":"14:30","start":"15:00","artist":"gt.馬場孝喜 pf.布施音人 9月10日（木） ts.etc.竹内直 gt.井上智","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"bluenote","date":"2026-09-08","open":"5:00","start":"6:00","artist":"THE RESIDENTS：ESKIMO","price":"¥11,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3983"},{"venueId":"bluenote","date":"2026-09-09","open":"5:00","start":"6:00","artist":"THE RESIDENTS：ESKIMO","price":"¥11,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3983"},{"venueId":"cottonclub","date":"2026-09-09","open":"公式で確認","start":"公式で確認","artist":"コントと音楽 vol.7 「今宵、丸の内で」","price":"¥11,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"},{"venueId":"bluenote","date":"2026-09-10","open":"5:00","start":"6:00","artist":"TILL BRONNER \"ITALIA\"","price":"¥11,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"},{"venueId":"cottonclub","date":"2026-09-10","open":"公式で確認","start":"公式で確認","artist":"コントと音楽 vol.7 「今宵、丸の内で」","price":"¥11,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"},{"venueId":"kanmachi63","date":"2026-09-10","open":"14:30","start":"15:00","artist":"ts.etc.竹内直 gt.井上智 9月11日（土） nd16:15～","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-10","open":"公式で確認","start":"公式で確認","artist":"9.10(木) 大井貴司 & Super Vibration","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260910-2/"},{"venueId":"bluenote","date":"2026-09-11","open":"5:00","start":"6:00","artist":"TILL BRONNER \"ITALIA\"","price":"¥11,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"},{"venueId":"cottonclub","date":"2026-09-11","open":"公式で確認","start":"公式で確認","artist":"コントと音楽 vol.7 「今宵、丸の内で」","price":"¥11,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"},{"venueId":"kanmachi63","date":"2026-09-11","open":"14:30","start":"15:00","artist":"nd16:15～ ts.ss.かみむら泰一 ts.橋爪亮督 b.落合康介","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-11","open":"18:00","start":"公式で確認","artist":"9.11(金)cl.北村 英治 cl.谷口 英治","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260911-2/"},{"venueId":"bluenote","date":"2026-09-12","open":"5:00","start":"6:00","artist":"TILL BRONNER \"ITALIA\"","price":"¥11,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"},{"venueId":"cottonclub","date":"2026-09-12","open":"公式で確認","start":"公式で確認","artist":"コントと音楽 vol.7 「今宵、丸の内で」","price":"¥11,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"},{"venueId":"kanmachi63","date":"2026-09-12","open":"14:30","start":"15:00","artist":"nd16:15～ pf.西山瞳 gt.市野元彦","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-12","open":"公式で確認","start":"公式で確認","artist":"9.12 (土) The Violin Muse vln.川井 郁子","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260912-2/"},{"venueId":"bluenote","date":"2026-09-13","open":"5:00","start":"6:00","artist":"TILL BRONNER \"ITALIA\"","price":"¥11,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"},{"venueId":"cottonclub","date":"2026-09-13","open":"公式で確認","start":"公式で確認","artist":"コントと音楽 vol.7 「今宵、丸の内で」","price":"¥11,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"},{"venueId":"kanmachi63","date":"2026-09-13","open":"14:30","start":"15:00","artist":"nd16:15～ 渋谷毅さんの想い出 gt.石渡明廣 SOLO","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"bluenote","date":"2026-09-14","open":"5:00","start":"6:00","artist":"aron! \"Too Close For Running\"","price":"¥8,800","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3994.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3994"},{"venueId":"cottonclub","date":"2026-09-14","open":"公式で確認","start":"公式で確認","artist":"NAOKO TERAI QUARTET \"The Precious Night 2026\" at COTTON CLUB","price":"¥8,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5728.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/naoko-terai-260914/"},{"venueId":"swing","date":"2026-09-14","open":"公式で確認","start":"公式で確認","artist":"9.14(月)tp.中村 好江 cl.田村 麻紀子","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260914-2/"},{"venueId":"bluenote","date":"2026-09-15","open":"5:00","start":"6:00","artist":"aron! \"Too Close For Running\"","price":"¥8,800","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3994.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3994"},{"venueId":"cottonclub","date":"2026-09-15","open":"公式で確認","start":"公式で確認","artist":"AYA HIRANO ANNIVERSARY LIVE 2026 ～COTTON CLUB～","price":"¥8,800","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5732.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/aya-hirano-260915/"},{"venueId":"swing","date":"2026-09-15","open":"18:00","start":"19:00","artist":"9.15(火) vo.飯田 さつき","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260915-2/"},{"venueId":"bluenote","date":"2026-09-16","open":"5:00","start":"6:00","artist":"CHRISTIAN McBRIDE & URSA MAJOR","price":"¥9,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3974"},{"venueId":"cottonclub","date":"2026-09-16","open":"公式で確認","start":"公式で確認","artist":"LIVE＠マキタスポーツ ～マキタスポーツ×タブレット純～","price":"¥11,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5713.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/makitasports-260916/"},{"venueId":"swing","date":"2026-09-16","open":"公式で確認","start":"公式で確認","artist":"9.16(水)cl.花岡 詠二スヰングオールスターズ","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260916-2/"},{"venueId":"bluenote","date":"2026-09-17","open":"5:00","start":"6:00","artist":"CHRISTIAN McBRIDE & URSA MAJOR","price":"¥9,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3974"},{"venueId":"cottonclub","date":"2026-09-17","open":"公式で確認","start":"公式で確認","artist":"古舘と客人と vol.39 古舘伊知郎 山田洋次","price":"¥8,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5725.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/ichiro-furutachi-260917/"},{"venueId":"kanmachi63","date":"2026-09-17","open":"14:30","start":"15:00","artist":"vo.清水翠 pf.田中信正 9月18日（金） pf.リンヘイテツ b.西嶋徹 ds.則武諒","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-17","open":"公式で確認","start":"公式で確認","artist":"9.17(木) dr.サバオ 渡辺 vo.鈴木 史子","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260917-2/"},{"venueId":"bluenote","date":"2026-09-18","open":"5:00","start":"6:00","artist":"CHRISTIAN McBRIDE & URSA MAJOR","price":"¥9,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3974"},{"venueId":"kanmachi63","date":"2026-09-18","open":"14:30","start":"15:00","artist":"pf.リンヘイテツ b.西嶋徹 ds.則武諒 9月19日(土) nd16:15～","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-18","open":"18:00","start":"公式で確認","artist":"9.18(金) dr.八城 邦義","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260918-2/"},{"venueId":"bluenote","date":"2026-09-19","open":"4:00","start":"5:00","artist":"Chara Anniversary Countdown Live!! \"1991 to 2026\"","price":"¥11,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3995.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3995"},{"venueId":"cottonclub","date":"2026-09-19","open":"公式で確認","start":"公式で確認","artist":"JAHARI STAMPLEY : SOUL FAMILY featuring TAISHI KUBOTA / SENRI KAWAGUCHI","price":"¥8,800","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5708.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/jahari-stampley-260919/"},{"venueId":"kanmachi63","date":"2026-09-19","open":"14:30","start":"15:00","artist":"nd16:15～ ss.ジョー ローゼンバーグ pf.永武幹子 b.落合康介 ds.森下啓","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-19","open":"18:00","start":"19:00","artist":"9.19(土)dr.大槻 カルタ 英宣","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260919-2/"},{"venueId":"wonderwall","date":"2026-09-19","open":"17:30","start":"未確認","artist":"Soundtype Live at WonderWall-Yokohama","price":"¥7,700","media":[],"source":"https://wonderwall-yokohama.jp/calendar/"},{"venueId":"bluenote","date":"2026-09-20","open":"4:00","start":"5:00","artist":"Chara Anniversary Countdown Live!! \"1991 to 2026\"","price":"¥11,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3995.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3995"},{"venueId":"cottonclub","date":"2026-09-20","open":"公式で確認","start":"公式で確認","artist":"JAHARI STAMPLEY : SOUL FAMILY featuring TAISHI KUBOTA / SENRI KAWAGUCHI","price":"¥8,800","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5708.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/jahari-stampley-260919/"},{"venueId":"kanmachi63","date":"2026-09-20","open":"14:30","start":"15:00","artist":"nd16:15～ ag.閑喜弦介 as.高正貴 b.座小田諒一","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"bluenote","date":"2026-09-21","open":"3:30","start":"4:30","artist":"THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND","price":"¥12,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3992"},{"venueId":"cottonclub","date":"2026-09-21","open":"公式で確認","start":"公式で確認","artist":"櫻井哲夫 JACO PASTORIUS TRIBUTE SESSION","price":"¥7,500","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5699.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/tetsuo-sakurai-260921/"},{"venueId":"kanmachi63","date":"2026-09-21","open":"14:30","start":"15:00","artist":"nd16:15～ ts.竹内直 gt.佐々木マン正治 gt.丹波悦子","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"bluenote","date":"2026-09-22","open":"3:30","start":"4:30","artist":"THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND","price":"¥12,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3992"},{"venueId":"cottonclub","date":"2026-09-22","open":"公式で確認","start":"公式で確認","artist":"RACHAEL YAMAGATA Starlit Alchemy Tour","price":"¥9,900","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5738.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/rachael-yamagata-260922/"},{"venueId":"kanmachi63","date":"2026-09-22","open":"14:30","start":"15:00","artist":"DARK MATTER“ 90分1セット ts.electronics橋爪亮督 tabla大村亘 eb.etc阿部真武","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"bluenote","date":"2026-09-23","open":"3:30","start":"4:30","artist":"THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND","price":"¥12,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3992"},{"venueId":"cottonclub","date":"2026-09-23","open":"公式で確認","start":"公式で確認","artist":"RACHAEL YAMAGATA Starlit Alchemy Tour","price":"¥9,900","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5738.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/rachael-yamagata-260922/"},{"venueId":"kanmachi63","date":"2026-09-23","open":"14:30","start":"15:00","artist":"nd16:15～ vo.pf.蜂谷真紀 sax.かみむら泰一 tb.etc青木タイセイ","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"bluenote","date":"2026-09-24","open":"5:00","start":"6:00","artist":"SEPTETO SANTIAGUERO Vivela! Salsa Tour 2026","price":"¥13,800","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3968.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3968"},{"venueId":"cottonclub","date":"2026-09-24","open":"公式で確認","start":"公式で確認","artist":"ULYSSES OWENS JR. & GENERATION Y","price":"¥9,500","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5717.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/ulysses-owens-jr-260924/"},{"venueId":"kanmachi63","date":"2026-09-24","open":"14:30","start":"15:00","artist":"pf.小太刀のばら b.甲斐正貴 ds.藤井信雄 9月25日（金） gt.福冨博 tb.etc青木タイセイ b.西嶋徹","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-24","open":"18:00","start":"公式で確認","artist":"9.24(木)cl.北村 英治","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260924-2/"},{"venueId":"wonderwall","date":"2026-09-24","open":"18:00","start":"未確認","artist":"渚まいこトリオ＋2 誕生月スペシャルライブ","price":"¥4,950","media":[],"source":"https://wonderwall-yokohama.jp/calendar/"},{"venueId":"bluenote","date":"2026-09-25","open":"5:00","start":"6:00","artist":"ULYSSES OWENS JR. & GENERATION Y","price":"¥9,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3996.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3996"},{"venueId":"cottonclub","date":"2026-09-25","open":"公式で確認","start":"公式で確認","artist":"KONISHI RYOSEI Autumn Live 2026 「色なき風と、月待言結び。」","price":"¥9,800","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5744.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/konishi-ryosei-260925/"},{"venueId":"kanmachi63","date":"2026-09-25","open":"14:30","start":"15:00","artist":"gt.福冨博 tb.etc青木タイセイ b.西嶋徹 9月26日（土） nd16:15～","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-25","open":"公式で確認","start":"公式で確認","artist":"9.25(金) p.遠藤 律子","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260925-2/"},{"venueId":"bluenote","date":"2026-09-26","open":"5:00","start":"6:00","artist":"ULYSSES OWENS JR. & GENERATION Y","price":"¥9,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3996.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3996"},{"venueId":"cottonclub","date":"2026-09-26","open":"公式で確認","start":"公式で確認","artist":"古謝美佐子 with 文楽人形 (勘緑 & 木偶舎) at COTTON CLUB 2026","price":"¥8,800","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5716.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/misako-koja-260926/"},{"venueId":"kanmachi63","date":"2026-09-26","open":"14:30","start":"15:00","artist":"nd16:15～ pf.望月慎一朗 gt.石井信義 ds.大村亘","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-26","open":"18:00","start":"公式で確認","artist":"9.26(土) vo.黒岩 静枝","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260926-2/"},{"venueId":"bluenote","date":"2026-09-27","open":"3:30","start":"4:30","artist":"ANDREA MOTIS Guitar Trio \"Intimate\"","price":"¥8,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3943.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3943"},{"venueId":"cottonclub","date":"2026-09-27","open":"公式で確認","start":"公式で確認","artist":"KIYOSHI MAEKAWA LIVE2026 BEYOND ～その先へ～","price":"¥11,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5703.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/kiyoshi-maekawa-260927/"},{"venueId":"bluenote","date":"2026-09-28","open":"3:30","start":"4:30","artist":"ANDREA MOTIS Guitar Trio \"Intimate\"","price":"¥8,500","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3943.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3943"},{"venueId":"kanmachi63","date":"2026-09-28","open":"14:30","start":"15:00","artist":"nd16:15～ ts.ss.山口真文 gt.東海林由孝 b.小牧良平 ds.山崎隼","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"kanmachi63","date":"2026-09-28","open":"14:30","start":"15:00","artist":"gt.馬場孝喜 b.甲斐正樹 ds.今泉総之輔 9月30日（火） gt.栗田妙子 ss.ませひろこ","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-28","open":"18:00","start":"19:00","artist":"9.28(月) cl.熊倉 未佐子","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260928-2/"},{"venueId":"bluenote","date":"2026-09-29","open":"5:00","start":"6:00","artist":"JHARIS YOKLEY + BIGYUKI","price":"¥8,000","image":"https://reserve.bluenote.co.jp/web_mainte/img/event/3984.jpg?20260823","media":[],"source":"https://reserve.bluenote.co.jp/reserve/schedule/exec/3984"},{"venueId":"cottonclub","date":"2026-09-29","open":"公式で確認","start":"公式で確認","artist":"AYA HIRANO ANNIVERSARY LIVE 2026 ～COTTON CLUB～","price":"¥8,800","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5733.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/aya-hirano-260915/"},{"venueId":"swing","date":"2026-09-29","open":"公式で確認","start":"公式で確認","artist":"9.29(火) vo.鶴丸 はるか","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260929-2/"},{"venueId":"cottonclub","date":"2026-09-30","open":"公式で確認","start":"公式で確認","artist":"WEST ROAD BLUES BAND","price":"¥9,000","image":"https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5730.jpg?20260823","media":[],"source":"https://www.cottonclubjapan.co.jp/jp/sp/artists/westroad-bluesband-260930/"},{"venueId":"kanmachi63","date":"2026-09-30","open":"14:30","start":"15:00","artist":"gt.栗田妙子 ss.ませひろこ","price":"¥3,300","image":null,"media":[],"source":"https://kanmachi63.blog.fc2.com/blog-entry-248.html"},{"venueId":"swing","date":"2026-09-30","open":"18:00","start":"19:00","artist":"9.30(水)vln.寺井 尚子","price":"公式で確認","image":null,"media":[],"source":"https://ginzaswing.jp/20260930-2/"},{"venueId":"wonderwall","date":"2026-10-02","open":"18:00","start":"未確認","artist":"北ジャズ　北原雅彦×香取良彦","price":"¥5,500","media":[],"source":"https://wonderwall-yokohama.jp/calendar/"},{"venueId":"wonderwall","date":"2026-10-25","open":"11:30","start":"未掲載","artist":"こどもジャズ2026秋","price":"¥4,000","media":[],"source":"https://wonderwall-yokohama.jp/calendar/"}],"crawlReports":[{"id":"barbarbar","venueId":"barbarbar","status":"ok","count":7,"url":"https://www.barbarbar.jp/calendar.php","bytes":46103,"titles":0},{"id":"dolphy","venueId":"dolphy","status":"ok","count":11,"url":"https://dolphy-jazzspot.com/live_schedule.html","bytes":22793,"titles":0},{"id":"bluenote","venueId":"bluenote","status":"ok","count":7,"url":"https://reserve.bluenote.co.jp/reserve/schedule/","bytes":101087,"titles":17},{"id":"bluenote-next","venueId":"bluenote","status":"ok","count":29,"url":"https://reserve.bluenote.co.jp/reserve/schedule/move/202609/","bytes":92363,"titles":12},{"id":"cottonclub","venueId":"cottonclub","status":"ok","count":7,"url":"https://reserve.cottonclubjapan.co.jp/reserve/schedule/","bytes":101159,"titles":22},{"id":"cottonclub-next","venueId":"cottonclub","status":"ok","count":24,"url":"https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/202609/","bytes":88374,"titles":15},{"id":"swing","venueId":"swing","status":"ok","count":20,"url":"https://ginzaswing.jp/schedules/?month=2026-09","bytes":166224,"titles":0},{"id":"kanmachi63","venueId":"kanmachi63","status":"ok","count":20,"url":"https://kanmachi63.blog.fc2.com/blog-entry-248.html","bytes":13729,"titles":0},{"id":"kingsbar","venueId":"kingsbar","status":"ok","count":5,"url":"https://livebar.net/kingsbar/schedule","bytes":125612,"titles":0},{"id":"first","venueId":"first","status":"ok","count":3,"url":"https://naniaru.com/places/view/first","bytes":16800,"titles":0},{"id":"venus","venueId":"venus","status":"ok","count":7,"url":"https://www.venus-hk-j.com/liveschedule","bytes":1092279,"titles":0}]};
+/* ---- 取得データの正規化（表示バグ修正） ---- */
+const JST_OFFSET = 9 * 60; // minutes
+const jstToday = (() => {
+  const now = new Date();
+  const jst = new Date(now.getTime() + (JST_OFFSET + now.getTimezoneOffset()) * 60000);
+  return `${jst.getFullYear()}-${String(jst.getMonth()+1).padStart(2,'0')}-${String(jst.getDate()).padStart(2,'0')}`;
+})();
+
+// Blue Note は 12時間表記のまま取り込まれていたため 24時間表記へ復元（17:00 が 5:00 になっていた）
+const fixHour12 = t => {
+  const m = /^(\d{1,2}):(\d{2})$/.exec((t||'').trim());
+  if (!m) return t;
+  let h = Number(m[1]);
+  if (h >= 1 && h <= 11) h += 12;
+  return `${h}:${m[2]}`;
+};
+
+// 上町63 は次回公演の日付・出演者が同じセルに混入していたので切り落とす
+const cleanArtist = a => (a||'')
+  .replace(/&times;/g, '×')
+  .replace(/^\s*nd\s*\d{1,2}:\d{2}[～~]?\s*/, '')
+  .replace(/\s*\d{1,2}月\d{1,2}日\s*[（(].?[）)].*$/, '')
+  .replace(/^[※■●♠◆♣★]\s*/, '')
+  .trim();
+
+// Bar Bar Bar のミュージックチャージ記号（公式凡例）
+const BBB_MC = { '♠': '2,750円', '◆': '3,300円', '♣': '3,850円', '●': '4,400円', '■': '4,950円', '★': '5,500円' };
+function normalizeEvents(list){
+  return list.map(e => {
+    const out = { image: null, media: [], ...e };
+    if (e.venueId === 'barbarbar') {
+      const sym = (out.artist || '').trim().charAt(0);
+      if (BBB_MC[sym]) out.price = `MC ${BBB_MC[sym]}（別途TC550円）`;
+    }
+    out.artist = cleanArtist(out.artist);
+    if (e.venueId === 'bluenote') { out.open = fixHour12(out.open); out.start = fixHour12(out.start); }
+    return out;
+  }).filter(e => e.artist.length > 0)
+    .sort((a, b) => a.date.localeCompare(b.date) || a.venueId.localeCompare(b.venueId) || String(a.start).localeCompare(String(b.start)));
+}
+data.events = normalizeEvents(data.events);
+
+const venueMap = new Map(data.venues.map(v => [v.id, v]));
+let crawlByVenue = new Map();
+function rebuildCrawlIndex(){
+  crawlByVenue = new Map();
+  (data.crawlReports||[]).forEach(r => crawlByVenue.set(r.venueId, (crawlByVenue.get(r.venueId)||0) + r.count));
+}
+rebuildCrawlIndex();
+const eventCount = id => data.events.filter(e => e.venueId === id).length;
+const state = {range:'all', area:'all', venue:'all', date:'', query:'', mediaOnly:false};
+const eventGrid = document.querySelector('#eventGrid');
+const venueGrid = document.querySelector('#venueGrid');
+
+const fmtDate = iso => new Intl.DateTimeFormat('ja-JP',{month:'long',day:'numeric',weekday:'short'}).format(new Date(`${iso}T12:00:00+09:00`));
+const addDays = (iso, n) => {
+  const d = new Date(`${iso}T00:00:00Z`); d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+};
+const jstDow = iso => new Date(`${iso}T00:00:00Z`).getUTCDay();
+const matchesRange = iso => {
+  if (state.range === 'all') return true;
+  if (iso < jstToday) return false;                       // 過去公演は絞り込み時に除外
+  if (state.range === 'today') return iso === jstToday;
+  if (state.range === '30days') return iso <= addDays(jstToday, 30);
+  if (state.range === 'weekend') {                        // 直近の土日（今日が土日ならそれも含む）
+    const dow = jstDow(iso);
+    return (dow === 0 || dow === 6) && iso <= addDays(jstToday, 7);
+  }
+  return true;
+};
+function renderEvents(){
+  const q=state.query.toLowerCase();
+  const events=data.events.filter(e=>{const v=venueMap.get(e.venueId);const hasMedia=(e.media||[]).length||(v.mediaLinks||[]).length;return (state.date? e.date===state.date : matchesRange(e.date))&&(state.venue==='all'||e.venueId===state.venue)&&(state.area==='all'||v.area===state.area)&&(!q||`${e.artist} ${v.name}`.toLowerCase().includes(q))&&(!state.mediaOnly||hasMedia)});
+  document.querySelector('#resultCount').textContent=events.length;
+  eventGrid.innerHTML=events.length?events.map(e=>{const v=venueMap.get(e.venueId);const [y,m,d]=e.date.split('-');const art=e.image?`background-image:linear-gradient(#07101155,#071011bb),url('${e.image}');background-size:cover;background-position:center`:'';const eventMedia=e.media||[];const venueMedia=eventMedia.length?[]:(v.mediaLinks||[]);const badge=eventMedia.length?'▶ 公演映像あり':venueMedia.length?'▶ 会場映像あり':'';return `<article class="event-card"><div class="event-art" style="--tone:${v.tone};${art}"><div class="event-month">${y}.${m}</div><div class="event-date">${d}</div>${badge?`<span class="media-pill">${badge}</span>`:''}</div><div class="event-body"><div class="area">${v.areaLabel}</div><h3>${e.artist}</h3><div class="venue-name">${v.name}${e.note?` · ${e.note}`:''}</div><div class="event-meta"><span>OPEN ${e.open}</span><span>START ${e.start}</span><span>${e.price}</span></div><div class="event-actions"><a href="${e.source}" target="_blank" rel="noopener">公式で確認</a>${eventMedia.map(m=>`<a class="secondary" href="${m.url}" target="_blank" rel="noopener">${m.type==='youtube'?'YouTube':'X'}を見る</a>`).join('')}${venueMedia.map(m=>`<a class="secondary" href="${m.url}" target="_blank" rel="noopener">${m.type==='youtube'?'会場YouTube':'会場X'}</a>`).join('')}</div></div></article>`}).join(''):(()=>{const v=state.venue!=='all'?venueMap.get(state.venue):null;
+ const ds=v?data.events.filter(e=>e.venueId===v.id).map(e=>e.date).sort():[];
+ const hint=v?(ds.length?`${v.name} で取得できているのは ${ds[0]} 〜 ${ds[ds.length-1]} の${ds.length}件です。`:`${v.name} はまだ公演を取得できていません（${v.status}）。`)
+             :(state.date?`${state.date} の公演は取得済みデータにありません。会場ごとに取得できている期間が異なります。`:'取得対象は順次追加します。');
+ return `<div class="empty">条件に合う公演がありません。<br>${hint}</div>`})();
+}
+function renderVenues(){venueGrid.innerHTML=data.venues.map(v=>{const n=eventCount(v.id);const flag=crawlByVenue.has(v.id)?(n?`<span class="flag">${n}件</span>`:'<span class="flag ng">0件</span>'):'<span class="flag ng">未取得</span>';return `<article class="venue-card" style="--tone:${v.tone}"><h3>${v.name}${flag}</h3><p>${v.areaLabel} · ${v.station}</p><p>${v.status}</p><a href="${v.url}" target="_blank" rel="noopener">公式・情報ページ ↗</a>${(v.mediaLinks||[]).map(m=>`<a class="venue-media" href="${m.url}" target="_blank" rel="noopener">${m.type==='youtube'?'YouTube ▶':'X ↗'}</a>`).join('')}</article>`}).join('')}
+
+function renderCrawl(){
+  const rows = data.venues.map(v => {
+    const reported = crawlByVenue.has(v.id) ? crawlByVenue.get(v.id) : null;
+    const shown = eventCount(v.id);
+    const miss = reported === null || shown === 0 || reported !== shown;
+    const label = reported === null ? 'クロール未実施' : (reported === shown ? '一致' : `差分 ${reported - shown}件`);
+    return `<tr class="${miss ? 'miss' : ''}"><td>${v.name}</td><td>${v.status}</td><td class="n">${reported === null ? '—' : reported}</td><td class="n">${shown}</td><td>${label}</td></tr>`;
+  }).join('');
+  document.querySelector('#crawlTable').innerHTML =
+    `<thead><tr><th>会場</th><th>状態</th><th>取得件数</th><th>掲載件数</th><th>判定</th></tr></thead><tbody>${rows}</tbody>`;
+  const missing = data.venues.filter(v => !crawlByVenue.has(v.id));
+  document.querySelector('#crawlNote').textContent =
+    missing.length
+      ? `未取得の会場：${missing.map(v => v.name).join('・')}（計${missing.length}会場）。この分は一覧に公演が出ません。各会場の公式ページを直接ご確認ください。`
+      : '全会場のクロールが完了しています。';
+}
+document.querySelectorAll('#dateTabs button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('#dateTabs button').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.range=b.dataset.range;state.date='';document.querySelector('#dateInput').value='';renderEvents()}));
+const venueSelect=document.querySelector('#venueFilter');
+const areaOrder={near:'綱島・日吉',yokohama:'横浜中心部',tokyo:'東京'};
+Object.entries(areaOrder).forEach(([key,label])=>{
+  const g=document.createElement('optgroup'); g.label=label;
+  data.venues.filter(v=>v.area===key).forEach(v=>{
+    const o=document.createElement('option'); o.value=v.id;
+    const n=eventCount(v.id); o.textContent=`${v.name}（${n}件）`; if(!n) o.disabled=true;
+    g.appendChild(o);
+  });
+  venueSelect.appendChild(g);
+});
+venueSelect.addEventListener('change',e=>{
+  state.venue=e.target.value;
+  if(state.venue!=='all'){const v=venueMap.get(state.venue); if(v){state.area='all'; document.querySelector('#areaFilter').value='all';}}
+  renderEvents();
+});
+document.querySelector('#dateInput').addEventListener('change',e=>{
+  state.date=e.target.value;
+  if(state.date){state.range='all';document.querySelectorAll('#dateTabs button').forEach(x=>x.classList.toggle('active',x.dataset.range==='all'));}
+  renderEvents();
+});
+document.querySelector('#dateReset').addEventListener('click',()=>{state.date='';document.querySelector('#dateInput').value='';renderEvents()});
+document.querySelector('#areaFilter').addEventListener('change',e=>{state.area=e.target.value;if(state.area!=='all'){state.venue='all';venueSelect.value='all';}renderEvents()});
+document.querySelector('#searchInput').addEventListener('input',e=>{state.query=e.target.value;renderEvents()});
+document.querySelector('#mediaOnly').addEventListener('change',e=>{state.mediaOnly=e.target.checked;renderEvents()});
+const dialog=document.querySelector('#aboutDialog');document.querySelector('#aboutButton').onclick=()=>dialog.showModal();document.querySelector('#closeAbout').onclick=()=>dialog.close();
+
+/* ================= ブラウザ内クローラ ================= */
+/* CORSプロキシ経由で各会場を取得する。失敗しても埋め込み済みデータは保持される。 */
+const PROXIES = [
+  u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+  u => `https://corsproxy.io/?url=${encodeURIComponent(u)}`,
+  u => `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(u)}`,
+];
+
+const MONTH_NOW = Number(jstToday.slice(5, 7));
+const YEAR_NOW = Number(jstToday.slice(0, 4));
+const NEXT_M = MONTH_NOW === 12 ? 1 : MONTH_NOW + 1;
+const NEXT_Y = MONTH_NOW === 12 ? YEAR_NOW + 1 : YEAR_NOW;
+const MONTHS = [{ y: YEAR_NOW, m: MONTH_NOW }, { y: NEXT_Y, m: NEXT_M }];
+const pad2 = n => String(n).padStart(2, '0');
+const isoOf = (y, m, d) => `${y}-${pad2(m)}-${pad2(d)}`;
+const resolveDate = (mo, da) => {
+  for (const { y, m } of MONTHS) if (m === Number(mo)) return isoOf(y, m, Number(da));
+  return null;
+};
+const strip = s => (s || '')
+  .replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ')
+  .replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, ' ')
+  .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&times;/g, '×')
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'")
+  .replace(/\s+/g, ' ').trim();
+const CONFIRM = '公式で確認';
+const grabTime = (t, kw) => {
+  // 「open 18:30」「18:30open」「OPEN18：30」いずれの語順にも対応
+  const m = new RegExp(`(?:${kw})\\D{0,4}(\\d{1,2})[:：](\\d{2})|(\\d{1,2})[:：](\\d{2})\\s*(?:${kw})`, 'i').exec(t || '');
+  if (!m) return CONFIRM;
+  return m[1] ? `${Number(m[1])}:${m[2]}` : `${Number(m[3])}:${m[4]}`;
+};
+const openOf = t => grabTime(t, 'open|開場');
+const startOf = t => grabTime(t, 'start|開演');
+const priceOf = t => { const m = /(?:[¥￥]\s?[\d,]{3,}|[\d,]{3,}\s?円)/.exec(t); return m ? m[0].replace(/\s/g, '') : CONFIRM; };
+const abs = (href, base) => { try { return new URL(href, base).href; } catch { return href; } };
+
+async function fetchVia(url) {
+  let lastErr;
+  for (const wrap of PROXIES) {
+    try {
+      const res = await fetch(wrap(url), { headers: { 'Accept': 'text/html' } });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const buf = await res.arrayBuffer();
+      const head = new TextDecoder('latin1').decode(buf.slice(0, 2048));
+      const cs = /charset=["']?([\w-]+)/i.exec(head)?.[1] || 'utf-8';
+      const enc = /shift[_-]?jis|sjis|windows-31j/i.test(cs) ? 'shift_jis'
+        : /euc-?jp/i.test(cs) ? 'euc-jp' : 'utf-8';
+      let text;
+      try { text = new TextDecoder(enc).decode(buf); }
+      catch { text = new TextDecoder('utf-8').decode(buf); }
+      if (text.length < 200) throw new Error('内容が空');
+      return text;
+    } catch (e) { lastErr = e; }
+  }
+  throw lastErr || new Error('全プロキシ失敗');
+}
+
+function parseReserve(origin) {
+  const to24 = t => { const x = /^(\d{1,2}):(\d{2})$/.exec(t); if (!x) return t; let h = +x[1]; if (h >= 1 && h <= 11) h += 12; return `${h}:${x[2]}`; };
+  return (html, ctx) => {
+    const out = []; const re = /<a[^>]+href=["']([^"']*\/reserve\/schedule\/exec\/\d+)["'][^>]*>([\s\S]{0,900}?)<\/a>/gi; let m;
+    while ((m = re.exec(html))) {
+      const block = m[2], text = strip(block);
+      const dm = /(\d{1,2})[\/月](\d{1,2})/.exec(text); if (!dm) continue;
+      const date = resolveDate(dm[1], dm[2]) || isoOf(ctx.y, ctx.m, dm[2]);
+      const img = /<img[^>]+src=["']([^"']+event\/\d+\.jpe?g[^"']*)["']/i.exec(block);
+      out.push({ date, open: to24(openOf(text)), start: to24(startOf(text)),
+        artist: text.replace(/\d{1,2}[\/月]\d{1,2}日?\s*[（(].?[）)]?/, '').trim().slice(0, 200),
+        price: priceOf(text), image: img ? abs(img[1], origin) : null, source: abs(m[1], origin) });
+    }
+    return out;
+  };
+}
+
+const PARSERS = {
+  dolphy: {
+    urls: (y, m) => (m === MONTH_NOW
+      ? ['https://dolphy-jazzspot.com/live_schedule.html']
+      : [`https://dolphy-jazzspot.com/live_schedule${y}_${m}.html`]),
+    parse(html, ctx) {
+      // 実際の表記は「8/23(日) 13:00open 13:30start 出演者 前4000円/当4500円」
+      const out = [];
+      for (const row of html.split(/<tr[^>]*>/i).slice(1)) {
+        const text = strip(row);
+        const dm = /^\s*(\d{1,2})\s*\/\s*(\d{1,2})\s*[（(]/.exec(text);
+        if (!dm) continue;
+        const date = resolveDate(dm[1], dm[2]);
+        if (!date) continue;
+        let rest = text.slice(dm[0].length).replace(/^[^）)]*[）)]/, '');
+        rest = rest.replace(/\d{1,2}[:：]\d{2}\s*(?:open|start)/gi, ' ').trim();
+        const pm = /(?:前|当|チャージ)[^\s]*?[\d,]{3,}\s*円[^\s]*/.exec(rest);
+        const artist = (pm ? rest.slice(0, pm.index) : rest).replace(/\s+/g, ' ').trim();
+        if (!artist || /^(休演|休み|CLOSE)/.test(artist)) continue;
+        out.push({
+          date,
+          open: grabTime(text, 'open|開場'),
+          start: grabTime(text, 'start|開演'),
+          artist: artist.slice(0, 200),
+          price: pm ? pm[0] : priceOf(text),
+          image: null,
+          source: ctx.url,
+        });
+      }
+      return out;
+    },
+  },
+  barbarbar: {
+    urls: (y, m) => [`https://www.barbarbar.jp/calendar.php?year=${y}&month=${m}`],
+    parse(html, ctx) {
+      const out = []; const cells = html.split(/<td[^>]*>/i).slice(1);
+      for (const cell of cells) {
+        const dm = /^\s*(?:<[^>]+>\s*)*(\d{1,2})\b/.exec(cell); if (!dm) continue;
+        const img = /<img[^>]+src=["']([^"']*uploads\/[^"']+)["']/i.exec(cell);
+        const text = strip(cell.replace(/^\s*(?:<[^>]+>\s*)*\d{1,2}/, '')); if (!text) continue;
+        out.push({ date: isoOf(ctx.y, ctx.m, dm[1]), open: openOf(text), start: startOf(text), artist: text.slice(0, 160), price: priceOf(text), image: img ? abs(img[1], 'https://www.barbarbar.jp/calendar/') : null, source: ctx.url });
+      }
+      return out;
+    },
+  },
+  bluenote: { urls: (y, m) => [`https://reserve.bluenote.co.jp/reserve/schedule/move/${y}${pad2(m)}/`], parse: parseReserve('https://reserve.bluenote.co.jp') },
+  cottonclub: { urls: (y, m) => [`https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/${y}${pad2(m)}/`], parse: parseReserve('https://reserve.cottonclubjapan.co.jp') },
+  swing: {
+    // サイトは http:// 提供。記事URLの日付は当てにならない（8/28の公演が20260831というURL）ため
+    // 一覧に表示される「2026/08/28」を正とする。
+    urls: (y, m) => [`http://ginzaswing.jp/schedules/?month=${y}-${pad2(m)}`],
+    parse(html) {
+      const out = [];
+      const re = /<h2[^>]*>\s*<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>[\s\S]{0,600}?(\d{4})\/(\d{2})\/(\d{2})([\s\S]{0,400}?)(?=<h2|$)/gi;
+      let m;
+      while ((m = re.exec(html))) {
+        const title = strip(m[2]);
+        if (!title || /スケジュール表|お知らせ/.test(title)) continue;   // News投稿を除外
+        const body = strip(m[6]);
+        const artist = title.replace(/^\s*\d{1,2}[.．]\s*[０-９\d]{1,2}\s*[（(].?[）)]\s*/, '').trim();
+        if (!artist) continue;
+        const st = grabTime(body, 'start|開演|1st');
+        out.push({
+          date: `${m[3]}-${m[4]}-${m[5]}`,
+          open: grabTime(body, 'open|開場'),
+          start: st,
+          artist: artist.slice(0, 200),
+          price: priceOf(body),
+          image: null,
+          source: m[1],
+        });
+      }
+      return out;
+    },
+  },
+  kanmachi63: {
+    urls: (y, m) => (m === MONTH_NOW ? ['https://kanmachi63.blog.fc2.com/'] : []),
+    parse(html) {
+      const out = []; const text = strip(html);
+      const re = /(\d{1,2})月(\d{1,2})日\s*[（(].?[）)]([^]{0,120}?)(?=\d{1,2}月\d{1,2}日\s*[（(]|$)/g; let m;
+      while ((m = re.exec(text))) {
+        const date = resolveDate(m[1], m[2]); if (!date) continue;
+        const artist = m[3].replace(/^\s*nd\s*\d{1,2}:\d{2}[～~]?\s*/, '').trim(); if (!artist) continue;
+        out.push({ date, open: '14:30', start: '15:00', artist: artist.slice(0, 160), price: '¥3,300', image: null, source: 'https://kanmachi63.blog.fc2.com/' });
+      }
+      return out;
+    },
+  },
+  kingsbar: {
+    urls: (y, m) => [`https://livebar.net/kingsbar/schedule?year=${y}&month=${m}`],
+    parse(html) {
+      const out = []; const re = /<a[^>]+href=["']([^"']*\/events\/\d+)["'][^>]*>([\s\S]{0,500}?)<\/a>/gi; let m;
+      while ((m = re.exec(html))) {
+        const text = strip(m[2]); const dm = /(\d{1,2})[\/月](\d{1,2})/.exec(text); if (!dm) continue;
+        const date = resolveDate(dm[1], dm[2]); if (!date) continue;
+        out.push({ date, open: openOf(text), start: startOf(text), artist: text.replace(/\d{1,2}[\/月]\d{1,2}日?/, '').trim().slice(0, 160), price: priceOf(text), image: null, source: abs(m[1], 'https://livebar.net/kingsbar/') });
+      }
+      return out;
+    },
+  },
+  first: {
+    urls: (y, m) => (m === MONTH_NOW ? ['https://naniaru.com/places/view/first'] : []),
+    parse(html) {
+      const out = []; const re = /<a[^>]+href=["'](\/events\/view\/\d+)["'][^>]*>([\s\S]{0,500}?)<\/a>/gi; let m;
+      while ((m = re.exec(html))) {
+        const text = strip(m[2]); const dm = /(\d{1,2})[\/月](\d{1,2})/.exec(text); if (!dm) continue;
+        const date = resolveDate(dm[1], dm[2]); if (!date) continue;
+        out.push({ date, open: openOf(text), start: startOf(text), artist: text.replace(/\d{1,2}[\/月]\d{1,2}日?/, '').trim().slice(0, 160), price: priceOf(text), image: null, source: abs(m[1], 'https://naniaru.com') });
+      }
+      return out;
+    },
+  },
+  wonderwall: {
+    urls: (y, m) => (m === MONTH_NOW ? ['https://wonderwall-yokohama.jp/calendar/'] : []),
+    parse(html) {
+      const out = []; const text = strip(html);
+      const re = /(\d{4})[.\/年-](\d{1,2})[.\/月-](\d{1,2})日?([^]{0,300}?)(?=\d{4}[.\/年-]\d{1,2}[.\/月-]\d{1,2}|$)/g; let m;
+      while ((m = re.exec(text))) {
+        const body = m[4].trim(); if (!body) continue;
+        out.push({ date: isoOf(m[1], m[2], m[3]), open: openOf(body), start: startOf(body), artist: body.slice(0, 160), price: priceOf(body), image: null, source: 'https://wonderwall-yokohama.jp/calendar/' });
+      }
+      return out;
+    },
+  },
+};
+
+const progressEl = document.querySelector('#progress');
+const logLine = (html) => { progressEl.insertAdjacentHTML('beforeend', `<div>${html}</div>`); progressEl.scrollTop = progressEl.scrollHeight; };
+
+async function refreshAll(btn) {
+  progressEl.hidden = false;
+  progressEl.innerHTML = '<b>取得中…（1〜2分かかります）</b>';
+  btn.disabled = true; btn.textContent = '取得中…';
+  const events = []; const reports = [];
+
+  for (const v of data.venues) {
+    const p = PARSERS[v.id];
+    if (!p) { logLine(`<span class="ng">－</span> ${v.name}：自動取得対象外（${v.status || '取得元なし'}）`); continue; }
+    for (const { y, m } of MONTHS) {
+      for (const url of p.urls(y, m)) {
+        try {
+          const html = await fetchVia(url);
+          const rows = p.parse(html, { y, m, url });
+          const seen = new Set();
+          for (const r of rows) {
+            if (!r.date || !r.artist) continue;
+            const k = `${v.id}|${r.date}|${r.artist}`;
+            if (seen.has(k)) continue;
+            seen.add(k);
+            events.push({ venueId: v.id, media: [], ...r });
+          }
+          reports.push({ id: `${v.id}-${y}${pad2(m)}`, venueId: v.id, url, status: 'ok', count: seen.size, bytes: html.length });
+          logLine(`<span class="ok">✓</span> ${v.name} ${y}/${pad2(m)} → ${seen.size}件`);
+        } catch (e) {
+          reports.push({ id: `${v.id}-${y}${pad2(m)}`, venueId: v.id, url, status: 'error', count: 0, bytes: 0, error: String(e.message || e) });
+          logLine(`<span class="ng">✗</span> ${v.name} ${y}/${pad2(m)} → 失敗（${e.message || e}）`);
+        }
+      }
+    }
+  }
+
+  const ok = reports.filter(r => r.status === 'ok').length;
+  if (!events.length) {
+    logLine(`<b class="ng">取得できませんでした。埋め込み済みのデータを表示しています。</b>`);
+  } else {
+    const seen = new Set();
+    const deduped = events.filter(e => { const k = `${e.venueId}|${e.date}|${e.artist}`; if (seen.has(k)) return false; seen.add(k); return true; })
+                          .filter(e => e.date >= jstToday);
+    data.events = normalizeEvents(deduped);
+    data.crawlReports = reports;
+    data.updatedAt = new Date().toISOString();
+    for (const v of data.venues) {
+      const n = data.events.filter(e => e.venueId === v.id).length;
+      const rs = reports.filter(r => r.venueId === v.id);
+      if (rs.length) v.status = rs.some(r => r.status === 'error') ? '取得エラーあり' : (n ? `公式日程あり（${n}件）` : '取得できたが公演0件');
+    }
+    rebuildCrawlIndex();
+    try { localStorage.setItem('jazzData', JSON.stringify(data)); } catch (e) {}
+    logLine(`<b class="ok">完了：${data.events.length}件（成功 ${ok}ページ）</b>`);
+    renderEvents(); renderVenues(); renderCrawl(); renderUpdatedAt();
+  }
+  btn.disabled = false; btn.textContent = '最新を取得';
+}
+
+function renderUpdatedAt() {
+  const d = new Date(data.updatedAt);
+  const ageDays = (Date.now() - d.getTime()) / 864e5;
+  document.querySelector('#updatedAt').innerHTML =
+    `情報更新 ${new Intl.DateTimeFormat('ja-JP', { dateStyle: 'medium' }).format(d)}` +
+    (ageDays > 3 ? ' <span style="color:var(--red)">（古い可能性あり・「最新を取得」を押してください）</span>' : '');
+}
+
+// 保存済みデータがあれば復元
+try {
+  const saved = localStorage.getItem('jazzData');
+  if (saved) {
+    const parsed = JSON.parse(saved);
+    if (parsed && Array.isArray(parsed.events) && parsed.events.length && parsed.updatedAt > data.updatedAt) {
+      data.events = normalizeEvents(parsed.events);
+      data.venues = parsed.venues || data.venues;
+      data.crawlReports = parsed.crawlReports || data.crawlReports;
+      data.updatedAt = parsed.updatedAt;
+      rebuildCrawlIndex();
+    }
+  }
+} catch (e) {}
+
+async function loadPublishedData(btn) {
+  if (btn) { btn.disabled = true; btn.textContent = '読込中…'; }
+  try {
+    const res = await fetch('./data.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const latest = await res.json();
+    if (!latest || !Array.isArray(latest.events)) throw new Error('データ形式エラー');
+    data.events = normalizeEvents(latest.events);
+    data.crawlReports = latest.crawlReports || [];
+    data.updatedAt = latest.updatedAt || data.updatedAt;
+    rebuildCrawlIndex();
+    renderEvents(); renderVenues(); renderCrawl(); renderUpdatedAt();
+  } catch (e) {
+    progressEl.hidden = false;
+    progressEl.innerHTML = '<b class="ng">公開データを読み込めませんでした。内蔵データを表示します。</b>';
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = '公開データを再読込'; }
+  }
+}
+document.querySelector('#refreshButton').addEventListener('click', e => loadPublishedData(e.currentTarget));
+
+renderEvents();renderVenues();renderCrawl();renderUpdatedAt();
+loadPublishedData();
+
+  </script>
+</body>
+</html>
