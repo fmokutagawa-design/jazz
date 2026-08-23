@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T05:57:50.946Z",
+  "updatedAt": "2026-08-23T06:17:59.973Z",
   "venues": [
     {
       "id": "wonderwall",
@@ -215,23 +215,23 @@
       "venueId": "barbarbar",
       "date": "2026-08-24",
       "open": "18:30",
-      "start": "19:30",
+      "start": "公式で確認",
       "artist": "※Vincent Herring & Erena Terakubo “Alto Madnes Japan Tour 2026”",
       "price": "8,800円",
       "image": "https://www.barbarbar.jp/calendar/uploads/bb7cfff723ae79120fbb51a3de459a2b.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "cottonclub",
       "date": "2026-08-24",
       "open": "17:30",
       "start": "18:30",
-      "artist": "24 mon. AI FURUSATO meets MASATO HONDA",
+      "artist": "AI FURUSATO meets MASATO HONDA",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5696.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5711"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5696"
     },
     {
       "venueId": "dolphy",
@@ -279,23 +279,34 @@
       "note": "公式スケジュール画像から読み取り"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-08-24",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "井上陽介トリオ",
+      "price": "¥5,500",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/05/宮脇翔平トリオのコピー.png",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e4%ba%95%e4%b8%8a%e9%99%bd%e4%bb%8b%e3%83%88%e3%83%aa%e3%82%aa/"
+    },
+    {
       "venueId": "barbarbar",
       "date": "2026-08-25",
       "open": "18:00",
-      "start": "19:00",
+      "start": "公式で確認",
       "artist": "■The Canarry",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/96f6fcefb33eeecf0927a063347af189.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
       "date": "2026-08-25",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "MONDAY MICHIRU Special Summer Live 2026",
-      "price": "¥8,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3969.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3969"
@@ -305,11 +316,11 @@
       "date": "2026-08-25",
       "open": "17:00",
       "start": "18:00",
-      "artist": "25 tue. 丸の内寄席 vol.5 落語×JAZZ",
+      "artist": "丸の内寄席 vol.5 落語×JAZZ",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5727.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5696"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5727"
     },
     {
       "venueId": "dolphy",
@@ -357,23 +368,34 @@
       "note": "公式スケジュール画像から読み取り"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-08-25",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "AmberGlow+Big2",
+      "price": "¥4,400",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/05/IMG_1671.jpeg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/amberglowbig2/"
+    },
+    {
       "venueId": "barbarbar",
       "date": "2026-08-26",
       "open": "18:00",
-      "start": "19:00",
+      "start": "公式で確認",
       "artist": "●平賀マリカ&大野智子Trio",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/52d74b5ee06621657e563a4a3acceeab.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
       "date": "2026-08-26",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "AKIKO YANO TRIO featuring WILL LEE & CHRIS PARKER",
-      "price": "¥12,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3953.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3953"
@@ -383,11 +405,11 @@
       "date": "2026-08-26",
       "open": "17:00",
       "start": "18:00",
-      "artist": "26 wed. 村田陽一 ビッグバンド",
+      "artist": "村田陽一 ビッグバンド",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5721.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5727"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5721"
     },
     {
       "venueId": "dolphy",
@@ -446,23 +468,34 @@
       "note": "公式スケジュール画像から読み取り"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-08-26",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "まいちぇ真夏暑気笑い〜Talk&#038;Live〜",
+      "price": "¥3,850",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/05/まいちぇ夏.png",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e3%81%be%e3%81%84%e3%81%a1%e3%81%87%e7%9c%9f%e5%a4%8f%e6%9a%91%e6%b0%97%e7%ac%91%e3%81%84%e3%80%9ctalklive%e3%80%9c/"
+    },
+    {
       "venueId": "barbarbar",
       "date": "2026-08-27",
       "open": "18:00",
-      "start": "19:00",
+      "start": "公式で確認",
       "artist": "●松村聖華&岩崎大輔Trio",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/b9082d6d44b5fdc4bb26f29041d18c8c.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
       "date": "2026-08-27",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "AKIKO YANO TRIO featuring WILL LEE & CHRIS PARKER",
-      "price": "¥12,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3953.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3953"
@@ -535,23 +568,34 @@
       "note": "公式スケジュール画像から読み取り"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-08-27",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "Tomo&#8217;sSession【ギラギラ⭐︎Night】",
+      "price": "¥6,600",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/05/ギラギラNight.png",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/tomossession%e3%80%90%e3%82%ae%e3%83%a9%e3%82%ae%e3%83%a9%e2%ad%90%ef%b8%8enight%e3%80%91-3/"
+    },
+    {
       "venueId": "barbarbar",
       "date": "2026-08-28",
       "open": "18:00",
-      "start": "19:00",
+      "start": "公式で確認",
       "artist": "■寿永アリサ ラテンワールドミュージックセッション",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/7584aa21b482b1c2b99d04df35f27817.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
       "date": "2026-08-28",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "AYATAKE EZAKI with guest KEI MATSUMARU 2026 Japan Tour - Tokyo",
-      "price": "¥8,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3954.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3954"
@@ -561,11 +605,11 @@
       "date": "2026-08-28",
       "open": "17:00",
       "start": "18:00",
-      "artist": "27 thu. PRIVATE 28 fri. [ Pops / vocal ] --> 小比類巻かほる Kohhy6 29 sat.",
+      "artist": "小比類巻かほる Kohhy6",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5664.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5721"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5664"
     },
     {
       "venueId": "dolphy",
@@ -624,26 +668,48 @@
       "note": "公式スケジュール画像から読み取り"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-08-28",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "三輪知可 弾き語りsololive",
+      "price": "¥4,400",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/05/46E5B825-16E4-4485-9874-7DC5D0F8CA5C-1.jpeg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e4%b8%89%e8%bc%aa%e7%9f%a5%e5%8f%af-%e5%bc%be%e3%81%8d%e8%aa%9e%e3%82%8asololive/"
+    },
+    {
       "venueId": "barbarbar",
       "date": "2026-08-29",
       "open": "18:00",
-      "start": "19:00",
+      "start": "公式で確認",
       "artist": "■MAYA&松尾明Quartet",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/b5a052fd89786a071eeae554ee0c2baf.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
       "date": "2026-08-29",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "AYATAKE EZAKI with guest KEI MATSUMARU 2026 Japan Tour - Tokyo",
-      "price": "¥8,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3954.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3954"
+    },
+    {
+      "venueId": "cottonclub",
+      "date": "2026-08-29",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "小比類巻かほる Kohhy6",
+      "price": "公式で確認",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5664.jpg?20260823",
+      "media": [],
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5664"
     },
     {
       "venueId": "dolphy",
@@ -691,12 +757,34 @@
       "note": "公式スケジュール画像から読み取り"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-08-29",
+      "open": "15:30",
+      "start": "公式で確認",
+      "artist": "Cross Bluesnight！〜Ayuko&#8217;s birthday special〜",
+      "price": "¥5,500",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/05/IMG_5978.jpeg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/ayukos-bluesband/"
+    },
+    {
+      "venueId": "wonderwall",
+      "date": "2026-08-29",
+      "open": "11:00",
+      "start": "公式で確認",
+      "artist": "SummerSpecial2026",
+      "price": "¥3,850",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/05/0-1778317817929.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/summerspecial2026/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-08-30",
-      "open": "3:30",
-      "start": "4:30",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "MARY HALVORSON’s AMARYLLIS SEXTET",
-      "price": "¥8,800",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3959.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3959"
@@ -706,11 +794,11 @@
       "date": "2026-08-30",
       "open": "14:30",
       "start": "15:30",
-      "artist": "30 sun. 音月桂 LIVE CONCERT “KEI” vol.1",
+      "artist": "音月桂 LIVE CONCERT “KEI” vol.1",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5702.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5664"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5702"
     },
     {
       "venueId": "dolphy",
@@ -771,20 +859,20 @@
       "venueId": "barbarbar",
       "date": "2026-08-31",
       "open": "18:00",
-      "start": "19:00",
+      "start": "公式で確認",
       "artist": "●Sachico&藤野聡Trio",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/71dec74e54f304b4bc61e362ba7721c0.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
       "date": "2026-08-31",
-      "open": "3:30",
-      "start": "4:30",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "MARY HALVORSON’s AMARYLLIS SEXTET",
-      "price": "¥8,800",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3959.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3959"
@@ -794,11 +882,11 @@
       "date": "2026-08-31",
       "open": "17:00",
       "start": "18:00",
-      "artist": "31 mon. 西村ケント",
+      "artist": "西村ケント",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5723.jpg?20260823",
       "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5702"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5723"
     },
     {
       "venueId": "dolphy",
@@ -835,12 +923,23 @@
       "note": "公式スケジュール画像から読み取り"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-08-31",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "林正樹PlaysStandards&#038;Originals Vol.9",
+      "price": "¥4,950",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/05/GardenTrioのコピー.png",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e6%9e%97%e6%ad%a3%e6%a8%b9playsstandardsoriginals-vol-9-2/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-01",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
-      "price": "¥11,800",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"
@@ -868,12 +967,23 @@
       "source": "https://ginzaswing.jp/20260901-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-01",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "坂井レイラ知美クインテット",
+      "price": "¥5,500",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781850015098.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e5%9d%82%e4%ba%95%e3%83%ac%e3%82%a4%e3%83%a9%e7%9f%a5%e7%be%8e%e3%82%af%e3%82%a4%e3%83%b3%e3%83%86%e3%83%83%e3%83%88-3/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-02",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
-      "price": "¥11,800",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"
@@ -901,12 +1011,23 @@
       "source": "https://ginzaswing.jp/20260902-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-02",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "moto.SpecialQuartet",
+      "price": "¥5,500",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781257054398.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/moto-specialquartet-6/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-03",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
-      "price": "¥11,800",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"
@@ -945,12 +1066,23 @@
       "source": "https://ginzaswing.jp/20260904-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-03",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "井上銘×RIO",
+      "price": "¥4,950",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781850053998.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e4%ba%95%e4%b8%8a%e9%8a%98xrio-9/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-04",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
-      "price": "¥11,800",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955"
@@ -958,13 +1090,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-04",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "13:00",
+      "start": "14:30",
       "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5686"
     },
     {
       "venueId": "dolphy",
@@ -1000,12 +1132,23 @@
       "source": "https://ginzaswing.jp/20260904-3/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-04",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "吉岡大輔SpecialQuartet",
+      "price": "¥4,400",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/att.MYrlQuZNz9kNXgFkzzklwOjIhJ3BY9n1DVtBr0cX7t8.jpeg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e5%90%89%e5%b2%a1%e5%a4%a7%e8%bc%94specialquartet/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-05",
-      "open": "3:30",
-      "start": "4:30",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "BILL LAURANCE TRIO",
-      "price": "¥8,800",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3973.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3973"
@@ -1013,13 +1156,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-05",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "13:00",
+      "start": "14:30",
       "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5686"
     },
     {
       "venueId": "dolphy",
@@ -1066,12 +1209,34 @@
       "source": "https://ginzaswing.jp/20260905-3/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-05",
+      "open": "12:00",
+      "start": "公式で確認",
+      "artist": "沖野ゆみBirthdayLive",
+      "price": "¥4,400",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781219039020.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e6%b2%96%e9%87%8e%e3%82%86%e3%81%bfbirthdaylive/"
+    },
+    {
+      "venueId": "wonderwall",
+      "date": "2026-09-05",
+      "open": "17:30",
+      "start": "公式で確認",
+      "artist": "吉光寺智子BirthdayLive",
+      "price": "¥4,400",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/吉光寺智子トリオのコピー.png",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e5%90%89%e5%85%89%e5%af%ba%e6%99%ba%e5%ad%90birthdaylive/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-06",
-      "open": "3:30",
-      "start": "4:30",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "BILL LAURANCE TRIO",
-      "price": "¥8,800",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3973.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3973"
@@ -1079,13 +1244,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-06",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "13:00",
+      "start": "14:30",
       "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5686"
     },
     {
       "venueId": "dolphy",
@@ -1121,12 +1286,23 @@
       "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-06",
+      "open": "15:00",
+      "start": "公式で確認",
+      "artist": "北原雅彦〜BirthdayEveLive〜",
+      "price": "¥6,600",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/北原雅彦4のコピー.png",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e5%8c%97%e5%8e%9f%e9%9b%85%e5%bd%a6%e3%80%9cbirthdayevelive%e3%80%9c/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-07",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "THE RESIDENTS：ESKIMO",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3983"
@@ -1134,13 +1310,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-07",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "13:00",
+      "start": "14:30",
       "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5686.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5686"
     },
     {
       "venueId": "dolphy",
@@ -1165,12 +1341,23 @@
       "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-07",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "J.A.F",
+      "price": "¥6,600",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/J.A.F.png",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/j-a-f-5/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-08",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "THE RESIDENTS：ESKIMO",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3983"
@@ -1187,12 +1374,23 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-08",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "YOKO SUZUKI TRIO",
+      "price": "¥4,950",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781887198811.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/yoko-suzuki-trio-2/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-09",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "THE RESIDENTS：ESKIMO",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3983"
@@ -1200,13 +1398,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-09",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "17:30",
+      "start": "19:00",
       "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5687"
     },
     {
       "venueId": "dolphy",
@@ -1231,12 +1429,23 @@
       "source": "https://naniaru.com/events/view/14695"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-09",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "高木祥太×井上銘×福森康",
+      "price": "¥5,500",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781259271801.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e9%ab%98%e6%9c%a8%e7%a5%a5%e5%a4%aax%e4%ba%95%e4%b8%8a%e9%8a%98x%e7%a6%8f%e6%a3%ae%e5%ba%b7-2/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-10",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "TILL BRONNER \"ITALIA\"",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"
@@ -1244,13 +1453,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-10",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "17:30",
+      "start": "19:00",
       "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5687"
     },
     {
       "venueId": "dolphy",
@@ -1286,12 +1495,23 @@
       "source": "https://ginzaswing.jp/20260910-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-10",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "大黒摩季 FamilyBand〜55RedBand〜",
+      "price": "¥7,700",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781259457816.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e5%a4%a7%e9%bb%92%e6%91%a9%e5%ad%a3-familyband%e3%80%9c55redband%e3%80%9c-2/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-11",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "TILL BRONNER \"ITALIA\"",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"
@@ -1299,13 +1519,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-11",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "17:30",
+      "start": "19:00",
       "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5687"
     },
     {
       "venueId": "dolphy",
@@ -1341,12 +1561,23 @@
       "source": "https://ginzaswing.jp/20260911-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-11",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "HigoTakumiLatinTrio〜feat.SasakiMakoto〜",
+      "price": "¥4,400",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781736721956.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/higotakumilatintrio%e3%80%9cfeat-sasakimakoto%e3%80%9c/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-12",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "TILL BRONNER \"ITALIA\"",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"
@@ -1354,13 +1585,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-12",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "17:30",
+      "start": "19:00",
       "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5687"
     },
     {
       "venueId": "dolphy",
@@ -1407,12 +1638,23 @@
       "source": "https://ginzaswing.jp/20260912-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-12",
+      "open": "12:00",
+      "start": "公式で確認",
+      "artist": "Maria Eva Special Live",
+      "price": "¥4,950",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1780818302807.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/maria-eva-special-live/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-13",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "TILL BRONNER \"ITALIA\"",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3982"
@@ -1420,13 +1662,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-13",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "17:30",
+      "start": "19:00",
       "artist": "コントと音楽 vol.7 「今宵、丸の内で」",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5687"
     },
     {
       "venueId": "dolphy",
@@ -1464,10 +1706,10 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-14",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "aron! \"Too Close For Running\"",
-      "price": "¥8,800",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3994.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3994"
@@ -1475,13 +1717,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-14",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "NAOKO TERAI QUARTET \"The Precious Night 2026\" at COTTON CLUB",
-      "price": "¥8,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5728.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/naoko-terai-260914/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5728"
     },
     {
       "venueId": "dolphy",
@@ -1506,12 +1748,23 @@
       "source": "https://ginzaswing.jp/20260914-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-14",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "ProjectQuO",
+      "price": "¥4,400",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/att.4vPwEsZjmSxUk3xAOPMFVjusyclZ0dYzRspk2qpS07Y.jpeg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/projectquo/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-15",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "aron! \"Too Close For Running\"",
-      "price": "¥8,800",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3994.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3994"
@@ -1519,13 +1772,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-15",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "AYA HIRANO ANNIVERSARY LIVE 2026 ～COTTON CLUB～",
-      "price": "¥8,800",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5732.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/aya-hirano-260915/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5732"
     },
     {
       "venueId": "dolphy",
@@ -1550,12 +1803,23 @@
       "source": "https://ginzaswing.jp/20260915-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-15",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "JoeRosenberg Tour2026",
+      "price": "¥5,500",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/6ede7549-df96-42ea-9ffc-2a0694333fdd.jpeg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/joerosenberg-tour2026/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-16",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "CHRISTIAN McBRIDE & URSA MAJOR",
-      "price": "¥9,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3974"
@@ -1563,13 +1827,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-16",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "LIVE＠マキタスポーツ ～マキタスポーツ×タブレット純～",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5713.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/makitasports-260916/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5713"
     },
     {
       "venueId": "dolphy",
@@ -1607,10 +1871,10 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-17",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "CHRISTIAN McBRIDE & URSA MAJOR",
-      "price": "¥9,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3974"
@@ -1618,13 +1882,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-17",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:30",
+      "start": "20:00",
       "artist": "古舘と客人と vol.39 古舘伊知郎 山田洋次",
-      "price": "¥8,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5725.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/ichiro-furutachi-260917/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5725"
     },
     {
       "venueId": "dolphy",
@@ -1660,12 +1924,23 @@
       "source": "https://ginzaswing.jp/20260917-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-17",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "FourVoices feat.ZARUKAME",
+      "price": "¥7,700",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/IMG_4281.jpeg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/fourvoices-feat-zarukame-2/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-18",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "CHRISTIAN McBRIDE & URSA MAJOR",
-      "price": "¥9,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3974"
@@ -1704,12 +1979,23 @@
       "source": "https://ginzaswing.jp/20260918-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-18",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "末廣彩風弦楽奏カルテット",
+      "price": "¥4,400",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781259812939.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e6%9c%ab%e5%bb%a3%e5%bd%a9%e9%a2%a8%e5%bc%a6%e6%a5%bd%e5%a5%8f%e3%82%ab%e3%83%ab%e3%83%86%e3%83%83%e3%83%88-3/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-19",
-      "open": "4:00",
-      "start": "5:00",
+      "open": "16:00",
+      "start": "17:00",
       "artist": "Chara Anniversary Countdown Live!! \"1991 to 2026\"",
-      "price": "¥11,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3995.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3995"
@@ -1717,13 +2003,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-19",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "JAHARI STAMPLEY : SOUL FAMILY featuring TAISHI KUBOTA / SENRI KAWAGUCHI",
-      "price": "¥8,800",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5708.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/jahari-stampley-260919/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5708"
     },
     {
       "venueId": "dolphy",
@@ -1762,19 +2048,20 @@
       "venueId": "wonderwall",
       "date": "2026-09-19",
       "open": "17:30",
-      "start": "未確認",
+      "start": "公式で確認",
       "artist": "Soundtype Live at WonderWall-Yokohama",
       "price": "¥7,700",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/Soundtype@wwy.png",
       "media": [],
-      "source": "https://wonderwall-yokohama.jp/calendar/"
+      "source": "https://wonderwall-yokohama.jp/schedule/soundtype-live-at-wonderwall-yokohama/"
     },
     {
       "venueId": "bluenote",
       "date": "2026-09-20",
-      "open": "4:00",
-      "start": "5:00",
+      "open": "16:00",
+      "start": "17:00",
       "artist": "Chara Anniversary Countdown Live!! \"1991 to 2026\"",
-      "price": "¥11,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3995.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3995"
@@ -1782,13 +2069,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-20",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "JAHARI STAMPLEY : SOUL FAMILY featuring TAISHI KUBOTA / SENRI KAWAGUCHI",
-      "price": "¥8,800",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5708.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/jahari-stampley-260919/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5708"
     },
     {
       "venueId": "dolphy",
@@ -1815,10 +2102,10 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-21",
-      "open": "3:30",
-      "start": "4:30",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND",
-      "price": "¥12,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3992"
@@ -1826,13 +2113,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-21",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "櫻井哲夫 JACO PASTORIUS TRIBUTE SESSION",
-      "price": "¥7,500",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5699.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/tetsuo-sakurai-260921/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5699"
     },
     {
       "venueId": "dolphy",
@@ -1870,10 +2157,10 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-22",
-      "open": "3:30",
-      "start": "4:30",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND",
-      "price": "¥12,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3992"
@@ -1881,13 +2168,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-22",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "RACHAEL YAMAGATA Starlit Alchemy Tour",
-      "price": "¥9,900",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5738.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/rachael-yamagata-260922/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5738"
     },
     {
       "venueId": "dolphy",
@@ -1914,10 +2201,10 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-23",
-      "open": "3:30",
-      "start": "4:30",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND",
-      "price": "¥12,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3992"
@@ -1925,13 +2212,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-23",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "RACHAEL YAMAGATA Starlit Alchemy Tour",
-      "price": "¥9,900",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5738.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/rachael-yamagata-260922/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5738"
     },
     {
       "venueId": "dolphy",
@@ -1958,10 +2245,10 @@
     {
       "venueId": "bluenote",
       "date": "2026-09-24",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "SEPTETO SANTIAGUERO Vivela! Salsa Tour 2026",
-      "price": "¥13,800",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3968.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3968"
@@ -1969,13 +2256,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-24",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "ULYSSES OWENS JR. & GENERATION Y",
-      "price": "¥9,500",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5717.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/ulysses-owens-jr-260924/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5717"
     },
     {
       "venueId": "dolphy",
@@ -2025,19 +2312,20 @@
       "venueId": "wonderwall",
       "date": "2026-09-24",
       "open": "18:00",
-      "start": "未確認",
-      "artist": "渚まいこトリオ＋2 誕生月スペシャルライブ",
+      "start": "公式で確認",
+      "artist": "渚まいこトリオ+2 〜なぎまい誕生月スペシャルライブ〜",
       "price": "¥4,950",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1778502755492.jpg",
       "media": [],
-      "source": "https://wonderwall-yokohama.jp/calendar/"
+      "source": "https://wonderwall-yokohama.jp/schedule/%e6%b8%9a%e3%81%be%e3%81%84%e3%81%93%e3%83%88%e3%83%aa%e3%82%aa2-%e3%80%9c%e3%81%aa%e3%81%8e%e3%81%be%e3%81%84%e8%aa%95%e7%94%9f%e6%9c%88%e3%82%b9%e3%83%9a%e3%82%b7%e3%83%a3%e3%83%ab%e3%83%a9/"
     },
     {
       "venueId": "bluenote",
       "date": "2026-09-25",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "ULYSSES OWENS JR. & GENERATION Y",
-      "price": "¥9,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3996.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3996"
@@ -2045,10 +2333,10 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-25",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "KONISHI RYOSEI Autumn Live 2026 「色なき風と、月待言結び。」",
-      "price": "¥9,800",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5744.jpg?20260823",
       "media": [],
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/konishi-ryosei-260925/"
@@ -2098,12 +2386,23 @@
       "source": "https://ginzaswing.jp/20260925-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-25",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "丈青×秋田ゴールドマン×山木秀夫",
+      "price": "¥6,600",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781260730694.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e4%b8%88%e9%9d%92x%e7%a7%8b%e7%94%b0%e3%82%b4%e3%83%bc%e3%83%ab%e3%83%89%e3%83%9e%e3%83%b3x%e5%b1%b1%e6%9c%a8%e7%a7%80%e5%a4%ab/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-26",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "ULYSSES OWENS JR. & GENERATION Y",
-      "price": "¥9,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3996.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3996"
@@ -2111,13 +2410,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-26",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "14:30",
+      "start": "15:30",
       "artist": "古謝美佐子 with 文楽人形 (勘緑 & 木偶舎) at COTTON CLUB 2026",
-      "price": "¥8,800",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5716.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/misako-koja-260926/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5716"
     },
     {
       "venueId": "dolphy",
@@ -2164,12 +2463,34 @@
       "source": "https://ginzaswing.jp/20260926-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-26",
+      "open": "12:00",
+      "start": "公式で確認",
+      "artist": "köyubi",
+      "price": "¥3,850",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781261786634.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/koyubi-5/"
+    },
+    {
+      "venueId": "wonderwall",
+      "date": "2026-09-26",
+      "open": "17:30",
+      "start": "公式で確認",
+      "artist": "河原秀夫カルテット",
+      "price": "¥4,950",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781887268689.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e6%b2%b3%e5%8e%9f%e7%a7%80%e5%a4%ab%e3%82%ab%e3%83%ab%e3%83%86%e3%83%83%e3%83%88-3/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-27",
-      "open": "3:30",
-      "start": "4:30",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "ANDREA MOTIS Guitar Trio \"Intimate\"",
-      "price": "¥8,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3943.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3943"
@@ -2177,13 +2498,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-27",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "KIYOSHI MAEKAWA LIVE2026 BEYOND ～その先へ～",
-      "price": "¥11,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5703.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kiyoshi-maekawa-260927/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5703"
     },
     {
       "venueId": "dolphy",
@@ -2219,12 +2540,23 @@
       "source": "https://naniaru.com/events/view/14441"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-27",
+      "open": "16:00",
+      "start": "公式で確認",
+      "artist": "スケ語りvol.27",
+      "price": "¥4,400",
+      "image": null,
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e3%82%b9%e3%82%b1%e8%aa%9e%e3%82%8avol-27/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-28",
-      "open": "3:30",
-      "start": "4:30",
+      "open": "15:30",
+      "start": "16:30",
       "artist": "ANDREA MOTIS Guitar Trio \"Intimate\"",
-      "price": "¥8,500",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3943.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3943"
@@ -2285,12 +2617,23 @@
       "source": "https://ginzaswing.jp/20260928-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-28",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "WWY JOSEI QUARTET",
+      "price": "¥6,600",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781261512934.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/wwy-josei-quartet-4/"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-29",
-      "open": "5:00",
-      "start": "6:00",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "JHARIS YOKLEY + BIGYUKI",
-      "price": "¥8,000",
+      "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3984.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3984"
@@ -2298,13 +2641,13 @@
     {
       "venueId": "cottonclub",
       "date": "2026-09-29",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "AYA HIRANO ANNIVERSARY LIVE 2026 ～COTTON CLUB～",
-      "price": "¥8,800",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5733.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/aya-hirano-260915/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5733"
     },
     {
       "venueId": "dolphy",
@@ -2329,15 +2672,26 @@
       "source": "https://ginzaswing.jp/20260929-2/"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-09-29",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "TomokannoQuartet feat. DavidNegrete",
+      "price": "¥6,000",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/TomoKannoquartetのコピーのコピーのコピー.png",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/tomokannoquartet-4/"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-30",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "17:00",
+      "start": "18:00",
       "artist": "WEST ROAD BLUES BAND",
-      "price": "¥9,000",
+      "price": "公式で確認",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5730.jpg?20260823",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/westroad-bluesband-260930/"
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5730"
     },
     {
       "venueId": "dolphy",
@@ -2371,6 +2725,17 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260930-2/"
+    },
+    {
+      "venueId": "wonderwall",
+      "date": "2026-09-30",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "T.S Session",
+      "price": "¥5,500",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781261695959.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/t-s-session-2/"
     },
     {
       "venueId": "wonderwall",
@@ -2413,17 +2778,17 @@
     {
       "venueId": "bluenote",
       "month": "2026-08",
-      "status": "rejected",
-      "reason": "不完全なため旧データ維持",
-      "count": 4,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 7,
       "kept": 7
     },
     {
       "venueId": "bluenote",
       "month": "2026-09",
-      "status": "rejected",
-      "reason": "不完全なため旧データ維持",
-      "count": 12,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 29,
       "kept": 29
     },
     {
@@ -2431,15 +2796,15 @@
       "month": "2026-08",
       "status": "ok",
       "reason": "取得済み",
-      "count": 6,
+      "count": 7,
       "kept": 6
     },
     {
       "venueId": "cottonclub",
       "month": "2026-09",
-      "status": "rejected",
-      "reason": "不完全なため旧データ維持",
-      "count": 14,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 24,
       "kept": 24
     },
     {
@@ -2489,6 +2854,38 @@
       "reason": "取得済み",
       "count": 20,
       "kept": 20
+    },
+    {
+      "venueId": "wonderwall",
+      "month": "2026-08",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 8,
+      "kept": 0
+    },
+    {
+      "venueId": "wonderwall",
+      "month": "2026-09",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 26,
+      "kept": 2
+    },
+    {
+      "venueId": "barbarbar",
+      "month": "2026-08",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 7,
+      "kept": 7
+    },
+    {
+      "venueId": "barbarbar",
+      "month": "2026-09",
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 0
     }
   ],
   "coverageStatus": {
