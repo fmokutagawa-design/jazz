@@ -17,15 +17,15 @@
     <div class="hero-copy">
       <p class="eyebrow">YOKOHAMA · TOKYO</p>
       <h1>今夜、どこで<br>誰を聴く？</h1>
-      <p>綱島から行きやすい14会場のライブ情報と映像を、ひとつの場所に。</p>
+      <p>綱島から行きやすい13会場のライブ情報と映像を、ひとつの場所に。</p>
     </div>
   </header>
 
   <main>
     <section class="controls" aria-label="絞り込み">
       <div class="date-tabs" id="dateTabs">
-        <button data-range="all" class="active">すべて</button>
-        <button data-range="today">今日</button>
+        <button data-range="all">すべて</button>
+        <button data-range="today" class="active">今日</button>
         <button data-range="weekend">今週末</button>
         <button data-range="30days">30日以内</button>
       </div>
@@ -109,7 +109,7 @@ function rebuildCrawlIndex(){
 }
 rebuildCrawlIndex();
 const eventCount = id => data.events.filter(e => e.venueId === id).length;
-const state = {range:'all', area:'all', venue:'all', date:'', query:'', mediaOnly:false};
+const state = {range:'today', area:'all', venue:'all', date:'', query:'', mediaOnly:false};
 const eventGrid = document.querySelector('#eventGrid');
 const venueGrid = document.querySelector('#venueGrid');
 
