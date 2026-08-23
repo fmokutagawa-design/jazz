@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T01:27:41.702Z",
+  "updatedAt": "2026-08-23T04:39:04.222Z",
   "venues": [
     {
       "id": "spirit",
@@ -176,6 +176,17 @@
   ],
   "events": [
     {
+      "venueId": "barbarbar",
+      "date": "2026-08-23",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "休み",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
+    },
+    {
       "venueId": "dolphy",
       "date": "2026-08-23",
       "open": "13:00",
@@ -223,12 +234,12 @@
       "venueId": "barbarbar",
       "date": "2026-08-24",
       "open": "18:30",
-      "start": "19:30",
-      "artist": "※Vincent Herring & Erena Terakubo “Alto Madnes Japan Tour 2026”",
+      "start": "公式で確認",
+      "artist": "※Vincent Herring & Erena Terakubo “Alto Madnes Japan Tour 2026” × 2026-08-24 ※Vincent Herring & Erena Terakubo “Alto Madnes Japan Tour 2026” as:Vincent Herring as:寺久保エレナ ds:小林陽一 pf",
       "price": "8,800円",
-      "image": "https://www.barbarbar.jp/calendar/uploads/bb7cfff723ae79120fbb51a3de459a2b.jpg",
+      "image": null,
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "cottonclub",
@@ -268,12 +279,12 @@
       "venueId": "barbarbar",
       "date": "2026-08-25",
       "open": "18:00",
-      "start": "19:00",
-      "artist": "■The Canarry",
+      "start": "公式で確認",
+      "artist": "■The Canarry × 2026-08-25 ■The Canarry vo:ダーナ vo:Sachico pf:清水ゆかり bs:河原秀夫 perc:仙道さおり vln:帆足 彩 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:ダーナ vo:Sachico",
       "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/96f6fcefb33eeecf0927a063347af189.jpg",
+      "image": null,
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
@@ -335,12 +346,12 @@
       "venueId": "barbarbar",
       "date": "2026-08-26",
       "open": "18:00",
-      "start": "19:00",
-      "artist": "●平賀マリカ&大野智子Trio",
+      "start": "公式で確認",
+      "artist": "●平賀マリカ&大野智子Trio × 2026-08-26 ●平賀マリカ&大野智子Trio vo:平賀マリカ pf:大野智子 bs:増原 巖 ds:吉岡大輔 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:平賀マリカ pf:大野智子 bs:増原 巖 ds:吉岡大輔 ",
       "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/52d74b5ee06621657e563a4a3acceeab.jpg",
+      "image": null,
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
@@ -413,12 +424,12 @@
       "venueId": "barbarbar",
       "date": "2026-08-27",
       "open": "18:00",
-      "start": "19:00",
-      "artist": "●松村聖華&岩崎大輔Trio",
+      "start": "公式で確認",
+      "artist": "●松村聖華&岩崎大輔Trio × 2026-08-27 ●松村聖華&岩崎大輔Trio vo:松村聖華 pf:岩崎大輔 bs:吉田 豊 ds:井上功一 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:松村聖華 pf:岩崎大輔 bs:吉田 豊 ds:井上功一 OPEN",
       "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/b9082d6d44b5fdc4bb26f29041d18c8c.jpg",
+      "image": null,
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
@@ -480,12 +491,12 @@
       "venueId": "barbarbar",
       "date": "2026-08-28",
       "open": "18:00",
-      "start": "19:00",
-      "artist": "■寿永アリサ ラテンワールドミュージックセッション",
+      "start": "公式で確認",
+      "artist": "■寿永アリサ ラテンワールドミュージックセッション × 2026-08-28 ■寿永アリサ ラテンワールドミュージックセッション vo:寿永アリサ pf:大山泰輝 vln:太田恵資 gt:高木潤一 bs:ヤマトヤスオ OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo",
       "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/7584aa21b482b1c2b99d04df35f27817.jpg",
+      "image": null,
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
@@ -536,12 +547,12 @@
       "venueId": "barbarbar",
       "date": "2026-08-29",
       "open": "18:00",
-      "start": "19:00",
-      "artist": "■MAYA&松尾明Quartet",
+      "start": "公式で確認",
+      "artist": "■MAYA&松尾明Quartet × 2026-08-29 ■MAYA&松尾明Quartet vo:MAYA ds:松尾 明 pf:二村希一 bs:新岡 誠 sax:高橋康廣 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:MAYA ds:松尾 明 pf:二村希一",
       "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/b5a052fd89786a071eeae554ee0c2baf.jpg",
+      "image": null,
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
@@ -587,6 +598,17 @@
       "media": [],
       "source": "https://www.venus-hk-j.com/liveschedule",
       "note": "公式スケジュール画像から読み取り"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-08-30",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "休み",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
@@ -647,12 +669,12 @@
       "venueId": "barbarbar",
       "date": "2026-08-31",
       "open": "18:00",
-      "start": "19:00",
-      "artist": "●Sachico&藤野聡Trio",
+      "start": "公式で確認",
+      "artist": "●Sachico&藤野聡Trio × 2026-08-31 ●Sachico&藤野聡Trio vo:Sachico pf:藤野 聡 bs:吉川大介 ds:小林 慎 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:Sachico pf:藤野 聡 bs:吉川大介 ds",
       "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/71dec74e54f304b4bc61e362ba7721c0.jpg",
+      "image": null,
       "media": [],
-      "source": "https://www.barbarbar.jp/schedule.html"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
     },
     {
       "venueId": "bluenote",
@@ -700,6 +722,17 @@
       "note": "公式スケジュール画像から読み取り"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-01",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "■Maria Sekimoto Cocktail Night with Special Band × 2026-08-01 ■Maria Sekimoto Cocktail Night with Special Band vo:関本マリア gt:ウエキ弦太 pf:杉本 健 bs:新岡 誠 perc:中島オバヲ OPEN 18:00 1st 19:00～20:",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-01",
       "open": "5:00",
@@ -720,6 +753,17 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260901-2/"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-02",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "休み",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -744,6 +788,17 @@
       "source": "https://ginzaswing.jp/20260902-2/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-03",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "●八城邦義Quintet × 2026-08-03 ●八城邦義Quintet ds:八城邦義 sax:青木秀明 sax:堤智恵子 pf:三木成能 bs:江上友彦 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む ds:八城邦義 sax:青木秀明 sax:堤智恵子 pf:三",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-03",
       "open": "5:00",
@@ -764,6 +819,17 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260904-2/"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-04",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "●高村緑&皆川トオルTrio × 2026-08-04 ●高村緑&皆川トオルTrio vo:高村 緑 sax:皆川トオル pf:続木 徹 bs:上羽康志 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:高村 緑 sax:皆川トオル pf:続木 徹 bs:上羽康志 ",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -797,6 +863,17 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260904-3/"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-05",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "★OBATALA SEGUNDO × 2026-08-05 ★OBATALA SEGUNDO tb:中路英明 gt:鈴木禎久 pf:伊藤志宏 bs:コモブチキイチロウ perc/vo:大儀見元 ds:岡本健太 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む tb:中路英",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -843,6 +920,17 @@
       "source": "https://ginzaswing.jp/20260905-3/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-06",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "●KITEKI guest 日高しず香 × 2026-08-06 ●KITEKI guest 日高しず香 vo/gt:高橋大輔 gt:足立壮一郎 bs:古田名沖 ds:永松瑛二 vo:日高しず香 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo/gt:高橋大輔 gt",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-06",
       "open": "3:30",
@@ -874,6 +962,17 @@
       "image": null,
       "media": [],
       "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-07",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "■大澤理央&大隅寿男Quartet × 2026-08-07 ■大澤理央&大隅寿男Quartet vo:大澤理央 ds:大隅寿男 pf:三木成能 bs:永松徳文 sax:大隅卓也 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:大澤理央 ds:大隅寿男 pf:三木",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -909,6 +1008,17 @@
       "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-08",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "■福山詩織Quintet × 2026-08-08 ■福山詩織Quintet vo:福山詩織 cl:宮脇 惇 gt:石井信義 bs:手島 甫 ds:二本松義史 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:福山詩織 cl:宮脇 惇 gt:石井信義 bs:手島 甫",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-08",
       "open": "5:00",
@@ -918,6 +1028,17 @@
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260823",
       "media": [],
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3983"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-09",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "休み",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -940,6 +1061,17 @@
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5687.jpg?20260823",
       "media": [],
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/conte-to-ongaku-vol07/"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-10",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "■鈴木隆斗Quintet × 2026-08-10 ■鈴木隆斗Quintet sax:鈴木隆斗 pf:今田あきら gt:後藤郁夫 bs:池田 聡 ds:福永貴之 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む sax:鈴木隆斗 pf:今田あきら gt:後藤郁夫 bs:池",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -986,6 +1118,17 @@
       "source": "https://ginzaswing.jp/20260910-2/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-11",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "●山岡美香&鈴木克人Trio × 2026-08-11 ●山岡美香&鈴木克人Trio vo:山岡美香 bs:鈴木克人 pf:槙田友紀 ds:Gary Da Silva OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:山岡美香 bs:鈴木克人 pf:槙田友紀 ds:",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-11",
       "open": "5:00",
@@ -1028,6 +1171,17 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260911-2/"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-12",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "●松井絵美&納浩一Trio × 2026-08-12 ●松井絵美&納浩一Trio vo:松井絵美 bs:納 浩一 pf:新澤健一郎 ds:ジーン重村 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:松井絵美 bs:納 浩一 pf:新澤健一郎 ds:ジーン重村 OP",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -1074,6 +1228,17 @@
       "source": "https://ginzaswing.jp/20260912-2/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-13",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "■浜崎航 meets 松本茜Trio“BigCatch” × 2026-08-13 ■浜崎航 meets 松本茜Trio“BigCatch” sax:浜崎 航 pf:松本 茜 bs:大塚義将 ds:広瀬潤次 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む sax:浜崎 ",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-13",
       "open": "5:00",
@@ -1105,6 +1270,17 @@
       "image": null,
       "media": [],
       "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-14",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "※エミー･ジャクソン & The Cadillacs × 2026-08-14 ※エミー･ジャクソン & The Cadillacs vo:エミー･ジャクソン gt/vo:太田シノブ bs:小川浩史 ds:相良PASSAN宗男 pf/key:中谷幹人 gt:保山道夫 sax:河野つつむ(2ndのみ) OPEN 18:00 1st 19:00～20:00 （入",
+      "price": "6,600円",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -1140,6 +1316,17 @@
       "source": "https://ginzaswing.jp/20260914-2/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-15",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "■キャロル山崎&大橋高志Quartet × 2026-08-15 ■キャロル山崎&大橋高志Quartet vo:キャロル山崎 pf:大橋高志 bs:酒井一郎 ds:山下暢彦 tp:鈴木まさあき OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:キャロル山崎 pf:大",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-15",
       "open": "5:00",
@@ -1173,6 +1360,17 @@
       "source": "https://ginzaswing.jp/20260915-2/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-16",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "休み",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-16",
       "open": "5:00",
@@ -1204,6 +1402,17 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260916-2/"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-17",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "夏季休業",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -1250,6 +1459,17 @@
       "source": "https://ginzaswing.jp/20260917-2/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-18",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "夏季休業",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-18",
       "open": "5:00",
@@ -1281,6 +1501,17 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260918-2/"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-19",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "●押川聖子&山岸笙子Trio × 2026-08-19 ●押川聖子&山岸笙子Trio vo/gt:押川聖子 pf:山岸笙子 bs:新岡 誠 ds:石川 智 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo/gt:押川聖子 pf:山岸笙子 bs:新岡 誠 ds:石川 ",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -1337,6 +1568,17 @@
       "source": "https://wonderwall-yokohama.jp/calendar/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-20",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "●紗野葉子&青木弘武Trio × 2026-08-20 ●紗野葉子&青木弘武Trio vo:紗野葉子 pf:青木弘武 bs:河原秀夫 ds:ジーン重村 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:紗野葉子 pf:青木弘武 bs:河原秀夫 ds:ジーン重村 OP",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-20",
       "open": "4:00",
@@ -1368,6 +1610,17 @@
       "image": null,
       "media": [],
       "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-21",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "■深井克則 with Friends × 2026-08-21 ■深井克則 with Friends pf:深井克則 cl:宮脇 惇 bs:伊東佑季 ds:藤井 摂 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む pf:深井克則 cl:宮脇 惇 bs:伊東佑季 ds:藤",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -1403,6 +1656,17 @@
       "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-22",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "●BOOGIE ON PARADE × 2026-08-22 ●BOOGIE ON PARADE vo/pf:古川奈都子 sax:海付 豊 pf:knicKKnack舞喜丸 ds:knicKKnackチェケラッチョこういち OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-22",
       "open": "3:30",
@@ -1436,6 +1700,17 @@
       "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-23",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "休み",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-23",
       "open": "3:30",
@@ -1467,6 +1742,17 @@
       "image": null,
       "media": [],
       "source": "https://kanmachi63.blog.fc2.com/blog-entry-248.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-24",
+      "open": "18:30",
+      "start": "公式で確認",
+      "artist": "※Vincent Herring & Erena Terakubo “Alto Madnes Japan Tour 2026” × 2026-08-24 ※Vincent Herring & Erena Terakubo “Alto Madnes Japan Tour 2026” as:Vincent Herring as:寺久保エレナ ds:小林陽一 pf",
+      "price": "8,800円",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -1523,6 +1809,17 @@
       "source": "https://wonderwall-yokohama.jp/calendar/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-25",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "■The Canarry × 2026-08-25 ■The Canarry vo:ダーナ vo:Sachico pf:清水ゆかり bs:河原秀夫 perc:仙道さおり vln:帆足 彩 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:ダーナ vo:Sachico",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-25",
       "open": "5:00",
@@ -1565,6 +1862,17 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260925-2/"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-26",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "●平賀マリカ&大野智子Trio × 2026-08-26 ●平賀マリカ&大野智子Trio vo:平賀マリカ pf:大野智子 bs:増原 巖 ds:吉岡大輔 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:平賀マリカ pf:大野智子 bs:増原 巖 ds:吉岡大輔 ",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -1611,6 +1919,17 @@
       "source": "https://ginzaswing.jp/20260926-2/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-27",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "●松村聖華&岩崎大輔Trio × 2026-08-27 ●松村聖華&岩崎大輔Trio vo:松村聖華 pf:岩崎大輔 bs:吉田 豊 ds:井上功一 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:松村聖華 pf:岩崎大輔 bs:吉田 豊 ds:井上功一 OPEN",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-27",
       "open": "3:30",
@@ -1631,6 +1950,17 @@
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5703.jpg?20260823",
       "media": [],
       "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kiyoshi-maekawa-260927/"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-28",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "■寿永アリサ ラテンワールドミュージックセッション × 2026-08-28 ■寿永アリサ ラテンワールドミュージックセッション vo:寿永アリサ pf:大山泰輝 vln:太田恵資 gt:高木潤一 bs:ヤマトヤスオ OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "bluenote",
@@ -1677,6 +2007,17 @@
       "source": "https://ginzaswing.jp/20260928-2/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-29",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "■MAYA&松尾明Quartet × 2026-08-29 ■MAYA&松尾明Quartet vo:MAYA ds:松尾 明 pf:二村希一 bs:新岡 誠 sax:高橋康廣 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:MAYA ds:松尾 明 pf:二村希一",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-29",
       "open": "5:00",
@@ -1708,6 +2049,17 @@
       "image": null,
       "media": [],
       "source": "https://ginzaswing.jp/20260929-2/"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-09-30",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "休み",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
     },
     {
       "venueId": "cottonclub",
@@ -1743,6 +2095,17 @@
       "source": "https://ginzaswing.jp/20260930-2/"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-09-31",
+      "open": "18:00",
+      "start": "公式で確認",
+      "artist": "●Sachico&藤野聡Trio × 2026-08-31 ●Sachico&藤野聡Trio vo:Sachico pf:藤野 聡 bs:吉川大介 ds:小林 慎 OPEN 18:00 1st 19:00～20:10 （入替なし） 2nd 21:00～22:10 CLOSE 23:00 ご予約へ進む vo:Sachico pf:藤野 聡 bs:吉川大介 ds",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9"
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-10-02",
       "open": "18:00",
@@ -1765,103 +2128,34 @@
   ],
   "crawlReports": [
     {
-      "id": "barbarbar",
       "venueId": "barbarbar",
       "status": "ok",
-      "count": 7,
-      "url": "https://www.barbarbar.jp/calendar.php",
-      "bytes": 46103,
-      "titles": 0
+      "count": 40
     },
     {
-      "id": "dolphy",
       "venueId": "dolphy",
-      "status": "ok",
-      "count": 11,
-      "url": "https://dolphy-jazzspot.com/live_schedule.html",
-      "bytes": 22793,
-      "titles": 0
+      "status": "partial",
+      "count": 0
     },
     {
-      "id": "bluenote",
       "venueId": "bluenote",
       "status": "ok",
-      "count": 7,
-      "url": "https://reserve.bluenote.co.jp/reserve/schedule/",
-      "bytes": 101087,
-      "titles": 17
+      "count": 0
     },
     {
-      "id": "bluenote-next",
-      "venueId": "bluenote",
-      "status": "ok",
-      "count": 29,
-      "url": "https://reserve.bluenote.co.jp/reserve/schedule/move/202609/",
-      "bytes": 92363,
-      "titles": 12
-    },
-    {
-      "id": "cottonclub",
       "venueId": "cottonclub",
       "status": "ok",
-      "count": 7,
-      "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/",
-      "bytes": 101159,
-      "titles": 22
+      "count": 0
     },
     {
-      "id": "cottonclub-next",
-      "venueId": "cottonclub",
-      "status": "ok",
-      "count": 24,
-      "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/202609/",
-      "bytes": 88374,
-      "titles": 15
+      "venueId": "kingsbar",
+      "status": "partial",
+      "count": 0
     },
     {
-      "id": "swing",
       "venueId": "swing",
       "status": "ok",
-      "count": 20,
-      "url": "https://ginzaswing.jp/schedules/?month=2026-09",
-      "bytes": 166224,
-      "titles": 0
-    },
-    {
-      "id": "kanmachi63",
-      "venueId": "kanmachi63",
-      "status": "ok",
-      "count": 20,
-      "url": "https://kanmachi63.blog.fc2.com/blog-entry-248.html",
-      "bytes": 13729,
-      "titles": 0
-    },
-    {
-      "id": "kingsbar",
-      "venueId": "kingsbar",
-      "status": "ok",
-      "count": 5,
-      "url": "https://livebar.net/kingsbar/schedule",
-      "bytes": 125612,
-      "titles": 0
-    },
-    {
-      "id": "first",
-      "venueId": "first",
-      "status": "ok",
-      "count": 3,
-      "url": "https://naniaru.com/places/view/first",
-      "bytes": 16800,
-      "titles": 0
-    },
-    {
-      "id": "venus",
-      "venueId": "venus",
-      "status": "ok",
-      "count": 7,
-      "url": "https://www.venus-hk-j.com/liveschedule",
-      "bytes": 1092279,
-      "titles": 0
+      "count": 0
     }
   ]
 }
