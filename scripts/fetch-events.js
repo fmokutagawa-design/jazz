@@ -62,7 +62,7 @@ function parse(id, html, ctx) {
   if (id === 'billboard_yokohama') {
     const out = [];
     const normalized = html.replace(/\\\"/g, '"').replace(/\\\\n/g, ' ');
-    const re = /"block_settings":(\[[\s\S]*?\])([\s\S]*?)(?="block_settings":|$)/g;
+    const re = /"block_settings":(\[[\s\S]*?\]),"holiday":([\s\S]*?)"result_status":"([^"]+)"/g;
     let m;
     while ((m = re.exec(normalized))) {
       const block = m[2];
@@ -72,11 +72,14 @@ function parse(id, html, ctx) {
       if (!date || !eventId || !artist || !date.startsWith(`${ctx.y}-${pad(ctx.m)}`)) continue;
       const detailUrl = `https://www.billboard-live.com/yokohama/show?event_id=${eventId}&date=${date}`;
       const prices = [...m[1].matchAll(/"price":(\d+)/g)].map(x => Number(x[1])).filter(Boolean);
-      const web = /"result_status":"allOK"/.test(block);
+      const web = m[3] === 'allOK';
+      const start = /"play_start":"([^"]+)"/.exec(block)?.[1] || '公式で確認';
+      const startParts = /^(\d{1,2}):(\d{2})$/.exec(start);
+      const inferredOpen = startParts ? `${String((Number(startParts[1]) + 23) % 24).padStart(2, '0')}:${startParts[2]}` : '公式で確認';
       out.push({
         date,
-        open: /"play_open":"([^"]+)"/.exec(block)?.[1] || '公式で確認',
-        start: /"play_start":"([^"]+)"/.exec(block)?.[1] || '公式で確認',
+        open: /"play_open":"([^"]+)"/.exec(block)?.[1] || inferredOpen,
+        start,
         artist: artist.slice(0, 200),
         price: prices.length ? `${Math.min(...prices).toLocaleString('ja-JP')}円〜` : '公式で確認',
         image: null,
