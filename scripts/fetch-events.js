@@ -31,12 +31,15 @@ function reserve(html, ctx, origin) {
   while((m=re.exec(html))){
     const block=m[1], text=strip(block);
     const title=strip(/<span class=["']title["']>([\s\S]*?)<\/span>/i.exec(block)?.[1]||'');
-    const href=/<a[^>]+href=["']([^"']*\/reserve\/schedule\/exec\/\d+)["']/i.exec(block)?.[1]||/<a[^>]+href=["']([^"']*\/jp\/(?:sp\/)?artists\/[^"']+)["']/i.exec(block)?.[1];
-    if(!title||!href)continue;
+    const reservationPath=/<a[^>]+href=["']([^"']*\/reserve\/schedule\/exec\/\d+)["']/i.exec(block)?.[1]||null;
+    const detailPath=/<a[^>]+href=["']([^"']*\/jp\/(?:sp\/)?artists\/[^"']+)["']/i.exec(block)?.[1]||null;
+    if(!title||(!reservationPath&&!detailPath))continue;
+    const reservationUrl=reservationPath?absolute(reservationPath,origin):null;
+    const detailUrl=detailPath?absolute(detailPath,origin):null;
     const days=[...block.matchAll(/<span class=["']day["']>\s*(\d{1,2})\s*<\/span>/gi)].map(x=>+x[1]);
     const open=to24(time(text,'open|開場')), start=to24(time(text,'start|開演'));
     const img=/<img[^>]+src=["']([^"']*\/web_mainte\/img\/event\/[^"']+)["']/i.exec(block)?.[1]||null;
-    for(const day of days)out.push({date:iso(ctx.y,ctx.m,day),open,start,artist:title.slice(0,200),price:price(text),image:img?absolute(img,origin):null,media:[],source:absolute(href,origin)});
+    for(const day of days)out.push({date:iso(ctx.y,ctx.m,day),open,start,artist:title.slice(0,200),price:price(text),image:img?absolute(img,origin):null,media:[],source:reservationUrl||detailUrl,reservationUrl,detailUrl,reservationStatus:reservationUrl?'web':'check'});
   }
   return out;
 }
