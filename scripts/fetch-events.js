@@ -17,12 +17,13 @@ const absolute = (u, base) => { try { return new URL(u, base).href; } catch { re
 const pageImage = (html, base) => {
   const matches = [...String(html || '').matchAll(/<img[^>]+(?:data-lazy|data-src|src)=[^A-Za-z0-9]([^ >]+)/gi)];
   const urls = matches.map(m => absolute(m[1].replace(/[\"']/g, ''), base));
-  return urls.find(u => !/(logo|icon|spinner|loading|calendar|common|header|footer|pickup|banner|svg)/i.test(u)) || null;
+  return urls.find(u => !/(logo|icon|spinner|loading|calendar|common|header|footer|pickup|special|banner|undefined|svg)/i.test(u)) || null;
 };
 const detailImage = (html, base) => {
   const a = /<meta[^>]+(?:property|name)=["'](?:og:image|twitter:image)["'][^>]+content=["']([^"']+)/i.exec(html)?.[1];
   const b = /<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["'](?:og:image|twitter:image)["']/i.exec(html)?.[1];
-  return absolute(a || b, base) || pageImage(html, base);
+  const meta = a || b;
+  return meta && !/(undefined|null)/i.test(meta) ? absolute(meta, base) : pageImage(html, base);
 };
 
 async function get(url) {
@@ -168,16 +169,17 @@ function parse(id, html, ctx) {
     const rows=[]; let failures=0;
     for (const ctx of months) for (const url of urls(ctx.y,ctx.m)) try { const html=await get(url); rows.push(...parse(venueId,html,{...ctx,url})); } catch(e) { failures++; console.error(venueId,url,e.message); }
     const clean=[...new Map(rows.filter(e=>e.date>=today&&e.artist).map(e=>[`${e.date}|${e.artist}|${e.start}`,e])).values()];
+    const replacement = previous.events.filter(e => e.venueId === venueId && e.date >= today);
+    let imageChanged = false;
     if (['billboard_yokohama','first','kingsbar'].includes(venueId)) {
-      const targets=[...new Set(clean.filter(e=>!e.image&&e.source).map(e=>e.source))], images=new Map();
+      const candidates=[...clean,...replacement], targets=[...new Set(candidates.filter(e=>!e.image&&e.source).map(e=>e.source))], images=new Map();
       for(let i=0;i<targets.length;i+=5){
         const batch=targets.slice(i,i+5);
         await Promise.all(batch.map(async url=>{try{const html=await get(url);images.set(url,detailImage(html,url));}catch(e){console.error('image',url,e.message);}}));
       }
-      clean.forEach(e=>{if(!e.image&&images.get(e.source))e.image=images.get(e.source);});
+      candidates.forEach(e=>{const image=images.get(e.source);if(!e.image&&image){e.image=image;imageChanged=true;}});
     }
-    let changed = false;
-    const replacement = previous.events.filter(e => e.venueId === venueId && e.date >= today);
+    let changed = imageChanged;
     for (const ctx of months) {
       const ym = `${ctx.y}-${pad(ctx.m)}`;
       const incoming = clean.filter(e => e.date.startsWith(ym));
