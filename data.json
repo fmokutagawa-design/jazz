@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T05:56:38.834Z",
+  "updatedAt": "2026-08-23T05:57:50.946Z",
   "venues": [
     {
       "id": "wonderwall",
@@ -750,7 +750,7 @@
       "date": "2026-08-30",
       "open": "14:30",
       "start": "15:00",
-      "artist": "ts.ss.山口真文 gt.東海林由孝 b.小牧良平 ds.山崎隼 本日、出演者の都合により",
+      "artist": "ts.ss.山口真文 gt.東海林由孝 b.小牧良平 ds.山崎隼",
       "price": "3,300円",
       "image": null,
       "media": [],
@@ -2355,7 +2355,7 @@
       "date": "2026-09-30",
       "open": "14:30",
       "start": "19:30",
-      "artist": "gt.栗田妙子 ss.ませひろこ ライブ開催の有無 時間変更などホームページ、Facebookでご確認ください。 平日 OPEN**19:00~** 1st 19:30~20:30 2nd 20:45~21:45 CLOSE 22:30 土・日・祝日 OPEN **14:30~** 1st 15:00~16:00 2nd 16:15~17:15 CLOSE 18:00 ミュージックチャージ 3,3",
+      "artist": "gt.栗田妙子 ss.ませひろこ",
       "price": "3,300円",
       "image": null,
       "media": [],
@@ -2480,7 +2480,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 6,
-      "kept": 0
+      "kept": 6
     },
     {
       "venueId": "kanmachi63",
