@@ -1765,103 +1765,28 @@
   ],
   "crawlReports": [
     {
-      "id": "barbarbar",
-      "venueId": "barbarbar",
-      "status": "ok",
-      "count": 7,
-      "url": "https://www.barbarbar.jp/calendar.php",
-      "bytes": 46103,
-      "titles": 0
-    },
-    {
-      "id": "dolphy",
-      "venueId": "dolphy",
-      "status": "ok",
-      "count": 11,
-      "url": "https://dolphy-jazzspot.com/live_schedule.html",
-      "bytes": 22793,
-      "titles": 0
-    },
-    {
-      "id": "bluenote",
       "venueId": "bluenote",
-      "status": "ok",
-      "count": 7,
-      "url": "https://reserve.bluenote.co.jp/reserve/schedule/",
-      "bytes": 101087,
-      "titles": 17
+      "status": "rejected",
+      "count": 16,
+      "kept": 36
     },
     {
-      "id": "bluenote-next",
-      "venueId": "bluenote",
-      "status": "ok",
-      "count": 29,
-      "url": "https://reserve.bluenote.co.jp/reserve/schedule/move/202609/",
-      "bytes": 92363,
-      "titles": 12
-    },
-    {
-      "id": "cottonclub",
       "venueId": "cottonclub",
-      "status": "ok",
-      "count": 7,
-      "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/",
-      "bytes": 101159,
-      "titles": 22
-    },
-    {
-      "id": "cottonclub-next",
-      "venueId": "cottonclub",
-      "status": "ok",
-      "count": 24,
-      "url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/202609/",
-      "bytes": 88374,
-      "titles": 15
-    },
-    {
-      "id": "swing",
-      "venueId": "swing",
-      "status": "ok",
+      "status": "rejected",
       "count": 20,
-      "url": "https://ginzaswing.jp/schedules/?month=2026-09",
-      "bytes": 166224,
-      "titles": 0
+      "kept": 31
     },
     {
-      "id": "kanmachi63",
-      "venueId": "kanmachi63",
-      "status": "ok",
-      "count": 20,
-      "url": "https://kanmachi63.blog.fc2.com/blog-entry-248.html",
-      "bytes": 13729,
-      "titles": 0
-    },
-    {
-      "id": "kingsbar",
       "venueId": "kingsbar",
-      "status": "ok",
-      "count": 5,
-      "url": "https://livebar.net/kingsbar/schedule",
-      "bytes": 125612,
-      "titles": 0
+      "status": "empty",
+      "count": 0,
+      "kept": 5
     },
     {
-      "id": "first",
-      "venueId": "first",
-      "status": "ok",
-      "count": 3,
-      "url": "https://naniaru.com/places/view/first",
-      "bytes": 16800,
-      "titles": 0
-    },
-    {
-      "id": "venus",
-      "venueId": "venus",
-      "status": "ok",
-      "count": 7,
-      "url": "https://www.venus-hk-j.com/liveschedule",
-      "bytes": 1092279,
-      "titles": 0
+      "venueId": "swing",
+      "status": "empty",
+      "count": 0,
+      "kept": 20
     }
   ]
 }
