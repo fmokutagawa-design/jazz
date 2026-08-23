@@ -23,7 +23,7 @@ const detailImage = (html, base) => {
   const a = /<meta[^>]+(?:property|name)=["'](?:og:image|twitter:image)["'][^>]+content=["']([^"']+)/i.exec(html)?.[1];
   const b = /<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["'](?:og:image|twitter:image)["']/i.exec(html)?.[1];
   const meta = a || b;
-  return meta && !/(undefined|null)/i.test(meta) ? absolute(meta, base) : pageImage(html, base);
+  return meta && !/(undefined|null|common\/og-image)/i.test(meta) ? absolute(meta, base) : pageImage(html, base);
 };
 
 async function get(url) {
@@ -172,7 +172,9 @@ function parse(id, html, ctx) {
     const replacement = previous.events.filter(e => e.venueId === venueId && e.date >= today);
     let imageChanged = false;
     if (['billboard_yokohama','first','kingsbar'].includes(venueId)) {
-      const candidates=[...clean,...replacement], targets=[...new Set(candidates.filter(e=>!e.image&&e.source).map(e=>e.source))], images=new Map();
+      const candidates=[...clean,...replacement];
+      candidates.forEach(e=>{if(e.image&&/(undefined|pickup|special|common\/og-image)/i.test(e.image))e.image=null;});
+      const targets=[...new Set(candidates.filter(e=>!e.image&&e.source).map(e=>e.source))], images=new Map();
       for(let i=0;i<targets.length;i+=5){
         const batch=targets.slice(i,i+5);
         await Promise.all(batch.map(async url=>{try{const html=await get(url);images.set(url,detailImage(html,url));}catch(e){console.error('image',url,e.message);}}));
