@@ -144,14 +144,17 @@ function renderVenues(){venueGrid.innerHTML=data.venues.map(v=>{const n=eventCou
 
 function renderCrawl(){
   const rows = data.venues.map(v => {
-    const reported = crawlByVenue.has(v.id) ? crawlByVenue.get(v.id) : null;
-    const shown = eventCount(v.id);
-    const miss = reported === null || shown === 0 || reported !== shown;
-    const label = reported === null ? 'クロール未実施' : (reported === shown ? '一致' : `差分 ${reported - shown}件`);
-    return `<tr class="${miss ? 'miss' : ''}"><td>${v.name}</td><td>${v.status}</td><td class="n">${reported === null ? '—' : reported}</td><td class="n">${shown}</td><td>${label}</td></tr>`;
+    const ym1=`${YEAR_NOW}-${pad2(MONTH_NOW)}`, ym2=`${NEXT_Y}-${pad2(NEXT_M)}`;
+    const n1=data.events.filter(e=>e.venueId===v.id&&e.date.startsWith(ym1)).length;
+    const n2=data.events.filter(e=>e.venueId===v.id&&e.date.startsWith(ym2)).length;
+    const r1=(data.crawlReports||[]).find(r=>r.venueId===v.id&&r.month===ym1);
+    const r2=(data.crawlReports||[]).find(r=>r.venueId===v.id&&r.month===ym2);
+    const miss=n1===0||n2===0;
+    const label=`${r1?.status||'未取得'} / ${r2?.status||'未取得'}`;
+    return `<tr class="${miss?'miss':''}"><td>${v.name}</td><td class="n">${n1}</td><td class="n">${n2}</td><td class="n">${n1+n2}</td><td>${label}</td></tr>`;
   }).join('');
   document.querySelector('#crawlTable').innerHTML =
-    `<thead><tr><th>会場</th><th>状態</th><th>取得件数</th><th>掲載件数</th><th>判定</th></tr></thead><tbody>${rows}</tbody>`;
+    `<thead><tr><th>会場</th><th>${MONTH_NOW}月</th><th>${NEXT_M}月</th><th>計</th><th>取得判定</th></tr></thead><tbody>${rows}</tbody>`;
   const missing = data.venues.filter(v => !crawlByVenue.has(v.id));
   document.querySelector('#crawlNote').textContent =
     missing.length
