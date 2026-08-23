@@ -20,6 +20,9 @@ const pageImage = (html, base) => {
   return urls.find(u => !/(logo|icon|spinner|loading|calendar|common|header|footer|pickup|special|banner|undefined|svg)/i.test(u)) || null;
 };
 const detailImage = (html, base) => {
+  const decoded = String(html || '').replace(/\\\//g, '/');
+  const eventPath = /(?:https?:\/\/[^"' ]+)?\/public\/event_img\/[^"' ]+\.(?:jpe?g|png|webp)/i.exec(decoded)?.[0];
+  if (eventPath) return absolute(eventPath, base);
   const a = /<meta[^>]+(?:property|name)=["'](?:og:image|twitter:image)["'][^>]+content=["']([^"']+)/i.exec(html)?.[1];
   const b = /<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["'](?:og:image|twitter:image)["']/i.exec(html)?.[1];
   const meta = a || b;
@@ -173,7 +176,7 @@ function parse(id, html, ctx) {
     let imageChanged = false;
     if (['billboard_yokohama','first','kingsbar'].includes(venueId)) {
       const candidates=[...clean,...replacement];
-      candidates.forEach(e=>{if(e.image&&/(undefined|pickup|special|common\/og-image)/i.test(e.image))e.image=null;});
+      candidates.forEach(e=>{if(e.image&&/(undefined|pickup|special|common\/og-image|assets\/images\/home)/i.test(e.image))e.image=null;});
       const targets=[...new Set(candidates.filter(e=>!e.image&&e.source).map(e=>e.source))], images=new Map();
       for(let i=0;i<targets.length;i+=5){
         const batch=targets.slice(i,i+5);
