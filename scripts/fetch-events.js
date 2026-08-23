@@ -26,14 +26,17 @@ async function get(url) {
 }
 
 function reserve(html, ctx, origin) {
-  const out = []; const re = /<a[^>]+href=["']([^"']*\/reserve\/schedule\/exec\/\d+)["'][^>]*>[\s\S]*?(?=<a[^>]+href=["'][^"']*\/reserve\/schedule\/exec\/\d+["']|$)/gi; let m;
-  while ((m = re.exec(html))) {
-    const text = strip(m[0]); const dm = new RegExp(`${ctx.y}\\s*[./年 ]\\s*${ctx.m}\\s*[./月 ]\\s*(\\d{1,2})`).exec(text) || new RegExp(`${ctx.m}[./月](\\d{1,2})`).exec(text); if (!dm) continue;
-    let open = time(text, 'open|開場'), start = time(text, 'start|開演');
-    const to24 = t => { const x = /^(\d{1,2}):(\d{2})$/.exec(t); if (!x) return t; let h = +x[1]; if (h < 12) h += 12; return `${h}:${x[2]}`; };
-    const day = Number(dm[1]);
-    const title = text.replace(/^.*?<\/a>/, '').replace(/Music charge[\s\S]*$/i, '').trim() || text.split(/Music charge/i)[0].trim();
-    out.push({ date: iso(ctx.y, ctx.m, day), open: to24(open), start: to24(start), artist: title.slice(0, 200), price: price(text), image: null, media: [], source: absolute(m[1], origin) });
+  const out=[]; const re=/<table class=["']later["']>([\s\S]*?)(?=<table class=["']later["']>|$)/gi; let m;
+  const to24=t=>{const x=/^(\d{1,2}):(\d{2})$/.exec(t);if(!x)return t;let h=+x[1];if(h<12)h+=12;return `${h}:${x[2]}`;};
+  while((m=re.exec(html))){
+    const block=m[1], text=strip(block);
+    const title=strip(/<span class=["']title["']>([\s\S]*?)<\/span>/i.exec(block)?.[1]||'');
+    const href=/<a[^>]+href=["']([^"']*\/reserve\/schedule\/exec\/\d+)["']/i.exec(block)?.[1]||/<a[^>]+href=["']([^"']*\/jp\/(?:sp\/)?artists\/[^"']+)["']/i.exec(block)?.[1];
+    if(!title||!href)continue;
+    const days=[...block.matchAll(/<span class=["']day["']>\s*(\d{1,2})\s*<\/span>/gi)].map(x=>+x[1]);
+    const open=to24(time(text,'open|開場')), start=to24(time(text,'start|開演'));
+    const img=/<img[^>]+src=["']([^"']*\/web_mainte\/img\/event\/[^"']+)["']/i.exec(block)?.[1]||null;
+    for(const day of days)out.push({date:iso(ctx.y,ctx.m,day),open,start,artist:title.slice(0,200),price:price(text),image:img?absolute(img,origin):null,media:[],source:absolute(href,origin)});
   }
   return out;
 }
@@ -46,6 +49,8 @@ const sources = {
   swing: (y,m) => [`https://ginzaswing.jp/schedules/?month=${y}-${pad(m)}`],
   first: (y,m) => [`https://naniaru.com/events/schedule?ba=off&be=off&bp=off&month=${m}&period=0&pid=1000002305&year=${y}`],
   kanmachi63: () => ['https://r.jina.ai/http://kanmachi63.blog.fc2.com/'],
+  wonderwall: () => ['https://wonderwall-yokohama.jp/calendar/'],
+  barbarbar: (y,m) => [`https://www.barbarbar.jp/calendar.php?year=${y}&month=${m}`],
 };
 
 function parse(id, html, ctx) {
@@ -56,8 +61,25 @@ function parse(id, html, ctx) {
     for (const row of html.split(/<tr[^>]*>/i).slice(1)) { const text = strip(row), dm = /^\s*(\d{1,2})\s*\/\s*(\d{1,2})\s*[（(]/.exec(text); if (!dm) continue; const artist = text.replace(/^.*?[）)]/, '').replace(/\d{1,2}[:：]\d{2}\s*(?:open|start)/gi, ' ').replace(/(?:前|当|チャージ).*$/, '').trim(); if (artist && !/^(休演|休み|CLOSE)/.test(artist)) out.push({ date: iso(ctx.y,+dm[1],+dm[2]), open:time(text,'open|開場'), start:time(text,'start|開演'), artist:artist.slice(0,200), price:price(text), image:null, media:[], source:ctx.url }); }
     return out;
   }
+  if (id === 'wonderwall') {
+    const out=[]; const re=/<li[^>]*>\s*<a[^>]+href=["']([^"']+\/schedule\/[^"']+)["'][^>]*>([\s\S]*?)<\/li>/gi; let m;
+    while((m=re.exec(html))){
+      const block=m[2], dm=/<span class=["']day["']>(\d{4})-(\d{2})-(\d{2})<\/span>/i.exec(block);
+      const title=strip(/<h2[^>]*class=["']topTitle["'][^>]*>[\s\S]*?<\/h2>/i.exec(block)?.[0]||'').replace(/^\d{4}-\d{2}-\d{2}/,'').replace(/JAZZ|Original$/,'').trim();
+      if(!dm||+dm[2]!==ctx.m||!title||/^(CLOSE|休)/i.test(title))continue;
+      const text=strip(block), img=/<img[^>]+data-lazy=["']([^"']+)["']/i.exec(block)?.[1]||null;
+      out.push({date:`${dm[1]}-${dm[2]}-${dm[3]}`,open:time(text,'open|開場'),start:time(text,'start|開演'),artist:title.slice(0,200),price:price(text.replace(/MC\s*:/i,'¥')),image:img,media:[],source:absolute(m[1],'https://wonderwall-yokohama.jp')});
+    } return out;
+  }
   if (id === 'barbarbar') {
-    const out=[]; for(const cell of html.split(/<td[^>]*>/i).slice(1)){const dm=/^\s*(?:<[^>]+>\s*)*(\d{1,2})\b/.exec(cell);if(!dm)continue;const text=strip(cell.replace(/^\s*(?:<[^>]+>\s*)*\d{1,2}/,''));if(text)out.push({date:iso(ctx.y,ctx.m,+dm[1]),open:time(text,'open|開場'),start:time(text,'start|開演'),artist:text.slice(0,180),price:price(text),image:null,media:[],source:ctx.url});} return out;
+    const out=[]; const re=/<td([^>]*)>([\s\S]*?)(?=<td|<\/tr>)/gi; let m;
+    while((m=re.exec(html))){
+      const attrs=m[1], body=m[2], y=+(/data-year=["']?(\d{4})/i.exec(attrs)?.[1]||0), mo=+(/data-month=["']?(\d{1,2})/i.exec(attrs)?.[1]||0), day=+(/data-day=["']?(\d{1,2})/i.exec(attrs)?.[1]||0);
+      const title=strip(/<div class=["']calendar-name(?:\s[^"']*)?["']>([\s\S]*?)<\/div>/i.exec(body)?.[1]||'');
+      if(y!==ctx.y||mo!==ctx.m||!day||!title||/(?:休み|休業)/.test(title))continue;
+      const text=strip(body), img=/background-image:\s*url\(['"]?([^'")]+)['"]?\)/i.exec(attrs)?.[1]||null;
+      out.push({date:iso(y,mo,day),open:time(text,'open|開場'),start:time(text,'start|開演'),artist:title.slice(0,180),price:price(text),image:img?absolute(img,'https://www.barbarbar.jp/'):null,media:[],source:ctx.url});
+    } return out;
   }
   if (id === 'kingsbar') {
     const out=[]; const re=/<a[^>]+href=["']([^"']*\/events\/\d+)["'][^>]*>([\s\S]*?)(?=<a[^>]+href=["'][^"']*\/events\/\d+["']|$)/gi;let m;
