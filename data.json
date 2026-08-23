@@ -143,18 +143,18 @@
     {
       "venueId": "billboard_yokohama",
       "month": "2026-08",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 8,
-      "kept": 0
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 8
     },
     {
       "venueId": "billboard_yokohama",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 42,
-      "kept": 0
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 42
     }
   ],
   "events": [
@@ -193,7 +193,7 @@
       "start": "13:30",
       "artist": "太田剣(as) ＆ 石井彰(p) DUO",
       "price": "4000円",
-      "image": null,
+      "image": "https://dolphy-jazzspot.com/img/pickup.gif",
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
@@ -248,7 +248,7 @@
       "start": "公式で確認",
       "artist": "8.23(日) gt.越田 太郎丸 バースデーライブ",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8443.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260823-2/"
     },
@@ -306,7 +306,7 @@
       "start": "公式で確認",
       "artist": "8.24（月）tp.中村 好江cl.後藤 雅広cl.田村 麻紀子p. 後藤 千香",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8446-1.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260824-2/"
     },
@@ -401,7 +401,7 @@
       "start": "公式で確認",
       "artist": "8.25(火) vocal.寿永 アリサ",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8447.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/8-25%e7%81%ab%e3%80%8cvocal-%e5%af%bf%e6%b0%b8-%e3%82%a2%e3%83%aa%e3%82%b5%e3%80%8d/"
     },
@@ -502,7 +502,7 @@
       "start": "19:30",
       "artist": "Jabuticaba 永武幹子(p)加納奈実(as/ss)",
       "price": "4000円",
-      "image": null,
+      "image": "https://dolphy-jazzspot.com/img/pickup.gif",
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
@@ -535,7 +535,7 @@
       "start": "公式で確認",
       "artist": "8.26(水)tp.筒井 政明レッドシェーカーズvo.絵馬 優 子",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8448.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260826-2/"
     },
@@ -638,7 +638,7 @@
       "start": "公式で確認",
       "artist": "8.27(木)cl.北村 英治",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8624.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260827-2/"
     },
@@ -739,7 +739,7 @@
       "start": "19:30",
       "artist": "BCG REPUBLIC ハクエイ・キム(p) 杉本智和(b) 本田珠也(ds)",
       "price": "4500円",
-      "image": null,
+      "image": "https://dolphy-jazzspot.com/img/special.gif",
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
@@ -772,7 +772,7 @@
       "start": "公式で確認",
       "artist": "8.28(金)vln.寺井 尚子 p.北島 直樹b.仲石 裕介 dr.浅井 翔太",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8452-1.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260831-2/"
     },
@@ -845,7 +845,7 @@
       "start": "19:30",
       "artist": "高遠彩子(vo)グループ 福島久雄(g) 会田桃子(vln) ヤヒロトモヒロ(perc) 宮崎佳彦(cl)",
       "price": "4500円",
-      "image": null,
+      "image": "https://dolphy-jazzspot.com/img/special.gif",
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
@@ -867,7 +867,7 @@
       "start": "公式で確認",
       "artist": "8.29(土)as.守谷 美由貴",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8453.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260829-2/"
     },
@@ -1062,7 +1062,7 @@
       "start": "19:30",
       "artist": "古野光昭(b) スペシャルカルテット 曽我部泰紀(sax)魚返明未(p)柳沼佑育(ds)",
       "price": "4000円",
-      "image": null,
+      "image": "https://dolphy-jazzspot.com/img/special.gif",
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
@@ -1132,7 +1132,7 @@
       "start": "公式で確認",
       "artist": "9.1(火)vib.松山 夏子 ゲストvo.佐藤ひびき",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8415.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260901-2/"
     },
@@ -1219,7 +1219,7 @@
       "start": "公式で確認",
       "artist": "9.2(水) vln.牧山 純子ｸﾗﾋﾞｵｰﾗ.折重 由美子",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8205.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260902-2/"
     },
@@ -1317,7 +1317,7 @@
       "start": "19:00",
       "artist": "9.3(木)vln.平松 加奈 p.奥山 勝 b.箭島 裕治 per.海沼 正利",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8080.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260904-2/"
     },
@@ -1401,7 +1401,7 @@
       "start": "19:00",
       "artist": "9.4(金) 薗田憲一とデキシーキング",
       "price": "￥4,500",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8812.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260904-3/"
     },
@@ -1524,7 +1524,7 @@
       "start": "公式で確認",
       "artist": "9.5(土) 「セルジオ・メンデス・トリビュート」",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2025/09/IMG_4331.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260905-3/"
     },
@@ -1981,7 +1981,7 @@
       "start": "公式で確認",
       "artist": "9.10(木) 大井貴司 & Super Vibration",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8808.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260910-2/"
     },
@@ -2093,7 +2093,7 @@
       "start": "公式で確認",
       "artist": "9.11(金)cl.北村 英治 cl.谷口 英治",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8258.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260911-2/"
     },
@@ -2216,7 +2216,7 @@
       "start": "公式で確認",
       "artist": "9.12 (土) The Violin Muse vln.川井 郁子",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8425.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260912-2/"
     },
@@ -2390,7 +2390,7 @@
       "start": "公式で確認",
       "artist": "9.14(月)tp.中村 好江 cl.田村 麻紀子",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8427.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260914-2/"
     },
@@ -2463,7 +2463,7 @@
       "start": "19:00",
       "artist": "9.15(火) vo.飯田 さつき",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8501.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260915-2/"
     },
@@ -2575,7 +2575,7 @@
       "start": "公式で確認",
       "artist": "9.16(水)cl.花岡 詠二スヰングオールスターズ",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8084.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260916-2/"
     },
@@ -2676,7 +2676,7 @@
       "start": "公式で確認",
       "artist": "9.17(木) dr.サバオ 渡辺 vo.鈴木 史子",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/02/IMG_6150.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260917-2/"
     },
@@ -2774,7 +2774,7 @@
       "start": "公式で確認",
       "artist": "9.18(金) dr.八城 邦義",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8725.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260918-2/"
     },
@@ -2886,7 +2886,7 @@
       "start": "19:00",
       "artist": "9.19(土)dr.大槻 カルタ 英宣",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/05/IMG_6845.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260919-2/"
     },
@@ -3288,7 +3288,7 @@
       "start": "公式で確認",
       "artist": "9.24(木)cl.北村 英治",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8085.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260924-2/"
     },
@@ -3383,7 +3383,7 @@
       "start": "公式で確認",
       "artist": "9.25(金) p.遠藤 律子",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/01/IMG_5735.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260925-2/"
     },
@@ -3506,7 +3506,7 @@
       "start": "公式で確認",
       "artist": "9.26(土) vo.黒岩 静枝",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8426.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260926-2/"
     },
@@ -3737,7 +3737,7 @@
       "start": "19:00",
       "artist": "9.28(月) cl.熊倉 未佐子",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2025/08/IMG_3746.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260928-2/"
     },
@@ -3838,7 +3838,7 @@
       "start": "公式で確認",
       "artist": "9.29(火) vo.鶴丸 はるか",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8624-1.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260929-2/"
     },
@@ -3914,7 +3914,7 @@
       "start": "19:30",
       "artist": "向井伸子(vo) TRIO 愛川聡(g)福井亜実(p)",
       "price": "4000円",
-      "image": null,
+      "image": "https://dolphy-jazzspot.com/img/ico_ya_mo1.png",
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
@@ -3984,7 +3984,7 @@
       "start": "未掲載"
     }
   ],
-  "updatedAt": "2026-08-23T08:19:25.284Z",
+  "updatedAt": "2026-08-23T08:52:16.501Z",
   "venues": [
     {
       "area": "near",
