@@ -67,8 +67,10 @@ function parse(id, html, ctx) {
     const rows=[]; let failures=0;
     for (const ctx of months) for (const url of urls(ctx.y,ctx.m)) try { const html=await get(url); rows.push(...parse(venueId,html,{...ctx,url})); } catch(e) { failures++; console.error(venueId,url,e.message); }
     const clean=[...new Map(rows.filter(e=>e.date>=today&&e.artist).map(e=>[`${e.date}|${e.artist}`,e])).values()];
-    if (clean.length) fresh.set(venueId,clean);
-    reports.push({venueId,status:clean.length ? (failures ? 'partial' : 'ok') : 'empty',count:clean.length});
+    const oldCount = previous.events.filter(e => e.venueId === venueId && e.date >= today).length;
+    const plausible = clean.length > 0 && (oldCount === 0 || clean.length >= Math.ceil(oldCount * 0.8));
+    if (plausible) fresh.set(venueId,clean);
+    reports.push({venueId,status:plausible ? (failures ? 'partial' : 'ok') : (clean.length ? 'rejected' : 'empty'),count:clean.length,kept:oldCount});
   }
   const untouched = previous.events.filter(e => !fresh.has(e.venueId) && e.date >= today);
   const events = [...untouched, ...[...fresh.entries()].flatMap(([venueId, rows]) => rows.map(e => ({venueId,...e})))].sort((a,b)=>a.date.localeCompare(b.date)||a.venueId.localeCompare(b.venueId));
