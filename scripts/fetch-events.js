@@ -62,7 +62,7 @@ function parse(id, html, ctx) {
   if (id === 'billboard_yokohama') {
     const out = [];
     const normalized = html.replace(/\\\"/g, '"').replace(/\\\\n/g, ' ');
-    const re = /"block_settings":(\[[\s\S]*?\]),"holiday":([\s\S]*?)"result_status":"([^"]+)"/g;
+    const re = /"block_settings":(\[[\s\S]*?\])([\s\S]*?)(?="block_settings":|$)/g;
     let m;
     while ((m = re.exec(normalized))) {
       const block = m[2];
@@ -72,7 +72,7 @@ function parse(id, html, ctx) {
       if (!date || !eventId || !artist || !date.startsWith(`${ctx.y}-${pad(ctx.m)}`)) continue;
       const detailUrl = `https://www.billboard-live.com/yokohama/show?event_id=${eventId}&date=${date}`;
       const prices = [...m[1].matchAll(/"price":(\d+)/g)].map(x => Number(x[1])).filter(Boolean);
-      const web = m[3] === 'allOK';
+      const web = /"result_status":"allOK"/.test(block);
       out.push({
         date,
         open: /"play_open":"([^"]+)"/.exec(block)?.[1] || '公式で確認',
