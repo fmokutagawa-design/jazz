@@ -143,18 +143,18 @@
     {
       "venueId": "billboard_yokohama",
       "month": "2026-08",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 7,
-      "kept": 8
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 7
     },
     {
       "venueId": "billboard_yokohama",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 41,
-      "kept": 42
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 41
     }
   ],
   "events": [
@@ -3956,7 +3956,7 @@
       "start": "未掲載"
     }
   ],
-  "updatedAt": "2026-08-23T08:16:32.915Z",
+  "updatedAt": "2026-08-23T08:17:59.479Z",
   "venues": [
     {
       "area": "near",
