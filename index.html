@@ -450,10 +450,22 @@ try {
 async function loadPublishedData(btn) {
   if (btn) { btn.disabled = true; btn.textContent = '読込中…'; }
   try {
-    const res = await fetch('./data.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const latest = await res.json();
-    if (!latest || !Array.isArray(latest.events)) throw new Error('データ形式エラー');
+    const urls = [
+      './data.json?ts=' + Date.now(),
+      'https://raw.githubusercontent.com/fmokutagawa-design/jazz/main/data.json?ts=' + Date.now()
+    ];
+    let latest = null;
+    let lastError = null;
+    for (const url of urls) {
+      try {
+        const res = await fetch(url, { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        latest = await res.json();
+        if (!latest || !Array.isArray(latest.events)) throw new Error('データ形式エラー');
+        break;
+      } catch (e) { lastError = e; }
+    }
+    if (!latest) throw lastError || new Error('公開データ取得失敗');
     data.events = normalizeEvents(latest.events);
     data.crawlReports = latest.crawlReports || [];
     data.coverageStatus = latest.coverageStatus || data.coverageStatus || {};
@@ -461,8 +473,10 @@ async function loadPublishedData(btn) {
     rebuildCrawlIndex();
     renderEvents(); renderVenues(); renderCrawl(); renderUpdatedAt();
   } catch (e) {
-    progressEl.hidden = false;
-    progressEl.innerHTML = '<b class="ng">公開データを読み込めませんでした。内蔵データを表示します。</b>';
+    if (btn) {
+      progressEl.hidden = false;
+      progressEl.innerHTML = '<b class="ng">再読込できませんでした。現在の内蔵データはそのまま表示しています。</b>';
+    }
   } finally {
     if (btn) { btn.disabled = false; btn.textContent = '公開データを再読込'; }
   }
