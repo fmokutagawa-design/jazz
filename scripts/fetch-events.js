@@ -10,7 +10,7 @@ const month = Number(today.slice(5, 7));
 const months = [{ y: year, m: month }, month === 12 ? { y: year + 1, m: 1 } : { y: year, m: month + 1 }];
 const pad = n => String(n).padStart(2, '0');
 const iso = (y, m, d) => `${y}-${pad(m)}-${pad(d)}`;
-const strip = s => (s || '').replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&times;/g, '×').replace(/&#0?39;/g, "'").replace(/\s+/g, ' ').trim();
+const strip = s => (s || '').replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&yen;/gi, '¥').replace(/&quot;/g, '"').replace(/&times;/g, '×').replace(/&#0?39;/g, "'").replace(/\s+/g, ' ').trim();
 const time = (s, key) => { const m = new RegExp(`(?:${key})\\D{0,4}(\\d{1,2})[:：](\\d{2})|(\\d{1,2})[:：](\\d{2})\\D{0,4}(?:${key})`, 'i').exec(s || ''); return m ? `${Number(m[1] || m[3])}:${m[2] || m[4]}` : '公式で確認'; };
 const price = s => (/(?:[¥￥]\s?[\d,]{3,}|[\d,]{3,}\s?円)/.exec(s || '') || ['公式で確認'])[0].replace(/\s/g, '');
 const absolute = (u, base) => { try { return new URL(u, base).href; } catch { return u; } };
@@ -65,6 +65,26 @@ async function enrichSwing(rows) {
         console.error('swing detail', event.source, e.message);
         return event;
       }
+    }));
+    enriched.push(...results);
+  }
+  return enriched;
+}
+
+async function enrichWonderwall(rows) {
+  const enriched=[];
+  for(let i=0;i<rows.length;i+=5){
+    const results=await Promise.all(rows.slice(i,i+5).map(async event=>{
+      try{
+        const html=await get(event.source);
+        const detail=/<div class=["']normalText["']>([\s\S]*?)<\/div>/i.exec(html)?.[1]||html;
+        const text=strip(detail), slot=k=>{const m=new RegExp(`\\b${k}(?:\\s*SET)?\\D{0,5}(\\d{1,2})[:：](\\d{2})`,'i').exec(text);return m?`${Number(m[1])}:${m[2]}`:'公式で確認';}, first=slot('1st'), second=slot('2nd');
+        const lineup=strip(detail.split(/\bOPEN\b|\b1st\b|\bSTART\b|開場|開演/i)[0]).slice(0,240);
+        const notices=[...detail.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)].map(m=>strip(m[1])).filter(Boolean).join(' ');
+        const reservation=/<p[^>]+class=["']rsrvBtn["'][^>]*>[\s\S]*?<a[^>]+href=["']([^"']+)/i.exec(html)?.[1]?.replace(/&#038;/g,'&')||null;
+        const eventImage=/<div[^>]+class=["'][^"']*(?:slider|mainVisual)[^"']*["'][\s\S]*?<img[^>]+(?:data-lazy|data-src|src)=["']([^"']+)/i.exec(html)?.[1]||null;
+        return {...event,open:time(text,'open|開場'),start:first,secondStart:second!=='公式で確認'?second:undefined,lineup:lineup||undefined,note:notices||undefined,price:price(text),image:eventImage?absolute(eventImage,event.source):(detailImage(html,event.source)||event.image),media:youtubeMedia(html),reservationUrl:reservation,detailUrl:event.source,reservationStatus:reservation?'web':'check'};
+      }catch(e){console.error('wonderwall detail',event.source,e.message);return event;}
     }));
     enriched.push(...results);
   }
@@ -168,6 +188,7 @@ function parse(id, html, ctx) {
       const text=strip(detailHtml), img=/background-image:\s*url\(['"]?([^'")]+)['"]?\)/i.exec(attrs)?.[1]||null;
       const firstMatch=/\b1st\D{0,4}(\d{1,2})[:：](\d{2})/i.exec(text);
       const firstStart=firstMatch?`${Number(firstMatch[1])}:${firstMatch[2]}`:time(text,'start|開演');
+      const secondMatch=/\b2nd\D{0,4}(\d{1,2})[:：](\d{2})/i.exec(text), secondStart=secondMatch?`${Number(secondMatch[1])}:${secondMatch[2]}`:'公式で確認';
       const lineup=strip(detailHtml.split(/\bOPEN\b|\b1st\b|\bSTART\b|開場|開演/i)[0]).slice(0,240);
       const reservable=/ご予約へ進む/.test(detailHtml), reservationUrl=reservable?'https://www.barbarbar.jp/schedule.html#sec7':null;
       out.push({date:iso(y,mo,day),open:time(text,'open|開場'),start:firstStart,secondStart:secondStart!=='公式で確認'?secondStart:undefined,artist:title.slice(0,180),lineup:lineup||undefined,price:price(text),image:img?absolute(img,'https://www.barbarbar.jp/'):null,media:[],source:ctx.url,reservationUrl,detailUrl:ctx.url,reservationStatus:reservable?'web':'check'});
@@ -207,7 +228,7 @@ function parse(id, html, ctx) {
   const fresh = new Map(), reports = [];
   for (const [venueId, urls] of Object.entries(sources)) {
     const rows=[]; let failures=0;
-    for (const ctx of months) for (const url of urls(ctx.y,ctx.m)) try { const html=await get(url); let parsed=parse(venueId,html,{...ctx,url}); if(venueId==='swing')parsed=await enrichSwing(parsed); rows.push(...parsed); } catch(e) { failures++; console.error(venueId,url,e.message); }
+    for (const ctx of months) for (const url of urls(ctx.y,ctx.m)) try { const html=await get(url); let parsed=parse(venueId,html,{...ctx,url}); if(venueId==='swing')parsed=await enrichSwing(parsed); if(venueId==='wonderwall')parsed=await enrichWonderwall(parsed); rows.push(...parsed); } catch(e) { failures++; console.error(venueId,url,e.message); }
     const clean=[...new Map(rows.filter(e=>e.date>=today&&e.artist).map(e=>[`${e.date}|${e.artist}|${e.start}`,e])).values()];
     const replacement = previous.events.filter(e => e.venueId === venueId && e.date >= today);
     let imageChanged = false;

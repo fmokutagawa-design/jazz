@@ -212,7 +212,7 @@ const resolveDate = (mo, da) => {
 const strip = s => (s || '')
   .replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ')
   .replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, ' ')
-  .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&times;/g, '×')
+  .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&yen;/gi, '¥').replace(/&times;/g, '×')
   .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'")
   .replace(/\s+/g, ' ').trim();
 const CONFIRM = '公式で確認';
@@ -271,6 +271,23 @@ async function enrichSwingRows(rows) {
       } catch { return event; }
     }));
     enriched.push(...results);
+  }
+  return enriched;
+}
+
+async function enrichWonderwallRows(rows) {
+  const enriched=[];
+  for(let i=0;i<rows.length;i+=4){
+    const results=await Promise.all(rows.slice(i,i+4).map(async event=>{
+      try{
+        const html=await fetchVia(event.source), detail=/<div class=["']normalText["']>([\s\S]*?)<\/div>/i.exec(html)?.[1]||html, text=strip(detail);
+        const slot=k=>{const m=new RegExp(`\\b${k}(?:\\s*SET)?\\D{0,5}(\\d{1,2})[:：](\\d{2})`,'i').exec(text);return m?`${Number(m[1])}:${m[2]}`:CONFIRM;}, first=slot('1st'), second=slot('2nd');
+        const lineup=strip(detail.split(/\bOPEN\b|\b1st\b|\bSTART\b|開場|開演/i)[0]).slice(0,240);
+        const notices=[...detail.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)].map(m=>strip(m[1])).filter(Boolean).join(' ');
+        const reservation=/<p[^>]+class=["']rsrvBtn["'][^>]*>[\s\S]*?<a[^>]+href=["']([^"']+)/i.exec(html)?.[1]?.replace(/&#038;/g,'&')||null;
+        return {...event,open:grabTime(text,'open|開場'),start:first,secondStart:second!==CONFIRM?second:undefined,lineup:lineup||undefined,note:notices||undefined,price:priceOf(text),reservationUrl:reservation,detailUrl:event.source,reservationStatus:reservation?'web':'check'};
+      }catch{return event;}
+    })); enriched.push(...results);
   }
   return enriched;
 }
@@ -440,6 +457,7 @@ async function refreshAll(btn) {
           const html = await fetchVia(url);
           let rows = p.parse(html, { y, m, url });
           if (v.id === 'swing') rows = await enrichSwingRows(rows);
+          if (v.id === 'wonderwall') rows = await enrichWonderwallRows(rows);
           const seen = new Set();
           for (const r of rows) {
             if (!r.date || !r.artist) continue;
