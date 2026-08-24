@@ -162,12 +162,17 @@
       "venueId": "barbarbar",
       "date": "2026-08-24",
       "open": "18:30",
-      "start": "公式で確認",
+      "start": "19:30",
       "artist": "※Vincent Herring & Erena Terakubo “Alto Madnes Japan Tour 2026”",
       "price": "8,800円",
       "image": "https://www.barbarbar.jp/calendar/uploads/bb7cfff723ae79120fbb51a3de459a2b.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "secondStart": "21:00",
+      "lineup": "as:Vincent Herring as:寺久保エレナ ds:小林陽一 pf:David Bryant bs:粟谷 巧",
+      "reservationUrl": null,
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "reservationStatus": "check"
     },
     {
       "venueId": "dolphy",
@@ -230,12 +235,17 @@
       "venueId": "barbarbar",
       "date": "2026-08-25",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "■The Canarry",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/96f6fcefb33eeecf0927a063347af189.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "secondStart": "21:00",
+      "lineup": "vo:ダーナ vo:Sachico pf:清水ゆかり bs:河原秀夫 perc:仙道さおり vln:帆足 彩",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -331,12 +341,17 @@
       "venueId": "barbarbar",
       "date": "2026-08-26",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "●平賀マリカ&大野智子Trio",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/52d74b5ee06621657e563a4a3acceeab.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "secondStart": "21:00",
+      "lineup": "vo:平賀マリカ pf:大野智子 bs:増原 巖 ds:吉岡大輔",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -466,12 +481,17 @@
       "venueId": "barbarbar",
       "date": "2026-08-27",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "●松村聖華&岩崎大輔Trio",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/b9082d6d44b5fdc4bb26f29041d18c8c.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "secondStart": "21:00",
+      "lineup": "vo:松村聖華 pf:岩崎大輔 bs:吉田 豊 ds:井上功一",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -575,12 +595,17 @@
       "venueId": "barbarbar",
       "date": "2026-08-28",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "■寿永アリサ ラテンワールドミュージックセッション",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/7584aa21b482b1c2b99d04df35f27817.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "secondStart": "21:00",
+      "lineup": "vo:寿永アリサ pf:大山泰輝 vln:太田恵資 gt:高木潤一 bs:ヤマトヤスオ",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -715,12 +740,17 @@
       "venueId": "barbarbar",
       "date": "2026-08-29",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "■MAYA&松尾明Quartet",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/b5a052fd89786a071eeae554ee0c2baf.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "secondStart": "21:00",
+      "lineup": "vo:MAYA ds:松尾 明 pf:二村希一 bs:新岡 誠 sax:高橋康廣",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -938,12 +968,17 @@
       "venueId": "barbarbar",
       "date": "2026-08-31",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "●Sachico&藤野聡Trio",
       "price": "公式で確認",
       "image": "https://www.barbarbar.jp/calendar/uploads/71dec74e54f304b4bc61e362ba7721c0.jpg",
       "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8"
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "secondStart": "21:00",
+      "lineup": "vo:Sachico pf:藤野 聡 bs:吉川大介 ds:小林 慎",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
