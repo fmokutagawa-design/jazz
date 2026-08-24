@@ -3,6 +3,7 @@ const path = require('path');
 
 const root = path.resolve(__dirname, '..');
 const dataPath = path.join(root, 'data.json');
+const naruImageDir = path.join(root, 'assets', 'naru');
 const previous = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
 const year = Number(today.slice(0, 4));
@@ -42,6 +43,26 @@ async function get(url) {
   const charset = /charset=["']?([\w-]+)/i.exec(head)?.[1] || res.headers.get('content-type')?.match(/charset=([\w-]+)/i)?.[1] || 'utf-8';
   const encoding = /shift[_-]?jis|sjis|windows-31j/i.test(charset) ? 'shift_jis' : /euc-?jp/i.test(charset) ? 'euc-jp' : 'utf-8';
   return new TextDecoder(encoding).decode(buf);
+}
+
+async function cacheNaruImages(rows) {
+  fs.mkdirSync(naruImageDir, {recursive:true});
+  for (const event of rows) {
+    if (!event.image || !/^http:\/\/ocha-naru\.com\//i.test(event.image)) continue;
+    const fullUrl = event.image.replace(/\/s_([^/]+)$/i, '/$1');
+    const rawName = new URL(fullUrl).pathname.split('/').pop() || `${event.date}.jpg`;
+    const fileName = rawName.replace(/[^A-Za-z0-9._-]/g, '_'), target = path.join(naruImageDir, fileName);
+    try {
+      const res = await fetch(fullUrl, {headers:{'user-agent':'Mozilla/5.0 jazz-live-guide/1.0'},signal:AbortSignal.timeout(20000)});
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const buf=Buffer.from(await res.arrayBuffer());
+      let width=0,height=0;
+      for(let i=2;i<buf.length-9;){if(buf[i]!==0xff){i++;continue;}const marker=buf[i+1],len=buf.readUInt16BE(i+2);if([0xc0,0xc1,0xc2,0xc3,0xc5,0xc6,0xc7,0xc9,0xca,0xcb,0xcd,0xce,0xcf].includes(marker)){height=buf.readUInt16BE(i+5);width=buf.readUInt16BE(i+7);break;}i+=2+len;}
+      if(Math.max(width,height)<300)throw new Error(`small ${width}x${height}`);
+      fs.writeFileSync(target,buf); event.image=`assets/naru/${fileName}`;
+    } catch (e) { event.image=null; console.error('naru full image', fullUrl, e.message); }
+  }
+  return rows;
 }
 
 async function enrichSwing(rows) {
@@ -277,6 +298,7 @@ function parse(id, html, ctx) {
     const rows=[]; let failures=0;
     for (const ctx of months) for (const url of urls(ctx.y,ctx.m)) try { const html=await get(url); let parsed=parse(venueId,html,{...ctx,url}); if(venueId==='swing')parsed=await enrichSwing(parsed); if(venueId==='wonderwall')parsed=await enrichWonderwall(parsed); rows.push(...parsed); } catch(e) { failures++; console.error(venueId,url,e.message); }
     const clean=[...new Map(rows.filter(e=>e.date>=today&&e.artist).map(e=>[`${e.date}|${e.artist}|${e.start}`,e])).values()];
+    if (venueId === 'naru') await cacheNaruImages(clean);
     const replacement = previous.events.filter(e => e.venueId === venueId && e.date >= today);
     let imageChanged = false;
     if (['billboard_yokohama','billboard_tokyo','first','kingsbar'].includes(venueId)) {
