@@ -164,8 +164,13 @@ function parse(id, html, ctx) {
       const attrs=m[1], body=m[2], y=+(/data-year=["']?(\d{4})/i.exec(attrs)?.[1]||0), mo=+(/data-month=["']?(\d{1,2})/i.exec(attrs)?.[1]||0), day=+(/data-day=["']?(\d{1,2})/i.exec(attrs)?.[1]||0);
       const title=strip(/<div class=["']calendar-name(?:\s[^"']*)?["']>([\s\S]*?)<\/div>/i.exec(body)?.[1]||'');
       if(y!==ctx.y||mo!==ctx.m||!day||!title||/(?:休み|休業)/.test(title))continue;
-      const text=strip(body), img=/background-image:\s*url\(['"]?([^'")]+)['"]?\)/i.exec(attrs)?.[1]||null;
-      out.push({date:iso(y,mo,day),open:time(text,'open|開場'),start:time(text,'start|開演'),artist:title.slice(0,180),price:price(text),image:img?absolute(img,'https://www.barbarbar.jp/'):null,media:[],source:ctx.url});
+      const detailHtml=/<div class=["']calendar-article-content["']>([\s\S]*?)<\/div>\s*<\/div>\s*<\/div>/i.exec(body)?.[1]||body;
+      const text=strip(detailHtml), img=/background-image:\s*url\(['"]?([^'")]+)['"]?\)/i.exec(attrs)?.[1]||null;
+      const firstMatch=/\b1st\D{0,4}(\d{1,2})[:：](\d{2})/i.exec(text);
+      const firstStart=firstMatch?`${Number(firstMatch[1])}:${firstMatch[2]}`:time(text,'start|開演');
+      const lineup=strip(detailHtml.split(/\bOPEN\b|\b1st\b|\bSTART\b|開場|開演/i)[0]).slice(0,240);
+      const reservable=/ご予約へ進む/.test(detailHtml), reservationUrl=reservable?'https://www.barbarbar.jp/schedule.html#sec7':null;
+      out.push({date:iso(y,mo,day),open:time(text,'open|開場'),start:firstStart,secondStart:secondStart!=='公式で確認'?secondStart:undefined,artist:title.slice(0,180),lineup:lineup||undefined,price:price(text),image:img?absolute(img,'https://www.barbarbar.jp/'):null,media:[],source:ctx.url,reservationUrl,detailUrl:ctx.url,reservationStatus:reservable?'web':'check'});
     } return out;
   }
   if (id === 'kingsbar') {
