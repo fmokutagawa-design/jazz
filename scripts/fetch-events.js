@@ -122,11 +122,13 @@ const sources = {
   wonderwall: () => ['https://wonderwall-yokohama.jp/calendar/'],
   barbarbar: (y,m) => [`https://www.barbarbar.jp/calendar.php?year=${y}&month=${m}`],
   billboard_yokohama: (y,m) => [`https://www.billboard-live.com/yokohama/schedules?month=${y}-${pad(m)}-01`],
+  billboard_tokyo: (y,m) => [`https://www.billboard-live.com/tokyo/schedules?month=${y}-${pad(m)}-01`],
 };
 
 function parse(id, html, ctx) {
-  if (id === 'billboard_yokohama') {
+  if (id === 'billboard_yokohama' || id === 'billboard_tokyo') {
     const out = [];
+    const city = id === 'billboard_tokyo' ? 'tokyo' : 'yokohama';
     const normalized = html.replace(/\\\"/g, '"').replace(/\\\\n/g, ' ');
     const re = /"block_settings":(\[[\s\S]*?\]),"holiday":([\s\S]*?)"result_status":"([^"]+)"/g;
     let m;
@@ -136,7 +138,7 @@ function parse(id, html, ctx) {
       const eventId = /"event_id":"([^"]+)"/.exec(block)?.[1];
       const artist = /"title_name":"([^"]+)"/.exec(block)?.[1];
       if (!date || !eventId || !artist || !date.startsWith(`${ctx.y}-${pad(ctx.m)}`)) continue;
-      const detailUrl = `https://www.billboard-live.com/yokohama/show?event_id=${eventId}&date=${date}`;
+      const detailUrl = `https://www.billboard-live.com/${city}/show?event_id=${eventId}&date=${date}`;
       const prices = [...m[1].matchAll(/"price":(\d+)/g)].map(x => Number(x[1])).filter(Boolean);
       const web = m[3] === 'allOK';
       const imageMatch = new RegExp('dtl_' + eventId + '_1_[^\" ]+\\.(?:jpe?g|png|webp)', 'i').exec(normalized);
@@ -232,7 +234,7 @@ function parse(id, html, ctx) {
     const clean=[...new Map(rows.filter(e=>e.date>=today&&e.artist).map(e=>[`${e.date}|${e.artist}|${e.start}`,e])).values()];
     const replacement = previous.events.filter(e => e.venueId === venueId && e.date >= today);
     let imageChanged = false;
-    if (['billboard_yokohama','first','kingsbar'].includes(venueId)) {
+    if (['billboard_yokohama','billboard_tokyo','first','kingsbar'].includes(venueId)) {
       const candidates=[...clean,...replacement];
       candidates.forEach(e=>{if(e.image&&/(undefined|pickup|special|common\/og-image|assets\/images\/home)/i.test(e.image))e.image=null;});
       const targets=[...new Set(candidates.filter(e=>!e.image&&e.source).map(e=>e.source))], images=new Map();

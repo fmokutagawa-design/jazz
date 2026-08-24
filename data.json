@@ -73,7 +73,7 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 20,
+      "count": 22,
       "kept": 20
     },
     {
@@ -155,6 +155,22 @@
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
       "kept": 42
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "month": "2026-08",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 5,
+      "kept": 0
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "month": "2026-09",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 23,
+      "kept": 0
     }
   ],
   "events": [
@@ -172,6 +188,20 @@
       "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
       "reservationUrl": null,
       "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-08-24",
+      "open": "20:00",
+      "start": "21:00",
+      "artist": "ONE PARK Special Band  〜 Billboard Live Exclusive Session 〜",
+      "price": "7,400円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21554/detail/dtl_ev-21554_1_1782273749.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21554&date=2026-08-24",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21554&date=2026-08-24",
       "reservationStatus": "check"
     },
     {
@@ -251,6 +281,20 @@
       "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
       "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
       "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-08-25",
+      "open": "20:00",
+      "start": "21:00",
+      "artist": "ALI JUNGLE LOVE 2026 at Billboard Live TOKYO",
+      "price": "6,900円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21524/detail/dtl_ev-21524_1_1781413262.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21524&date=2026-08-25",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21524&date=2026-08-25",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21524&date=2026-08-25",
       "reservationStatus": "web"
     },
     {
@@ -362,6 +406,20 @@
       "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
       "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
       "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=8",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-08-26",
+      "open": "19:30",
+      "start": "20:30",
+      "artist": "伊藤銀次 来年いよいよ55周年！ THANKS from 銀次 前年祭ライヴ with 杉真理\\u0026EPO",
+      "price": "8,900円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21453/detail/dtl_ev-21453_1_1778646033.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21453&date=2026-08-26",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21453&date=2026-08-26",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21453&date=2026-08-26",
       "reservationStatus": "web"
     },
     {
@@ -636,6 +694,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-08-28",
+      "open": "19:30",
+      "start": "20:30",
+      "artist": "矢井田 瞳 Acoustic Live Tour 『DOOR to DOORS』 Billboard Live Special",
+      "price": "8,800円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21436/detail/dtl_ev-21435_1_1777614445.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21436&date=2026-08-28",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21436&date=2026-08-28",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21436&date=2026-08-28",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-08-28",
       "open": "17:00",
@@ -897,6 +969,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-08-30",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "Laura day romance Billboard Live 魔法、４度も",
+      "price": "6,900円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21405/detail/dtl_ev-21405_1_1787132561.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21405&date=2026-08-30",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21405&date=2026-08-30",
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-08-30",
       "open": "15:00",
@@ -1140,7 +1226,12 @@
       "artist": "9.1(火)vib.松山 夏子 ゲストvo.佐藤ひびき",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8817.jpeg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=IwtR2XiSeH4"
+        }
+      ],
       "source": "https://ginzaswing.jp/20260901-2/",
       "secondStart": "20:30"
     },
@@ -1271,6 +1362,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-03",
+      "open": "20:00",
+      "start": "21:00",
+      "artist": "Billboard Live presents THE ROOTS Japan Tour 2026",
+      "price": "17,900円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21434/detail/dtl_ev-21434_1_1777548954.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21434&date=2026-09-03",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21434&date=2026-09-03",
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-09-03",
       "open": "16:30",
@@ -1375,6 +1480,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-04",
+      "open": "20:00",
+      "start": "21:00",
+      "artist": "Billboard Live presents THE ROOTS Japan Tour 2026",
+      "price": "17,900円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21434/detail/dtl_ev-21434_1_1777548954.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21434&date=2026-09-04",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21434&date=2026-09-04",
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-04",
       "open": "17:00",
@@ -1462,6 +1581,20 @@
       "lineup": "吉岡大輔(Ds) 太田剣(sax) 中嶋錠ニ(p) 安ヵ川大樹(B)",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/4(%E9%87%91)%E5%90%89%E5%B2%A1%E5%A4%A7%E8%BC%94SpecialQuartet",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e5%90%89%e5%b2%a1%e5%a4%a7%e8%bc%94specialquartet/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-05",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "堺正章 to MAGNETS",
+      "price": "15,300円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21551/detail/dtl_ev-21547_1_1782184183.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21551&date=2026-09-05",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21551&date=2026-09-05",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21551&date=2026-09-05",
       "reservationStatus": "web"
     },
     {
@@ -1623,6 +1756,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-06",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "伊東歌詞太郎 Billboard Live Tour 2026 「JPOP」",
+      "price": "8,000円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21440/detail/dtl_ev-21438_1_1777623132.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21440&date=2026-09-06",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21440&date=2026-09-06",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21440&date=2026-09-06",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-09-06",
       "open": "14:00",
@@ -1728,6 +1875,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-07",
+      "open": "19:30",
+      "start": "20:30",
+      "artist": "CTA Danny Seraphine California Transit Authority plays Chicago",
+      "price": "11,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21521/detail/dtl_ev-21521_1_1781234116.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21521&date=2026-09-07",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21521&date=2026-09-07",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21521&date=2026-09-07",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-07",
       "open": "17:00",
@@ -1776,6 +1937,18 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "swing",
+      "date": "2026-09-07",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "9.7(月)dr.大隅 寿男 as.大隅 卓也",
+      "price": "￥4,500",
+      "image": "http://ginzaswing.jp/wp22/wp-content/uploads/2022/12/000014ogp.png",
+      "media": [],
+      "source": "https://ginzaswing.jp/20260907-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -1937,6 +2110,18 @@
       "source": "https://naniaru.com/events/view/14695"
     },
     {
+      "venueId": "swing",
+      "date": "2026-09-09",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "9.9(水)tb.佐野 聡 gt.越田 太郎丸 p.加藤 実 b.山根 幸洋",
+      "price": "公式で確認",
+      "image": "http://ginzaswing.jp/wp22/wp-content/uploads/2022/12/000014ogp.png",
+      "media": [],
+      "source": "https://ginzaswing.jp/20260909-2/",
+      "secondStart": "20:30"
+    },
+    {
       "venueId": "venus",
       "date": "2026-09-09",
       "open": "公式画像で確認",
@@ -1962,6 +2147,20 @@
       "lineup": "高木祥太(b) 井上銘(g) 福森康(ds)",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/9(%E6%B0%B4)%E9%AB%98%E6%9C%A8%E7%A5%A5%E5%A4%AA%C3%97%E4%BA%95%E4%B8%8A%E9%8A%98%C3%97%E7%A6%8F%E6%A3%AE%E5%BA%B7",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e9%ab%98%e6%9c%a8%e7%a5%a5%e5%a4%aax%e4%ba%95%e4%b8%8a%e9%8a%98x%e7%a6%8f%e6%a3%ae%e5%ba%b7-2/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-10",
+      "open": "16:00",
+      "start": "17:00",
+      "artist": "阿川泰子 CROSSOVER NIGHT 2026",
+      "price": "5,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21471/detail/dtl_ev-21471_1_1779358847.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21471&date=2026-09-10",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21471&date=2026-09-10",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21471&date=2026-09-10",
       "reservationStatus": "web"
     },
     {
@@ -2088,6 +2287,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-11",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": "PES Billboard Live “A LA CARTE”",
+      "price": "8,800円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21570/detail/dtl_ev-21570_1_1782966595.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21570&date=2026-09-11",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21570&date=2026-09-11",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21570&date=2026-09-11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-09-11",
       "open": "14:00",
@@ -2204,6 +2417,20 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/11(%E9%87%91)HigoTakumiLatinTrio%E3%80%9Cfeat.SasakiMakoto%E3%80%9C",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/higotakumilatintrio%e3%80%9cfeat-sasakimakoto%e3%80%9c/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-12",
+      "open": "15:00",
+      "start": "16:00",
+      "artist": "由紀さおり at Billboard Live 「Once Upon a Melody」",
+      "price": "6,000円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21566/detail/dtl_ev-21566_1_1785484818.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21566&date=2026-09-12",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21566&date=2026-09-12",
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -2347,6 +2574,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-13",
+      "open": "15:00",
+      "start": "16:00",
+      "artist": "Furui Riho Billboard Live Tour 2026 -The Garden-",
+      "price": "12,300円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21377/detail/dtl_ev-21377_1_1775212265.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21377&date=2026-09-13",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21377&date=2026-09-13",
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-13",
       "open": "17:00",
@@ -2406,6 +2647,20 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-14",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": "小室哲哉 Tetsuya Komuro \\\\",
+      "price": "8,300円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21560/detail/dtl_ev-21560_1_1782874905.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21560&date=2026-09-14",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21560&date=2026-09-14",
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -2515,6 +2770,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-15",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": "小室哲哉 Tetsuya Komuro \\\\",
+      "price": "12,300円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21560/detail/dtl_ev-21560_1_1782874905.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21560&date=2026-09-15",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21560&date=2026-09-15",
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-15",
       "open": "17:00",
@@ -2591,6 +2860,20 @@
       "lineup": "JoeRosenberg(S.Sax.) 永武幹子(p) 落合康介(b) 森下啓(ds)",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/15(%E7%81%AB)JoeRosenberg",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/joerosenberg-tour2026/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-16",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": "ROCKIN’ QUARTET 第8章 ROY（THE BAWDIES） \\u0026 NAOTO QUARTET",
+      "price": "12,300円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21484/detail/dtl_ev-21484_1_1779774177.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21484&date=2026-09-16",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21484&date=2026-09-16",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21484&date=2026-09-16",
       "reservationStatus": "web"
     },
     {
@@ -2780,7 +3063,7 @@
       "start": "19:00",
       "artist": "9.17(木) dr.サバオ 渡辺 vo.鈴木 史子",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8084.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8906.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260917-2/",
       "secondStart": "20:30"
@@ -2812,6 +3095,20 @@
       "note": "本公演は入れ替えなしの公演です",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/17(%E6%9C%A8)FourVoicesfeat.ZARUKAME",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/fourvoices-feat-zarukame-2/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-18",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": "Chozen Lee Billboard Live Special",
+      "price": "7,900円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21519/detail/dtl_ev-21519_1_1781231429.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21519&date=2026-09-18",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21519&date=2026-09-18",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21519&date=2026-09-18",
       "reservationStatus": "web"
     },
     {
@@ -2885,7 +3182,7 @@
       "start": "19:00",
       "artist": "9.18(金) dr.八城 邦義",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/02/IMG_6150.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8907.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260918-2/",
       "secondStart": "20:30"
@@ -2916,6 +3213,20 @@
       "lineup": "末廣彩風(vln) 飯島奏人(vc) 武本和大(p) 佐藤潤一(b)",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/18(%E9%87%91)%E6%9C%AB%E5%BB%A3%E5%BD%A9%E9%A2%A8%E5%BC%A6%E6%A5%BD%E5%A5%8F%E3%82%AB%E3%83%AB%E3%83%86%E3%83%83%E3%83%88",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e6%9c%ab%e5%bb%a3%e5%bd%a9%e9%a2%a8%e5%bc%a6%e6%a5%bd%e5%a5%8f%e3%82%ab%e3%83%ab%e3%83%86%e3%83%83%e3%83%88-3/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-19",
+      "open": "14:30",
+      "start": "15:30",
+      "artist": "MHRJ（マハラージャン） 5th Anniversary Billboard Live Tour 「人間 vs 機械最終決戦」",
+      "price": "6,200円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21531/detail/dtl_ev-21530_1_1781664390.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21531&date=2026-09-19",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21531&date=2026-09-19",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21531&date=2026-09-19",
       "reservationStatus": "web"
     },
     {
@@ -3003,7 +3314,7 @@
       "start": "19:00",
       "artist": "9.19(土)dr.大槻 カルタ 英宣",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8725.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8905.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260919-2/",
       "secondStart": "20:30"
@@ -3023,6 +3334,20 @@
       "note": "※本公演は満席となっております ※キャンセル待ちをご希望の方はHP内の貸切・採用などお問い合わせ→キャンセル待ち受付を選んでご入力ください",
       "reservationUrl": "https://tiget.net/events/499278",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/soundtype-live-at-wonderwall-yokohama/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-20",
+      "open": "14:30",
+      "start": "15:30",
+      "artist": "YOUR SONG IS GOOD “Good Mood”",
+      "price": "6,900円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21515/detail/dtl_ev-21514_1_1781076800.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21515&date=2026-09-20",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21515&date=2026-09-20",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21515&date=2026-09-20",
       "reservationStatus": "web"
     },
     {
@@ -3114,6 +3439,20 @@
       "media": [],
       "source": "https://www.venus-hk-j.com/liveschedule",
       "note": "公式スケジュール画像から読み取り"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-21",
+      "open": "14:00",
+      "start": "15:00",
+      "artist": "MUUDO \\\\",
+      "price": "6,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21431/detail/dtl_ev-21430_1_1777520338.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21431&date=2026-09-21",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21431&date=2026-09-21",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21431&date=2026-09-21",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -3217,6 +3556,20 @@
       "note": "公式スケジュール画像から読み取り"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-22",
+      "open": "15:00",
+      "start": "16:00",
+      "artist": "XinU “From One to Collective - 2026” at Billboard Live",
+      "price": "7,000円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21512/detail/dtl_ev-21512_1_1781056302.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21512&date=2026-09-22",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21512&date=2026-09-22",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21512&date=2026-09-22",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-09-22",
       "open": "15:00",
@@ -3295,6 +3648,20 @@
       "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-23",
+      "open": "15:00",
+      "start": "16:00",
+      "artist": "石橋凌 Ryo Ishibashi with JAZZY SOUL",
+      "price": "6,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21467/detail/dtl_ev-21467_1_1779329754.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21467&date=2026-09-23",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21467&date=2026-09-23",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21467&date=2026-09-23",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-23",
       "open": "15:30",
@@ -3343,6 +3710,20 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-24",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": "Crystal Kay Billboard Live Tour 2026",
+      "price": "8,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21557/detail/dtl_ev-21557_1_1782291998.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21557&date=2026-09-24",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21557&date=2026-09-24",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21557&date=2026-09-24",
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -3412,7 +3793,7 @@
       "start": "19:00",
       "artist": "9.24(木)cl.北村 英治",
       "price": "￥6,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/05/IMG_6845.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8903.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260924-2/",
       "secondStart": "20:30"
@@ -3448,6 +3829,20 @@
       "lineup": "渚まいこ(P) 江上友彦(b) 吉岡大輔(Ds) 青木知生(sax) 藤橋万記(Per)",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/24(%E6%9C%A8)%E6%B8%9A%E3%81%BE%E3%81%84%E3%81%93%E3%83%88%E3%83%AA%E3%82%AA%2B2+%E3%80%9C%E3%81%AA%E3%81%8E%E3%81%BE%E3%81%84%E8%AA%95%E7%94%9F%E6%9C%88%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A9%E3%82%A4%E3%83%96%E3%80%9C",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e6%b8%9a%e3%81%be%e3%81%84%e3%81%93%e3%83%88%e3%83%aa%e3%82%aa2-%e3%80%9c%e3%81%aa%e3%81%8e%e3%81%be%e3%81%84%e8%aa%95%e7%94%9f%e6%9c%88%e3%82%b9%e3%83%9a%e3%82%b7%e3%83%a3%e3%83%ab%e3%83%a9/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-25",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": "Crystal Kay Billboard Live Tour 2026",
+      "price": "9,100円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21557/detail/dtl_ev-21557_1_1782291998.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21557&date=2026-09-25",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21557&date=2026-09-25",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21557&date=2026-09-25",
       "reservationStatus": "web"
     },
     {
@@ -3518,7 +3913,7 @@
       "start": "19:00",
       "artist": "9.25(金) p.遠藤 律子",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8085.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8902.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260925-2/",
       "secondStart": "20:30"
@@ -3647,7 +4042,7 @@
       "start": "19:00",
       "artist": "9.26(土) vo.黒岩 静枝",
       "price": "￥6,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/01/IMG_5735.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8900.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260926-2/",
       "secondStart": "20:30"
@@ -3694,6 +4089,20 @@
       "lineup": "河原秀夫(B) 岡淳(ts,fl) 福田重男(p) 奥平真吾(ds)",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/26(%E5%9C%9F/Dinner)%E6%B2%B3%E5%8E%9F%E7%A7%80%E5%A4%AB%E3%82%AB%E3%83%AB%E3%83%86%E3%83%83%E3%83%88",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e6%b2%b3%e5%8e%9f%e7%a7%80%e5%a4%ab%e3%82%ab%e3%83%ab%e3%83%86%e3%83%83%e3%83%88-3/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-27",
+      "open": "14:00",
+      "start": "15:00",
+      "artist": "在日ファンク at Billboard Live TOKYO 2026",
+      "price": "9,100円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21580/detail/dtl_ev-21580_1_1783298257.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21580&date=2026-09-27",
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21580&date=2026-09-27",
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21580&date=2026-09-27",
       "reservationStatus": "web"
     },
     {
@@ -3802,6 +4211,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-28",
+      "open": "14:00",
+      "start": "15:00",
+      "artist": "LE VELVETS",
+      "price": "7,000円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21461/detail/dtl_ev-21461_1_1779109946.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-28",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-28",
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-09-28",
       "open": "16:30",
@@ -3894,7 +4317,7 @@
       "start": "19:00",
       "artist": "9.28(月) cl.熊倉 未佐子",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8426.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8904.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260928-2/",
       "secondStart": "20:30"
@@ -3926,6 +4349,20 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/28(%E6%9C%88)WWY+JOSEI+QUARTET",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/wwy-josei-quartet-4/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-09-29",
+      "open": "14:00",
+      "start": "15:00",
+      "artist": "LE VELVETS",
+      "price": "10,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21461/detail/dtl_ev-21461_1_1779109946.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-29",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-29",
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -4001,7 +4438,7 @@
       "start": "19:00",
       "artist": "9.29(火) vo.鶴丸 はるか",
       "price": "￥6,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2025/08/IMG_3746.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8897.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260929-2/",
       "secondStart": "20:30"
@@ -4159,7 +4596,7 @@
       "start": "未掲載"
     }
   ],
-  "updatedAt": "2026-08-24T10:06:41.572Z",
+  "updatedAt": "2026-08-24T14:23:59.660Z",
   "venues": [
     {
       "area": "near",
@@ -4272,6 +4709,16 @@
       "status": "公式日程あり",
       "tone": "#9c3c30",
       "url": "https://ginzaswing.jp/"
+    },
+    {
+      "area": "tokyo",
+      "areaLabel": "六本木・赤坂",
+      "id": "billboard_tokyo",
+      "name": "Billboard Live TOKYO",
+      "station": "六本木駅 徒歩約4分",
+      "status": "公式日程あり",
+      "tone": "#1b3154",
+      "url": "https://www.billboard-live.com/tokyo/schedules"
     },
     {
       "area": "tokyo",
