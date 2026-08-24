@@ -74,7 +74,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 22,
-      "kept": 20
+      "kept": 22
     },
     {
       "venueId": "first",
@@ -159,10 +159,10 @@
     {
       "venueId": "billboard_tokyo",
       "month": "2026-08",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 5,
-      "kept": 0
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 5
     },
     {
       "venueId": "billboard_tokyo",
@@ -170,7 +170,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 23,
-      "kept": 0
+      "kept": 23
     }
   ],
   "events": [
@@ -4596,7 +4596,7 @@
       "start": "未掲載"
     }
   ],
-  "updatedAt": "2026-08-24T14:23:59.660Z",
+  "updatedAt": "2026-08-24T14:29:24.210Z",
   "venues": [
     {
       "area": "near",
