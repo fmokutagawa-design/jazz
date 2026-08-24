@@ -12,6 +12,7 @@ const pad = n => String(n).padStart(2, '0');
 const iso = (y, m, d) => `${y}-${pad(m)}-${pad(d)}`;
 const strip = s => (s || '').replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&yen;/gi, '¥').replace(/&quot;/g, '"').replace(/&times;/g, '×').replace(/&#0?39;/g, "'").replace(/\s+/g, ' ').trim();
 const time = (s, key) => { const m = new RegExp(`(?:${key})\\D{0,4}(\\d{1,2})[:：](\\d{2})|(\\d{1,2})[:：](\\d{2})\\D{0,4}(?:${key})`, 'i').exec(s || ''); return m ? `${Number(m[1] || m[3])}:${m[2] || m[4]}` : '公式で確認'; };
+const afterTime = (s, key) => { const m = new RegExp(`(?:${key})\\D{0,8}(\\d{1,2})[:：](\\d{2})`, 'i').exec(s || ''); return m ? `${Number(m[1])}:${m[2]}` : '公式で確認'; };
 const price = s => (/(?:[¥￥]\s?[\d,]{3,}|[\d,]{3,}\s?円)/.exec(s || '') || ['公式で確認'])[0].replace(/\s/g, '');
 const absolute = (u, base) => { try { return new URL(u, base).href; } catch { return u; } };
 const pageImage = (html, base) => {
@@ -123,9 +124,53 @@ const sources = {
   barbarbar: (y,m) => [`https://www.barbarbar.jp/calendar.php?year=${y}&month=${m}`],
   billboard_yokohama: (y,m) => [`https://www.billboard-live.com/yokohama/schedules?month=${y}-${pad(m)}-01`],
   billboard_tokyo: (y,m) => [`https://www.billboard-live.com/tokyo/schedules?month=${y}-${pad(m)}-01`],
+  pitinn: (y,m) => [m === month ? 'http://pit-inn.com/schedule/' : 'http://pit-inn.com/next-schedule/'],
+  bodyandsoul: (y,m) => [`https://bodyandsoul.co.jp/schedule?sy=${y}&sm=${pad(m)}`],
+  jzbrat: (y,m) => [`https://www.jzbrat.com/liveinfo/${y}/${pad(m)}/index.html`],
+  alfie: (y,m) => [`https://alfie.tokyo/schedule/${y}${pad(m)}.html`],
+  naru: (y,m) => [m === month ? 'http://ocha-naru.com/schedule/' : 'http://ocha-naru.com/schedule-2/'],
+  sometime: (y,m) => [m === month ? 'https://www.sometime.co.jp/sometime/live.html' : `https://www.sometime.co.jp/sometime/live${y}${pad(m)}.html`],
 };
 
 function parse(id, html, ctx) {
+  if (id === 'pitinn') {
+    const out=[];
+    for(const block of html.split(/<div class=["']day_box["']>/i).slice(1)){
+      const dm=/<li class=["']date["']>\s*(\d{1,2})\/(\d{1,2})/i.exec(block), artist=strip(/<div class=["']day_name["']>([\s\S]*?)<\/div>/i.exec(block)?.[1]||'');
+      if(!dm||+dm[1]!==ctx.m||!artist||/(?:夏休み|休業|休演|close|off)/i.test(artist))continue;
+      const detail=/<a[^>]+href=["']([^"']*artist_live_info[^"']+)/i.exec(block)?.[1]||ctx.url;
+      const img=/<img[^>]+data-src=["']([^"']+)/i.exec(block)?.[1]||/<noscript>[\s\S]*?<img[^>]+src=["']([^"']+)/i.exec(block)?.[1]||null;
+      const title=strip(/<div class=["']day_title["']>([\s\S]*?)<\/div>/i.exec(block)?.[1]||''), lineup=strip(/<div class=["']day_member["']>([\s\S]*?)<\/div>/i.exec(block)?.[1]||'');
+      out.push({date:iso(ctx.y,+dm[1],+dm[2]),open:afterTime(strip(block),'open|開場'),start:afterTime(strip(block),'start|開演'),artist:[artist,title].filter(Boolean).join(' — ').slice(0,200),lineup:lineup||undefined,price:price(strip(block)),image:img?absolute(img,ctx.url):null,media:[],source:absolute(detail,ctx.url),detailUrl:absolute(detail,ctx.url),reservationUrl:null,reservationStatus:'check'});
+    } return out;
+  }
+  if (id === 'bodyandsoul') {
+    const out=[];
+    for(const block of html.split(/<div class=["']event-archive[^"']*["']>/i).slice(1)){
+      const mo=+(strip(/event-arc-month["'][^>]*>([\s\S]*?)<\/div>/i.exec(block)?.[1]||'').match(/\d+/)?.[0]||0), day=+(strip(/event-arc-day["'][^>]*>([\s\S]*?)<\/div>/i.exec(block)?.[1]||'')||0);
+      const title=strip(/event-arc-title["'][^>]*>([\s\S]*?)<\/h2>/i.exec(block)?.[1]||''), detail=/<h2 class=["']event-arc-title["']>[\s\S]*?<a[^>]+href=["']([^"']+)/i.exec(block)?.[1]||ctx.url;
+      if(mo!==ctx.m||!day||!title)continue;
+      const text=strip(block), img=/<div class=["']event-arc-cover["']>[\s\S]*?<img[^>]+src=["']([^"']+)/i.exec(block)?.[1]||null;
+      const second=afterTime(text,'2nd');
+      out.push({date:iso(ctx.y,mo,day),open:afterTime(text,'open|開場'),start:afterTime(text,'1st|start|開演'),secondStart:second!=='公式で確認'?second:undefined,artist:title.slice(0,200),price:price(text),image:img?absolute(img,ctx.url):null,media:[],source:absolute(detail,ctx.url),detailUrl:absolute(detail,ctx.url),reservationUrl:absolute(detail,ctx.url),reservationStatus:'web'});
+    } return out;
+  }
+  if (id === 'jzbrat') {
+    const out=[]; const re=/<div class=["']pkg["'] id=["'](\d{4})(\d{2})(\d{2})["']>([\s\S]*?)(?=<div class=["']pkg["'] id=["']\d{8}["']|$)/gi; let m;
+    while((m=re.exec(html))){if(+m[2]!==ctx.m)continue;const block=m[4],artist=strip(/<h5>([\s\S]*?)<\/h5>/i.exec(block)?.[1]||'');if(!artist||/PRIVATE|OFF/i.test(artist))continue;const text=strip(block),img=/<p class=["']img["']>[\s\S]*?<img[^>]+src=["']([^"']+)/i.exec(block)?.[1]||null,second=afterTime(text,'2nd');const url=`https://www.jzbrat.com/liveinfo/${m[1]}/${m[2]}/index.html#${m[1]}${m[2]}${m[3]}`;out.push({date:`${m[1]}-${m[2]}-${m[3]}`,open:afterTime(text,'open|開場'),start:afterTime(text,'start|開演'),secondStart:second!=='公式で確認'?second:undefined,artist:artist.slice(0,200),price:price(text),image:img?absolute(img,url):null,media:[],source:url,detailUrl:url,reservationUrl:url,reservationStatus:'web'});} return out;
+  }
+  if (id === 'alfie') {
+    const out=[]; const re=/<p[^>]*>([\s\S]*?)<\/p>/gi; let p;
+    while((p=re.exec(html))){const text=strip(p[1]),eventImage=pageImage(p[1],ctx.url);for(const line of text.split(/(?=\b\d{1,2}\s*\([a-z]{3}\))/i)){const dm=/^(\d{1,2})\s*\([a-z]{3}\)\s*(.*)$/i.exec(line);if(!dm||/^(close|off)\b/i.test(dm[2]))continue;const artist=dm[2].replace(/[¥￥]\s?[\d,]+.*$/,'').trim();if(artist)out.push({date:iso(ctx.y,ctx.m,+dm[1]),open:'18:45',start:'19:15',artist:artist.slice(0,200),price:price(dm[2]),image:eventImage,media:[],source:ctx.url});}} return out;
+  }
+  if (id === 'naru') {
+    const out=[]; const table=new RegExp(`<table[^>]+tablepress-${String(ctx.y).slice(2)}${pad(ctx.m)}["'][\\s\\S]*?<\\/table>`,'i').exec(html)?.[0]||html;
+    for(const row of table.split(/<tr[^>]*>/i).slice(1)){const cells=[...row.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)].map(x=>x[1]);if(cells.length<3)continue;const day=+(strip(cells[0]).match(/\d{1,2}/)?.[0]||0),artist=strip(cells[2]);if(!day||!artist||/^(PRIVATE|OFF|TBA|カレー)/i.test(artist))continue;const daytime=/DAY LIVE/i.test(artist),img=/<img[^>]+src=["']([^"']+)/i.exec(cells[1])?.[1]||null,detail=/<a[^>]+href=["']([^"']+)/i.exec(cells[2])?.[1]||ctx.url;out.push({date:iso(ctx.y,ctx.m,day),open:daytime?'13:30':'18:00',start:daytime?'14:00':'19:00',secondStart:daytime?'15:30':'20:30',artist:artist.replace(/DAY\s*[-–]?\s*LIVE/ig,'').trim().slice(0,200),price:'公式で確認',image:img?absolute(img,ctx.url):null,media:[],source:absolute(detail,ctx.url),detailUrl:absolute(detail,ctx.url),reservationUrl:'http://ocha-naru.com/reservation/',reservationStatus:'web'});} return out;
+  }
+  if (id === 'sometime') {
+    const out=[]; const blocks=[...html.matchAll(/<p class=["'] c-body["']>([\s\S]*?)<\/p>/gi)].map(m=>m[1]);
+    for(let i=0;i<blocks.length;i++){const text=strip(blocks[i]),dm=new RegExp(`^${pad(ctx.m)}\\.(\\d{2})\\s+\\w+\\s*(昼の部)?`,'i').exec(text);if(!dm)continue;const daytime=!!dm[2],artist=text.replace(/^\d{2}\.\d{2}\s+\w+\s*(?:昼の部)?\s*2set/i,'').replace(/✴︎?\s*Charge[\s\S]*$/i,'').trim();if(!artist)continue;const nearby=html.slice(Math.max(0,html.indexOf(blocks[i])-1800),html.indexOf(blocks[i])),img=[...nearby.matchAll(/<img[^>]+src=["']([^"']+)/gi)].at(-1)?.[1]||null;out.push({date:iso(ctx.y,ctx.m,+dm[1]),open:daytime?'12:00':'18:00',start:daytime?'13:00':'19:00',secondStart:daytime?'14:30':'20:30',artist:artist.slice(0,200),price:price(text.replace(/yen/i,'円')),image:img?absolute(img,ctx.url):null,media:[],source:ctx.url,reservationUrl:null,reservationStatus:'check'});} return out;
+  }
   if (id === 'billboard_yokohama' || id === 'billboard_tokyo') {
     const out = [];
     const city = id === 'billboard_tokyo' ? 'tokyo' : 'yokohama';
@@ -249,7 +294,8 @@ function parse(id, html, ctx) {
       const ym = `${ctx.y}-${pad(ctx.m)}`;
       const incoming = clean.filter(e => e.date.startsWith(ym));
       const existing = replacement.filter(e => e.date.startsWith(ym));
-      const plausible = incoming.length > 0 && (existing.length === 0 || incoming.length >= Math.ceil(existing.length * 0.8));
+      const directSchedule = ['pitinn','bodyandsoul','jzbrat','alfie','naru','sometime'].includes(venueId);
+      const plausible = incoming.length > 0 && (directSchedule || existing.length === 0 || incoming.length >= Math.ceil(existing.length * 0.8));
       if (plausible) {
         for (let i = replacement.length - 1; i >= 0; i--) if (replacement[i].date.startsWith(ym)) replacement.splice(i, 1);
         replacement.push(...incoming); changed = true;

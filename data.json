@@ -167,10 +167,106 @@
     {
       "venueId": "billboard_tokyo",
       "month": "2026-09",
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 23
+    },
+    {
+      "venueId": "pitinn",
+      "month": "2026-08",
       "status": "ok",
       "reason": "取得済み",
-      "count": 23,
-      "kept": 23
+      "count": 5,
+      "kept": 5
+    },
+    {
+      "venueId": "pitinn",
+      "month": "2026-09",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 30,
+      "kept": 30
+    },
+    {
+      "venueId": "bodyandsoul",
+      "month": "2026-08",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 8,
+      "kept": 8
+    },
+    {
+      "venueId": "bodyandsoul",
+      "month": "2026-09",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 27,
+      "kept": 27
+    },
+    {
+      "venueId": "jzbrat",
+      "month": "2026-08",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 7,
+      "kept": 7
+    },
+    {
+      "venueId": "jzbrat",
+      "month": "2026-09",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 25,
+      "kept": 25
+    },
+    {
+      "venueId": "alfie",
+      "month": "2026-08",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 6,
+      "kept": 6
+    },
+    {
+      "venueId": "alfie",
+      "month": "2026-09",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 25,
+      "kept": 25
+    },
+    {
+      "venueId": "naru",
+      "month": "2026-08",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 6,
+      "kept": 6
+    },
+    {
+      "venueId": "naru",
+      "month": "2026-09",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 21,
+      "kept": 21
+    },
+    {
+      "venueId": "sometime",
+      "month": "2026-08",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 10,
+      "kept": 10
+    },
+    {
+      "venueId": "sometime",
+      "month": "2026-09",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 37,
+      "kept": 37
     }
   ],
   "events": [
@@ -205,6 +301,21 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-08-24",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《グレース･マーヤ 弾き語りクァルテット》",
+      "price": "￥4,800",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/04/2604112-768x512-1-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260824",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260824",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260824",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "dolphy",
       "date": "2026-08-24",
       "open": "18:30",
@@ -216,6 +327,20 @@
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-08-24",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "80s J-PopとJazzの邂逅『Milllions of Colors Ⅱ』レコ発売ライブ",
+      "price": "￥5,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/b14ef4735cb65989f6044964e7a27e012c0043aa-thumb-160xauto-14397.jpeg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260824",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260824",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260824",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-08-24",
       "open": "19:00",
@@ -225,6 +350,20 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-08-24",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "梶原 まり子（vo） 永武 幹子（p） 米木 康志（b） 本田 珠也（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20385/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787386500077",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -266,6 +405,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSejP4h36Yj8uAacGD94XiRDAnlP4nhAGyXQ9isnS-UhWso7Tw/viewform?usp=pp_url&entry.1675391905=8/24(%E6%9C%88)%E4%BA%95%E4%B8%8A%E9%99%BD%E4%BB%8B%E3%83%88%E3%83%AA%E3%82%AA",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e4%ba%95%e4%b8%8a%e9%99%bd%e4%bb%8b%e3%83%88%e3%83%aa%e3%82%aa/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-08-25",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 秋元直子(vo) クリヤ・マコト(pf) 楠井五月(b) 大槻カルタ英宣(ds)",
+      "price": "￥6600",
+      "image": "https://alfie.tokyo/schedule/liveReport/20250718.jpg",
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202608.html"
     },
     {
       "venueId": "barbarbar",
@@ -312,6 +462,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-08-25",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《豊秀彩華リーダークァルテット》",
+      "price": "￥4,800",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/04/26040421-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260825",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260825",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260825",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-08-25",
       "open": "17:00",
@@ -337,6 +502,20 @@
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-08-25",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "ランデル洋子 5thアルバム\"Windmills\"発売記念ライブ",
+      "price": "￥8,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/04/27502690c52742ecbbc27ce672034d40df567bbd-thumb-160xauto-14120.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260825",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260825",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260825",
+      "reservationStatus": "web"
+    },
+    {
       "artist": "ロック＆ブルース・ジャムセッション",
       "date": "2026-08-25",
       "image": null,
@@ -346,6 +525,35 @@
       "source": "https://livebar.net/kingsbar/events/3531",
       "start": "18:30",
       "venueId": "kingsbar"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-08-25",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "佐々木梨子 as 壷阪健登 p 高橋陸 b 中村海斗 ds 菊地立起 tp",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2026/07/s_rikosasaki.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-08-25",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "故セシル・モンローの誕生日に贈る追悼&友情LIVE 秋山 一将（g） 山田 丈造（tp） 山本 拓真（p） 高梨 道生（b） 井上 功一（ds）",
+      "price": "3,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20388/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787386500077",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -391,6 +599,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSejP4h36Yj8uAacGD94XiRDAnlP4nhAGyXQ9isnS-UhWso7Tw/viewform?usp=pp_url&entry.1675391905=8/25(%E7%81%AB)AmberGlow%2BBig2",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/amberglowbig2/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-08-26",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 井上銘(g) 伊藤勇司(b) 小松伸之(ds)",
+      "price": "￥5500",
+      "image": "https://alfie.tokyo/liveReport/2019/DSC04000.jpg",
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202608.html"
     },
     {
       "venueId": "barbarbar",
@@ -465,6 +684,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-08-26",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《Kotomi 3on3 Live》",
+      "price": "￥4,800",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2025/02/25021015-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260826",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260826",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260826",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-08-26",
       "open": "17:00",
@@ -501,6 +735,20 @@
       "source": "https://naniaru.com/events/view/14796"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-08-26",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "濱瀬元彦 LIVE at JZ Brat vol.7",
+      "price": "￥6,600",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/04/81cf364addd8ac8e529a2812924f1d6e4da2cc02-thumb-160xauto-14094.jpeg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260826",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260826",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260826",
+      "reservationStatus": "web"
+    },
+    {
       "artist": "誰でも参加できるジャムセッション",
       "date": "2026-08-26",
       "image": null,
@@ -510,6 +758,35 @@
       "source": "https://livebar.net/kingsbar/events/3533",
       "start": "18:30",
       "venueId": "kingsbar"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-08-26",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "A JAZZ DIALOGUE 濱田省吾 ds 横原由梨子 ts 野本晴美 p 駒野逸美 tb 古野光昭 b",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2026/03/s_jazzdialogue.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/post-recommend/jazzdialogue/",
+      "detailUrl": "http://ocha-naru.com/post-recommend/jazzdialogue/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-08-26",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "紗理（vo） 瀬田 創太（p） 寺尾 陽介（b） 吉良 創太（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20391/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787386500077",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -553,6 +830,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-08-27",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 松岡杏奈(pf) 横原由梨子(ts) 佐藤潤一(b)",
+      "price": "￥5500",
+      "image": "https://alfie.tokyo/liveReport/2025/A9_02329.jpg",
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202608.html"
+    },
+    {
       "venueId": "barbarbar",
       "date": "2026-08-27",
       "open": "18:00",
@@ -583,6 +871,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-08-27",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《フロントページ オーケストラ》 定期公演",
+      "price": "¥5,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/06/2606253-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260827",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260827",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260827",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "dolphy",
       "date": "2026-08-27",
       "open": "18:30",
@@ -605,6 +908,21 @@
       "source": "https://naniaru.com/events/view/14551"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-08-27",
+      "open": "15:00",
+      "start": "16:00",
+      "secondStart": "18:30",
+      "artist": "「国府弘子 plays 国府弘子 vol.13」中川ヨウ produce vol.74 ～Hiroko's Birthday Celebration～",
+      "price": "￥7,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/04/79a7b79f83421600ee83623f1bc994a59e575064-thumb-160xauto-14131.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260827",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260827",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260827",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-08-27",
       "open": "19:00",
@@ -625,6 +943,50 @@
       "source": "https://livebar.net/kingsbar/events/3534",
       "start": "15:00",
       "venueId": "kingsbar"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-08-27",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "榎本有希 sax 太田卓真 p 堀内正隆 b 竹内大貴 ds 森本隆寛 g",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2021/12/s_enomoto.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-08-27",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "永武幹子 Special Trio",
+      "lineup": "永武幹子(P)落合康介(B)本田珠也(Ds)",
+      "price": "￥3,300",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/06/f32d43eeb5b094c03ac406a21a1514fe.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260827nagatake/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260827nagatake/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-08-27",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "大村 亘（ds）3 成田 祐一（p） 清水 昭好（b）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20394/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787386500077",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -676,6 +1038,17 @@
       "reservationUrl": "https://www.facebook.com/sharer/sharer.php?u=https://wonderwall-yokohama.jp/schedule/tomossession%e3%80%90%e3%82%ae%e3%83%a9%e3%82%ae%e3%83%a9%e2%ad%90%ef%b8%8enight%e3%80%91-3/&amp;src=sdkpreparse",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/tomossession%e3%80%90%e3%82%ae%e3%83%a9%e3%82%ae%e3%83%a9%e2%ad%90%ef%b8%8enight%e3%80%91-3/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-08-28",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 川嶋哲郎(ts) \"スタンダーズ\" 椎名豊(pf) 坂井紅介(b) 久米雅之(ds)",
+      "price": "￥5500",
+      "image": "https://alfie.tokyo/liveReport/2015/DSC08675.jpg",
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202608.html"
     },
     {
       "venueId": "barbarbar",
@@ -750,6 +1123,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-08-28",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《レイモンド･マクモーリン クァルテット》",
+      "price": "￥4,800",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/06/2606221-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260828",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260828",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260828",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-08-28",
       "open": "17:00",
@@ -786,6 +1174,20 @@
       "source": "https://naniaru.com/events/view/14527"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-08-28",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "Tokyo Jazz Resort",
+      "price": "￥7,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/260828_top-thumb-160xauto-14363.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260828",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260828",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260828",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-08-28",
       "open": "19:00",
@@ -795,6 +1197,50 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-08-28",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "國府方章弘 tp Chris Kazuki Jones g 椿田和輝 p 横田健斗 b 高橋直希 ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2026/07/s_kokubukata.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-08-28",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "板垣光弘 2DAYS",
+      "lineup": "板垣光弘(P,Key)岡 勇希(As)中路英明(Tb)大月裕信(B)ジーン重村(Ds)",
+      "price": "￥3,850",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2025/02/0427itagaki.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260828itagaki/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260828itagaki/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-08-28",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "松島 啓之（tp）4 今泉 正明（p） 上村 信（b） 広瀬 潤次（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20397/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787386500077",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -842,6 +1288,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-08-29",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[chanson] REICHEL(vo) 土屋恵(acc) クリヤ・マコト(p) 坂田慶治(b)",
+      "price": "￥6600",
+      "image": "https://alfie.tokyo/liveReport/2024/A9_00879.jpg",
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202608.html"
+    },
+    {
       "venueId": "barbarbar",
       "date": "2026-08-29",
       "open": "18:00",
@@ -872,6 +1329,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-08-29",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《村上和帆 Large Ensemble》",
+      "price": "¥5,500",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/06/08749F72-F3B5-47E0-A7DA-D08F36192000-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260829",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260829",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260829",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-08-29",
       "open": "17:00",
@@ -897,6 +1369,21 @@
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-08-29",
+      "open": "12:45",
+      "start": "13:45",
+      "secondStart": "18:00",
+      "artist": "和 Jazz Summer Special Live at JZ Brat 2026",
+      "price": "￥8,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/260829_top-thumb-160xauto-14349.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260829",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260829",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260829",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-08-29",
       "open": "14:30",
@@ -906,6 +1393,64 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-08-29",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "BCG REPUBLIC ハクエイ・キム p 杉本智和 b 本田珠也 ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2021/01/s_hakuei.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-08-29",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "板垣光弘 2DAYS",
+      "lineup": "板垣光弘(P,Key)米田裕也(As)川村裕司(Ts)河野広明(Tb)大月裕信(B)安藤正則(Ds)",
+      "price": "￥3,850",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2025/02/0427itagaki.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260829itagaki/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260829itagaki/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-08-29",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "鈴木 道子（vo） 岩崎 大輔（p） 吉田 豊（b）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20400/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787386500077",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-08-29",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "中尾 剛也（g）3 池尻 洋史（b） 田村 陽介（ds）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20406/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787386500077",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -969,6 +1514,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-08-30",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[world] SAYAKA(vln) 瀬田創太(p) 大義見元(per) + 1",
+      "price": "￥5500",
+      "image": "https://alfie.tokyo/liveReport/2010/IMG_8527.jpg",
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202608.html"
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-08-30",
       "open": "17:00",
@@ -1022,6 +1578,21 @@
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3959",
       "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3959",
       "detailUrl": "https://www.bluenote.co.jp/jp/artists/mary-halvorson/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "bodyandsoul",
+      "date": "2026-08-30",
+      "open": "14:00",
+      "start": "15:00",
+      "secondStart": "16:30",
+      "artist": "デイタイムライブ 《村田憲一郎リーダークィンテット》",
+      "price": "￥4,800",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/06/OIP%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC-166x166.png",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260830",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260830",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260830",
       "reservationStatus": "web"
     },
     {
@@ -1094,6 +1665,64 @@
       "venueId": "kingsbar"
     },
     {
+      "venueId": "naru",
+      "date": "2026-08-30",
+      "open": "13:30",
+      "start": "14:00",
+      "secondStart": "15:30",
+      "artist": "江頭良人 ds 片倉真由子 p 粟谷 巧 b",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2019/03/s_eto.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-08-30",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "魚返明未 トリオ",
+      "lineup": "魚返明未(P)高橋 陸(B)中村海斗(Ds)",
+      "price": "￥3,300",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2024/02/0428ogaeri.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260830ogaeri/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260830ogaeri/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-08-30",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "竹内 直（sax）4 海堀 弘太（p） パット・グリン（b） 大坂 昌彦（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20409/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787386500077",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-08-30",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "TReS 早坂 紗知（sax） RIO（sax） 永田 利樹（b） 田中 信正（p）",
+      "price": "2,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20412/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787386500077",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "barbarbar",
       "date": "2026-08-31",
       "open": "18:00",
@@ -1124,6 +1753,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-08-31",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "TAKU(vo)",
+      "price": "￥4,800",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/04/26042023-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260831",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260831",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260831",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-08-31",
       "open": "17:00",
@@ -1147,6 +1791,49 @@
       "image": "https://dolphy-jazzspot.com/musician/d_huruno_mitsuaki_ss.jpg",
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
+    },
+    {
+      "venueId": "jzbrat",
+      "date": "2026-08-31",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "YOKO SAWADA Late Summer Concert 2026 ～あした、晴れますように～",
+      "price": "￥6,500",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/260831_top-thumb-160xauto-14352.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260831",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260831",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/08/index.html#20260831",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-08-31",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "＜紅山彦＞第10弾！",
+      "lineup": "山木秀夫(Ds)坂井紅介(B)佐藤允彦(P)",
+      "price": "￥4,400",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2024/09/1105beniyamahiko.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260831beniyamahiko/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260831beniyamahiko/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-08-31",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "megasameta 続木 徹（p） 向井 滋春（tb） コモブチ・樹一郎（b） 松山 修（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20418/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787386500077",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -1194,6 +1881,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-09-01",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 井上陽介(b) 松本茜(pf) 海野俊輔(ds)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-01",
       "open": "17:00",
@@ -1208,6 +1906,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-01",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《金森もといトリオ &#8220;JOG&#8221;》Jazz Standard Collections Vol.1 リリースライブ",
+      "price": "￥5,500",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/07/S__69492740%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260901",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260901",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260901",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "dolphy",
       "date": "2026-09-01",
       "open": "18:30",
@@ -1217,6 +1930,35 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-01",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "高橋佑成 the 奇観",
+      "lineup": "高橋佑成(P,Synth)ermhoi(Vo,Synth)細井徳太郎(G)千葉広樹(B)海老原 颯(Ds)",
+      "price": "￥3,850",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2024/10/1205takahashi.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260901takahashi/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260901takahashi/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-01",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "Nautilus 佐々木 俊之（ds） 中林 万里子（key） 梅沢 茂樹（b）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20850/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -1264,6 +2006,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-09-02",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 村田千紘(tp) 石田衛(pf) 若井俊也(b) 中村海斗(ds)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-09-02",
       "open": "15:30",
@@ -1306,6 +2059,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-02",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《片倉真由子トリオ》",
+      "price": "￥6,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/04/2602192-768x512-1-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260902",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260902",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260902",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "dolphy",
       "date": "2026-09-02",
       "open": "18:30",
@@ -1315,6 +2083,64 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
+    },
+    {
+      "venueId": "jzbrat",
+      "date": "2026-09-02",
+      "open": "17:45",
+      "start": "19:00",
+      "artist": "マスムラエミコ precious LIVE「Harvest Moon 9」",
+      "price": "￥8,400",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/08/260902_top-thumb-160xauto-14576.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260902",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260902",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260902",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-02",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "デニス・フレーゼ ds 田窪寛之 p 池尻洋史 b 佐瀬悠輔 tp",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2020/03/s_dennis.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-02",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "Quadrangle +１",
+      "lineup": "石井 彰(P)石井智大(Vln)水谷浩章(B)池長一美(Ds)ゲスト:野津昌太郎(G)",
+      "price": "￥3,300",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0902quadrangle.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260902quadrangle/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260902quadrangle/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-02",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "高橋 徹と東京グルービン・ハイ 池田 篤（sax） 吉田 桂一（p） 中村 健吾（b）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20852/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -1360,6 +2186,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/2(%E6%B0%B4)moto.SpecialQuartet",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/moto-specialquartet-6/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-03",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 岩野未侑(vo) 小川悦司(g) 納浩一(b)",
+      "price": "￥6600",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -1418,6 +2255,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-03",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《Uniquely5=比類なき5人》",
+      "price": "￥6,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2025/12/aIMG-4636-1-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260903",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260903",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260903",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "dolphy",
       "date": "2026-09-03",
       "open": "18:30",
@@ -1438,6 +2290,50 @@
       "image": null,
       "media": [],
       "source": "https://naniaru.com/events/view/14797"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-03",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "熊谷ヤスマサ ２DAYS CD発売記念 熊谷ヤスマサ p 大塚義将 b 叶雅久 ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2026/08/s_kuma2days.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-03",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "Onpa Ryu",
+      "lineup": "羽野昌ニ(Ds)中尾憲太郎(B)類家心平(Tp)",
+      "price": "¥3,500",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0903hano.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260903onpa-ryu/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260903onpa-ryu/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-03",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "Scene of Jazz CD”Rain Portraits”発売記念LIVE!! 石井 彰（p） 安ヵ川 大樹（b） 大坂 昌彦（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20856/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -1480,6 +2376,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-09-04",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 牧野竜太郎(vo) 秋田慎治(pf) 片野吾朗(b) 河村亮(ds)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-09-04",
       "open": "20:00",
@@ -1505,6 +2412,21 @@
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955",
       "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3955",
       "detailUrl": "https://www.bluenote.co.jp/jp/artists/mike-stern/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-04",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《福田重男トリオ》",
+      "price": "￥6,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/07/2607194-e1785209553982-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260904",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260904",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260904",
       "reservationStatus": "web"
     },
     {
@@ -1542,6 +2464,64 @@
       "image": null,
       "media": [],
       "source": "https://naniaru.com/events/view/14951"
+    },
+    {
+      "venueId": "jzbrat",
+      "date": "2026-09-04",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "The Notes of Museum 4thCD発売記念ライブ[Music for Four Gardens]",
+      "price": "￥8,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/05/260904_top-thumb-160xauto-14220.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260904",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260904",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260904",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-04",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "熊谷ヤスマサ ２DAYS Coltrane 生誕100周年 熊谷ヤスマサTRIO +池田篤 as",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2026/08/s_kuma2days.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-04",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "酒井麻生代 クインテット",
+      "lineup": "酒井麻生代(Fl)瀬田創太(P)馬場孝喜(G)小牧良平(B)江藤良人(Ds)",
+      "price": "￥3,850",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/01/0308sakai.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260904sakai/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260904sakai/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-04",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "ジーン・下里（g）4 石田 衛 （p） 粟谷 巧（b） ジーン・ジャクソン（ds）",
+      "price": "4,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20859/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -1582,6 +2562,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/4(%E9%87%91)%E5%90%89%E5%B2%A1%E5%A4%A7%E8%BC%94SpecialQuartet",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e5%90%89%e5%b2%a1%e5%a4%a7%e8%bc%94specialquartet/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-05",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] akiko(vo) with 鈴木瑶子(pf)",
+      "price": "￥6600",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -1640,6 +2631,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-05",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《高橋信之介トリオ》",
+      "price": "￥5,500",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/04/26041617-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260905",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260905",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260905",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-05",
       "open": "13:00",
@@ -1685,6 +2691,64 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-05",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "太田剣 as 青柳誠 p 鳥越啓介 b 関根豊明 ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2018/12/s_ohta.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-05",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "Carmen Staaf & Jorge Roeder",
+      "lineup": "カーメン・スターフ(P)ホルヘ・ローダー(B)",
+      "price": "￥7,150",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0905jorge-Ccarmen.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260905carmenjorge/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260905carmenjorge/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-05",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "SUPER FUNKY 西村 知恵（vo） 吉岡 秀晃（p） 河上 修（b） ゲスト：中村 恵介（tp） 吉本 章紘（sax）",
+      "price": "4,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20862/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-05",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "Satsuki（vo） 露木 達也（g）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/21253/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -1756,6 +2820,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-09-06",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 石井ひなた(pf,sax) with 松原慎之介(as)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-09-06",
       "open": "17:00",
@@ -1812,6 +2887,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-06",
+      "open": "14:00",
+      "start": "15:00",
+      "secondStart": "16:30",
+      "artist": "伊藤君子(vo)",
+      "price": "￥7,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/05/26053016-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260906",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260906",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260906",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-06",
       "open": "13:00",
@@ -1848,6 +2938,20 @@
       "source": "https://naniaru.com/events/view/14437"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-06",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "RAY FUJITA Birthday Special SHOW \"Couleur\"",
+      "price": "￥15,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/0f8ee84d07f02ebf80312cf2425b9a5c24ac0246-thumb-160xauto-14522.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260906",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260906",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260906",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-06",
       "open": "14:30",
@@ -1857,6 +2961,49 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-06",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "峰 厚介 カルテット",
+      "lineup": "峰 厚介(Ts)清水絵理子(P)須川崇志(B)竹村一哲(Ds)",
+      "price": "￥3,850",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2023/09/1126mine.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260906mine/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260906mine/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-06",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "濱田 省吾（ds）special session 池田 篤（sax） デイビット・ブライアント（p） 井上 銘（g） 粟谷 巧（b） with チャリート（vo）",
+      "price": "5,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20868/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-06",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "Soundscape 佐藤 春樹（tb） 佐藤 達哉（sax） 宮島 れいら（p） 吉岡 大典（b） 松山 修（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20871/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "wonderwall",
@@ -1903,6 +3050,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-07",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《Tomonao Hara Chordless Trio Plus》",
+      "price": "￥5,500",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/04/26042123-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260907",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260907",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260907",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-07",
       "open": "13:00",
@@ -1928,6 +3090,20 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-07",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "みうらまちこwith MACHIKO Group「 The Power of Love 」",
+      "price": "￥6,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/260907_top-thumb-160xauto-14490.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260907",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260907",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260907",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-07",
       "open": "19:00",
@@ -1937,6 +3113,35 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-07",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "The Climb",
+      "lineup": "小山道之(G)安東 昇(B)小松伸之(Ds)",
+      "price": "￥3,300",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0907climb.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260907climb/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260907climb/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-07",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "清水 くるみ（p）4 石川 隆一（b） 津上 研太（sax） 山崎 隼（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20874/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -1979,6 +3184,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-09-08",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] \"ワイナリーズ\" 名知玲美(vo) 高澤綾(tp) 上長根明子(p) 山本裕之(b) 西川彩織(ds",
+      "price": "￥6600",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-09-08",
       "open": "17:00",
@@ -1993,6 +3209,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-08",
+      "open": "20:00",
+      "start": "公式で確認",
+      "artist": "《Banksia Trio》",
+      "price": "￥7,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/07/bankusia-166x166.png",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260908",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260908",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260908",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "dolphy",
       "date": "2026-09-08",
       "open": "18:30",
@@ -2002,6 +3232,49 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
+    },
+    {
+      "venueId": "jzbrat",
+      "date": "2026-09-08",
+      "open": "18:30",
+      "start": "19:30",
+      "artist": "Bossa Connection meets BC Horns !",
+      "price": "￥6,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/09472d85ad70a135a5973cf9dc5f579243c89b1e-thumb-160xauto-14509.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260908",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260908",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260908",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-08",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "GATOS Meeting",
+      "lineup": "林 栄一(As,Comp)吉田隆一(Bs,Mc)山田丈造(Tp)後藤 篤(Tb)石渡明廣(G)岩見継吾(B)磯部 潤(Ds)ゲスト:石田幹雄(P)",
+      "price": "￥3,850",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0908gatos2.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260908gatos/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260908gatos/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-08",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "古川 初穂（p）3 横田 健斗（b） 関根 豊明（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20889/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "venus",
@@ -2030,6 +3303,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/8(%E7%81%AB)YOKO+SUZUKI+TRIO",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/yoko-suzuki-trio-2/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-09",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 岡勇希(as) 平手裕紀(pf) 宮地遼(eb) 守真人(ds)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_yokohama",
@@ -2074,6 +3358,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-09",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "豊田チカ(vo) with スウィンギートリオ",
+      "price": "￥6,500",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2025/09/25091515-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260909",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260909",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260909",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-09",
       "open": "17:30",
@@ -2108,6 +3407,64 @@
       "image": null,
       "media": [],
       "source": "https://naniaru.com/events/view/14695"
+    },
+    {
+      "venueId": "jzbrat",
+      "date": "2026-09-09",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "LIZ in Flight : Late Summer Spark",
+      "price": "￥6,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/cb4421f946ab4a184c230183d9be3efbcaf1b0c2-thumb-160xauto-14320.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260909",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260909",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260909",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-09",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "Violets for my furs 横原由梨子 ts 吉岡秀晃 p 楠井五月 b 濱田省吾 ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2026/04/s_yokohara.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-09",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "奥平真吾THE NEW FORCE +1",
+      "lineup": "奥平真吾(Ds)岡 淳(Sax)堀 秀彰(P)落合康介(B)馬場孝喜(G)",
+      "price": "￥3,630",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2024/02/0422okudaira.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260909okudaira/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260909okudaira/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-09",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "大友 義雄（sax）4 須藤 俊也（p） 高尾 幸宏（b） 木村 由起夫（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20892/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -2148,6 +3505,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/9(%E6%B0%B4)%E9%AB%98%E6%9C%A8%E7%A5%A5%E5%A4%AA%C3%97%E4%BA%95%E4%B8%8A%E9%8A%98%C3%97%E7%A6%8F%E6%A3%AE%E5%BA%B7",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e9%ab%98%e6%9c%a8%e7%a5%a5%e5%a4%aax%e4%ba%95%e4%b8%8a%e9%8a%98x%e7%a6%8f%e6%a3%ae%e5%ba%b7-2/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-10",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] &ldquo;Seiko Summer Jazz camp&rdquo; 井口大夢(pf) 曽我部泰紀(ts) 鈴木雄太郎(tp) 廣橋契(b) 濱田省吾(ds)",
+      "price": "￥4400",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2206,6 +3574,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-10",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "【BODY&#038;SOUL Special】《Carmen Staaf &#038; Jorge Roeder》",
+      "price": "￥8,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/07/Unknown-166x166.jpeg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260910",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260910",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260910",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-10",
       "open": "17:30",
@@ -2231,6 +3614,20 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-10",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "TETE-A-TETE feat.Ema",
+      "price": "￥5,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/05/32524429f0472282501fb9330ad5964531ec9dee-thumb-160xauto-14272.jpeg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260910",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260910",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260910",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-10",
       "open": "19:00",
@@ -2240,6 +3637,50 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-10",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "高木里代子 p 岡田治郎 eb 河村亮 ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2023/02/s_rakagir.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-10",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "魚返明未 ＆ 井上 銘",
+      "lineup": "魚返明未(P)井上 銘(G)",
+      "price": "￥3,850",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0910ogaeriinoue.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260910ogaeri-inoue/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260910ogaeri-inoue/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-10",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "MT6 マーク・トゥーリアン（b） 近藤 和彦（sax） 岡崎 好朗（tp） 駒野 逸美（tb） 田中 菜緒子（p） 横山 和明（ds）",
+      "price": "4,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20883/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -2285,6 +3726,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/10(%E6%9C%A8)%E5%A4%A7%E9%BB%92%E6%91%A9%E5%AD%A3+FamilyBand%E3%80%9C55RedBand%E3%80%9C",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e5%a4%a7%e9%bb%92%e6%91%a9%e5%ad%a3-familyband%e3%80%9c55redband%e3%80%9c-2/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-11",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 井手麻理子(vo) with 原田喧太(vo,g) 阿部篤志(pf) 塩田哲嗣(b)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2343,6 +3795,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-11",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "宮坂俊行(vo)",
+      "price": "￥5,500",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/07/26070213-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260911",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260911",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260911",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-11",
       "open": "17:30",
@@ -2368,6 +3835,21 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-11",
+      "open": "12:30",
+      "start": "13:30",
+      "secondStart": "17:30",
+      "artist": "jammin&rsquo; Zeb at JZ Brat Vol.14",
+      "price": "￥7,300",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/jamminZeb%202026-thumb-160xauto-14388.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260911",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260911",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260911",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-11",
       "open": "14:30",
@@ -2377,6 +3859,50 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-11",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "山口真文 ts 布施音人 p 小牧良平 b 吉良創太 ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2018/12/s_mabumi.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-11",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "森山威男 2DAYS",
+      "lineup": "森山威男(Ds)川嶋哲郎(Ts)中山拓海(As)山本玲子(Vib)須川崇志(B)",
+      "price": "￥5,500",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0911moriyama.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260911moriyama/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260911moriyama/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-11",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "BCG Republic ハクエイ・キム（p） 杉本 智和（b） 本田 珠也（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20885/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -2417,6 +3943,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/11(%E9%87%91)HigoTakumiLatinTrio%E3%80%9Cfeat.SasakiMakoto%E3%80%9C",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/higotakumilatintrio%e3%80%9cfeat-sasakimakoto%e3%80%9c/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-12",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] &ldquo;Live at Alfie 第10弾&rdquo; CD発売Live 市川空(pf) 高橋将(b) 塚田陽太(ds)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2475,6 +4012,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-12",
+      "open": "17:30",
+      "start": "18:30",
+      "secondStart": "20:00",
+      "artist": "《Kengo Nakamura Presents Voices of Hope 15》 第15回東日本大震災チャリティーライブ",
+      "price": "¥5,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/07/S__195780614-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260912",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260912",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260912",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-12",
       "open": "17:30",
@@ -2511,6 +4063,20 @@
       "source": "https://naniaru.com/events/view/14438"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-12",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "小川徹 Special BAND Live『Espressivo Breeze Night Vol.4』",
+      "price": "￥5,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/03/260912_top-thumb-160xauto-13994.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260912",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260912",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260912",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-12",
       "open": "14:30",
@@ -2520,6 +4086,64 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-12",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "河村英樹 ts 吉岡秀晃 p 本川悠平 b 濱田省吾 ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2020/05/s_kawamura.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-12",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "森山威男 2DAYS",
+      "lineup": "森山威男(Ds)川嶋哲郎(Ts)中山拓海(As)山本玲子(Vib)須川崇志(B)",
+      "price": "￥5,500",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0911moriyama.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260912moriyama/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260912moriyama/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-12",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "add ＋Vibes！ “Groove factory tour vol.9” 小橋 琢人（ds） 栗原 晋太郎（sax） 加藤 エレナ（key） 森本 隆寛（g） 山田 裕之（b）",
+      "price": "4,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20879/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-12",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "Toquio Bossa Trio 吉田 和雄（ds） 遠藤 律子（p） 山根 幸洋（b）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20894/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -2574,6 +4198,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-09-13",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[soul] Jay(vo) Maya(vo) Yoshio(pf)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-09-13",
       "open": "15:00",
@@ -2599,6 +4234,21 @@
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3982",
       "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3982",
       "detailUrl": "https://www.bluenote.co.jp/jp/artists/till-bronner/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-13",
+      "open": "14:00",
+      "start": "15:00",
+      "secondStart": "16:30",
+      "artist": "《秋田慎治デビュー20周年記念ライブ》 &#8220;Two Decades of Resonance&#8221;",
+      "price": "￥6,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2025/03/2502288-e1785233912800-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260913",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260913",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260913",
       "reservationStatus": "web"
     },
     {
@@ -2638,6 +4288,21 @@
       "source": "https://naniaru.com/events/view/14439"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-13",
+      "open": "13:00",
+      "start": "14:00",
+      "secondStart": "16:15",
+      "artist": "『Neighbors Complain \"Street Session\"』4 Nights, 4 Different Stories",
+      "price": "￥6,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/vnqqkrnw-thumb-160xauto-14477.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260913",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260913",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260913",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-13",
       "open": "14:30",
@@ -2647,6 +4312,64 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-13",
+      "open": "13:30",
+      "start": "14:00",
+      "secondStart": "15:30",
+      "artist": "伊藤勇司 b 海堀弘太 ds 塚田陽太 ds & Special Guest from Germany",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2019/09/s_itou.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-13",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "REVUE THE FULLDESIGN 2026",
+      "lineup": "坂田 明(As,Cl,Vo)林 栄一(As)広瀬淳二(Ts)近藤直司(Bs)加藤崇之(G)太田惠資(Vln)坂本弘道(Vc)坪口昌恭(P,Syn)早川岳晴(B)藤掛正隆(Ds)",
+      "price": "￥4,400",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0913revue.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260913fulldesign/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260913fulldesign/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-13",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "中本 マリ（vo） 荻原 亮（g） 大口 純一郎（p） 米木 康志（b）",
+      "price": "4,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20898/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-13",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "ピチェヴォ 紗理（vo） 瀬田 創太（p） 橋本 歩（cello）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20902/img20260701171355223409.png?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2705,6 +4428,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-14",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《リレット＆エミリー》",
+      "price": "￥6,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/07/%E3%83%AA%E3%83%AC%E3%83%83%E3%83%88%E3%82%A8%E3%83%9F%E3%83%AA%E3%83%BC-166x166.png",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260914",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260914",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260914",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-14",
       "open": "17:00",
@@ -2728,6 +4466,50 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
+    },
+    {
+      "venueId": "jzbrat",
+      "date": "2026-09-14",
+      "open": "16:00",
+      "start": "17:00",
+      "secondStart": "19:15",
+      "artist": "『Neighbors Complain \"Street Session\"』4 Nights, 4 Different Stories",
+      "price": "￥6,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/335c956440c4da4e2327aec37a575dbd4cdf04a0-thumb-160xauto-14478.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260914",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260914",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260914",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-14",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "柵木雄斗 GROUP",
+      "lineup": "柵木雄斗(Ds)井上 銘(G)加納奈実(As)渡辺翔太(P)高橋 陸(B)",
+      "price": "￥4,400",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0914maseki.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260914maseki/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260914maseki/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-14",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "吉田 桂一（p）3 小杉 敏（b） 小沼 奏絵（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20905/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -2770,6 +4552,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-09-15",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 緒方利菜(vo,g) QUARTET Dennis Lambert(pf) 本川悠平(b) 海野俊輔(ds)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-09-15",
       "open": "16:30",
@@ -2798,6 +4591,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-15",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《Days of Delight All Stars》2Days【Day1】",
+      "price": "￥8,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/08/DoD-All-Stars-2026_sq-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260915",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260915",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260915",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-15",
       "open": "17:00",
@@ -2821,6 +4629,49 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
+    },
+    {
+      "venueId": "jzbrat",
+      "date": "2026-09-15",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "アカペラ・ユニットXUXU 結成25周年記念ライブ",
+      "price": "￥6,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/05/260915_top-thumb-160xauto-14137.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260915",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260915",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260915",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-15",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "今村祐司 GROUP",
+      "lineup": "今村祐司(Per)津上研太(As)小太刀のばら(P)上村勝正(B)外山 明(Ds)",
+      "price": "￥3,300",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2024/02/imamura1115-1.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260915imamura/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260915imamura/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-15",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "山口 裕之（b）6 ませ ひろこ（sax） かみむら 泰一（sax） 平山 純子（sax） 紅野 智彦（p） 岡部 朋幸（ds）",
+      "price": "4,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20908/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -2861,6 +4712,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/15(%E7%81%AB)JoeRosenberg",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/joerosenberg-tour2026/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-16",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 山添ゆか(vo) with 阿部篤志(pf) DUO",
+      "price": "￥6600",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2919,6 +4781,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-16",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《Days of Delight All Stars》2Days【Day2】",
+      "price": "￥8,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/08/DoD-All-Stars-2026_sq-1-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260916",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260916",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260916",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-16",
       "open": "17:00",
@@ -2955,6 +4832,64 @@
       "source": "https://naniaru.com/events/view/14698"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-16",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "ROUTE14band New Album Release Party",
+      "price": "￥5,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/IMG_5883-thumb-160xauto-14519.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260916",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260916",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260916",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-16",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "松本茜 p 安田幸司 b 広瀬潤次 ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2018/12/s_matumoto.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-16",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "壷阪健登 トリオ",
+      "lineup": "壷阪健登(P)高橋 陸(B)中村海斗(Ds)",
+      "price": "￥3,850",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0916tsubosaka.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260916tsubosaka/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260916tsubosaka/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-16",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "大口 純一郎（p）3 粟谷 巧（b） ジーン・ジャクソン（ds）",
+      "price": "3,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20911/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-09-16",
       "open": "18:00",
@@ -2977,6 +4912,17 @@
       "media": [],
       "source": "https://www.venus-hk-j.com/liveschedule",
       "note": "公式スケジュール画像から読み取り"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-17",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] YURIE(vo) 松原慶史(g) 工藤拓人(pf) 岸徹至(b) 北沢大樹(ds)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_yokohama",
@@ -3021,6 +4967,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-17",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《Twin Keys with 福井ともみセクステット》",
+      "price": "￥5,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/08/2608117-e1786539046227-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260917",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260917",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260917",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-17",
       "open": "18:30",
@@ -3046,6 +5007,20 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-17",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "LOTUS POSITION Akira Horikoshi × Akihito Obama with Frederic Viennot",
+      "price": "￥5,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/05/914327fbcbe21e59ddffe2f9c7437bcbba162858-thumb-160xauto-14223.png",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260917",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260917",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260917",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-17",
       "open": "19:00",
@@ -3055,6 +5030,50 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-17",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "BONKERS LAND 渡辺翔太 p 宮地 遼 b 朝田拓馬 g 井口なつみ ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2025/08/s_bl2.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/post-recommend/bonkersland/%C2%A0",
+      "detailUrl": "http://ocha-naru.com/post-recommend/bonkersland/%C2%A0",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-17",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "Gentle Winds",
+      "lineup": "池長一美(Ds)石川広行(Tp)佐藤浩一(P)",
+      "price": "￥3,850",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/01/0303gentlew.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260917gentle-winds/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260917gentle-winds/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-17",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "古谷 淳 （p）3 工藤 精（b） 大村 亘（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20914/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -3096,6 +5115,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/17(%E6%9C%A8)FourVoicesfeat.ZARUKAME",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/fourvoices-feat-zarukame-2/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-18",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 丈青(pf) 高木祥太(eb) 松浦千昇(ds)",
+      "price": "￥6600",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3154,6 +5184,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-18",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《みえこうじ》",
+      "price": "￥7,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/06/2606243-e1786539276862-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260918",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260918",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260918",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "dolphy",
       "date": "2026-09-18",
       "open": "18:30",
@@ -3165,6 +5210,20 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-18",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "鶴田さやか Birthday Live",
+      "price": "￥8,800",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/5bbb9b3a0b8a8ddecde9dca2a2d6533c6796f231-thumb-160xauto-14517.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260918",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260918",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260918",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-18",
       "open": "19:00",
@@ -3174,6 +5233,50 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-18",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "MASAHIKO OSAKA 3 DAYS 大坂昌彦 ds スエナガタカフミ p 小川晋平 b 竹内直 ts 国府方彰宏 tp",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2018/12/s_osaka.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-18",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "“幻政賢の野望と滅亡”",
+      "lineup": "中村達也(Ds)スガダイロー(P)tatsu(B)中尾憲太郎(B)",
+      "price": "￥5,500",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0918ntatsuya.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260918genseiken/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260918genseiken/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-18",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "09.18 f ri 2set 吉野 ミユキ（sax）4 外山 安樹子（p） 中津 裕子（b） 鈴木 麻緒（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20917/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -3214,6 +5317,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/18(%E9%87%91)%E6%9C%AB%E5%BB%A3%E5%BD%A9%E9%A2%A8%E5%BC%A6%E6%A5%BD%E5%A5%8F%E3%82%AB%E3%83%AB%E3%83%86%E3%83%83%E3%83%88",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e6%9c%ab%e5%bb%a3%e5%bd%a9%e9%a2%a8%e5%bc%a6%e6%a5%bd%e5%a5%8f%e3%82%ab%e3%83%ab%e3%83%86%e3%83%83%e3%83%88-3/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-19",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 深尾多恵子(vo) Haru Takauchi(g) 福田重男(pf) Mark Tourian(b) Gene Jackson(ds)",
+      "price": "￥6600",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3272,6 +5386,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-19",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《若井優也 Special Quartet》",
+      "price": "￥7,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2025/08/25081415-e1786539564392-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260919",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260919",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260919",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-19",
       "open": "15:30",
@@ -3297,6 +5426,20 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-19",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "藤田 恵美 ～camomile breeze～",
+      "price": "￥7,500",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/260919_top-thumb-160xauto-14464.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260919",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260919",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260919",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-19",
       "open": "14:30",
@@ -3306,6 +5449,50 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-19",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "MASAHIKO OSAKA 3 DAYS 大坂昌彦 ds 紅野智彦 p 手島甫 b 岡崎好朗 tp 近藤和彦 as",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2018/12/s_osaka.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-19",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "The Blend — メンバー変更のお知らせ",
+      "lineup": "峰 厚介(Ts)中村恵介(Tp)Hakuei Kim(P)本田珠也(Ds)",
+      "price": "￥3,500",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2025/05/0731blend2.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260919blend/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260919blend/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-19",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "ルー・タバキン（sax） 金森 もとい（b） 高橋 信之介（ds）",
+      "price": "6,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/7636/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -3393,6 +5580,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-20",
+      "open": "17:30",
+      "start": "18:30",
+      "secondStart": "20:00",
+      "artist": "《守屋純子セクステット》",
+      "price": "￥7,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/06/2606079-e1786539900587-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260920",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260920",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260920",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-20",
       "open": "15:30",
@@ -3418,6 +5620,21 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-20",
+      "open": "13:30",
+      "start": "14:30",
+      "secondStart": "17:30",
+      "artist": "Atsuko＆Michiyo Premium Live 2026 〜 Our Songs 〜",
+      "price": "￥9,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/260920_top-thumb-160xauto-14391.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260920",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260920",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260920",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-20",
       "open": "14:30",
@@ -3427,6 +5644,64 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-20",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "MASAHIKO OSAKA 3 DAYS 大坂昌彦 ds 平倉初音 p 本川悠平 b 佐藤洋佑 as 松島啓之 tp",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2018/12/s_osaka.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-20",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "Marty Holoubek 3 Days 6 Concerts 2026 — 妖怪の影 笑い声と音楽",
+      "lineup": "石原淳平(G,PC)MEEBEE a.k.a KAZUHIRO ABO(DJ)和久井幸一(Synth-Acc)椿 三期(Ds)槌谷颯晃(G)阿部くらら(プロジェクター)マーティ・ホロベック(B)",
+      "price": "￥3,850",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0920marty.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260920yorumarty/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260920yorumarty/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-20",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "清水 秀子（vo） 清水 絵理子（p） 斉藤 誠（b） 安藤 正則（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/7458/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-20",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "遠藤 律子（p）3 山口 彰（b） 藤井 学（ds）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20926/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "venus",
@@ -3439,6 +5714,17 @@
       "media": [],
       "source": "https://www.venus-hk-j.com/liveschedule",
       "note": "公式スケジュール画像から読み取り"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-21",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] &lt;中山拓海 2days&gt; 中山拓海(as)",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3497,6 +5783,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-21",
+      "open": "17:30",
+      "start": "18:30",
+      "secondStart": "20:00",
+      "artist": "《河合代介 オルガンジャズ》",
+      "price": "￥7,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/07/26072010-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260921",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260921",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260921",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-21",
       "open": "15:30",
@@ -3533,6 +5834,20 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-21",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "宇都美慶子2026年秋コンサート・リクエスト",
+      "price": "￥7,500",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/c253c1663f9e6bb51748e34705edf43065c4f8b8-thumb-160xauto-14495.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260921",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260921",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260921",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-21",
       "open": "14:30",
@@ -3542,6 +5857,64 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-21",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "MASAHIKO OSAKA 3 DAYS +1 JAM SESSION !! 大坂昌彦 ds 石田衛 p 座小田諒一 b",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2023/04/s_jam.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-21",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "Marty Holoubek 3 Days 6 Concerts 2026 — Marty Holoubek’s Trio III",
+      "lineup": "石橋英子(P,Fl,Effects)山本達久(Ds,Electronics)マーティ・ホロベック(B)",
+      "price": "￥4,400",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0920marty.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260921yorumarty/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260921yorumarty/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-21",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "永武 幹子 （p） 清水 昭好（b） 小松 伸之（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/21242/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-21",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "シエスタ 小泉 明子（vo/p） 平松 加奈（vln） 海沼 正利（perc）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20929/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "venus",
@@ -3554,6 +5927,17 @@
       "media": [],
       "source": "https://www.venus-hk-j.com/liveschedule",
       "note": "公式スケジュール画像から読み取り"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-22",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] &lt;中山拓海 2days&gt; 中山拓海(as)",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3612,6 +5996,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-22",
+      "open": "14:00",
+      "start": "15:00",
+      "secondStart": "16:30",
+      "artist": "デイタイムライブ《椎名豊 Inspired Swing Trio》Special Guest：中島朱葉(as)",
+      "price": "￥7,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/01/2601176-e1786580413337-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260922",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260922",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260922",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-22",
       "open": "15:30",
@@ -3637,6 +6036,20 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-22",
+      "open": "14:00",
+      "start": "15:00",
+      "artist": "DANDY ALLA MODA",
+      "price": "￥7,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/e28d1bacad37d4da408e6088e31772ee95c45ad6-thumb-160xauto-14489.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260922",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260922",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260922",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-22",
       "open": "14:30",
@@ -3646,6 +6059,49 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-22",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "Marty Holoubek 3 Days 6 Concerts 2026 — Marty Holoubek’s Trio II",
+      "lineup": "井上 銘(G)石若 駿(Ds)マーティ・ホロベック(B)",
+      "price": "￥4,400",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0920marty.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260922yorumarty/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260922yorumarty/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-22",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "近藤 和彦（sax）4 田中 菜緒子（p） 安ヵ川 大樹（b） 北澤 大樹（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20932/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-22",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "大石 学（p）solo",
+      "price": "1,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20938/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3676,6 +6132,21 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-23",
+      "open": "17:30",
+      "start": "18:30",
+      "secondStart": "20:00",
+      "artist": "《武本和大THE REAL Veleria》",
+      "price": "￥7,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2025/01/25011428-e1786580734547-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260923",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260923",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260923",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "cottonclub",
       "date": "2026-09-23",
       "open": "15:30",
@@ -3701,6 +6172,20 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-23",
+      "open": "13:30",
+      "start": "14:30",
+      "artist": "Nao Amamiya B.D. Live 2026",
+      "price": "￥11,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/fdb850f632f471dcf1fa58175202396b270551f9-thumb-160xauto-14319.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260923",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260923",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260923",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-23",
       "open": "14:30",
@@ -3710,6 +6195,61 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-23",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "伊藤勇司 b 田中菜緒子 p 高橋直希 ds 広瀬未来 tp 佐藤敬幸 as",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2019/09/s_itou.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-23",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "山田貴子 y's trio",
+      "lineup": "山田貴子(P)山本裕之(B)二本松義史(Ds)",
+      "price": "￥3,300",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2023/04/0622yamada3.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260923yamada/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260923yamada/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-23",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "松島 啓之（tp）4 今泉 正明（p） 上村 信（b） 広瀬 潤次（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20941/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-24",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] Ayuko(vo) 松原慶史(g) 渡辺翔太(pf) 古木佳祐(b) 塚田陽太(ds)",
+      "price": "￥6600",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3737,6 +6277,21 @@
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3968",
       "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3968",
       "detailUrl": "https://www.bluenote.co.jp/jp/artists/septeto-santiaguero/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-24",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《大林武司クァルテット》",
+      "price": "￥8,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2023/03/230311b3-e1786581064519-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260924",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260924",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260924",
       "reservationStatus": "web"
     },
     {
@@ -3776,6 +6331,20 @@
       "source": "https://naniaru.com/events/view/14855"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-24",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "Sanshiro Birthday Concert",
+      "price": "￥6,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/260924_top-thumb-160xauto-14491.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260924",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260924",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260924",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-24",
       "open": "19:00",
@@ -3785,6 +6354,50 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-24",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "布施音人 p 高橋陸 b 中村海斗 ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2023/09/s_huse.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-24",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "SASE BAND",
+      "lineup": "佐瀬悠輔(Tp)小金丸慧(G)海堀弘太(P)新井和輝(B)秋元 修(Ds)ゲスト:馬場智章(Sax)",
+      "price": "￥5,500",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2025/11/saseband.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260924sase/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260924sase/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-24",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "megasameta 続木 徹（p） 山口 真文（sax） 古野 光昭（b） 安藤 正則（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20944/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -3832,6 +6445,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-09-25",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 西川彩織(ds) 2ndアルバム発売Live 松原慶史(g) 成田祐一(pf) 石川隆一(b)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-09-25",
       "open": "16:30",
@@ -3857,6 +6481,21 @@
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3996",
       "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3996",
       "detailUrl": "https://www.bluenote.co.jp/jp/artists/ulysses-owens-jr/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-25",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "《井上陽介トリオ》",
+      "price": "￥6,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2025/11/0517inoueyosuke-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260925",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260925",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260925",
       "reservationStatus": "web"
     },
     {
@@ -3896,6 +6535,21 @@
       "source": "https://naniaru.com/events/view/14552"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-25",
+      "open": "15:00",
+      "start": "16:00",
+      "secondStart": "18:30",
+      "artist": "KANO NOJIMA Special Live \"ICONIGHT \"at JZ Brat",
+      "price": "￥15,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/260925_TOP-thumb-160xauto-14547.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260925",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260925",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260925",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-25",
       "open": "19:00",
@@ -3905,6 +6559,50 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-25",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "NAMI KANO PRESENTS 加納奈実 as 布施音人 p 伊藤勇司 b 木村紘 ds feat. 池田篤 as",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2019/01/s_kanou.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-25",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "TReS 2DAYS — MG6 メンバー変更のお知らせ",
+      "lineup": "早坂紗知(Sax)RIO(Bs)田中信正(P)永田利樹(B)佐藤芳明(Acc)芳垣安洋(Ds)",
+      "price": "￥4,400",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0925tres.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260925tres/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260925tres/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-25",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "吉永 絢香（sax）4 板垣 光弘（p） 河上 修（b） 関根 豊明（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20947/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -3947,6 +6645,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "alfie",
+      "date": "2026-09-26",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 古地克成(ds) 太田剣(as) 中村真(pf) 安ヵ川大樹(ds)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-09-26",
       "open": "14:00",
@@ -3986,6 +6695,35 @@
       "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3996",
       "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3996",
       "detailUrl": "https://www.bluenote.co.jp/jp/artists/ulysses-owens-jr/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-26",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "【The Final Groove】《TOKU with 山本剛グループ》【1st】",
+      "price": "￥10,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/01/26012413-e1786581397739-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260926-1",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260926-1",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260926-1",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "bodyandsoul",
+      "date": "2026-09-26",
+      "open": "20:00",
+      "start": "公式で確認",
+      "secondStart": "21:00",
+      "artist": "【The Final Groove】《TOKU with 山本剛グループ》【2nd】",
+      "price": "￥10,000",
+      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/01/26012413-e1786581397739-166x166.jpg",
+      "media": [],
+      "source": "https://bodyandsoul.co.jp/event/260926-2",
+      "detailUrl": "https://bodyandsoul.co.jp/event/260926-2",
+      "reservationUrl": "https://bodyandsoul.co.jp/event/260926-2",
       "reservationStatus": "web"
     },
     {
@@ -4034,6 +6772,36 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-26",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "倉田大輔 ds 田窪寛之 p 清水昭好 b 岩持芳宏 b.sax, cl",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2026/08/s_kurata.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-26",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "TReS 2DAYS — Baila TReS",
+      "lineup": "早坂紗知(Sax)RIO(Bs)永田利樹(B)伊藤志宏(P)大儀見 元(Per)大儀見 海(Ds)",
+      "price": "￥4,400",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0925tres.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260926tres/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260926tres/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -4090,6 +6858,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/26(%E5%9C%9F/Dinner)%E6%B2%B3%E5%8E%9F%E7%A7%80%E5%A4%AB%E3%82%AB%E3%83%AB%E3%83%86%E3%83%83%E3%83%88",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e6%b2%b3%e5%8e%9f%e7%a7%80%e5%a4%ab%e3%82%ab%e3%83%ab%e3%83%86%e3%83%83%e3%83%88-3/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-27",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "日野\"JINO\"賢二(eb) Session",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -4195,6 +6974,64 @@
       "source": "https://naniaru.com/events/view/14441"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-27",
+      "open": "14:00",
+      "start": "15:15",
+      "secondStart": "17:45",
+      "artist": "iBlossom Live 2026 ─秋の収穫祭 ─",
+      "price": "￥8,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/08/9dc71796ca2458b47d46554d7fa7eb80ef880cf2-thumb-160xauto-14588.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260927",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260927",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260927",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-27",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "Nu-Boycott (ぬーぼいこっと)",
+      "lineup": "ヨシガキルイ(G)富川健太(B)吉田野乃子(Sax)渋谷 徹(Ds)",
+      "price": "￥3,300",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0927nu-boycott.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260927nu-boycott/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260927nu-boycott/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-27",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "竹内 直（sax）4 片倉 真由子（p） 井上 陽介（b） ジーン・ジャクソン（ds）",
+      "price": "3,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20962/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-27",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "佐藤 達哉（sax）4 瀬田 創太（p） 早川 哲也（b） 関根 豊明（ds）",
+      "price": "2,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20965/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-09-27",
       "open": "16:00",
@@ -4209,6 +7046,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/27(%E6%97%A5)%E3%82%B9%E3%82%B1%E8%AA%9E%E3%82%8Avol.27",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e3%82%b9%e3%82%b1%e8%aa%9e%e3%82%8avol-27/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-28",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[world] SAYAKA(vln) 尾花毅(g) 伊藤志宏(pf) 岡部洋一(perc)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_tokyo",
@@ -4309,6 +7157,35 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-28",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "シーン・オブ・ジャズ",
+      "lineup": "石井 彰(P)大坂昌彦(Ds)安ヵ川大樹(B)",
+      "price": "￥4,400",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0928coj.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260928scene-of-jazz/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260928scene-of-jazz/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-28",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "岩崎 佳子（p） 宮野 裕司（sax） 山崎 弘一（b） サバオ・ワタナベ（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20968/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -4432,6 +7309,64 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-29",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "牧山純子 Precious Space vol.33",
+      "price": "￥7,500",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/260929_top-thumb-160xauto-14485.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260929",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260929",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260929",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-29",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "近藤和彦 as David Bryant p Pat Glynn b 大坂昌彦 ds",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2019/02/s_kondou.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-29",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "だいだらぼっち",
+      "lineup": "酒井 俊(Vo)林 栄一(As)田中信正(P)",
+      "price": "￥3,850",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0929sakai.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260929daidara-bocchi/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260929daidara-bocchi/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-29",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "サキソフォビア 井上JUJUヒロシ（sax） 岡 淳（sax） 緑川 英徳（sax） 吉本 章紘（sax）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/20971/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-09-29",
       "open": "18:00",
@@ -4470,6 +7405,17 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/29(%E7%81%AB)TomokannoQuartet",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/tomokannoquartet-4/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-09-30",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 平田晃一(g) 石田衛(pf) 吉田豊(b) 柳沼佑育(ds)",
+      "price": "￥5500",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202609.html"
     },
     {
       "venueId": "billboard_yokohama",
@@ -4525,6 +7471,20 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
     },
     {
+      "venueId": "jzbrat",
+      "date": "2026-09-30",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "佐々木優花 Quartet with Daivid Matthews Special Guest Lew Tabackin",
+      "price": "￥8,000",
+      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/05/622820a358d0aaad7277ff550c34472b8895b54e-thumb-160xauto-14195.jpg",
+      "media": [],
+      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260930",
+      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260930",
+      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260930",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "kanmachi63",
       "date": "2026-09-30",
       "open": "14:30",
@@ -4534,6 +7494,50 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-09-30",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "田中菜緒子 p 若井俊也 b 中村海斗 ds 太田朱美 flt",
+      "price": "公式で確認",
+      "image": "http://ocha-naru.com/wp-content/uploads/2019/02/s_tanaka.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "pitinn",
+      "date": "2026-09-30",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "中村恵介 HUMADOPE",
+      "lineup": "中村恵介(Tp)吉本章紘(Ts,Fl)市川 空(P,Key)金森もとい(B)高橋直希(Ds)",
+      "price": "￥3,300",
+      "image": "http://pitinn.heteml.net/pit-inn/wp-content/uploads/2026/07/0930knakamura.jpg",
+      "media": [],
+      "source": "http://pit-inn.com/artist_live_info/260930humadope/",
+      "detailUrl": "http://pit-inn.com/artist_live_info/260930humadope/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-09-30",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "佐伯 ひろみ（vo） 片倉 真由子（p） 粟谷 巧（b） 濱田 省吾（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/7613/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1787026282251",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202609.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
     },
     {
       "venueId": "swing",
@@ -4596,7 +7600,7 @@
       "start": "未掲載"
     }
   ],
-  "updatedAt": "2026-08-24T14:29:24.210Z",
+  "updatedAt": "2026-08-24T14:43:45.033Z",
   "venues": [
     {
       "area": "near",
@@ -4719,6 +7723,66 @@
       "status": "公式日程あり",
       "tone": "#1b3154",
       "url": "https://www.billboard-live.com/tokyo/schedules"
+    },
+    {
+      "area": "tokyo",
+      "areaLabel": "新宿",
+      "id": "pitinn",
+      "name": "新宿PIT INN",
+      "station": "新宿三丁目駅 徒歩約2分",
+      "status": "公式日程あり",
+      "tone": "#652d2d",
+      "url": "http://pit-inn.com/schedule/"
+    },
+    {
+      "area": "tokyo",
+      "areaLabel": "渋谷",
+      "id": "bodyandsoul",
+      "name": "BODY&SOUL",
+      "station": "渋谷駅 徒歩約8分",
+      "status": "公式日程あり",
+      "tone": "#79543a",
+      "url": "https://bodyandsoul.co.jp/schedule"
+    },
+    {
+      "area": "tokyo",
+      "areaLabel": "渋谷",
+      "id": "jzbrat",
+      "name": "JZ Brat",
+      "station": "渋谷駅 徒歩約5分",
+      "status": "公式日程あり",
+      "tone": "#583759",
+      "url": "https://www.jzbrat.com/liveinfo/"
+    },
+    {
+      "area": "tokyo",
+      "areaLabel": "六本木",
+      "id": "alfie",
+      "name": "Jazz Live Alfie",
+      "station": "六本木駅 徒歩約1分",
+      "status": "公式日程あり",
+      "tone": "#623c32",
+      "url": "https://alfie.tokyo/"
+    },
+    {
+      "area": "tokyo",
+      "areaLabel": "御茶ノ水",
+      "id": "naru",
+      "name": "JAZZ HOUSE NARU",
+      "station": "御茶ノ水駅 徒歩約1分",
+      "status": "公式日程あり",
+      "tone": "#425b65",
+      "url": "http://ocha-naru.com/schedule/"
+    },
+    {
+      "area": "tokyo",
+      "areaLabel": "吉祥寺",
+      "id": "sometime",
+      "name": "吉祥寺SOMETIME",
+      "station": "吉祥寺駅 徒歩約5分",
+      "status": "公式日程あり",
+      "tone": "#586547",
+      "url": "https://www.sometime.co.jp/sometime/live.html"
     },
     {
       "area": "tokyo",
