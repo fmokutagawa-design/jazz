@@ -15,17 +15,17 @@
     {
       "venueId": "dolphy",
       "month": "2026-08",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 9,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 9
     },
     {
       "venueId": "dolphy",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 32,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 32
     },
     {
@@ -127,16 +127,16 @@
     {
       "venueId": "barbarbar",
       "month": "2026-08",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 7,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 7
     },
     {
       "venueId": "barbarbar",
       "month": "2026-09",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
@@ -1142,7 +1142,7 @@
       "date": "2026-09-02",
       "open": "18:00",
       "start": "19:00",
-      "artist": "9.2(水) vln.牧山 純子ｸﾗﾋﾞｵｰﾗ.折重 由美子",
+      "artist": "9.2(水) vln.牧山 純子 p.ｸﾗﾋﾞｵｰﾗ 折重 由美子",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8415.jpeg",
       "media": [],
@@ -3928,7 +3928,7 @@
       "start": "未掲載"
     }
   ],
-  "updatedAt": "2026-08-24T00:31:11.052Z",
+  "updatedAt": "2026-08-24T02:22:47.535Z",
   "venues": [
     {
       "area": "near",
