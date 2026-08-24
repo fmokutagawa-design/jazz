@@ -11,7 +11,7 @@ const months = [{ y: year, m: month }, month === 12 ? { y: year + 1, m: 1 } : { 
 const pad = n => String(n).padStart(2, '0');
 const iso = (y, m, d) => `${y}-${pad(m)}-${pad(d)}`;
 const strip = s => (s || '').replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&times;/g, '×').replace(/&#0?39;/g, "'").replace(/\s+/g, ' ').trim();
-const time = (s, key) => { const m = new RegExp(`(?:${key})\\D{0,4}(\\d{1,2})[:：](\\d{2})|(\\d{1,2})[:：](\\d{2})\\s*(?:${key})`, 'i').exec(s || ''); return m ? `${Number(m[1] || m[3])}:${m[2] || m[4]}` : '公式で確認'; };
+const time = (s, key) => { const m = new RegExp(`(?:${key})\\D{0,4}(\\d{1,2})[:：](\\d{2})|(\\d{1,2})[:：](\\d{2})\\D{0,4}(?:${key})`, 'i').exec(s || ''); return m ? `${Number(m[1] || m[3])}:${m[2] || m[4]}` : '公式で確認'; };
 const price = s => (/(?:[¥￥]\s?[\d,]{3,}|[\d,]{3,}\s?円)/.exec(s || '') || ['公式で確認'])[0].replace(/\s/g, '');
 const absolute = (u, base) => { try { return new URL(u, base).href; } catch { return u; } };
 const pageImage = (html, base) => {
@@ -28,6 +28,10 @@ const detailImage = (html, base) => {
   const meta = a || b;
   return meta && !/(undefined|null|common\/og-image)/i.test(meta) ? absolute(meta, base) : pageImage(html, base);
 };
+const youtubeMedia = html => {
+  const id = /(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{6,})/i.exec(String(html || ''))?.[1];
+  return id ? [{type:'youtube',url:`https://www.youtube.com/watch?v=${id}`}] : [];
+};
 
 async function get(url) {
   const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 jazz-near-tsunashima/1.0', accept: 'text/html' }, signal: AbortSignal.timeout(20000) });
@@ -37,6 +41,34 @@ async function get(url) {
   const charset = /charset=["']?([\w-]+)/i.exec(head)?.[1] || res.headers.get('content-type')?.match(/charset=([\w-]+)/i)?.[1] || 'utf-8';
   const encoding = /shift[_-]?jis|sjis|windows-31j/i.test(charset) ? 'shift_jis' : /euc-?jp/i.test(charset) ? 'euc-jp' : 'utf-8';
   return new TextDecoder(encoding).decode(buf);
+}
+
+async function enrichSwing(rows) {
+  const enriched = [];
+  for (let i = 0; i < rows.length; i += 5) {
+    const batch = rows.slice(i, i + 5);
+    const results = await Promise.all(batch.map(async event => {
+      try {
+        const html = await get(event.source), text = strip(html);
+        const open = time(text, 'open|開場|開店');
+        const start = time(text, 'start|開演|1st');
+        const secondStart = time(text, '2nd');
+        return {...event,
+          open: open !== '公式で確認' ? open : event.open,
+          start: start !== '公式で確認' ? start : event.start,
+          secondStart: secondStart !== '公式で確認' ? secondStart : undefined,
+          price: price(text),
+          image: detailImage(html, event.source) || event.image,
+          media: youtubeMedia(html)
+        };
+      } catch (e) {
+        console.error('swing detail', event.source, e.message);
+        return event;
+      }
+    }));
+    enriched.push(...results);
+  }
+  return enriched;
 }
 
 function reserve(html, ctx, origin) {
@@ -170,7 +202,7 @@ function parse(id, html, ctx) {
   const fresh = new Map(), reports = [];
   for (const [venueId, urls] of Object.entries(sources)) {
     const rows=[]; let failures=0;
-    for (const ctx of months) for (const url of urls(ctx.y,ctx.m)) try { const html=await get(url); rows.push(...parse(venueId,html,{...ctx,url})); } catch(e) { failures++; console.error(venueId,url,e.message); }
+    for (const ctx of months) for (const url of urls(ctx.y,ctx.m)) try { const html=await get(url); let parsed=parse(venueId,html,{...ctx,url}); if(venueId==='swing')parsed=await enrichSwing(parsed); rows.push(...parsed); } catch(e) { failures++; console.error(venueId,url,e.message); }
     const clean=[...new Map(rows.filter(e=>e.date>=today&&e.artist).map(e=>[`${e.date}|${e.artist}|${e.start}`,e])).values()];
     const replacement = previous.events.filter(e => e.venueId === venueId && e.date >= today);
     let imageChanged = false;

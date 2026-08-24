@@ -50,7 +50,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 6,
-      "kept": 7
+      "kept": 6
     },
     {
       "venueId": "cottonclub",
@@ -194,13 +194,14 @@
     {
       "venueId": "swing",
       "date": "2026-08-24",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "8.24（月）tp.中村 好江cl.後藤 雅広cl.田村 麻紀子p. 後藤 千香",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8446-1.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8443.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260824-2/"
+      "source": "https://ginzaswing.jp/20260824-2/",
+      "secondStart": "20:30"
     },
     {
       "artist": "Chisa vo. 斎藤クミコ pf.",
@@ -240,7 +241,7 @@
       "venueId": "bluenote",
       "date": "2026-08-25",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "MONDAY MICHIRU Special Summer Live 2026",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3969.jpg?20260824",
@@ -289,13 +290,19 @@
     {
       "venueId": "swing",
       "date": "2026-08-25",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "8.25(火) vocal.寿永 アリサ",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8447.jpeg",
-      "media": [],
-      "source": "https://ginzaswing.jp/8-25%e7%81%ab%e3%80%8cvocal-%e5%af%bf%e6%b0%b8-%e3%82%a2%e3%83%aa%e3%82%b5%e3%80%8d/"
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8446-1.jpeg",
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=wlv03492ma0"
+        }
+      ],
+      "source": "https://ginzaswing.jp/8-25%e7%81%ab%e3%80%8cvocal-%e5%af%bf%e6%b0%b8-%e3%82%a2%e3%83%aa%e3%82%b5%e3%80%8d/",
+      "secondStart": "20:30"
     },
     {
       "artist": "Special Trio　長沢成史 gt. 宮脇惇 cl.",
@@ -363,7 +370,7 @@
       "venueId": "bluenote",
       "date": "2026-08-26",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "AKIKO YANO TRIO featuring WILL LEE & CHRIS PARKER",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3953.jpg?20260824",
@@ -402,7 +409,7 @@
       "venueId": "first",
       "date": "2026-08-26",
       "open": "18:30",
-      "start": "19:00",
+      "start": "18:30",
       "artist": "灯音 (とうおん)",
       "price": "￥1,500",
       "image": null,
@@ -423,13 +430,14 @@
     {
       "venueId": "swing",
       "date": "2026-08-26",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "8.26(水)tp.筒井 政明レッドシェーカーズvo.絵馬 優 子",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8448.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8447.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260826-2/"
+      "source": "https://ginzaswing.jp/20260826-2/",
+      "secondStart": "20:30"
     },
     {
       "artist": "Special Duo　飯田さつき vo. 納谷嘉彦 pf.",
@@ -469,7 +477,7 @@
       "venueId": "bluenote",
       "date": "2026-08-27",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "AKIKO YANO TRIO featuring WILL LEE & CHRIS PARKER",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3953.jpg?20260824",
@@ -494,7 +502,7 @@
       "venueId": "first",
       "date": "2026-08-27",
       "open": "18:00",
-      "start": "19:00",
+      "start": "18:00",
       "artist": "岩崎佳子クインテット",
       "price": "￥3,500",
       "image": null,
@@ -526,13 +534,19 @@
     {
       "venueId": "swing",
       "date": "2026-08-27",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "8.27(木)cl.北村 英治",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8624.jpeg",
-      "media": [],
-      "source": "https://ginzaswing.jp/20260827-2/"
+      "price": "￥6,000",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8448.jpeg",
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=HB21DvAXU9g"
+        }
+      ],
+      "source": "https://ginzaswing.jp/20260827-2/",
+      "secondStart": "20:30"
     },
     {
       "artist": "長島百合子 vo. 楠直孝 pf.",
@@ -600,7 +614,7 @@
       "venueId": "bluenote",
       "date": "2026-08-28",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "AYATAKE EZAKI with guest KEI MATSUMARU 2026 Japan Tour - Tokyo",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3954.jpg?20260824",
@@ -639,7 +653,7 @@
       "venueId": "first",
       "date": "2026-08-28",
       "open": "18:30",
-      "start": "19:30",
+      "start": "18:30",
       "artist": "山本剛トリオ",
       "price": "￥4,000",
       "image": null,
@@ -660,13 +674,19 @@
     {
       "venueId": "swing",
       "date": "2026-08-28",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "8.28(金)vln.寺井 尚子 p.北島 直樹b.仲石 裕介 dr.浅井 翔太",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8452-1.jpeg",
-      "media": [],
-      "source": "https://ginzaswing.jp/20260831-2/"
+      "price": "￥7,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8624.jpeg",
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=5o5OAGMZsr8"
+        }
+      ],
+      "source": "https://ginzaswing.jp/20260831-2/",
+      "secondStart": "20:30"
     },
     {
       "artist": "金井優佳 vo. 小泉明子 pf.",
@@ -706,7 +726,7 @@
       "venueId": "bluenote",
       "date": "2026-08-29",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "AYATAKE EZAKI with guest KEI MATSUMARU 2026 Japan Tour - Tokyo",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3954.jpg?20260824",
@@ -755,13 +775,19 @@
     {
       "venueId": "swing",
       "date": "2026-08-29",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "8.29(土)as.守谷 美由貴",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8453.jpeg",
-      "media": [],
-      "source": "https://ginzaswing.jp/20260829-2/"
+      "price": "￥4,000",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8452-1.jpeg",
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=mVH12zrKLv8"
+        }
+      ],
+      "source": "https://ginzaswing.jp/20260829-2/",
+      "secondStart": "20:30"
     },
     {
       "artist": "お昼のVocal Session／Special Duo　里見紀子 vln. 田村博 pf.",
@@ -829,7 +855,7 @@
       "venueId": "bluenote",
       "date": "2026-08-30",
       "open": "15:30",
-      "start": "16:30",
+      "start": "15:30",
       "artist": "MARY HALVORSON’s AMARYLLIS SEXTET",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3959.jpg?20260824",
@@ -879,7 +905,7 @@
       "venueId": "first",
       "date": "2026-08-30",
       "open": "18:00",
-      "start": "18:30",
+      "start": "18:00",
       "artist": "Jackie Ozeki Presenting Real Deal Blues Night",
       "price": "￥2,500",
       "image": null,
@@ -923,7 +949,7 @@
       "venueId": "bluenote",
       "date": "2026-08-31",
       "open": "15:30",
-      "start": "16:30",
+      "start": "15:30",
       "artist": "MARY HALVORSON’s AMARYLLIS SEXTET",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3959.jpg?20260824",
@@ -961,13 +987,19 @@
     {
       "venueId": "swing",
       "date": "2026-08-31",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "8.31(月)DELTA4 +1 cl.後藤 雅広 gt.青木 研 p.後藤 千香b.小林 真人dr.川島 佑介",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "https://ginzaswing.jp/20260831-3/"
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8453.jpeg",
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=xxqIPAbCNIU"
+        }
+      ],
+      "source": "https://ginzaswing.jp/20260831-3/",
+      "secondStart": "20:30"
     },
     {
       "artist": "ダーナ潮田 vo. 小泉明子 pf.",
@@ -996,7 +1028,7 @@
       "venueId": "bluenote",
       "date": "2026-09-01",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260824",
@@ -1021,12 +1053,13 @@
       "venueId": "swing",
       "date": "2026-09-01",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "9.1(火)vib.松山 夏子 ゲストvo.佐藤ひびき",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8415.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8817.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260901-2/"
+      "source": "https://ginzaswing.jp/20260901-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -1083,7 +1116,7 @@
       "venueId": "bluenote",
       "date": "2026-09-02",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260824",
@@ -1108,12 +1141,13 @@
       "venueId": "swing",
       "date": "2026-09-02",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "9.2(水) vln.牧山 純子ｸﾗﾋﾞｵｰﾗ.折重 由美子",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8205.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8415.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260902-2/"
+      "source": "https://ginzaswing.jp/20260902-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -1170,7 +1204,7 @@
       "venueId": "bluenote",
       "date": "2026-09-03",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260824",
@@ -1195,7 +1229,7 @@
       "venueId": "first",
       "date": "2026-09-03",
       "open": "18:30",
-      "start": "19:00",
+      "start": "18:30",
       "artist": "Vocal Session 2.3ステージ Vocal 参加者に歌っていただきます。 Vocal 参加者、募集中！",
       "price": "￥3,000",
       "image": null,
@@ -1208,10 +1242,11 @@
       "open": "18:00",
       "start": "19:00",
       "artist": "9.3(木)vln.平松 加奈 p.奥山 勝 b.箭島 裕治 per.海沼 正利",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8080.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8205.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260904-2/"
+      "source": "https://ginzaswing.jp/20260904-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -1240,7 +1275,7 @@
       "venueId": "bluenote",
       "date": "2026-09-04",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "MIKE STERN BAND featuring DENNIS CHAMBERS, RANDY BRECKER, LENI STERN & LINCOLN GOINES",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3955.jpg?20260824",
@@ -1279,7 +1314,7 @@
       "venueId": "first",
       "date": "2026-09-04",
       "open": "18:30",
-      "start": "19:30",
+      "start": "18:30",
       "artist": "Yuta Okuno Quintet",
       "price": "￥3,000",
       "image": null,
@@ -1293,9 +1328,10 @@
       "start": "19:00",
       "artist": "9.4(金) 薗田憲一とデキシーキング",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8812.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8080.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260904-3/"
+      "source": "https://ginzaswing.jp/20260904-3/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -1352,7 +1388,7 @@
       "venueId": "bluenote",
       "date": "2026-09-05",
       "open": "15:30",
-      "start": "16:30",
+      "start": "15:30",
       "artist": "BILL LAURANCE TRIO",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3973.jpg?20260824",
@@ -1391,7 +1427,7 @@
       "venueId": "first",
       "date": "2026-09-05",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "FIRST SATURDAY JAM (毎月第1土曜日)",
       "price": "￥2,300",
       "image": null,
@@ -1412,13 +1448,14 @@
     {
       "venueId": "swing",
       "date": "2026-09-05",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "9.5(土) 「セルジオ・メンデス・トリビュート」",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2025/09/IMG_4331.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8812.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260905-3/"
+      "source": "https://ginzaswing.jp/20260905-3/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -1498,7 +1535,7 @@
       "venueId": "bluenote",
       "date": "2026-09-06",
       "open": "15:30",
-      "start": "16:30",
+      "start": "15:30",
       "artist": "BILL LAURANCE TRIO",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3973.jpg?20260824",
@@ -1537,7 +1574,7 @@
       "venueId": "first",
       "date": "2026-09-06",
       "open": "15:00",
-      "start": "16:00",
+      "start": "15:00",
       "artist": "川名祥哉TRIO",
       "price": "￥4,000",
       "image": null,
@@ -1570,7 +1607,7 @@
       "venueId": "bluenote",
       "date": "2026-09-07",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "THE RESIDENTS：ESKIMO",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260824",
@@ -1643,7 +1680,7 @@
       "venueId": "bluenote",
       "date": "2026-09-08",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "THE RESIDENTS：ESKIMO",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260824",
@@ -1719,7 +1756,7 @@
       "venueId": "bluenote",
       "date": "2026-09-09",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "THE RESIDENTS：ESKIMO",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260824",
@@ -1758,7 +1795,7 @@
       "venueId": "first",
       "date": "2026-09-09",
       "open": "18:30",
-      "start": "19:00",
+      "start": "18:30",
       "artist": "Special Organ Trio",
       "price": "￥3,500",
       "image": null,
@@ -1820,7 +1857,7 @@
       "venueId": "bluenote",
       "date": "2026-09-10",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "TILL BRONNER \"ITALIA\"",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260824",
@@ -1869,13 +1906,14 @@
     {
       "venueId": "swing",
       "date": "2026-09-10",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "9.10(木) 大井貴司 & Super Vibration",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8808.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2025/09/IMG_4331.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260910-2/"
+      "source": "https://ginzaswing.jp/20260910-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -1932,7 +1970,7 @@
       "venueId": "bluenote",
       "date": "2026-09-11",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "TILL BRONNER \"ITALIA\"",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260824",
@@ -1982,12 +2020,13 @@
       "venueId": "swing",
       "date": "2026-09-11",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "9.11(金)cl.北村 英治 cl.谷口 英治",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8258.jpeg",
+      "price": "￥6,000",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8808.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260911-2/"
+      "source": "https://ginzaswing.jp/20260911-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -2044,7 +2083,7 @@
       "venueId": "bluenote",
       "date": "2026-09-12",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "TILL BRONNER \"ITALIA\"",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260824",
@@ -2083,7 +2122,7 @@
       "venueId": "first",
       "date": "2026-09-12",
       "open": "13:30",
-      "start": "14:00",
+      "start": "13:30",
       "artist": "土曜昼セッション(毎月第2土曜日)",
       "price": "￥2,500",
       "image": null,
@@ -2104,13 +2143,14 @@
     {
       "venueId": "swing",
       "date": "2026-09-12",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "9.12 (土) The Violin Muse vln.川井 郁子",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8425.jpeg",
+      "price": "￥7,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8258.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260912-2/"
+      "source": "https://ginzaswing.jp/20260912-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -2151,7 +2191,7 @@
       "venueId": "bluenote",
       "date": "2026-09-13",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "TILL BRONNER \"ITALIA\"",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3982.jpg?20260824",
@@ -2190,7 +2230,7 @@
       "venueId": "first",
       "date": "2026-09-13",
       "open": "13:30",
-      "start": "14:00",
+      "start": "13:30",
       "artist": "日曜セッション (毎月第2日曜日)",
       "price": "￥2,300",
       "image": null,
@@ -2240,7 +2280,7 @@
       "venueId": "bluenote",
       "date": "2026-09-14",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "aron! \"Too Close For Running\"",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3994.jpg?20260824",
@@ -2278,13 +2318,14 @@
     {
       "venueId": "swing",
       "date": "2026-09-14",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "9.14(月)tp.中村 好江 cl.田村 麻紀子",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8427.jpeg",
+      "price": "¥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8425.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260914-2/"
+      "source": "https://ginzaswing.jp/20260914-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -2313,7 +2354,7 @@
       "venueId": "bluenote",
       "date": "2026-09-15",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "aron! \"Too Close For Running\"",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3994.jpg?20260824",
@@ -2354,10 +2395,11 @@
       "open": "18:00",
       "start": "19:00",
       "artist": "9.15(火) vo.飯田 さつき",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8501.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8427.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260915-2/"
+      "source": "https://ginzaswing.jp/20260915-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -2414,7 +2456,7 @@
       "venueId": "bluenote",
       "date": "2026-09-16",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "CHRISTIAN McBRIDE & URSA MAJOR",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260824",
@@ -2453,7 +2495,7 @@
       "venueId": "first",
       "date": "2026-09-16",
       "open": "19:00",
-      "start": "19:30",
+      "start": "19:00",
       "artist": "高田ひろ子トリオ",
       "price": "￥4,000",
       "image": null,
@@ -2463,13 +2505,14 @@
     {
       "venueId": "swing",
       "date": "2026-09-16",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "9.16(水)cl.花岡 詠二スヰングオールスターズ",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8084.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8501.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260916-2/"
+      "source": "https://ginzaswing.jp/20260916-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -2515,7 +2558,7 @@
       "venueId": "bluenote",
       "date": "2026-09-17",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "CHRISTIAN McBRIDE & URSA MAJOR",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260824",
@@ -2564,13 +2607,14 @@
     {
       "venueId": "swing",
       "date": "2026-09-17",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "9.17(木) dr.サバオ 渡辺 vo.鈴木 史子",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/02/IMG_6150.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8084.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260917-2/"
+      "source": "https://ginzaswing.jp/20260917-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -2627,7 +2671,7 @@
       "venueId": "bluenote",
       "date": "2026-09-18",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "CHRISTIAN McBRIDE & URSA MAJOR",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260824",
@@ -2663,12 +2707,13 @@
       "venueId": "swing",
       "date": "2026-09-18",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "9.18(金) dr.八城 邦義",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8725.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/02/IMG_6150.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260918-2/"
+      "source": "https://ginzaswing.jp/20260918-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -2725,7 +2770,7 @@
       "venueId": "bluenote",
       "date": "2026-09-19",
       "open": "16:00",
-      "start": "17:00",
+      "start": "16:00",
       "artist": "Chara Anniversary Countdown Live!! \"1991 to 2026\"",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3995.jpg?20260824",
@@ -2777,10 +2822,11 @@
       "open": "18:00",
       "start": "19:00",
       "artist": "9.19(土)dr.大槻 カルタ 英宣",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/05/IMG_6845.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8725.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260919-2/"
+      "source": "https://ginzaswing.jp/20260919-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "wonderwall",
@@ -2825,7 +2871,7 @@
       "venueId": "bluenote",
       "date": "2026-09-20",
       "open": "16:00",
-      "start": "17:00",
+      "start": "16:00",
       "artist": "Chara Anniversary Countdown Live!! \"1991 to 2026\"",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3995.jpg?20260824",
@@ -2915,7 +2961,7 @@
       "venueId": "bluenote",
       "date": "2026-09-21",
       "open": "15:30",
-      "start": "16:30",
+      "start": "15:30",
       "artist": "THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260824",
@@ -3016,7 +3062,7 @@
       "venueId": "bluenote",
       "date": "2026-09-22",
       "open": "15:30",
-      "start": "16:30",
+      "start": "15:30",
       "artist": "THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260824",
@@ -3066,7 +3112,7 @@
       "venueId": "bluenote",
       "date": "2026-09-23",
       "open": "15:30",
-      "start": "16:30",
+      "start": "15:30",
       "artist": "THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260824",
@@ -3116,7 +3162,7 @@
       "venueId": "bluenote",
       "date": "2026-09-24",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "SEPTETO SANTIAGUERO Vivela! Salsa Tour 2026",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3968.jpg?20260824",
@@ -3155,7 +3201,7 @@
       "venueId": "first",
       "date": "2026-09-24",
       "open": "18:00",
-      "start": "19:00",
+      "start": "18:00",
       "artist": "岩崎佳子カルテット",
       "price": "￥3,500",
       "image": null,
@@ -3177,12 +3223,13 @@
       "venueId": "swing",
       "date": "2026-09-24",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "9.24(木)cl.北村 英治",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8085.jpeg",
+      "price": "￥6,000",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/05/IMG_6845.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260924-2/"
+      "source": "https://ginzaswing.jp/20260924-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -3211,7 +3258,7 @@
       "venueId": "bluenote",
       "date": "2026-09-25",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "ULYSSES OWENS JR. & GENERATION Y",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3996.jpg?20260824",
@@ -3250,7 +3297,7 @@
       "venueId": "first",
       "date": "2026-09-25",
       "open": "18:30",
-      "start": "19:30",
+      "start": "18:30",
       "artist": "山本剛トリオ",
       "price": "￥4,000",
       "image": null,
@@ -3271,13 +3318,14 @@
     {
       "venueId": "swing",
       "date": "2026-09-25",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "9.25(金) p.遠藤 律子",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/01/IMG_5735.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8085.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260925-2/"
+      "source": "https://ginzaswing.jp/20260925-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -3334,7 +3382,7 @@
       "venueId": "bluenote",
       "date": "2026-09-26",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "ULYSSES OWENS JR. & GENERATION Y",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3996.jpg?20260824",
@@ -3373,7 +3421,7 @@
       "venueId": "first",
       "date": "2026-09-26",
       "open": "16:30",
-      "start": "17:00",
+      "start": "16:30",
       "artist": "HANAKAN JAM Session",
       "price": "￥2,500",
       "image": null,
@@ -3395,12 +3443,13 @@
       "venueId": "swing",
       "date": "2026-09-26",
       "open": "18:00",
-      "start": "公式で確認",
+      "start": "19:00",
       "artist": "9.26(土) vo.黒岩 静枝",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8426.jpeg",
+      "price": "￥6,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/01/IMG_5735.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260926-2/"
+      "source": "https://ginzaswing.jp/20260926-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -3468,7 +3517,7 @@
       "venueId": "bluenote",
       "date": "2026-09-27",
       "open": "15:30",
-      "start": "16:30",
+      "start": "15:30",
       "artist": "ANDREA MOTIS Guitar Trio \"Intimate\"",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3943.jpg?20260824",
@@ -3518,7 +3567,7 @@
       "venueId": "first",
       "date": "2026-09-27",
       "open": "16:30",
-      "start": "17:00",
+      "start": "16:30",
       "artist": "山本麻理子 Piano Trio Live",
       "price": "￥2,500",
       "image": null,
@@ -3568,7 +3617,7 @@
       "venueId": "bluenote",
       "date": "2026-09-28",
       "open": "15:30",
-      "start": "16:30",
+      "start": "15:30",
       "artist": "ANDREA MOTIS Guitar Trio \"Intimate\"",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3943.jpg?20260824",
@@ -3593,7 +3642,7 @@
       "venueId": "first",
       "date": "2026-09-28",
       "open": "18:30",
-      "start": "19:30",
+      "start": "18:30",
       "artist": "REUNION Vol.19 Hiro Yamanaka & Friends",
       "price": "￥3,500",
       "image": null,
@@ -3628,10 +3677,11 @@
       "open": "18:00",
       "start": "19:00",
       "artist": "9.28(月) cl.熊倉 未佐子",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2025/08/IMG_3746.jpeg",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8426.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260928-2/"
+      "source": "https://ginzaswing.jp/20260928-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -3688,7 +3738,7 @@
       "venueId": "bluenote",
       "date": "2026-09-29",
       "open": "17:00",
-      "start": "18:00",
+      "start": "17:00",
       "artist": "JHARIS YOKLEY + BIGYUKI",
       "price": "公式で確認",
       "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3984.jpg?20260824",
@@ -3726,13 +3776,14 @@
     {
       "venueId": "swing",
       "date": "2026-09-29",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "9.29(火) vo.鶴丸 はるか",
-      "price": "公式で確認",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8624-1.jpeg",
+      "price": "￥6,000",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2025/08/IMG_3746.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260929-2/"
+      "source": "https://ginzaswing.jp/20260929-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -3814,7 +3865,7 @@
       "venueId": "kanmachi63",
       "date": "2026-09-30",
       "open": "14:30",
-      "start": "19:30",
+      "start": "19:00",
       "artist": "gt.栗田妙子 ss.ませひろこ",
       "price": "3,300円",
       "image": null,
@@ -3827,10 +3878,11 @@
       "open": "18:00",
       "start": "19:00",
       "artist": "9.30(水)vln.寺井 尚子",
-      "price": "公式で確認",
-      "image": null,
+      "price": "￥7,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8624-1.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20260930-2/"
+      "source": "https://ginzaswing.jp/20260930-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "venus",
@@ -3876,7 +3928,7 @@
       "start": "未掲載"
     }
   ],
-  "updatedAt": "2026-08-23T21:34:53.937Z",
+  "updatedAt": "2026-08-23T23:26:17.547Z",
   "venues": [
     {
       "area": "near",

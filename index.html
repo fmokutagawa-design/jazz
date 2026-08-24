@@ -80,6 +80,8 @@ const jstToday = (() => { const parts = new Intl.DateTimeFormat('en-CA',{timeZon
 const state = {range:'today', area:'all', venue:'all', date:'', query:'', mediaOnly:false};
 const eventGrid = document.querySelector('#eventGrid');
 const venueGrid = document.querySelector('#venueGrid');
+const normalizeEvents = events => (events||[]).filter(e=>e&&e.date&&e.artist&&e.venueId).sort((a,b)=>a.date.localeCompare(b.date)||String(a.start||'').localeCompare(String(b.start||''))||eVenue(a).localeCompare(eVenue(b)));
+const eVenue = e => String(e.venueId||'');
 
 const fmtDate = iso => new Intl.DateTimeFormat('ja-JP',{month:'long',day:'numeric',weekday:'short'}).format(new Date(`${iso}T12:00:00+09:00`));
 const addDays = (iso, n) => {
@@ -112,7 +114,7 @@ const officialActions=e.reservationStatus==='web'
   : e.reservationStatus==='check'
     ? `${e.detailUrl?`<a href="${e.detailUrl}" target="_blank" rel="noopener">公演詳細</a>`:''}<span class="reservation-note">Web予約なし・公式で確認</span>`
     : `<a href="${e.source}" target="_blank" rel="noopener">公式で確認</a>`;
-return `<article class="event-row"><div class="time"><strong>${e.start}</strong><span>開演</span></div><div class="event-art has-image${e.image?'':' fallback'}" role="button" tabindex="0" aria-label="公演画像を拡大" data-image="${encodeURIComponent(image)}" data-label="${e.image?'画像を拡大':'共通イメージ'}" style="--tone:${v.tone};background-image:url('${image}')"></div><div class="event-body"><div class="area">${v.areaLabel}</div><h3>${displayName}</h3><div class="venue-name">${v.name}${e.note?` · ${e.note}`:''}</div><div class="event-meta"><span>OPEN ${e.open}</span><span>START ${e.start}</span><span>料金 ${e.price}</span></div>${badge&&badgeMedia?`<a class="media-pill" href="${badgeMedia.url}" target="_blank" rel="noopener">${badge}</a>`:''}</div><div class="event-actions">${officialActions}<a href="${mapUrl(v)}" target="_blank" rel="noopener">地図・経路</a>${kanmachiSearch}${eventMedia.map(m=>`<a href="${m.url}" target="_blank" rel="noopener">${m.type==='youtube'?'公演YouTube':'公演X'}</a>`).join('')}${venueMedia.map(m=>`<a href="${m.url}" target="_blank" rel="noopener">${m.type==='youtube'?'会場YouTube':'会場X'}</a>`).join('')}</div></article>`};
+return `<article class="event-row"><div class="time"><strong>${e.start}</strong><span>開演</span></div><div class="event-art has-image${e.image?'':' fallback'}" role="button" tabindex="0" aria-label="公演画像を拡大" data-image="${encodeURIComponent(image)}" data-label="${e.image?'画像を拡大':'共通イメージ'}" style="--tone:${v.tone};background-image:url('${image}')"></div><div class="event-body"><div class="area">${v.areaLabel}</div><h3>${displayName}</h3><div class="venue-name">${v.name}${e.note?` · ${e.note}`:''}</div><div class="event-meta"><span>OPEN ${e.open}</span><span>1ST ${e.start}</span>${e.secondStart?`<span>2ND ${e.secondStart}</span>`:''}<span>料金 ${e.price}</span></div>${badge&&badgeMedia?`<a class="media-pill" href="${badgeMedia.url}" target="_blank" rel="noopener">${badge}</a>`:''}</div><div class="event-actions">${officialActions}<a href="${mapUrl(v)}" target="_blank" rel="noopener">地図・経路</a>${kanmachiSearch}${eventMedia.map(m=>`<a href="${m.url}" target="_blank" rel="noopener">${m.type==='youtube'?'公演YouTube':'公演X'}</a>`).join('')}${venueMedia.map(m=>`<a href="${m.url}" target="_blank" rel="noopener">${m.type==='youtube'?'会場YouTube':'会場X'}</a>`).join('')}</div></article>`};
   if(events.length){const groups=events.reduce((map,e)=>(map.set(e.date,[...(map.get(e.date)||[]),e]),map),new Map());eventGrid.innerHTML=[...groups].map(([date,items])=>`<section class="date-group"><header><h2>${fmtDate(date)}</h2><span>${items.length}件</span></header><div class="timeline">${items.map(row).join('')}</div></section>`).join('');return}
   eventGrid.innerHTML=(()=>{const v=state.venue!=='all'?venueMap.get(state.venue):null;
  const ds=v?data.events.filter(e=>e.venueId===v.id).map(e=>e.date).sort():[];
@@ -215,11 +217,11 @@ const strip = s => (s || '')
 const CONFIRM = '公式で確認';
 const grabTime = (t, kw) => {
   // 「open 18:30」「18:30open」「OPEN18：30」いずれの語順にも対応
-  const m = new RegExp(`(?:${kw})\\D{0,4}(\\d{1,2})[:：](\\d{2})|(\\d{1,2})[:：](\\d{2})\\s*(?:${kw})`, 'i').exec(t || '');
+  const m = new RegExp(`(?:${kw})\\D{0,4}(\\d{1,2})[:：](\\d{2})|(\\d{1,2})[:：](\\d{2})\\D{0,4}(?:${kw})`, 'i').exec(t || '');
   if (!m) return CONFIRM;
   return m[1] ? `${Number(m[1])}:${m[2]}` : `${Number(m[3])}:${m[4]}`;
 };
-const openOf = t => grabTime(t, 'open|開場');
+const openOf = t => grabTime(t, 'open|開場|開店');
 const startOf = t => grabTime(t, 'start|開演');
 const priceOf = t => { const m = /(?:[¥￥]\s?[\d,]{3,}|[\d,]{3,}\s?円)/.exec(t); return m ? m[0].replace(/\s/g, '') : CONFIRM; };
 const abs = (href, base) => { try { return new URL(href, base).href; } catch { return href; } };
@@ -243,6 +245,33 @@ async function fetchVia(url) {
     } catch (e) { lastErr = e; }
   }
   throw lastErr || new Error('全プロキシ失敗');
+}
+
+async function enrichSwingRows(rows) {
+  const enriched = [];
+  for (let i = 0; i < rows.length; i += 4) {
+    const batch = rows.slice(i, i + 4);
+    const results = await Promise.all(batch.map(async event => {
+      try {
+        const html = await fetchVia(event.source), text = strip(html);
+        const open = grabTime(text, 'open|開場|開店');
+        const start = grabTime(text, 'start|開演|1st');
+        const secondStart = grabTime(text, '2nd');
+        const youtubeId = /(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{6,})/i.exec(html)?.[1];
+        const detailImg = /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i.exec(html)?.[1] || /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i.exec(html)?.[1];
+        return {...event,
+          open: open !== CONFIRM ? open : event.open,
+          start: start !== CONFIRM ? start : event.start,
+          secondStart: secondStart !== CONFIRM ? secondStart : undefined,
+          price: priceOf(text),
+          image: detailImg || event.image,
+          media: youtubeId ? [{type:'youtube',url:`https://www.youtube.com/watch?v=${youtubeId}`}] : (event.media||[])
+        };
+      } catch { return event; }
+    }));
+    enriched.push(...results);
+  }
+  return enriched;
 }
 
 function parseReserve(origin) {
@@ -404,7 +433,8 @@ async function refreshAll(btn) {
       for (const url of p.urls(y, m)) {
         try {
           const html = await fetchVia(url);
-          const rows = p.parse(html, { y, m, url });
+          let rows = p.parse(html, { y, m, url });
+          if (v.id === 'swing') rows = await enrichSwingRows(rows);
           const seen = new Set();
           for (const r of rows) {
             if (!r.date || !r.artist) continue;
