@@ -115,6 +115,17 @@ label.lbl{display:block;color:var(--muted);font-size:.82rem;margin-bottom:6px}
 .order-result .numbers{font-size:.8rem;color:var(--muted)}.order-result .reason{font-size:.83rem;line-height:1.55;margin-top:8px}
 .order-actions{display:grid;grid-template-columns:2fr 1fr;gap:8px;margin-top:10px}.order-actions button{min-height:46px;border:none;border-radius:11px;font-weight:800;cursor:pointer}
 .order-go{background:var(--orange);color:#241600}.order-done{background:var(--good);color:#04130b}.order-mercy{background:var(--surface3);color:var(--muted)}
+.rescue-stock{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:10px}
+.stock-item{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;align-items:center;gap:7px;background:var(--surface2);border:1px solid var(--line);border-radius:11px;padding:9px}
+.stock-name{min-width:0;font-size:.78rem;font-weight:800;line-height:1.25}.stock-name small{display:block;color:var(--muted);font-weight:500;margin-top:2px}
+.stock-count{min-width:24px;text-align:center;font-family:var(--num);font-weight:900}
+.stock-step{width:30px;height:30px;border:0;border-radius:8px;background:var(--surface3);color:var(--text);font-size:1rem;font-weight:900;cursor:pointer}
+.rescue-list{margin-top:12px}.rescue-meal{background:var(--surface2);border:1px solid var(--line);border-radius:12px;padding:11px;margin-bottom:8px}
+.rescue-meal.ready{border-color:color-mix(in srgb,var(--good) 45%,var(--line))}.rescue-top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.rescue-name{font-weight:900;font-size:.9rem}.rescue-meta{font-size:.74rem;color:var(--muted);white-space:nowrap;text-align:right}.rescue-needs{font-size:.76rem;color:var(--muted);line-height:1.5;margin-top:5px}
+.rescue-action{width:100%;min-height:40px;border:0;border-radius:10px;margin-top:8px;background:var(--good);color:#04130b;font-weight:900;cursor:pointer}
+.rescue-action:disabled{background:var(--surface3);color:var(--faint);cursor:not-allowed}
+@media(max-width:430px){.rescue-stock{grid-template-columns:1fr}}
 .store{display:inline-block;font-size:.72rem;font-weight:700;border-radius:6px;padding:1px 6px;margin:2px 4px 0 0}
 .s-seven{background:#e8732e;color:#fff}.s-lawson{background:#1a6fc4;color:#fff}.s-aeon{background:#c0306a;color:#fff}.s-other{background:#4d6b5a;color:#fff}
 .s-famima{background:#0a8a4f;color:#fff}.s-sukiya{background:#c8102e;color:#fff}.s-yoshinoya{background:#d8500f;color:#fff}.s-gai{background:#5a4d8a;color:#fff}
@@ -599,6 +610,13 @@ html[data-theme="light"] .streak .flame{filter:drop-shadow(0 0 8px rgba(255,110,
       <div id="orderResult"></div>
     </div>
 
+    <div class="card">
+      <h2>🛟 満腹救済食 <span class="tag" id="rescueReadyTag"></span></h2>
+      <div class="small muted">在庫を＋／−で合わせると、今作れるセットだけを上に表示します。「食べた」で記録と在庫減算をまとめて完了します。</div>
+      <div class="rescue-stock" id="rescueStock"></div>
+      <div class="rescue-list" id="rescueList"></div>
+    </div>
+
     <!-- today's intake -->
     <div class="card">
       <h2>今日の食事 <span class="tag" id="mealDateTag"></span></h2>
@@ -895,6 +913,7 @@ function freshState(){
       bike:[{date:pk,min:30,kcal:bikeKcal}],
     },
     meal:{dayType:'',budget:'cheap',mode:'cook',fridge:[],mood:'',storeKind:'buy',store:'seven',orderStore:'seven',order:null,orderMercyKey:null},
+    rescueInventory:{broccoli:0,potato:0,chicken:0,egg:0,tofu:0,natto:0,mekabu:0},
     spurt:{active:false,startKey:null,days:30,addKcal:300},
     refeed:{active:false,dateKey:null,addKcal:400,lastDoneKey:null},
     tdee:{correction:0,lastCalcKey:null},
@@ -908,7 +927,7 @@ let S=load();
 function load(){
   try{const raw=localStorage.getItem(KEY);if(!raw)return freshState();
     const p=JSON.parse(raw);const f=freshState();
-    return Object.assign(f,p,{profile:Object.assign(f.profile,p.profile||{}),meal:Object.assign(f.meal,p.meal||{})});
+    return Object.assign(f,p,{profile:Object.assign(f.profile,p.profile||{}),meal:Object.assign(f.meal,p.meal||{}),rescueInventory:Object.assign(f.rescueInventory,p.rescueInventory||{})});
   }catch(e){return freshState();}
 }
 let saveTimer=null;
@@ -1350,6 +1369,7 @@ function renderHomeTrain(){
 }
 function afterDataChange(){
   if($('#nextList'))renderPlan();
+  if($('#rescueList'))renderRescue();
   if($('#intakeBars'))renderIntake();
   if($('#histList'))renderFoodHistory();
   if($('#balanceBars'))renderBalance();
@@ -2875,6 +2895,23 @@ const FOOD_PRESETS=[
   {n:'加糖コーヒー',kcal:80,p:2,c:'飲み物'},{n:'オレンジジュース',kcal:180,p:1,c:'飲み物'},{n:'プロテイン1杯',kcal:120,p:20,c:'飲み物'},
 ];
 const FRIDGE=[['鶏むね','鶏むね'],['ささみ','ささみ'],['卵','卵'],['豆腐','豆腐'],['ツナ缶','ツナ'],['納豆','納豆'],['キムチ','キムチ'],['ブロッコリー','ブロッコリー'],['鮭','鮭'],['サバ缶','サバ'],['大豆','大豆'],['もやし','もやし'],['小松菜','小松菜'],['ほうれん草','ほうれん草'],['エビ','エビ'],['高野豆腐','高野豆腐']];
+const RESCUE_STOCK=[
+  {id:'broccoli',name:'ブロッコリー',unit:'500g袋'},
+  {id:'potato',name:'じゃがいも',unit:'500g袋'},
+  {id:'chicken',name:'鶏むね肉',unit:'250g分'},
+  {id:'egg',name:'卵',unit:'個'},
+  {id:'tofu',name:'豆腐',unit:'パック'},
+  {id:'natto',name:'納豆',unit:'パック'},
+  {id:'mekabu',name:'めかぶ',unit:'パック'},
+];
+const RESCUE_MEALS=[
+  {id:'tofu_full',name:'豆腐・納豆・卵・めかぶ満腹セット',kcal:520,p:41,needs:{tofu:1,natto:2,egg:2,mekabu:1}},
+  {id:'broccoli_chicken',name:'ブロッコリー500g＋鶏むね250g',kcal:460,p:75,needs:{broccoli:1,chicken:1}},
+  {id:'potato_chicken',name:'じゃがいも500g＋鶏むね250g',kcal:650,p:63,needs:{potato:1,chicken:1}},
+  {id:'mixed_chicken',name:'ブロッコリー250g＋じゃがいも250g＋鶏むね250g',kcal:555,p:69,needs:{broccoli:.5,potato:.5,chicken:1}},
+  {id:'tofu_egg',name:'豆腐＋卵2個＋めかぶ',kcal:345,p:29,needs:{tofu:1,egg:2,mekabu:1}},
+  {id:'broccoli_tofu',name:'ブロッコリー500g＋豆腐＋納豆',kcal:455,p:42,needs:{broccoli:1,tofu:1,natto:1}},
+];
 const MOODS=[
   {label:'さっぱり',keys:['ポン酢','レモン','梅','ゆず','酢','大根おろし','塩']},
   {label:'こってり',keys:['ごま','マヨ','チーズ','コチュジャン','照り焼き','カレー']},
@@ -3319,11 +3356,28 @@ function renderOrder(){
   const after=x.left-it.kcal,mercyUsed=S.meal.orderMercyKey===todayKey;
   out.innerHTML=`<div class="order-result"><div class="verdict">${o.slot}の判決・${N[o.store]}</div><div class="food">${it.n}</div><div class="numbers">約${it.yen}円　${it.kcal}kcal　たんぱく質${it.p}g</div><div class="reason">これを食べると今日の残りは約<b>${Math.max(0,after)}kcal</b>。高たんぱくを優先しつつ、残り枠を使い切りすぎない候補です。売り切れなら「近いカロリー・P${Math.max(15,it.p-5)}g以上」を店内で代役にしてください。</div><div class="order-actions"><button class="order-done" id="orderDone">✓ 従った・記録する</button><button class="order-mercy" id="orderMercy" ${mercyUsed?'disabled':''}>${mercyUsed?'恩赦済み':'一度だけ恩赦'}</button></div></div>`;
 }
+function rescueStockLabel(id,n){const s=RESCUE_STOCK.find(x=>x.id===id);return `${s?s.name:id}×${n}`;}
+function rescueCanMake(meal){return Object.entries(meal.needs).every(([id,n])=>(S.rescueInventory[id]||0)>=n);}
+function renderRescue(){
+  const inv=S.rescueInventory||(S.rescueInventory={});
+  $('#rescueStock').innerHTML=RESCUE_STOCK.map(s=>`<div class="stock-item"><div class="stock-name">${s.name}<small>${s.unit}</small></div><button class="stock-step" data-stock="${s.id}" data-d="-1" aria-label="${s.name}を減らす">−</button><span class="stock-count">${inv[s.id]||0}</span><button class="stock-step" data-stock="${s.id}" data-d="1" aria-label="${s.name}を増やす">＋</button></div>`).join('');
+  const meals=RESCUE_MEALS.slice().sort((a,b)=>Number(rescueCanMake(b))-Number(rescueCanMake(a)));
+  const ready=meals.filter(rescueCanMake).length;
+  $('#rescueReadyTag').textContent=`今すぐ ${ready}種類`;
+  $('#rescueList').innerHTML=meals.map(m=>{const ok=rescueCanMake(m);const needs=Object.entries(m.needs).map(([id,n])=>rescueStockLabel(id,n)).join('・');return `<div class="rescue-meal${ok?' ready':''}"><div class="rescue-top"><div class="rescue-name">${m.name}</div><div class="rescue-meta">約${m.kcal}kcal<br>P${m.p}g</div></div><div class="rescue-needs">${needs}</div><button class="rescue-action" data-rescue-eat="${m.id}" ${ok?'':'disabled'}>${ok?'✓ 食べた・記録する':'在庫不足'}</button></div>`;}).join('');
+}
+function eatRescue(id){
+  const meal=RESCUE_MEALS.find(x=>x.id===id);if(!meal||!rescueCanMake(meal))return;
+  Object.entries(meal.needs).forEach(([key,n])=>S.rescueInventory[key]=Math.max(0,(S.rescueInventory[key]||0)-n));
+  if(!S.foodLog[todayKey])S.foodLog[todayKey]=[];
+  S.foodLog[todayKey].push({name:`救済食：${meal.name}`,kcal:meal.kcal,p:meal.p,slot:defaultSlot()});
+  save();afterDataChange();toast('救済食を記録。在庫も更新しました');
+}
 function renderMeal(){
   if(!S.meal.dayType)S.meal.dayType=todayType();
   const ttName={train:'トレ日',rest:'休養日',night:'夜勤日'}[S.meal.dayType];
   $('#mealDateTag').textContent=`${today.getMonth()+1}/${today.getDate()}（${WD[today.getDay()]}）`;
-  renderOrder();
+  renderOrder();renderRescue();
   $('#dayTypeTag').textContent=ttName+'向け';
   document.querySelectorAll('#dayTypeSeg button').forEach(b=>b.classList.toggle('active',b.dataset.v===S.meal.dayType));
   document.querySelectorAll('#modeSeg button').forEach(b=>b.classList.toggle('active',b.dataset.v===S.meal.mode));
@@ -3355,6 +3409,8 @@ $('#orderResult').addEventListener('click',e=>{
   if(e.target.closest('#orderMercy')){if(S.meal.orderMercyKey!==todayKey)issueOrder(true);return;}
   if(e.target.closest('#orderDone')){const o=S.meal.order,it=o&&STORE_ITEMS[o.itemIdx];if(!it)return;addFood(it.n,it.kcal,it.p);S.meal.order=null;save();renderOrder();toast('判決を完遂。食事に記録しました');}
 });
+$('#rescueStock').addEventListener('click',e=>{const b=e.target.closest('[data-stock]');if(!b)return;const id=b.dataset.stock,d=Number(b.dataset.d)||0;S.rescueInventory[id]=Math.max(0,Math.min(99,(S.rescueInventory[id]||0)+d));save();renderRescue();});
+$('#rescueList').addEventListener('click',e=>{const b=e.target.closest('[data-rescue-eat]');if(b)eatRescue(b.dataset.rescueEat);});
 $('#reshuffleBtn').addEventListener('click',()=>{nextSeed++;ensureChosen(true);renderPlan();});
 document.addEventListener('click',e=>{const sw=e.target.closest('[data-swap]');if(sw){swapSlot(+sw.dataset.swap);return;}const ps=e.target.closest('[data-pickslot]');if(ps)openPickSheet(+ps.dataset.pickslot);});
 // collapsibles
