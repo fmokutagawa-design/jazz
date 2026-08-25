@@ -1803,7 +1803,7 @@
       "start": "19:00",
       "artist": "9.1(火)vib.松山 夏子 ゲストvo.佐藤ひびき",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8817.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8909.jpeg",
       "media": [
         {
           "type": "youtube",
@@ -2178,7 +2178,7 @@
       "start": "19:00",
       "artist": "9.3(木)vln.平松 加奈 p.奥山 勝 b.箭島 裕治 per.海沼 正利",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8205.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8910.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260904-2/",
       "secondStart": "20:30"
@@ -2366,7 +2366,7 @@
       "start": "19:00",
       "artist": "9.4(金) 薗田憲一とデキシーキング",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8080.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8911.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260904-3/",
       "secondStart": "20:30"
@@ -2984,9 +2984,9 @@
       "date": "2026-09-07",
       "open": "18:00",
       "start": "19:00",
-      "artist": "9.7(月)dr.大隅 寿男 as.大隅 卓也",
+      "artist": "9.7(月)dr.大隅 寿男 vo.大澤 理央",
       "price": "￥4,500",
-      "image": "http://ginzaswing.jp/wp22/wp-content/uploads/2022/12/000014ogp.png",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8919.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260907-2/",
       "secondStart": "20:30"
@@ -3307,9 +3307,9 @@
       "date": "2026-09-09",
       "open": "18:00",
       "start": "19:00",
-      "artist": "9.9(水)tb.佐野 聡 gt.越田 太郎丸 p.加藤 実 b.山根 幸洋",
-      "price": "公式で確認",
-      "image": "http://ginzaswing.jp/wp22/wp-content/uploads/2022/12/000014ogp.png",
+      "artist": "9.9(水)tb.佐野 聡 gt.越田 太郎丸",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8920.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260909-2/",
       "secondStart": "20:30"
@@ -3525,7 +3525,7 @@
       "start": "19:00",
       "artist": "9.10(木) 大井貴司 & Super Vibration",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2025/09/IMG_4331.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8914.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260910-2/",
       "secondStart": "20:30"
@@ -3747,7 +3747,7 @@
       "start": "19:00",
       "artist": "9.11(金)cl.北村 英治 cl.谷口 英治",
       "price": "￥6,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8808.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8915.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260911-2/",
       "secondStart": "20:30"
@@ -3988,7 +3988,7 @@
       "start": "19:00",
       "artist": "9.12 (土) The Violin Muse vln.川井 郁子",
       "price": "￥7,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8258.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8916.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260912-2/",
       "secondStart": "20:30"
@@ -4516,7 +4516,7 @@
       "start": "19:00",
       "artist": "9.15(火) vo.飯田 さつき",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8427.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8917.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260915-2/",
       "secondStart": "20:30"
@@ -4732,7 +4732,7 @@
       "start": "19:00",
       "artist": "9.16(水)cl.花岡 詠二スヰングオールスターズ",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8501.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8918.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20260916-2/",
       "secondStart": "20:30"
@@ -7436,7 +7436,7 @@
       "start": "未掲載"
     }
   ],
-  "updatedAt": "2026-08-24T21:44:23.774Z",
+  "updatedAt": "2026-08-25T09:54:24.446Z",
   "venues": [
     {
       "area": "near",
