@@ -50,14 +50,14 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 4,
-      "kept": 5
+      "kept": 4
     },
     {
       "venueId": "cottonclub",
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 24,
+      "count": 25,
       "kept": 24
     },
     {
@@ -74,7 +74,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 23,
-      "kept": 22
+      "kept": 23
     },
     {
       "venueId": "first",
@@ -532,7 +532,7 @@
       "open": "18:30",
       "start": "19:30",
       "secondStart": "21:00",
-      "artist": "《フロントページ オーケストラ》 定期公演",
+      "artist": "《フロントページ オーケストラ》 最終公演",
       "price": "¥5,000",
       "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/06/2606253-166x166.jpg",
       "media": [],
@@ -903,7 +903,7 @@
       "date": "2026-08-28",
       "open": "18:00",
       "start": "19:00",
-      "artist": "8.28(金)vln.寺井 尚子 p.北島 直樹b.仲石 裕介 dr.浅井 翔太",
+      "artist": "8.28(金)vln.寺井 尚子",
       "price": "￥7,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8624.jpeg",
       "media": [
@@ -1806,7 +1806,12 @@
       "artist": "9.2(水) vln.牧山 純子 p.ｸﾗﾋﾞｵｰﾗ 折重 由美子",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8894.jpeg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=7tyXuPplDdE"
+        }
+      ],
       "source": "https://ginzaswing.jp/20260902-2/",
       "secondStart": "20:30"
     },
@@ -1999,7 +2004,12 @@
       "artist": "9.3(木)vln.平松 加奈 p.奥山 勝 b.箭島 裕治 per.海沼 正利",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8910.jpeg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=rxsisDibhgw"
+        }
+      ],
       "source": "https://ginzaswing.jp/20260904-2/",
       "secondStart": "20:30"
     },
@@ -2105,7 +2115,7 @@
       "open": "18:30",
       "start": "19:30",
       "artist": "高尾典江(vo)スペシャルグループ 中島徹(p) 坂井紅介(b) 他",
-      "price": "4500円",
+      "price": "4000円",
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule2026_9.html"
@@ -3713,7 +3723,7 @@
       "date": "2026-09-12",
       "open": "18:30",
       "start": "19:30",
-      "artist": "The Blend 鈴木良雄(b) 峰厚介(ts) 中村恵介(tp) ハクエイ・キム(p) 本田珠也(ds)",
+      "artist": "The Blend 峰厚介(ts) 中村恵介(tp) ハクエイ・キム(p) 本田珠也(ds)",
       "price": "4500円",
       "image": null,
       "media": [],
@@ -5281,7 +5291,7 @@
       "date": "2026-09-20",
       "open": "18:00",
       "start": "19:00",
-      "artist": "グレース・マーヤ(vo/p) スペシャルグループ",
+      "artist": "グレース・マーヤ(vo/p) ＆丈青(p)DUO",
       "price": "4500円",
       "image": null,
       "media": [],
@@ -6794,6 +6804,20 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "cottonclub",
+      "date": "2026-09-28",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "マーティ・フリードマン JAPAN LIVE 2026",
+      "price": "¥10,000",
+      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5751.jpg?20260826",
+      "media": [],
+      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/marty-friedman-260928/",
+      "reservationUrl": null,
+      "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/marty-friedman-260928/",
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "dolphy",
       "date": "2026-09-28",
       "open": "18:30",
@@ -7268,7 +7292,7 @@
       "start": "未掲載"
     }
   ],
-  "updatedAt": "2026-08-25T21:43:25.151Z",
+  "updatedAt": "2026-08-26T10:00:48.841Z",
   "venues": [
     {
       "area": "near",
