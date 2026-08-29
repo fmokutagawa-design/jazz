@@ -143,9 +143,9 @@
     {
       "venueId": "billboard_yokohama",
       "month": "2026-08",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
+      "status": "rejected",
+      "reason": "不完全なため旧データ維持",
+      "count": 1,
       "kept": 2
     },
     {
@@ -6976,7 +6976,7 @@
       "start": "未掲載"
     }
   ],
-  "updatedAt": "2026-08-28T20:57:45.864Z",
+  "updatedAt": "2026-08-29T03:11:16.941Z",
   "venues": [
     {
       "area": "near",
