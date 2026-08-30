@@ -1450,7 +1450,7 @@
       "open": "18:30",
       "start": "19:30",
       "secondStart": "21:00",
-      "artist": "《高橋信之介トリオ》",
+      "artist": "《高橋信之介リーダークァルテット》",
       "price": "￥5,500",
       "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/04/26041617-166x166.jpg",
       "media": [],
@@ -2818,7 +2818,12 @@
       "artist": "9.11(金)cl.北村 英治 cl.谷口 英治",
       "price": "￥6,000",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8915.jpeg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=qHgvLkC9y0w"
+        }
+      ],
       "source": "https://ginzaswing.jp/20260911-2/",
       "secondStart": "20:30"
     },
@@ -3074,7 +3079,12 @@
       "artist": "9.12 (土) The Violin Muse vln.川井 郁子",
       "price": "￥7,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8916.jpeg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=m6eT4oMZe9g"
+        }
+      ],
       "source": "https://ginzaswing.jp/20260912-2/",
       "secondStart": "20:30"
     },
@@ -3465,10 +3475,15 @@
       "date": "2026-09-14",
       "open": "18:00",
       "start": "19:00",
-      "artist": "9.14(月)tp.中村 好江 cl.田村 麻紀子",
+      "artist": "9.14(月)tp.中村 好江 cl.田村 麻紀子 p.古川 奈都子",
       "price": "¥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8425.jpeg",
-      "media": [],
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2023/08/IMG_5753.jpeg",
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=5LEVMGgCbqU"
+        }
+      ],
       "source": "https://ginzaswing.jp/20260914-2/",
       "secondStart": "20:30"
     },
@@ -3879,7 +3894,12 @@
       "artist": "9.16(水)cl.花岡 詠二スヰングオールスターズ",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8918.jpeg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=-DbHaqC--Oo"
+        }
+      ],
       "source": "https://ginzaswing.jp/20260916-2/",
       "secondStart": "20:30"
     },
@@ -4282,7 +4302,12 @@
       "artist": "9.18(金) dr.八城 邦義",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8907.jpeg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=pLux41mTIh8"
+        }
+      ],
       "source": "https://ginzaswing.jp/20260918-2/",
       "secondStart": "20:30"
     },
@@ -6256,10 +6281,10 @@
       "price": "¥10,000",
       "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5751.jpg?20260830",
       "media": [],
-      "source": "https://www.cottonclubjapan.co.jp/jp/sp/artists/marty-friedman-260928/",
-      "reservationUrl": null,
+      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5751",
+      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5751",
       "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/marty-friedman-260928/",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "dolphy",
@@ -6750,7 +6775,7 @@
       "start": "未掲載"
     }
   ],
-  "updatedAt": "2026-08-29T23:18:25.145Z",
+  "updatedAt": "2026-08-30T14:27:30.652Z",
   "venues": [
     {
       "area": "near",
