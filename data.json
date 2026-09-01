@@ -26,39 +26,39 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 34,
-      "kept": 0
+      "kept": 34
     },
     {
       "venueId": "bluenote",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 25,
-      "kept": 29
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 25
     },
     {
       "venueId": "bluenote",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 30,
-      "kept": 0
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 30
     },
     {
       "venueId": "cottonclub",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 25,
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
       "kept": 25
     },
     {
       "venueId": "cottonclub",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 21,
-      "kept": 0
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 21
     },
     {
       "venueId": "swing",
@@ -74,7 +74,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 22,
-      "kept": 0
+      "kept": 22
     },
     {
       "venueId": "first",
@@ -90,7 +90,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 11,
-      "kept": 0
+      "kept": 11
     },
     {
       "venueId": "kanmachi63",
@@ -122,7 +122,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 26,
-      "kept": 2
+      "kept": 26
     },
     {
       "venueId": "barbarbar",
@@ -130,7 +130,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 26,
-      "kept": 0
+      "kept": 26
     },
     {
       "venueId": "barbarbar",
@@ -151,26 +151,26 @@
     {
       "venueId": "billboard_yokohama",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 36,
       "kept": 0
     },
     {
       "venueId": "billboard_tokyo",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 47,
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
       "kept": 47
     },
     {
       "venueId": "billboard_tokyo",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 54,
-      "kept": 0
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 54
     },
     {
       "venueId": "pitinn",
@@ -186,7 +186,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 31,
-      "kept": 0
+      "kept": 31
     },
     {
       "venueId": "bodyandsoul",
@@ -194,7 +194,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 28,
-      "kept": 27
+      "kept": 28
     },
     {
       "venueId": "bodyandsoul",
@@ -218,7 +218,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 24,
-      "kept": 0
+      "kept": 24
     },
     {
       "venueId": "alfie",
@@ -234,7 +234,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 25,
-      "kept": 0
+      "kept": 25
     },
     {
       "venueId": "naru",
@@ -250,7 +250,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 21,
-      "kept": 0
+      "kept": 21
     },
     {
       "venueId": "sometime",
@@ -266,7 +266,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 38,
-      "kept": 0
+      "kept": 38
     }
   ],
   "events": [
@@ -2832,12 +2832,7 @@
       "artist": "9.12 (土) The Violin Muse vln.川井 郁子",
       "price": "￥7,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8916.jpeg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=m6eT4oMZe9g"
-        }
-      ],
+      "media": [],
       "source": "https://ginzaswing.jp/20260912-2/",
       "secondStart": "20:30"
     },
@@ -6845,6 +6840,34 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-01",
+      "open": "14:30",
+      "start": "15:30",
+      "artist": "中村 雅俊 ビルボードライブ2026",
+      "price": "9,300円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21490/detail/dtl_ev-21363_1_1774839181.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21490&date=2026-10-01",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21490&date=2026-10-01",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21490&date=2026-10-01",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-01",
+      "open": "17:30",
+      "start": "18:30",
+      "artist": "中村 雅俊 ビルボードライブ2026",
+      "price": "9,300円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21490/detail/dtl_ev-21363_1_1774839181.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21490&date=2026-10-01",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21490&date=2026-10-01",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21490&date=2026-10-01",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-10-01",
       "open": "17:00",
@@ -6964,6 +6987,34 @@
       "image": null,
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-02",
+      "open": "14:30",
+      "start": "15:30",
+      "artist": "妃海風 Magic hour ～Hinami Fu Billboard Live 2026～ special guest 真琴つばさ",
+      "price": "9,900円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21392/detail/dtl_ev-21392_1_1776043645.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21392&date=2026-10-02",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21392&date=2026-10-02",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21392&date=2026-10-02",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-02",
+      "open": "17:30",
+      "start": "18:30",
+      "artist": "妃海風 Magic hour ～Hinami Fu Billboard Live 2026～ special guest 真琴つばさ",
+      "price": "9,900円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21392/detail/dtl_ev-21392_1_1776043645.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21392&date=2026-10-02",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21392&date=2026-10-02",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21392&date=2026-10-02",
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -7259,6 +7310,34 @@
       "secondStart": "14:30"
     },
     {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-04",
+      "open": "15:00",
+      "start": "16:00",
+      "artist": "Marcus Miller",
+      "price": "14,900円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21371/detail/dtl_ev-21371_1_1775194063.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-04",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "Marcus Miller",
+      "price": "14,900円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21371/detail/dtl_ev-21371_1_1775194063.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-10-04",
       "open": "15:30",
@@ -7383,6 +7462,34 @@
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21372&date=2026-10-05",
       "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21372&date=2026-10-05",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21372&date=2026-10-05",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-05",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": "BIG HORNS BEE 35th Anniversary Year vol.5 feat 山岸潤史(G) Play with Ken Ken(B) \\u0026 松浦千昇(Dr)",
+      "price": "7,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21572/detail/dtl_ev-21572_1_1782891871.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21572&date=2026-10-05",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21572&date=2026-10-05",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21572&date=2026-10-05",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-05",
+      "open": "19:30",
+      "start": "20:30",
+      "artist": "BIG HORNS BEE 35th Anniversary Year vol.5 feat 山岸潤史(G) Play with Ken Ken(B) \\u0026 松浦千昇(Dr)",
+      "price": "7,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21572/detail/dtl_ev-21572_1_1782891871.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21572&date=2026-10-05",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21572&date=2026-10-05",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21572&date=2026-10-05",
       "reservationStatus": "web"
     },
     {
@@ -7944,6 +8051,34 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-09",
+      "open": "16:00",
+      "start": "17:00",
+      "artist": "G-FREAK FACTORY Path to 30th TOUR “TOMOSHIBI” -灯-",
+      "price": "5,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21485/detail/dtl_ev-21485_1_1785051173.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21485&date=2026-10-09",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21485&date=2026-10-09",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21485&date=2026-10-09",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-09",
+      "open": "19:00",
+      "start": "20:00",
+      "artist": "G-FREAK FACTORY Path to 30th TOUR “TOMOSHIBI” -灯-",
+      "price": "5,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21485/detail/dtl_ev-21485_1_1785051173.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21485&date=2026-10-09",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21485&date=2026-10-09",
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-10-09",
       "open": "17:00",
@@ -8064,6 +8199,34 @@
       "image": null,
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-10",
+      "open": "15:00",
+      "start": "16:00",
+      "artist": "MALIYA 10th Anniversary \\u0026 \\\\",
+      "price": "6,400円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21529/detail/dtl_ev-21529_1_1781581506.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21529&date=2026-10-10",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21529&date=2026-10-10",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21529&date=2026-10-10",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-10",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "MALIYA 10th Anniversary \\u0026 \\\\",
+      "price": "6,400円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21529/detail/dtl_ev-21529_1_1781581506.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21529&date=2026-10-10",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21529&date=2026-10-10",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21529&date=2026-10-10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -8241,6 +8404,34 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-11",
+      "open": "14:00",
+      "start": "15:00",
+      "artist": "Skoop On Somebody Discotique Nite 2026",
+      "price": "9,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21550/detail/dtl_ev-21548_1_1782183808.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-11",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "Skoop On Somebody Discotique Nite 2026",
+      "price": "9,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21550/detail/dtl_ev-21548_1_1782183808.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-10-11",
       "open": "17:00",
@@ -8404,6 +8595,34 @@
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-12",
       "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-12",
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-12",
+      "open": "14:00",
+      "start": "15:00",
+      "artist": "CiON Billboard Live TOUR “JAZZ SESCiON vol.5”",
+      "price": "8,000円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21565/detail/dtl_ev-21564_1_1782380669.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-12",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "CiON Billboard Live TOUR “JAZZ SESCiON vol.5”",
+      "price": "8,000円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21565/detail/dtl_ev-21564_1_1782380669.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
       "reservationStatus": "check"
     },
     {
@@ -9040,6 +9259,34 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-16",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "大比良瑞希",
+      "price": "5,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21634/detail/dtl_ev-21634_1_1785899146.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-16",
+      "open": "20:00",
+      "start": "21:00",
+      "artist": "大比良瑞希",
+      "price": "5,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21634/detail/dtl_ev-21634_1_1785899146.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-10-16",
       "open": "17:00",
@@ -9201,6 +9448,34 @@
       "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21451&date=2026-10-17",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21451&date=2026-10-17",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-17",
+      "open": "15:00",
+      "start": "16:00",
+      "artist": "神山羊 at Billboard Live YOKOHAMA 2026(仮) 1st Stage：有機酸 2nd Stage：神山羊",
+      "price": "7,200円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21655/detail/dtl_ev-21655_1_1787291574.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21655&date=2026-10-17",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21655&date=2026-10-17",
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-17",
+      "open": "18:30",
+      "start": "19:30",
+      "artist": "神山羊 at Billboard Live YOKOHAMA 2026(仮) 1st Stage：有機酸 2nd Stage：神山羊",
+      "price": "7,200円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21655/detail/dtl_ev-21655_1_1787291574.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21655&date=2026-10-17",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21655&date=2026-10-17",
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -9503,6 +9778,34 @@
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397&date=2026-10-19",
       "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397&date=2026-10-19",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397&date=2026-10-19",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-19",
+      "open": "16:00",
+      "start": "17:00",
+      "artist": "上原理生  15th Anniversary Concert　～ PRAY×PLAY ～　",
+      "price": "8,000円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21411/detail/dtl_ev-21411_1_1780723505.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21411&date=2026-10-19",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21411&date=2026-10-19",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21411&date=2026-10-19",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-19",
+      "open": "19:00",
+      "start": "20:00",
+      "artist": "上原理生  15th Anniversary Concert　～ PRAY×PLAY ～　",
+      "price": "8,000円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21411/detail/dtl_ev-21411_1_1780723505.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21411&date=2026-10-19",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21411&date=2026-10-19",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21411&date=2026-10-19",
       "reservationStatus": "web"
     },
     {
@@ -9834,6 +10137,34 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-21",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "中村佳穂 NAKAMURA KAHO Billboard Live TOUR",
+      "price": "8,400円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21650/detail/dtl_ev-21648_1_1786673423.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21650&date=2026-10-21",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21650&date=2026-10-21",
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-21",
+      "open": "20:00",
+      "start": "21:00",
+      "artist": "中村佳穂 NAKAMURA KAHO Billboard Live TOUR",
+      "price": "8,400円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21650/detail/dtl_ev-21648_1_1786673423.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21650&date=2026-10-21",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21650&date=2026-10-21",
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-10-21",
       "open": "17:00",
@@ -9982,6 +10313,34 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-22",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": "Kamasi Washington",
+      "price": "15,800円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21398/detail/dtl_ev-21397_1_1776230227.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21398&date=2026-10-22",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21398&date=2026-10-22",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21398&date=2026-10-22",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-22",
+      "open": "19:30",
+      "start": "20:30",
+      "artist": "Kamasi Washington",
+      "price": "15,800円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21398/detail/dtl_ev-21397_1_1776230227.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21398&date=2026-10-22",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21398&date=2026-10-22",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21398&date=2026-10-22",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-10-22",
       "open": "17:00",
@@ -10061,6 +10420,34 @@
       "image": null,
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-23",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": "荻野目洋子 YOKO OGINOME 2026 “THIS COULD BE THE NIGHT”",
+      "price": "9,000円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21537/detail/dtl_ev-21537_1_1781848277.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-23",
+      "open": "19:30",
+      "start": "20:30",
+      "artist": "荻野目洋子 YOKO OGINOME 2026 “THIS COULD BE THE NIGHT”",
+      "price": "9,000円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21537/detail/dtl_ev-21537_1_1781848277.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -10383,6 +10770,34 @@
       "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21474&date=2026-10-25",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21474&date=2026-10-25",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-25",
+      "open": "15:00",
+      "start": "16:00",
+      "artist": "藤川千愛 at Billboard Live YOKOHAMA",
+      "price": "6,400円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21609/detail/dtl_ev-21609_1_1784779999.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21609&date=2026-10-25",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21609&date=2026-10-25",
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-25",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "藤川千愛 at Billboard Live YOKOHAMA",
+      "price": "6,400円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21609/detail/dtl_ev-21609_1_1784779999.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21609&date=2026-10-25",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21609&date=2026-10-25",
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -10982,6 +11397,34 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-29",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": "Crystal Kay Billboard Live Tour 2026",
+      "price": "9,100円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21558/detail/dtl_ev-21558_1_1782292325.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21558&date=2026-10-29",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21558&date=2026-10-29",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21558&date=2026-10-29",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-29",
+      "open": "19:30",
+      "start": "20:30",
+      "artist": "Crystal Kay Billboard Live Tour 2026",
+      "price": "9,100円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21558/detail/dtl_ev-21558_1_1782292325.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21558&date=2026-10-29",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21558&date=2026-10-29",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21558&date=2026-10-29",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-10-29",
       "open": "17:00",
@@ -11116,6 +11559,34 @@
       "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21584&date=2026-10-30",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21584&date=2026-10-30",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-30",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "chilldspot Billboard Live YOKOHAMA “ROOM”",
+      "price": "5,400円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21633/detail/dtl_ev-21633_1_1785897169.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21633&date=2026-10-30",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21633&date=2026-10-30",
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-30",
+      "open": "20:00",
+      "start": "21:00",
+      "artist": "chilldspot Billboard Live YOKOHAMA “ROOM”",
+      "price": "5,400円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21633/detail/dtl_ev-21633_1_1785897169.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21633&date=2026-10-30",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21633&date=2026-10-30",
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -11266,6 +11737,34 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-31",
+      "open": "14:00",
+      "start": "15:00",
+      "artist": "橋本さとし Satoshi Hashimoto 「ALIVE」–act1–",
+      "price": "11,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21606/detail/dtl_ev-21603_1_1784693651.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21606&date=2026-10-31",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21606&date=2026-10-31",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21606&date=2026-10-31",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-31",
+      "open": "17:00",
+      "start": "18:00",
+      "artist": "橋本さとし Satoshi Hashimoto 「ALIVE」–act1–",
+      "price": "11,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21606/detail/dtl_ev-21603_1_1784693651.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21606&date=2026-10-31",
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21606&date=2026-10-31",
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21606&date=2026-10-31",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-10-31",
       "open": "17:00",
@@ -11384,7 +11883,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-08-31T17:07:01.212Z",
+  "updatedAt": "2026-09-01T00:38:26.142Z",
   "venues": [
     {
       "area": "near",
