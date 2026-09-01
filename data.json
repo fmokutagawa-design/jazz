@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 32,
-      "kept": 32
+      "count": 31,
+      "kept": 31
     },
     {
       "venueId": "dolphy",
@@ -26,7 +26,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 35,
-      "kept": 34
+      "kept": 35
     },
     {
       "venueId": "bluenote",
@@ -65,8 +65,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 23,
-      "kept": 23
+      "count": 22,
+      "kept": 22
     },
     {
       "venueId": "swing",
@@ -113,8 +113,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 26,
-      "kept": 26
+      "count": 25,
+      "kept": 25
     },
     {
       "venueId": "wonderwall",
@@ -129,8 +129,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 26,
-      "kept": 26
+      "count": 25,
+      "kept": 25
     },
     {
       "venueId": "barbarbar",
@@ -177,8 +177,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 30,
-      "kept": 30
+      "count": 29,
+      "kept": 29
     },
     {
       "venueId": "pitinn",
@@ -193,8 +193,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 28,
-      "kept": 28
+      "count": 27,
+      "kept": 27
     },
     {
       "venueId": "bodyandsoul",
@@ -225,8 +225,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 25
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "alfie",
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 37,
-      "kept": 37
+      "count": 36,
+      "kept": 36
     },
     {
       "venueId": "sometime",
@@ -270,133 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-09-01",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[jazz] 井上陽介(b) 松本茜(pf) 海野俊輔(ds)",
-      "price": "￥5500",
-      "image": "https://alfie.tokyo/liveReport/2023/A9_02292.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202609.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-09-01",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "21:00",
-      "artist": "●MAREE ARAKY 〜 M.SUNGROOVE SOUL Live 〜",
-      "lineup": "vo:MAREE ARAKY gt:竹中俊二 bs:SOKUSAI ds:高田 真",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/09d3066d3dc8c0190cccea7d63157819.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bodyandsoul",
-      "date": "2026-09-01",
-      "open": "18:30",
-      "start": "19:30",
-      "secondStart": "21:00",
-      "artist": "《金森もといトリオ &#8220;JOG&#8221;》Jazz Standard Collections Vol.1 リリースライブ",
-      "price": "￥5,500",
-      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/07/S__69492740%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC-166x166.jpg",
-      "media": [],
-      "source": "https://bodyandsoul.co.jp/event/260901",
-      "detailUrl": "https://bodyandsoul.co.jp/event/260901",
-      "reservationUrl": "https://bodyandsoul.co.jp/event/260901",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-01",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "井野信義(b)＆今井和雄(g)DUO",
-      "price": "4000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-01",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "高橋佑成 the 奇観",
-      "lineup": "高橋佑成(P,Synth)ermhoi(Vo,Synth)細井徳太郎(G)千葉広樹(B)海老原 颯(Ds)",
-      "price": "￥3,850",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2024/10/1205takahashi.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260901takahashi/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260901takahashi/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-01",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "Nautilus 佐々木 俊之（ds） 中林 万里子（key） 梅沢 茂樹（b）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51537/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788175237858",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-09-01",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "9.1(火)vib.松山 夏子 ゲストvo.佐藤ひびき",
-      "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8909.jpeg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=IwtR2XiSeH4"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20260901-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "date": "2026-09-01",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "artist": "Team YAMAGOYA　萱原恵衣 vo. 小泉明子 pf. 水野樹里 vln.",
-      "price": "4,000円",
-      "image": "https://static.wixstatic.com/media/5fcc8d_9967bc663c054b15b21e040c34e991f0~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-09-01",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "坂井レイラ知美クインテット",
-      "price": "¥5,500",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781850015098.jpg",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/%e5%9d%82%e4%ba%95%e3%83%ac%e3%82%a4%e3%83%a9%e7%9f%a5%e7%be%8e%e3%82%af%e3%82%a4%e3%83%b3%e3%83%86%e3%83%83%e3%83%88-3/",
-      "secondStart": "20:10",
-      "lineup": "坂井レイラ知美（vo） 平岡遊一郎(g) 横原由梨子(ts) 鈴木洋一(g) 奥山勝(p)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/1(%E7%81%AB)%E5%9D%82%E4%BA%95%E3%83%AC%E3%82%A4%E3%83%A9%E7%9F%A5%E7%BE%8E%E3%82%AF%E3%82%A4%E3%83%B3%E3%83%86%E3%83%83%E3%83%88",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e5%9d%82%e4%ba%95%e3%83%ac%e3%82%a4%e3%83%a9%e7%9f%a5%e7%be%8e%e3%82%af%e3%82%a4%e3%83%b3%e3%83%86%e3%83%83%e3%83%88-3/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "alfie",
       "date": "2026-09-02",
@@ -1382,7 +1255,7 @@
       "open": "14:00",
       "start": "15:00",
       "secondStart": "16:30",
-      "artist": "伊藤君子(vo)",
+      "artist": "デイタイムライブ 伊藤君子(vo)",
       "price": "￥7,000",
       "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/05/26053016-166x166.jpg",
       "media": [],
@@ -2951,7 +2824,7 @@
       "open": "14:00",
       "start": "15:00",
       "secondStart": "16:30",
-      "artist": "《秋田慎治デビュー20周年記念ライブ》 &#8220;Two Decades of Resonance&#8221;",
+      "artist": "デイタイムライブ 《秋田慎治デビュー20周年記念ライブ》 &#8220;Two Decades of Resonance&#8221;",
       "price": "￥6,000",
       "image": "https://bodyandsoul.co.jp/wp-content/uploads/2025/03/2502288-e1785233912800-166x166.jpg",
       "media": [],
@@ -11894,7 +11767,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-01T14:12:18.508Z",
+  "updatedAt": "2026-09-01T23:19:14.855Z",
   "venues": [
     {
       "area": "near",
