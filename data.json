@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 31,
-      "kept": 31
+      "count": 30,
+      "kept": 30
     },
     {
       "venueId": "dolphy",
@@ -65,8 +65,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 22,
-      "kept": 22
+      "count": 21,
+      "kept": 21
     },
     {
       "venueId": "swing",
@@ -113,8 +113,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 25
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "wonderwall",
@@ -129,8 +129,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 25
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "barbarbar",
@@ -146,7 +146,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 42
+      "kept": 40
     },
     {
       "venueId": "billboard_yokohama",
@@ -177,8 +177,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 29,
-      "kept": 29
+      "count": 28,
+      "kept": 28
     },
     {
       "venueId": "pitinn",
@@ -193,8 +193,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 27,
-      "kept": 27
+      "count": 26,
+      "kept": 26
     },
     {
       "venueId": "bodyandsoul",
@@ -209,8 +209,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 25
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "jzbrat",
@@ -225,8 +225,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 24,
-      "kept": 24
+      "count": 23,
+      "kept": 23
     },
     {
       "venueId": "alfie",
@@ -241,8 +241,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 21,
-      "kept": 21
+      "count": 20,
+      "kept": 20
     },
     {
       "venueId": "naru",
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 36,
-      "kept": 36
+      "count": 35,
+      "kept": 35
     },
     {
       "venueId": "sometime",
@@ -270,195 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-09-02",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[jazz] 村田千紘(tp) 石田衛(pf) 若井俊也(b) 中村海斗(ds)",
-      "price": "￥5500",
-      "image": "https://alfie.tokyo/liveReport/2017/DSC06478.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202609.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-09-02",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "21:00",
-      "artist": "●深井克則 Latin Jazz Trio“T.K.G”",
-      "lineup": "pf:深井克則 bs:高橋ゲタ夫 ds:岩瀬立飛",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/291d379dfb0e48fca0aa9342867eec35.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-02",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "増田惠子 I Love Singing!! 2026 ピンク・レディー50th \\u0026 ソロ45th Anniversary ～バースデイライブ～",
-      "price": "9,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21477/detail/dtl_ev-21477_1_1779940457.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21477&date=2026-09-02",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21477&date=2026-09-02",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21477&date=2026-09-02",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-02",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "増田惠子 I Love Singing!! 2026 ピンク・レディー50th \\u0026 ソロ45th Anniversary ～バースデイライブ～",
-      "price": "9,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21477/detail/dtl_ev-21477_1_1779940457.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21477&date=2026-09-02",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21477&date=2026-09-02",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21477&date=2026-09-02",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bodyandsoul",
-      "date": "2026-09-02",
-      "open": "18:30",
-      "start": "19:30",
-      "secondStart": "21:00",
-      "artist": "《片倉真由子トリオ》",
-      "price": "￥6,000",
-      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/04/2602192-768x512-1-166x166.jpg",
-      "media": [],
-      "source": "https://bodyandsoul.co.jp/event/260902",
-      "detailUrl": "https://bodyandsoul.co.jp/event/260902",
-      "reservationUrl": "https://bodyandsoul.co.jp/event/260902",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-02",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "新歌謡サスペンス 吉田歩(vo)沢田譲治(g/p/vo)向島ゆり子(vln)直江実樹(radip)斉藤良(ds).",
-      "price": "4000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-09-02",
-      "open": "17:45",
-      "start": "19:00",
-      "artist": "マスムラエミコ precious LIVE「Harvest Moon 9」",
-      "price": "￥8,400",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/08/260902_top-thumb-160xauto-14576.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260902",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260902",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260902",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-09-02",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "デニス・フレーゼ ds 田窪寛之 p 池尻洋史 b 佐瀬悠輔 tp",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-02",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "Quadrangle +１",
-      "lineup": "石井 彰(P)石井智大(Vln)水谷浩章(B)池長一美(Ds)ゲスト:野津昌太郎(G)",
-      "price": "￥3,300",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/07/0902quadrangle.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260902quadrangle/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260902quadrangle/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-02",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "高橋 徹と東京グルービン・ハイ 池田 篤（sax） 吉田 桂一（p） 小玉 勇気（b）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51539/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-09-02",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "9.2(水) vln.牧山 純子 p.ｸﾗﾋﾞｵｰﾗ 折重 由美子",
-      "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8894.jpeg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=7tyXuPplDdE"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20260902-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "date": "2026-09-02",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "artist": "Special Trio　平松加奈 vln. 井上ゆかり pf. 高木潤一 gt.",
-      "price": "4,000円",
-      "image": "https://static.wixstatic.com/media/5fcc8d_9967bc663c054b15b21e040c34e991f0~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-09-02",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "moto.SpecialQuartet",
-      "price": "¥5,500",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781257054398.jpg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=xdUARC5oZJw"
-        }
-      ],
-      "source": "https://wonderwall-yokohama.jp/schedule/moto-specialquartet-6/",
-      "secondStart": "20:10",
-      "lineup": "池本茂貴(tb) 武本和大(p) 中林薫平(b) 菅野知明(ds)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/2(%E6%B0%B4)moto.SpecialQuartet",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/moto-specialquartet-6/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "alfie",
       "date": "2026-09-03",
@@ -3481,7 +3292,7 @@
       "open": "18:30",
       "start": "19:30",
       "artist": "「Lars Jansson特集」Live 桃瀬茉莉(p)工藤精(b) 池長一美(ds)",
-      "price": "4000円",
+      "price": "3800円",
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
@@ -3921,7 +3732,7 @@
       "open": "18:30",
       "start": "19:30",
       "artist": "San Gennaro Tour Japan 2026 Gio Guido(g)＆Silvano Borzacchiello(ds)Duo",
-      "price": "5000円",
+      "price": "4500円",
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
@@ -11767,7 +11578,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-02T13:44:27.705Z",
+  "updatedAt": "2026-09-02T23:19:58.261Z",
   "venues": [
     {
       "area": "near",
