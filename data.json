@@ -73,7 +73,7 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 22,
+      "count": 23,
       "kept": 22
     },
     {
@@ -151,9 +151,9 @@
     {
       "venueId": "billboard_yokohama",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
+      "status": "rejected",
+      "reason": "不完全なため旧データ維持",
+      "count": 18,
       "kept": 36
     },
     {
@@ -1354,7 +1354,7 @@
       "start": "19:00",
       "artist": "9.7(月)dr.大隅 寿男 vo.大澤 理央",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8919.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99260907%E5%A4%A7%E9%9A%85.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20260907-2/",
       "secondStart": "20:30"
@@ -1517,7 +1517,7 @@
       "start": "19:00",
       "artist": "9.8(火)gt.田辺 充邦 cello.平山 織絵 vo.山田 夢子",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8978.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99260908%E7%94%B0%E8%BE%BA.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20260908-2/",
       "secondStart": "20:30"
@@ -2297,7 +2297,7 @@
       "artist": "※スインギ―奥田&ザ･ブルースカイオーケストラ with Meri",
       "lineup": "ds:スインギ―奥田 tp:小松悠人 tp:菊池 宏 tp:菊池成浩 tb:三塚知貴 tb:中 雅志 a.sax:上野 悠 a.sax:鍬田修一 t.sax:松元啓祐 pf:金山マサ裕 bs:菅井信行 vo:Meri",
       "price": "6,600円",
-      "image": "https://www.barbarbar.jp/calendar/uploads/0de287b6b191752b710720fb3cc90630.jpg",
+      "image": "https://www.barbarbar.jp/calendar/uploads/5cda685ba5f6bc235267f70c3bbf7a19.jpg",
       "media": [],
       "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
       "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
@@ -8437,7 +8437,7 @@
       "date": "2026-10-13",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] \"Trio50\" クリヤ・マコト(pf) Kii(ds) 納浩一(b)",
+      "artist": "[jazz] \"Trio 50\" クリヤ・マコト(pf) Kii(ds) 納浩一(b)",
       "price": "￥5500",
       "image": null,
       "media": [],
@@ -9077,6 +9077,18 @@
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
       "reservationStatus": "check"
+    },
+    {
+      "venueId": "swing",
+      "date": "2026-10-16",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "10.6(金 )大井貴司＆Super Vibration",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/IMG_9037.jpeg",
+      "media": [],
+      "source": "https://ginzaswing.jp/20261006-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "wonderwall",
@@ -11578,7 +11590,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-02T23:19:58.261Z",
+  "updatedAt": "2026-09-03T13:39:28.358Z",
   "venues": [
     {
       "area": "near",
