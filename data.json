@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 30,
-      "kept": 30
+      "count": 29,
+      "kept": 29
     },
     {
       "venueId": "dolphy",
@@ -65,8 +65,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 21,
-      "kept": 21
+      "count": 20,
+      "kept": 20
     },
     {
       "venueId": "swing",
@@ -74,15 +74,15 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 23,
-      "kept": 22
+      "kept": 23
     },
     {
       "venueId": "first",
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 13,
-      "kept": 13
+      "count": 12,
+      "kept": 12
     },
     {
       "venueId": "first",
@@ -113,8 +113,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 24,
-      "kept": 24
+      "count": 23,
+      "kept": 23
     },
     {
       "venueId": "wonderwall",
@@ -129,8 +129,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 24,
-      "kept": 24
+      "count": 23,
+      "kept": 23
     },
     {
       "venueId": "barbarbar",
@@ -146,14 +146,14 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 40
+      "kept": 38
     },
     {
       "venueId": "billboard_yokohama",
       "month": "2026-10",
-      "status": "rejected",
-      "reason": "不完全なため旧データ維持",
-      "count": 18,
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
       "kept": 36
     },
     {
@@ -162,14 +162,14 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 47
+      "kept": 45
     },
     {
       "venueId": "billboard_tokyo",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
+      "status": "rejected",
+      "reason": "不完全なため旧データ維持",
+      "count": 27,
       "kept": 54
     },
     {
@@ -177,8 +177,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 28,
-      "kept": 28
+      "count": 27,
+      "kept": 27
     },
     {
       "venueId": "pitinn",
@@ -193,8 +193,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 26,
-      "kept": 26
+      "count": 25,
+      "kept": 25
     },
     {
       "venueId": "bodyandsoul",
@@ -225,8 +225,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 23,
-      "kept": 23
+      "count": 22,
+      "kept": 22
     },
     {
       "venueId": "alfie",
@@ -241,8 +241,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 20,
-      "kept": 20
+      "count": 19,
+      "kept": 19
     },
     {
       "venueId": "naru",
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 35,
-      "kept": 35
+      "count": 34,
+      "kept": 34
     },
     {
       "venueId": "sometime",
@@ -270,215 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-09-03",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[jazz] 岩野未侑(vo) 小川悦司(g) 納浩一(b)",
-      "price": "￥6600",
-      "image": "https://alfie.tokyo/liveReport/20260903_.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202609.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-09-03",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "21:00",
-      "artist": "●吉本ひとみ&皆川トオルTrio",
-      "lineup": "vo:吉本ひとみ sax:皆川トオル pf:寺村容子 bs:新岡 誠",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/ecc79f8684e614fed0176b3c0cd6a2c6.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-03",
-      "open": "16:30",
-      "start": "17:30",
-      "artist": "Billboard Live presents THE ROOTS Japan Tour 2026",
-      "price": "17,900円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21434/detail/dtl_ev-21434_1_1777548954.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21434&date=2026-09-03",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21434&date=2026-09-03",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-03",
-      "open": "20:00",
-      "start": "21:00",
-      "artist": "Billboard Live presents THE ROOTS Japan Tour 2026",
-      "price": "17,900円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21434/detail/dtl_ev-21434_1_1777548954.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21434&date=2026-09-03",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21434&date=2026-09-03",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-03",
-      "open": "16:30",
-      "start": "17:30",
-      "artist": "TETSUYA Acoustic Live Tour 2026 at Billboard Live",
-      "price": "10,000円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21517/detail/dtl_ev-21517_1_1781230526.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21517&date=2026-09-03",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21517&date=2026-09-03",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21517&date=2026-09-03",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-03",
-      "open": "19:30",
-      "start": "20:30",
-      "artist": "TETSUYA Acoustic Live Tour 2026 at Billboard Live",
-      "price": "10,000円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21517/detail/dtl_ev-21517_1_1781230526.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21517&date=2026-09-03",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21517&date=2026-09-03",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21517&date=2026-09-03",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bodyandsoul",
-      "date": "2026-09-03",
-      "open": "18:30",
-      "start": "19:30",
-      "secondStart": "21:00",
-      "artist": "《Uniquely5=比類なき5人》",
-      "price": "￥6,000",
-      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2025/12/aIMG-4636-1-166x166.jpg",
-      "media": [],
-      "source": "https://bodyandsoul.co.jp/event/260903",
-      "detailUrl": "https://bodyandsoul.co.jp/event/260903",
-      "reservationUrl": "https://bodyandsoul.co.jp/event/260903",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-03",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "守谷美由貴(as)＆ 田中信正(p) DUO",
-      "price": "4000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "first",
-      "date": "2026-09-03",
-      "open": "18:30",
-      "start": "18:30",
-      "artist": "Vocal Session 2.3ステージ Vocal 参加者に歌っていただきます。 Vocal 参加者、募集中！",
-      "price": "￥3,000",
-      "image": null,
-      "media": [],
-      "source": "https://naniaru.com/events/view/14797"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-09-03",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "熊谷ヤスマサ ２DAYS CD発売記念 熊谷ヤスマサ p 大塚義将 b 叶雅久 ds",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-03",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "音波流（おんぱりゅう）",
-      "lineup": "羽野昌ニ(Ds)中尾憲太郎(B)類家心平(Tp)",
-      "price": "¥3,500",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/07/0903hano.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260903onpa-ryu/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260903onpa-ryu/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-03",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "Scene of Jazz CD”Rain Portraits”発売記念LIVE!! 石井 彰（p） 安ヵ川 大樹（b） 大坂 昌彦（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51543/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-09-03",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "9.3(木)vln.平松 加奈 p.奥山 勝 b.箭島 裕治 per.海沼 正利",
-      "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8910.jpeg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=rxsisDibhgw"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20260904-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "date": "2026-09-03",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "artist": "山崎のぶこ vo. 菊地雅之 pf.",
-      "price": "3,500円",
-      "image": "https://static.wixstatic.com/media/5fcc8d_9967bc663c054b15b21e040c34e991f0~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-09-03",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "井上銘×RIO",
-      "price": "¥4,950",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781850053998.jpg",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/%e4%ba%95%e4%b8%8a%e9%8a%98xrio-9/",
-      "secondStart": "20:10",
-      "lineup": "井上銘(g) RIO(ukulele)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/3(%E6%9C%A8)%E4%BA%95%E4%B8%8A%E9%8A%98%C3%97RIO",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e4%ba%95%e4%b8%8a%e9%8a%98xrio-9/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "alfie",
       "date": "2026-09-04",
@@ -11590,7 +11381,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-03T13:39:28.358Z",
+  "updatedAt": "2026-09-03T23:17:42.208Z",
   "venues": [
     {
       "area": "near",
