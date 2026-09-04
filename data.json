@@ -167,9 +167,9 @@
     {
       "venueId": "billboard_tokyo",
       "month": "2026-10",
-      "status": "rejected",
-      "reason": "不完全なため旧データ維持",
-      "count": 27,
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
       "kept": 54
     },
     {
@@ -2307,7 +2307,12 @@
       "artist": "9.12 (土) The Violin Muse vln.川井 郁子",
       "price": "￥7,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8916.jpeg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=m6eT4oMZe9g"
+        }
+      ],
       "source": "https://ginzaswing.jp/20260912-2/",
       "secondStart": "20:30"
     },
@@ -2774,7 +2779,7 @@
       "artist": "●山岡美香&寺村容子Trio",
       "lineup": "vo:山岡美香 pf:寺村容子 bs:磯部英貴 ds:鳥山 悠",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://www.barbarbar.jp/calendar/uploads/9c11ecbdd6f17b479d1dc68cb47519b2.jpg",
       "media": [],
       "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
       "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
@@ -11381,7 +11386,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-03T23:17:42.208Z",
+  "updatedAt": "2026-09-04T13:35:23.043Z",
   "venues": [
     {
       "area": "near",
