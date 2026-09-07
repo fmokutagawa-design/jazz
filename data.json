@@ -74,7 +74,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 24,
-      "kept": 23
+      "kept": 24
     },
     {
       "venueId": "first",
@@ -95,16 +95,16 @@
     {
       "venueId": "kanmachi63",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 18,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 18
     },
     {
       "venueId": "kanmachi63",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
@@ -159,9 +159,9 @@
     {
       "venueId": "billboard_tokyo",
       "month": "2026-09",
-      "status": "rejected",
-      "reason": "不完全なため旧データ維持",
-      "count": 18,
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
       "kept": 37
     },
     {
@@ -2661,7 +2661,7 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "MASAHIKO OSAKA 3 DAYS 大坂昌彦 ds スエナガタカフミ p 小川晋平 b 竹内直 ts 国府方彰宏 tp",
+      "artist": "MASAHIKO OSAKA 3 DAYS 大坂昌彦 ds スエナガタカフミ p 小川晋平 b 竹内直 ts 國府方章弘 tp",
       "price": "公式で確認",
       "image": null,
       "media": [],
@@ -8301,7 +8301,7 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "MASAHIKO OSAKA 3 DAYS 大坂昌彦 ds スエナガタカフミ p 小川晋平 b 竹内直 ts 国府方彰宏 tp",
+      "artist": "MASAHIKO OSAKA 3 DAYS 大坂昌彦 ds スエナガタカフミ p 小川晋平 b 竹内直 ts 國府方章弘 tp",
       "price": "公式で確認",
       "image": null,
       "media": [],
@@ -10496,7 +10496,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-07T15:07:01.901Z",
+  "updatedAt": "2026-09-07T23:31:19.797Z",
   "venues": [
     {
       "area": "near",
