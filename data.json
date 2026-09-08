@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 25
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 22
+      "kept": 21
     },
     {
       "venueId": "bluenote",
@@ -65,8 +65,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 17,
-      "kept": 17
+      "count": 16,
+      "kept": 16
     },
     {
       "venueId": "swing",
@@ -113,8 +113,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 18,
-      "kept": 18
+      "count": 17,
+      "kept": 17
     },
     {
       "venueId": "wonderwall",
@@ -129,8 +129,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 20,
-      "kept": 20
+      "count": 19,
+      "kept": 19
     },
     {
       "venueId": "barbarbar",
@@ -162,7 +162,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 37
+      "kept": 36
     },
     {
       "venueId": "billboard_tokyo",
@@ -177,8 +177,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 23,
-      "kept": 23
+      "count": 22,
+      "kept": 22
     },
     {
       "venueId": "pitinn",
@@ -193,8 +193,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 21,
-      "kept": 21
+      "count": 20,
+      "kept": 20
     },
     {
       "venueId": "bodyandsoul",
@@ -209,8 +209,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 21,
-      "kept": 21
+      "count": 20,
+      "kept": 20
     },
     {
       "venueId": "jzbrat",
@@ -225,8 +225,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 19,
-      "kept": 19
+      "count": 18,
+      "kept": 18
     },
     {
       "venueId": "alfie",
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 28,
-      "kept": 28
+      "count": 27,
+      "kept": 27
     },
     {
       "venueId": "sometime",
@@ -270,169 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-09-08",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[jazz] \"ワイナリーズ\" 名知玲美(vo) 高澤綾(tp) 上長根明子(p) 山本裕之(b) 西川彩織(ds)",
-      "price": "￥6600",
-      "image": "https://alfie.tokyo/liveReport/20260908.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202609.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-09-08",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "21:00",
-      "artist": "★河野つつむSextet",
-      "lineup": "sax:河野つつむ sax:Nogu Hiro gt:岩見和彦 pf:加藤 実 bs:佐藤哲也 ds:石川 智",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/d024d0abeb95badf934086d671ef2394.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-08",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "Billboard JAPAN Records presents “Choice” by magora - Release Talk \\u0026 Live",
-      "price": "5,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21640/detail/dtl_ev-21640_1_1786083839.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21640&date=2026-09-08",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21640&date=2026-09-08",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-09-08",
-      "open": "17:00",
-      "start": "17:00",
-      "artist": "THE RESIDENTS：ESKIMO",
-      "price": "¥11,000",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3983.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3983",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3983",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/the-residents/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bodyandsoul",
-      "date": "2026-09-08",
-      "open": "20:00",
-      "start": "21:00",
-      "artist": "《Banksia Trio》",
-      "price": "￥7,000",
-      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/07/bankusia-166x166.png",
-      "media": [],
-      "source": "https://bodyandsoul.co.jp/event/260908",
-      "detailUrl": "https://bodyandsoul.co.jp/event/260908",
-      "reservationUrl": "https://bodyandsoul.co.jp/event/260908",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-08",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "守谷美由貴(as)カルテット 福井亜実(p)吉峯勇二郎(b)大江航平(ds)",
-      "price": "4000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-09-08",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "Bossa Connection meets BC Horns !",
-      "price": "￥6,000",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/09472d85ad70a135a5973cf9dc5f579243c89b1e-thumb-160xauto-14509.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260908",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260908",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260908",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-08",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "GATOS Meeting",
-      "lineup": "林 栄一(As,Comp)吉田隆一(Bs,Mc)山田丈造(Tp)後藤 篤(Tb)石渡明廣(G)岩見継吾(B)磯部 潤(Ds)ゲスト:石田幹雄(P)",
-      "price": "￥3,850",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/07/0908gatos2.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260908gatos/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260908gatos/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-08",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "古川 初穂（p）3 横田 健斗（b） 関根 豊明（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51570/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-09-08",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "9.8(火)gt.田辺 充邦 cello.平山 織絵 vo.山田 夢子",
-      "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99260908%E7%94%B0%E8%BE%BA.jpg",
-      "media": [],
-      "source": "https://ginzaswing.jp/20260908-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "date": "2026-09-08",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "artist": "Mamiko Bird vo. 斎藤クミコ pf.",
-      "price": "3,500円",
-      "image": "https://static.wixstatic.com/media/5fcc8d_9967bc663c054b15b21e040c34e991f0~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-09-08",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "YOKO SUZUKI TRIO",
-      "price": "¥4,950",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781887198811.jpg",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/yoko-suzuki-trio-2/",
-      "secondStart": "20:10",
-      "lineup": "鈴木瑶子(p) 小美濃悠太(b) 北沢大樹(ds)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/8(%E7%81%AB)YOKO+SUZUKI+TRIO",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/yoko-suzuki-trio-2/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "alfie",
       "date": "2026-09-09",
@@ -10496,7 +10333,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-08T13:41:20.017Z",
+  "updatedAt": "2026-09-08T23:24:16.375Z",
   "venues": [
     {
       "area": "near",
