@@ -89,7 +89,7 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
+      "count": 12,
       "kept": 11
     },
     {
@@ -2334,13 +2334,13 @@
       "start": "19:00",
       "artist": "FourVoices feat.ZARUKAME",
       "price": "¥7,700",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/IMG_4281.jpeg",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/20260917thu.png",
       "media": [],
       "source": "https://wonderwall-yokohama.jp/schedule/fourvoices-feat-zarukame-2/",
       "secondStart": "20:10",
       "lineup": "池本茂貴(tb) 武本和大(p) Ema(Vo) KOTETSU(vo) 亀井友莉(vln) 村岡苑子(cello)",
-      "note": "本公演は入れ替えなしの公演です",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/17(%E6%9C%A8)FourVoicesfeat.ZARUKAME",
+      "note": "本公演は入れ替えなしの公演です ※本公演は満席となっております ※キャンセル待ちをご希望の方はHP内の貸切・採用などお問い合わせ→キャンセル待ち受付を選んでご入力ください",
+      "reservationUrl": "https://www.facebook.com/sharer/sharer.php?u=https://wonderwall-yokohama.jp/schedule/fourvoices-feat-zarukame-2/&amp;src=sdkpreparse",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/fourvoices-feat-zarukame-2/",
       "reservationStatus": "web"
     },
@@ -8913,6 +8913,17 @@
       "source": "https://dolphy-jazzspot.com/live_schedule2026_10.html"
     },
     {
+      "venueId": "first",
+      "date": "2026-10-23",
+      "open": "18:30",
+      "start": "18:30",
+      "artist": "灯音 (とうおん)",
+      "price": "￥1,500",
+      "image": null,
+      "media": [],
+      "source": "https://naniaru.com/events/view/15060"
+    },
+    {
       "venueId": "jzbrat",
       "date": "2026-10-23",
       "open": "18:00",
@@ -10333,7 +10344,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-08T23:24:16.375Z",
+  "updatedAt": "2026-09-09T13:46:54.968Z",
   "venues": [
     {
       "area": "near",
