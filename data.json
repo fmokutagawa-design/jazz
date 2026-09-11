@@ -106,7 +106,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 21,
-      "kept": 18
+      "kept": 21
     },
     {
       "venueId": "wonderwall",
@@ -10101,7 +10101,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-10T23:09:42.949Z",
+  "updatedAt": "2026-09-11T13:38:46.545Z",
   "venues": [
     {
       "area": "near",
