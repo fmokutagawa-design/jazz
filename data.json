@@ -15,17 +15,17 @@
     {
       "venueId": "dolphy",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 18,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 18
     },
     {
       "venueId": "dolphy",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 35,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 35
     },
     {
@@ -74,7 +74,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 25,
-      "kept": 24
+      "kept": 25
     },
     {
       "venueId": "first",
@@ -9169,7 +9169,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-14T15:56:33.599Z",
+  "updatedAt": "2026-09-14T23:53:20.409Z",
   "venues": [
     {
       "area": "near",
