@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 18,
-      "kept": 18
+      "count": 17,
+      "kept": 17
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 15
+      "kept": 14
     },
     {
       "venueId": "bluenote",
@@ -50,7 +50,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 15
+      "kept": 14
     },
     {
       "venueId": "cottonclub",
@@ -65,8 +65,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "swing",
@@ -106,15 +106,15 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 22,
-      "kept": 21
+      "kept": 22
     },
     {
       "venueId": "wonderwall",
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "wonderwall",
@@ -129,8 +129,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 14,
-      "kept": 14
+      "count": 13,
+      "kept": 13
     },
     {
       "venueId": "barbarbar",
@@ -162,7 +162,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 26
+      "kept": 24
     },
     {
       "venueId": "billboard_tokyo",
@@ -177,8 +177,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 16,
-      "kept": 16
+      "count": 15,
+      "kept": 15
     },
     {
       "venueId": "pitinn",
@@ -193,8 +193,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 14,
-      "kept": 14
+      "count": 13,
+      "kept": 13
     },
     {
       "venueId": "bodyandsoul",
@@ -209,8 +209,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 14,
-      "kept": 14
+      "count": 13,
+      "kept": 13
     },
     {
       "venueId": "jzbrat",
@@ -225,8 +225,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 13,
-      "kept": 13
+      "count": 12,
+      "kept": 12
     },
     {
       "venueId": "alfie",
@@ -250,15 +250,15 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 19,
-      "kept": 21
+      "kept": 19
     },
     {
       "venueId": "sometime",
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 19,
-      "kept": 19
+      "count": 18,
+      "kept": 18
     },
     {
       "venueId": "sometime",
@@ -270,203 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-09-15",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[jazz] 緒方利菜(vo,g) QUARTET Dennis Lambert(pf) 本川悠平(b) 海野俊輔(ds)",
-      "price": "￥5500",
-      "image": "https://alfie.tokyo/liveReport/20260915_.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202609.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-09-15",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "21:00",
-      "artist": "●山岡美香&寺村容子Trio",
-      "lineup": "vo:山岡美香 pf:寺村容子 bs:磯部英貴 ds:鳥山 悠",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/9c11ecbdd6f17b479d1dc68cb47519b2.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-15",
-      "open": "16:30",
-      "start": "17:30",
-      "artist": "小室哲哉 Tetsuya Komuro \\\\",
-      "price": "12,300円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21560/detail/dtl_ev-21560_1_1782874905.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21560&date=2026-09-15",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21560&date=2026-09-15",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-15",
-      "open": "19:30",
-      "start": "20:30",
-      "artist": "小室哲哉 Tetsuya Komuro \\\\",
-      "price": "12,300円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21560/detail/dtl_ev-21560_1_1782874905.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21560&date=2026-09-15",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21560&date=2026-09-15",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-09-15",
-      "open": "17:00",
-      "start": "17:00",
-      "artist": "aron! \"Too Close For Running\"",
-      "price": "¥8,800",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3994.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3994",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3994",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/aron/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bodyandsoul",
-      "date": "2026-09-15",
-      "open": "18:30",
-      "start": "19:30",
-      "secondStart": "21:00",
-      "artist": "《Days of Delight All Stars》2Days【Day1】",
-      "price": "￥8,000",
-      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/08/DoD-All-Stars-2026_sq-166x166.jpg",
-      "media": [],
-      "source": "https://bodyandsoul.co.jp/event/260915",
-      "detailUrl": "https://bodyandsoul.co.jp/event/260915",
-      "reservationUrl": "https://bodyandsoul.co.jp/event/260915",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-09-15",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "AYA HIRANO ANNIVERSARY LIVE 2026 ～COTTON CLUB～",
-      "price": "¥8,800",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5732.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5732",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5732",
-      "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/aya-hirano-260915/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-15",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "牧山純子(vln)TRIO 竹内大輔(g)宅間善之(vib)",
-      "price": "4000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-09-15",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "アカペラ・ユニットXUXU 結成25周年記念ライブ",
-      "price": "￥6,000",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/05/260915_top-thumb-160xauto-14137.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260915",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260915",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260915",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-15",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "今村祐司 GROUP",
-      "lineup": "今村祐司(Per)津上研太(As)小太刀のばら(P)上村勝正(B)外山 明(Ds)",
-      "price": "￥3,300",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2024/02/imamura1115-1.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260915imamura/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260915imamura/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-15",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "山口 裕之（b）6 ませ ひろこ（sax） かみむら 泰一（sax） 平山 順子（sax） 紅野 智彦（p） 岡部 朋幸（ds）",
-      "price": "4,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51589/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-09-15",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "9.15(火) vo.飯田 さつき",
-      "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8917.jpeg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=pnSjE-QLduY"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20260915-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "date": "2026-09-15",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "artist": "長島百合子 vo. 上長根明子 pf.",
-      "price": "3,500円",
-      "image": "https://static.wixstatic.com/media/5fcc8d_9967bc663c054b15b21e040c34e991f0~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-09-15",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "JoeRosenberg Tour2026",
-      "price": "¥5,500",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/6ede7549-df96-42ea-9ffc-2a0694333fdd.jpeg",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/joerosenberg-tour2026/",
-      "secondStart": "20:10",
-      "lineup": "JoeRosenberg(S.Sax.) 永武幹子(p) 落合康介(b) 森下啓(ds)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/15(%E7%81%AB)JoeRosenberg",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/joerosenberg-tour2026/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "alfie",
       "date": "2026-09-16",
@@ -5186,7 +4989,7 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "山口真文 ts 小牧良平 b",
+      "artist": "山口真文 ts 小牧良平 b 山崎隼 ds",
       "price": "公式で確認",
       "image": null,
       "media": [],
@@ -9150,7 +8953,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-15T14:22:40.415Z",
+  "updatedAt": "2026-09-15T23:32:45.701Z",
   "venues": [
     {
       "area": "near",
