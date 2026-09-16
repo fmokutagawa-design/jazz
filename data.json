@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 17,
-      "kept": 17
+      "count": 16,
+      "kept": 16
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 14
+      "kept": 13
     },
     {
       "venueId": "bluenote",
@@ -50,7 +50,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 14
+      "kept": 13
     },
     {
       "venueId": "cottonclub",
@@ -65,8 +65,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 10,
-      "kept": 10
+      "count": 9,
+      "kept": 9
     },
     {
       "venueId": "swing",
@@ -81,8 +81,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 6,
-      "kept": 6
+      "count": 5,
+      "kept": 5
     },
     {
       "venueId": "first",
@@ -129,8 +129,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 13,
-      "kept": 13
+      "count": 12,
+      "kept": 12
     },
     {
       "venueId": "barbarbar",
@@ -146,7 +146,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 24
+      "kept": 22
     },
     {
       "venueId": "billboard_yokohama",
@@ -162,7 +162,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 24
+      "kept": 22
     },
     {
       "venueId": "billboard_tokyo",
@@ -177,8 +177,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 15,
-      "kept": 15
+      "count": 14,
+      "kept": 14
     },
     {
       "venueId": "pitinn",
@@ -193,8 +193,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 13,
-      "kept": 13
+      "count": 12,
+      "kept": 12
     },
     {
       "venueId": "bodyandsoul",
@@ -209,8 +209,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 13,
-      "kept": 13
+      "count": 12,
+      "kept": 12
     },
     {
       "venueId": "jzbrat",
@@ -225,8 +225,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "alfie",
@@ -241,8 +241,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "naru",
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 18,
-      "kept": 18
+      "count": 17,
+      "kept": 17
     },
     {
       "venueId": "sometime",
@@ -270,241 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-09-16",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[jazz] 山添ゆか(vo) with 阿部篤志(pf) DUO",
-      "price": "￥6600",
-      "image": "https://alfie.tokyo/liveReport/20260916.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202609.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-09-16",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "21:00",
-      "artist": "■鈴木隆斗Quintet",
-      "lineup": "sax:鈴木隆斗 pf:今田あきら gt:後藤郁夫 bs:池田 聡 ds:宇山満隆",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/5e24021e0b9fa9d3bbe2ac6352aa6975.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-16",
-      "open": "16:30",
-      "start": "17:30",
-      "artist": "ROCKIN’ QUARTET 第8章 ROY（THE BAWDIES） \\u0026 NAOTO QUARTET",
-      "price": "7,900円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21484/detail/dtl_ev-21484_1_1779774177.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21484&date=2026-09-16",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21484&date=2026-09-16",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21484&date=2026-09-16",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-16",
-      "open": "19:30",
-      "start": "20:30",
-      "artist": "ROCKIN’ QUARTET 第8章 ROY（THE BAWDIES） \\u0026 NAOTO QUARTET",
-      "price": "7,900円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21484/detail/dtl_ev-21484_1_1779774177.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21484&date=2026-09-16",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21484&date=2026-09-16",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21484&date=2026-09-16",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-16",
-      "open": "16:30",
-      "start": "17:30",
-      "artist": "DEZOLVE  New Album \\\\",
-      "price": "6,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21579/detail/dtl_ev-21579_1_1783060423.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21579&date=2026-09-16",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21579&date=2026-09-16",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21579&date=2026-09-16",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-16",
-      "open": "19:30",
-      "start": "20:30",
-      "artist": "DEZOLVE  New Album \\\\",
-      "price": "6,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21579/detail/dtl_ev-21579_1_1783060423.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21579&date=2026-09-16",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21579&date=2026-09-16",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21579&date=2026-09-16",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-09-16",
-      "open": "17:00",
-      "start": "17:00",
-      "artist": "CHRISTIAN McBRIDE & URSA MAJOR",
-      "price": "¥9,500",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3974",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3974",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/christian-mcbride/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bodyandsoul",
-      "date": "2026-09-16",
-      "open": "18:30",
-      "start": "19:30",
-      "secondStart": "21:00",
-      "artist": "《Days of Delight All Stars》2Days【Day2】",
-      "price": "￥8,000",
-      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/08/DoD-All-Stars-2026_sq-1-166x166.jpg",
-      "media": [],
-      "source": "https://bodyandsoul.co.jp/event/260916",
-      "detailUrl": "https://bodyandsoul.co.jp/event/260916",
-      "reservationUrl": "https://bodyandsoul.co.jp/event/260916",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-09-16",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "LIVE＠マキタスポーツ ～マキタスポーツ×タブレット純～",
-      "price": "¥11,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5713.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5713",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5713",
-      "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/makitasports-260916/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-16",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "「Lars Jansson特集」Live 桃瀬茉莉(p)工藤精(b) 池長一美(ds)",
-      "price": "3800円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "first",
-      "date": "2026-09-16",
-      "open": "19:00",
-      "start": "19:00",
-      "artist": "高田ひろ子トリオ",
-      "price": "￥4,000",
-      "image": null,
-      "media": [],
-      "source": "https://naniaru.com/events/view/14698"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-09-16",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "ROUTE14band New Album Release Party",
-      "price": "￥5,000",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/IMG_5883-thumb-160xauto-14519.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260916",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260916",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260916",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-09-16",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "松本茜 p 安田幸司 b 広瀬潤次 ds",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-16",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "壷阪健登 トリオ",
-      "lineup": "壷阪健登(P)高橋 陸(B)中村海斗(Ds)",
-      "price": "￥3,850",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/07/0916tsubosaka.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260916tsubosaka/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260916tsubosaka/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-16",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "大口 純一郎（p）3 粟谷 巧（b） ジーン・ジャクソン（ds）",
-      "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51592/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-09-16",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "9.16(水)cl.花岡 詠二スヰングオールスターズ",
-      "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8918.jpeg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=-DbHaqC--Oo"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20260916-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "date": "2026-09-16",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "artist": "Special Solo Live　平松加奈 vln.",
-      "price": "3,500円",
-      "image": "https://static.wixstatic.com/media/5fcc8d_9967bc663c054b15b21e040c34e991f0~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り"
-    },
     {
       "venueId": "alfie",
       "date": "2026-09-17",
@@ -8953,7 +8718,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-16T14:15:09.421Z",
+  "updatedAt": "2026-09-16T23:40:18.125Z",
   "venues": [
     {
       "area": "near",
