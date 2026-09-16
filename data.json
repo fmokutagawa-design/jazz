@@ -1802,7 +1802,7 @@
       "date": "2026-09-22",
       "open": "18:00",
       "start": "19:00",
-      "artist": "瓶底爺 サリー佐藤(eb)Mis*ty(vo)岡延行(g)深井一也(tp)日原雅子(p)中野祐次(ds)",
+      "artist": "瓶底爺 サリー佐藤(eb)Mis*ty(vo)Alex(vo)Yukiko(g)深井一也(tp)日原雅子(p)中野祐次(ds)",
       "price": "4000円",
       "image": null,
       "media": [],
@@ -2192,7 +2192,7 @@
       "date": "2026-09-24",
       "open": "19:00",
       "start": "19:30",
-      "artist": "SASE BAND",
+      "artist": "SASE BAND — チケット売り切れ",
       "lineup": "佐瀬悠輔(Tp)小金丸慧(G)海堀弘太(P)新井和輝(B)秋元 修(Ds)ゲスト:馬場智章(Sax)",
       "price": "￥5,500",
       "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2025/11/saseband.jpg",
@@ -8953,7 +8953,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-15T23:32:45.701Z",
+  "updatedAt": "2026-09-16T14:15:09.421Z",
   "venues": [
     {
       "area": "near",
