@@ -73,7 +73,7 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
+      "count": 27,
       "kept": 25
     },
     {
@@ -105,7 +105,7 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 22,
+      "count": 23,
       "kept": 22
     },
     {
@@ -425,7 +425,7 @@
       "open": "19:00",
       "start": "19:30",
       "artist": "Gentle Winds",
-      "lineup": "池長一美(Ds)石川広行(Tp)佐藤浩一(P)",
+      "lineup": "石川広行(Tp)佐藤浩一(P)",
       "price": "￥3,850",
       "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/01/0303gentlew.jpg",
       "media": [],
@@ -3535,7 +3535,7 @@
       "start": "19:00",
       "artist": "10.1(木) 小山 豊 meets 島 裕介 ～和ジャズ～",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8792.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261001%E5%92%8C%E3%82%B8%E3%83%A3%E3%82%BA.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261001-2/",
       "secondStart": "20:30"
@@ -3707,9 +3707,9 @@
       "start": "19:00",
       "artist": "10.2（金）Ring K dr.ジーン 重村",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_9144.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261002RingK.jpg",
       "media": [],
-      "source": "https://ginzaswing.jp/10-2%ef%bc%88%e9%87%91%ef%bc%89ring-k-dr-%e3%82%b8%e3%83%bc%e3%83%b3-%e9%87%8d%e6%9d%91/",
+      "source": "https://ginzaswing.jp/20261002-3/",
       "secondStart": "20:30"
     },
     {
@@ -3876,9 +3876,9 @@
       "date": "2026-10-03",
       "open": "18:00",
       "start": "19:00",
-      "artist": "10.3(土)vo.Mayu Wakisaka p.Kota Sayama gt.Masaharu Sasaki",
+      "artist": "10.3(土) THE MIDTOWN DUO",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8925.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261003Wakisaka.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261003-2/",
       "secondStart": "20:30"
@@ -4169,6 +4169,18 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "swing",
+      "date": "2026-10-05",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "10.5(月) gt.宮之上 貴昭",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261005%E5%AE%AE%E4%B9%8B%E4%B8%8A-1.jpg",
+      "media": [],
+      "source": "https://ginzaswing.jp/20261005-2/",
+      "secondStart": "20:30"
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-10-05",
       "open": "18:00",
@@ -4312,7 +4324,7 @@
       "start": "19:00",
       "artist": "10.6(火 )大井貴司＆Super Vibration",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/IMG_9037.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261006%E5%A4%A7%E4%BA%95.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261006-2/",
       "secondStart": "20:30"
@@ -4410,6 +4422,17 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule2026_10.html"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-10-07",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "ts.橋爪亮督 gt.石井信義 b.カイドーユタカ",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -4610,7 +4633,7 @@
       "start": "19:00",
       "artist": "10.8(木)vo.Maya",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8791.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99261008MAYA.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261002-2/",
       "secondStart": "20:30"
@@ -4799,7 +4822,7 @@
       "start": "19:00",
       "artist": "10.9(金) KAYO BAND",
       "price": "￥6,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2025/03/IMG_1576.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261009KAYOBand.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261009-3/",
       "secondStart": "20:30"
@@ -4985,7 +5008,7 @@
       "start": "19:00",
       "artist": "10.10(土)vo.ダイナ・ミキ",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8890.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261010%E3%83%80%E3%82%A4%E3%83%8A%E3%83%9F%E3%82%AD.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261010-2/",
       "secondStart": "20:30"
@@ -5407,7 +5430,7 @@
       "start": "19:00",
       "artist": "10.12(月)vo.SOA tp,flh,fl.島 裕介 p.河野 祐亮b.金子 義浩 dr.塚田 陽太",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8677.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261012SOA.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/2026-2/",
       "secondStart": "20:30"
@@ -5532,6 +5555,18 @@
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
       "reservationStatus": "check"
+    },
+    {
+      "venueId": "swing",
+      "date": "2026-10-13",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "10.13(火) vib.宅間 善之",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261013%E5%AE%85%E9%96%93.jpg",
+      "media": [],
+      "source": "https://ginzaswing.jp/20261013-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "wonderwall",
@@ -5704,7 +5739,7 @@
       "start": "公式で確認",
       "artist": "10.14(水)cl.北村 英治 ts.右近 茂 cl.谷口 英治",
       "price": "￥6,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_9145.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99261014%E5%8C%97%E6%9D%91%E5%8F%B3%E8%BF%91%E8%B0%B7%E5%8F%A3.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261014-2/"
     },
@@ -5894,7 +5929,7 @@
       "start": "19:00",
       "artist": "10.15(木) vo.益子 麻奈",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8966.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99261015%E7%9B%8A%E5%AD%90.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/22201015-2/",
       "secondStart": "20:30"
@@ -6312,7 +6347,7 @@
       "start": "19:00",
       "artist": "10.17(土)New Standard Quintet dr.木村 由紀夫 ts.右近 茂",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8797.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261017%E6%9C%A8%E6%9D%91NSQ.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261017-2/",
       "secondStart": "20:30"
@@ -6774,7 +6809,7 @@
       "start": "19:00",
       "artist": "10.20(火) vocal.藤田佐奈恵",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8727.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261020%E8%97%A4%E7%94%B0.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261020-2/",
       "secondStart": "20:30"
@@ -6977,7 +7012,7 @@
       "start": "19:00",
       "artist": "10.21(水)dr.八城 邦義 セクステット",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/02/IMG_6150.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261021%E5%85%AB%E5%9F%8E.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261021-2/",
       "secondStart": "20:30"
@@ -7296,7 +7331,7 @@
       "start": "19:00",
       "artist": "10.23(金) as.堤 智恵子 バースデーライブ",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8066.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261023%E5%A0%A4.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261023-2/",
       "secondStart": "20:30"
@@ -7705,9 +7740,9 @@
       "date": "2026-10-25",
       "open": "12:00",
       "start": "14:00",
-      "artist": "10.25(日)p.vo.石原 江里子",
+      "artist": "10.25(日) p.vo.石原 江里子",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8680.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261025%E7%9F%B3%E5%8E%9F.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261025-2/",
       "secondStart": "15:30"
@@ -7856,7 +7891,7 @@
       "start": "19:00",
       "artist": "10.26(月) as.寺久保 エレナ",
       "price": "￥6,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8232.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261026%E5%AF%BA%E4%B9%85%E4%BF%9D%E3%82%A8%E3%83%AC%E3%83%8A.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261026-2/",
       "secondStart": "20:30"
@@ -7991,7 +8026,7 @@
       "start": "19:00",
       "artist": "10.27(火)「ゴサキリカコ」p.後藤 沙紀 dr.鈴木 梨花子 b.寺尾 陽介",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8681.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261027%E3%81%94%E3%81%95%E3%81%8D%E3%82%8A%E3%81%8B%E3%81%93.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261027-2/",
       "secondStart": "20:30"
@@ -8149,7 +8184,7 @@
       "start": "19:00",
       "artist": "10.28(水)vln.寺井 尚子",
       "price": "￥7,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_9146.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261028%E5%AF%BA%E4%BA%95.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261028-2/",
       "secondStart": "20:30"
@@ -8313,7 +8348,7 @@
       "start": "19:00",
       "artist": "10.29(木)cl.北村 英治 cl.熊倉 未佐子 cl.宮脇 惇",
       "price": "￥6,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/05/IMG_6845.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99261029%E5%8C%97%E6%9D%91%E7%86%8A%E5%80%89%E5%AE%AE%E8%84%87.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261029-2/",
       "secondStart": "20:30"
@@ -8516,7 +8551,7 @@
       "start": "19:00",
       "artist": "10.30(金) vo.今 陽子",
       "price": "￥7,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2024/11/IMG_1112.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261030%E4%BB%8A%E9%99%BD%E5%AD%90.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261030-2/",
       "secondStart": "20:30"
@@ -8696,7 +8731,7 @@
       "start": "19:00",
       "artist": "10.31(土)『サバオスペシャル』～スウェーデンから森 泰人を迎えて！",
       "price": "￥5,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8674.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261031%E3%82%B5%E3%83%90%E3%82%AA.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261031-3/",
       "secondStart": "20:30"
@@ -8718,7 +8753,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-16T23:40:18.125Z",
+  "updatedAt": "2026-09-17T14:20:16.623Z",
   "venues": [
     {
       "area": "near",
