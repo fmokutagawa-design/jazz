@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 16,
-      "kept": 16
+      "count": 15,
+      "kept": 15
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 13
+      "kept": 12
     },
     {
       "venueId": "bluenote",
@@ -50,7 +50,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 13
+      "kept": 12
     },
     {
       "venueId": "cottonclub",
@@ -65,8 +65,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 9,
-      "kept": 9
+      "count": 8,
+      "kept": 8
     },
     {
       "venueId": "swing",
@@ -74,7 +74,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 27,
-      "kept": 25
+      "kept": 27
     },
     {
       "venueId": "first",
@@ -97,8 +97,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 14,
-      "kept": 14
+      "count": 13,
+      "kept": 13
     },
     {
       "venueId": "kanmachi63",
@@ -106,15 +106,15 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 23,
-      "kept": 22
+      "kept": 23
     },
     {
       "venueId": "wonderwall",
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "wonderwall",
@@ -129,8 +129,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "barbarbar",
@@ -146,7 +146,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 22
+      "kept": 20
     },
     {
       "venueId": "billboard_yokohama",
@@ -177,8 +177,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 14,
-      "kept": 14
+      "count": 13,
+      "kept": 13
     },
     {
       "venueId": "pitinn",
@@ -193,8 +193,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "bodyandsoul",
@@ -209,8 +209,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "jzbrat",
@@ -225,8 +225,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "alfie",
@@ -241,8 +241,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "naru",
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 17,
-      "kept": 17
+      "count": 16,
+      "kept": 16
     },
     {
       "venueId": "sometime",
@@ -270,230 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-09-17",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[jazz] YURIE(vo) 松原慶史(g) 工藤拓人(pf) 岸徹至(b) 北沢大樹(ds)",
-      "price": "￥5500",
-      "image": "https://alfie.tokyo/liveReport/2019/DSC08359.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202609.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-09-17",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "21:00",
-      "artist": "■松村聖華&大隅寿男Quartet",
-      "lineup": "vo:松村聖華 ds:大隅寿男 pf:三木成能 bs:永松徳文 sax:大隅卓也",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/ae7a0b808e45d27cd9779b0349d5d03c.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-17",
-      "open": "16:30",
-      "start": "17:30",
-      "artist": "米倉利紀 sTYle72 standard. 2026 -coffee BREAK",
-      "price": "9,000円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21543/detail/dtl_ev-21543_1_1782180398.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21543&date=2026-09-17",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21543&date=2026-09-17",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21543&date=2026-09-17",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-17",
-      "open": "19:30",
-      "start": "20:30",
-      "artist": "米倉利紀 sTYle72 standard. 2026 -coffee BREAK",
-      "price": "9,000円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21543/detail/dtl_ev-21543_1_1782180398.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21543&date=2026-09-17",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21543&date=2026-09-17",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21543&date=2026-09-17",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-09-17",
-      "open": "17:00",
-      "start": "17:00",
-      "artist": "CHRISTIAN McBRIDE & URSA MAJOR",
-      "price": "¥9,500",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3974.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3974",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3974",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/christian-mcbride/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bodyandsoul",
-      "date": "2026-09-17",
-      "open": "18:30",
-      "start": "19:30",
-      "secondStart": "21:00",
-      "artist": "《Twin Keys with 福井ともみセクステット》",
-      "price": "￥5,000",
-      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/08/2608117-e1786539046227-166x166.jpg",
-      "media": [],
-      "source": "https://bodyandsoul.co.jp/event/260917",
-      "detailUrl": "https://bodyandsoul.co.jp/event/260917",
-      "reservationUrl": "https://bodyandsoul.co.jp/event/260917",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-09-17",
-      "open": "18:30",
-      "start": "20:00",
-      "artist": "古舘と客人と vol.39 古舘伊知郎 山田洋次",
-      "price": "¥8,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5725.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5725",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5725",
-      "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/ichiro-furutachi-260917/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-17",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "David Helbock(p)fromオーストリア ピアノソロ",
-      "price": "4000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-09-17",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "LOTUS POSITION Akira Horikoshi × Akihito Obama with Frederic Viennot",
-      "price": "￥5,000",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/05/914327fbcbe21e59ddffe2f9c7437bcbba162858-thumb-160xauto-14223.png",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260917",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260917",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260917",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-09-17",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "vo.清水翠 pf.田中信正",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-09-17",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "BONKERS LAND 渡辺翔太 p 宮地 遼 b 朝田拓馬 g 井口なつみ ds",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/post-recommend/bonkersland/%C2%A0",
-      "detailUrl": "http://ocha-naru.com/post-recommend/bonkersland/%C2%A0",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-17",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "Gentle Winds",
-      "lineup": "石川広行(Tp)佐藤浩一(P)",
-      "price": "￥3,850",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/01/0303gentlew.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260917gentle-winds/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260917gentle-winds/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-17",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "古谷 淳 （p）3 工藤 精（b） 大村 亘（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51595/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-09-17",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "9.17(木) dr.サバオ 渡辺 vo.鈴木 史子",
-      "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8906.jpeg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=b8NoaA0TB2M"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20260917-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "date": "2026-09-17",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "artist": "森林真知子 vo. Hiromi★ pf.",
-      "price": "3,500円",
-      "image": "https://static.wixstatic.com/media/5fcc8d_9967bc663c054b15b21e040c34e991f0~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-09-17",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "FourVoices feat.ZARUKAME",
-      "price": "¥7,700",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/20260917thu.png",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/fourvoices-feat-zarukame-2/",
-      "secondStart": "20:10",
-      "lineup": "池本茂貴(tb) 武本和大(p) Ema(Vo) KOTETSU(vo) 亀井友莉(vln) 村岡苑子(cello)",
-      "note": "本公演は入れ替えなしの公演です ※本公演は満席となっております ※キャンセル待ちをご希望の方はHP内の貸切・採用などお問い合わせ→キャンセル待ち受付を選んでご入力ください",
-      "reservationUrl": "https://www.facebook.com/sharer/sharer.php?u=https://wonderwall-yokohama.jp/schedule/fourvoices-feat-zarukame-2/&amp;src=sdkpreparse",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/fourvoices-feat-zarukame-2/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "alfie",
       "date": "2026-09-18",
@@ -8753,7 +8529,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-17T14:20:16.623Z",
+  "updatedAt": "2026-09-17T23:34:32.863Z",
   "venues": [
     {
       "area": "near",
