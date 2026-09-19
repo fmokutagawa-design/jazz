@@ -630,9 +630,9 @@
       "date": "2026-09-20",
       "open": "18:00",
       "start": "19:00",
-      "artist": "グレース・マーヤ(vo/p) ＆丈青(p)DUO",
+      "artist": "グレース・マーヤ(vo/p) スペシャルTRIO 丈青(p)DUO菅野知明(ds)",
       "price": "4500円",
-      "image": "https://dolphy-jazzspot.com/musician/d_grace_mahya_jyosei.jpg",
+      "image": "https://dolphy-jazzspot.com/musician/d_grace_mahya_s2023.jpg",
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
@@ -4279,7 +4279,7 @@
       "date": "2026-10-09",
       "open": "18:30",
       "start": "19:30",
-      "artist": "吉田歩バースデーライブ CAMINO 吉田歩(vo)中西文彦(g) ゲスト.. 太田惠資(vln)",
+      "artist": "吉田歩バースデーライブ CAMINO 吉田歩(vo)中西文彦(g) ゲスト.. 太田惠資(vln) 山口亮次(g)",
       "price": "4000円",
       "image": null,
       "media": [],
@@ -8292,7 +8292,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-18T23:18:28.484Z",
+  "updatedAt": "2026-09-19T13:13:09.118Z",
   "venues": [
     {
       "area": "near",
