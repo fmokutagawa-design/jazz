@@ -151,9 +151,9 @@
     {
       "venueId": "billboard_yokohama",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 40,
       "kept": 36
     },
     {
@@ -2712,9 +2712,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21490/detail/dtl_ev-21363_1_1774839181.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21490&date=2026-10-01",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21490&date=2026-10-01",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21490&date=2026-10-01",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -3204,9 +3204,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21371/detail/dtl_ev-21371_1_1775194063.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -3218,9 +3218,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21371/detail/dtl_ev-21371_1_1775194063.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -4596,9 +4596,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21565/detail/dtl_ev-21564_1_1782380669.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -4774,6 +4774,34 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-13",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": ".ENDRECHERI. Billboard Live Tour 2026",
+      "price": "14,300円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21674/detail/dtl_ev-21674_1_1788343401.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-13",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-13",
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-13",
+      "open": "19:30",
+      "start": "20:30",
+      "artist": ".ENDRECHERI. Billboard Live Tour 2026",
+      "price": "14,300円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21674/detail/dtl_ev-21674_1_1788343401.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-13",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-13",
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-10-13",
       "open": "15:30",
@@ -4921,6 +4949,34 @@
       "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21375&date=2026-10-14",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21375&date=2026-10-14",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-14",
+      "open": "16:30",
+      "start": "17:30",
+      "artist": ".ENDRECHERI. Billboard Live Tour 2026",
+      "price": "14,300円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21674/detail/dtl_ev-21674_1_1788343401.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-14",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-14",
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "billboard_yokohama",
+      "date": "2026-10-14",
+      "open": "19:30",
+      "start": "20:30",
+      "artist": ".ENDRECHERI. Billboard Live Tour 2026",
+      "price": "14,300円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21674/detail/dtl_ev-21674_1_1788343401.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-14",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-14",
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -5512,28 +5568,28 @@
       "date": "2026-10-17",
       "open": "15:00",
       "start": "16:00",
-      "artist": "神山羊 at Billboard Live YOKOHAMA 2026(仮) 1st Stage：有機酸 2nd Stage：神山羊",
+      "artist": "神山羊 at Billboard Live YOKOHAMA 2026 “Primary Colors” 1st Stage：有機酸 2nd Stage：神山羊",
       "price": "7,200円〜",
       "image": "https://www.billboard-live.com/public/event_img/ev-21655/detail/dtl_ev-21655_1_1787291574.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21655&date=2026-10-17",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21655&date=2026-10-17",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21655&date=2026-10-17",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
       "date": "2026-10-17",
       "open": "18:30",
       "start": "19:30",
-      "artist": "神山羊 at Billboard Live YOKOHAMA 2026(仮) 1st Stage：有機酸 2nd Stage：神山羊",
+      "artist": "神山羊 at Billboard Live YOKOHAMA 2026 “Primary Colors” 1st Stage：有機酸 2nd Stage：神山羊",
       "price": "7,200円〜",
       "image": "https://www.billboard-live.com/public/event_img/ev-21655/detail/dtl_ev-21655_1_1787291574.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21655&date=2026-10-17",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21655&date=2026-10-17",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21655&date=2026-10-17",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -6178,9 +6234,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21650/detail/dtl_ev-21648_1_1786673423.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21650&date=2026-10-21",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21650&date=2026-10-21",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21650&date=2026-10-21",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -6192,9 +6248,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21650/detail/dtl_ev-21648_1_1786673423.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21650&date=2026-10-21",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21650&date=2026-10-21",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21650&date=2026-10-21",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -6883,9 +6939,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21609/detail/dtl_ev-21609_1_1784779999.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21609&date=2026-10-25",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21609&date=2026-10-25",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21609&date=2026-10-25",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -6897,9 +6953,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21609/detail/dtl_ev-21609_1_1784779999.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21609&date=2026-10-25",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21609&date=2026-10-25",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21609&date=2026-10-25",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -7717,9 +7773,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21633/detail/dtl_ev-21633_1_1785897169.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21633&date=2026-10-30",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21633&date=2026-10-30",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21633&date=2026-10-30",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -7731,9 +7787,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21633/detail/dtl_ev-21633_1_1785897169.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21633&date=2026-10-30",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21633&date=2026-10-30",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21633&date=2026-10-30",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -8052,7 +8108,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-19T23:01:27.076Z",
+  "updatedAt": "2026-09-20T13:37:46.055Z",
   "venues": [
     {
       "area": "near",
