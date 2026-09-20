@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 13,
-      "kept": 13
+      "count": 12,
+      "kept": 12
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 10
+      "kept": 9
     },
     {
       "venueId": "bluenote",
@@ -50,7 +50,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 11
+      "kept": 10
     },
     {
       "venueId": "cottonclub",
@@ -97,8 +97,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "kanmachi63",
@@ -129,8 +129,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 9,
-      "kept": 9
+      "count": 8,
+      "kept": 8
     },
     {
       "venueId": "barbarbar",
@@ -143,26 +143,26 @@
     {
       "venueId": "billboard_yokohama",
       "month": "2026-09",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
-      "kept": 16
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 14,
+      "kept": 14
     },
     {
       "venueId": "billboard_yokohama",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 40,
-      "kept": 36
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 40
     },
     {
       "venueId": "billboard_tokyo",
       "month": "2026-09",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
-      "kept": 18
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 16,
+      "kept": 16
     },
     {
       "venueId": "billboard_tokyo",
@@ -177,8 +177,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "pitinn",
@@ -191,16 +191,16 @@
     {
       "venueId": "bodyandsoul",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 9,
-      "kept": 9
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
+      "kept": 8
     },
     {
       "venueId": "bodyandsoul",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
@@ -209,8 +209,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 9,
-      "kept": 9
+      "count": 8,
+      "kept": 8
     },
     {
       "venueId": "jzbrat",
@@ -239,17 +239,17 @@
     {
       "venueId": "naru",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 8,
-      "kept": 8
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
+      "kept": 7
     },
     {
       "venueId": "naru",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 19,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 19
     },
     {
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 14,
-      "kept": 14
+      "count": 12,
+      "kept": 12
     },
     {
       "venueId": "sometime",
@@ -270,228 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "barbarbar",
-      "date": "2026-09-20",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "21:00",
-      "artist": "■高橋ゲタ夫 presents JAZZ BATA",
-      "lineup": "bs:高橋ゲタ夫 tp/vo:後藤あゆみ bata/perc:後藤嘉文 pf:福本純也 perc:安藤 弘",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/f5f84acba2abf720e9680be37b955142.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-20",
-      "open": "14:30",
-      "start": "15:30",
-      "artist": "YOUR SONG IS GOOD “Good Mood”",
-      "price": "6,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21515/detail/dtl_ev-21514_1_1781076800.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21515&date=2026-09-20",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21515&date=2026-09-20",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21515&date=2026-09-20",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-20",
-      "open": "17:30",
-      "start": "18:30",
-      "artist": "YOUR SONG IS GOOD “Good Mood”",
-      "price": "6,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21515/detail/dtl_ev-21514_1_1781076800.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21515&date=2026-09-20",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21515&date=2026-09-20",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21515&date=2026-09-20",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-20",
-      "open": "14:00",
-      "start": "15:00",
-      "artist": "本田雅人BAND",
-      "price": "7,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21604/detail/dtl_ev-21604_1_1784696196.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21604&date=2026-09-20",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21604&date=2026-09-20",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21604&date=2026-09-20",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-20",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "本田雅人BAND",
-      "price": "7,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21604/detail/dtl_ev-21604_1_1784696196.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21604&date=2026-09-20",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21604&date=2026-09-20",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21604&date=2026-09-20",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-09-20",
-      "open": "16:00",
-      "start": "16:00",
-      "artist": "Chara Anniversary Countdown Live!! \"1991 to 2026\"",
-      "price": "¥11,500",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3995.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3995",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3995",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/chara/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bodyandsoul",
-      "date": "2026-09-20",
-      "open": "17:30",
-      "start": "18:30",
-      "secondStart": "20:00",
-      "artist": "《守屋純子セクステット》",
-      "price": "￥7,000",
-      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/06/2606079-e1786539900587-166x166.jpg",
-      "media": [],
-      "source": "https://bodyandsoul.co.jp/event/260920",
-      "detailUrl": "https://bodyandsoul.co.jp/event/260920",
-      "reservationUrl": "https://bodyandsoul.co.jp/event/260920",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-09-20",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "JAHARI STAMPLEY : SOUL FAMILY featuring TAISHI KUBOTA / SENRI KAWAGUCHI",
-      "price": "¥8,800",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5708.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5708",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5708",
-      "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/jahari-stampley-260919/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-20",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "グレース・マーヤ(vo/p) ＆丈青(p)DUO",
-      "price": "4500円",
-      "image": "https://dolphy-jazzspot.com/musician/d_grace_mahya_jyosei.jpg",
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-09-20",
-      "open": "13:30",
-      "start": "14:30",
-      "secondStart": "17:30",
-      "artist": "Atsuko＆Michiyo Premium Live 2026 〜 Our Songs 〜",
-      "price": "￥9,000",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/260920_top-thumb-160xauto-14391.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260920",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260920",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260920",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-09-20",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "ag.閑喜弦介 as.塙正貴 b.座小田諒一",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-09-20",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "MASAHIKO OSAKA 3 DAYS 大坂昌彦 ds 平倉初音 p 本川悠平 b 佐藤洋佑 as 松島啓之 tp",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-20",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "Marty Holoubek 3 Days 6 Concerts 2026 — 妖怪の影 笑い声と音楽",
-      "lineup": "石原淳平(G,PC)MEEBEE a.k.a KAZUHIRO ABO(DJ)和久井幸一(Synth-Acc)椿 三期(Ds)槌谷颯晃(G)阿部くらら(プロジェクター)マーティ・ホロベック(B)",
-      "price": "￥3,850",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/07/0920marty.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260920yorumarty/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260920yorumarty/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-20",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "清水 秀子（vo） 清水 絵理子（p） 斉藤 誠（b） 安藤 正則（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/50104/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-20",
-      "open": "12:00",
-      "start": "13:00",
-      "secondStart": "14:30",
-      "artist": "遠藤 律子（p）3 山口 彰（b） 藤井 学（ds）",
-      "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51604/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "venus",
-      "date": "2026-09-20",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "artist": "休日Live　柿原薫 vo. 小泉明子 pf.",
-      "price": "3,500円",
-      "image": "https://static.wixstatic.com/media/5fcc8d_9967bc663c054b15b21e040c34e991f0~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り"
-    },
     {
       "venueId": "alfie",
       "date": "2026-09-21",
@@ -554,7 +332,7 @@
       "start": "16:00",
       "artist": "川畑要 Billboard Live Tour 2026\\\\",
       "price": "8,400円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21242/detail/dtl_ev-21242_1_1770094368.jpg",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21242/detail/dtl_ev-21242_1_1789610898.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21242&date=2026-09-21",
       "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21242&date=2026-09-21",
@@ -568,7 +346,7 @@
       "start": "19:00",
       "artist": "川畑要 Billboard Live Tour 2026\\\\",
       "price": "8,400円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21242/detail/dtl_ev-21242_1_1770094368.jpg",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21242/detail/dtl_ev-21242_1_1789610898.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21242&date=2026-09-21",
       "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21242&date=2026-09-21",
@@ -8108,7 +7886,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-20T13:37:46.055Z",
+  "updatedAt": "2026-09-20T23:15:35.481Z",
   "venues": [
     {
       "area": "near",
