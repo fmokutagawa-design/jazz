@@ -73,7 +73,7 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 27,
+      "count": 28,
       "kept": 27
     },
     {
@@ -2339,7 +2339,7 @@
       "open": "19:00",
       "start": "19:30",
       "artist": "渋さ知らズ オーケストラ",
-      "lineup": "北陽一郎(Tp)石渡 岬(Tp)高橋保行(Tb)廣瀬 寛(Tuba)立花秀輝(Sax)川口義之(As)松原慎之介(As)纐纈雅代(As)斉藤圭祐(As)鬼頭 哲(Bs)石渡明廣(G)加藤一平(G)小林真理子(B)山口コーイチ(P)関根真理(Per,Vo)磯部 潤(Ds)山本直樹(Ds)ペロ,すがこ,高橋芙美,若林 淳,藤花,不破大輔",
+      "lineup": "北陽一郎(Tp)石渡 岬(Tp)高橋保行(Tb)廣瀬 寛(Tuba)立花秀輝(Sax)川口義之(As)松原慎之介(As)纐纈雅代(As)斉藤圭祐(As)鬼頭 哲(Bs)石渡明廣(G)加藤一平(G)小林真理子(B)山口コーイチ(P)関根真理(Per,Vo)磯部 潤(Ds)山本直樹(Ds)ペロ,すがこ,高橋芙美,若林 淳,藤花,不破大輔,ゲスト:和田直樹(Vo,G)",
       "price": "￥4,400",
       "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2020/04/0601shibusa.jpg",
       "media": [],
@@ -5036,7 +5036,7 @@
       "date": "2026-10-16",
       "open": "18:00",
       "start": "19:00",
-      "artist": "10.16(金) sax.岸本 美咲",
+      "artist": "10.16(金) キャノンボール トリビュート sax.岸本 美咲",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/IMG_9081.jpeg",
       "media": [],
@@ -6053,6 +6053,18 @@
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
       "reservationStatus": "check"
+    },
+    {
+      "venueId": "swing",
+      "date": "2026-10-22",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "10.22(木) tp.中村 好江 cl.白石 幸司",
+      "price": "￥4,500",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/IMG_9226.jpeg",
+      "media": [],
+      "source": "https://ginzaswing.jp/20261022-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "wonderwall",
@@ -7643,7 +7655,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-22T00:05:43.550Z",
+  "updatedAt": "2026-09-22T14:05:00.788Z",
   "venues": [
     {
       "area": "near",
