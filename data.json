@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 10,
-      "kept": 10
+      "count": 9,
+      "kept": 9
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 8
+      "kept": 7
     },
     {
       "venueId": "bluenote",
@@ -50,7 +50,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 9
+      "kept": 8
     },
     {
       "venueId": "cottonclub",
@@ -74,7 +74,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 28,
-      "kept": 27
+      "kept": 28
     },
     {
       "venueId": "first",
@@ -97,8 +97,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 9,
-      "kept": 9
+      "count": 8,
+      "kept": 8
     },
     {
       "venueId": "kanmachi63",
@@ -129,8 +129,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 7,
-      "kept": 7
+      "count": 6,
+      "kept": 6
     },
     {
       "venueId": "barbarbar",
@@ -146,7 +146,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 12
+      "kept": 10
     },
     {
       "venueId": "billboard_yokohama",
@@ -162,7 +162,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 14
+      "kept": 12
     },
     {
       "venueId": "billboard_tokyo",
@@ -177,8 +177,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 9,
-      "kept": 9
+      "count": 8,
+      "kept": 8
     },
     {
       "venueId": "pitinn",
@@ -193,8 +193,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 7,
-      "kept": 7
+      "count": 6,
+      "kept": 6
     },
     {
       "venueId": "bodyandsoul",
@@ -209,8 +209,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 7,
-      "kept": 7
+      "count": 6,
+      "kept": 6
     },
     {
       "venueId": "jzbrat",
@@ -225,8 +225,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 7,
-      "kept": 7
+      "count": 6,
+      "kept": 6
     },
     {
       "venueId": "alfie",
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 10,
-      "kept": 10
+      "count": 8,
+      "kept": 8
     },
     {
       "venueId": "sometime",
@@ -270,211 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-09-22",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[jazz] &lt;中山拓海 2days&gt; 中山拓海(as) 石川ふみの(fl) 果穂(pf) 金子義浩(b) 宮城拓弥(ds)",
-      "price": "公式で確認",
-      "image": "https://alfie.tokyo/liveReport/20260922_.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202609.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-09-22",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "21:00",
-      "artist": "●紗野葉子&青木弘武Trio",
-      "lineup": "vo:紗野葉子 pf:青木弘武 bs:河原秀夫 ds:ジーン重村",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/6a87d9caf711850013fcf8f40e5e90d9.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-22",
-      "open": "15:00",
-      "start": "16:00",
-      "artist": "XinU “From One to Collective - 2026” at Billboard Live",
-      "price": "6,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21512/detail/dtl_ev-21512_1_1781056302.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21512&date=2026-09-22",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21512&date=2026-09-22",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21512&date=2026-09-22",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-22",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "XinU “From One to Collective - 2026” at Billboard Live",
-      "price": "6,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21512/detail/dtl_ev-21512_1_1781056302.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21512&date=2026-09-22",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21512&date=2026-09-22",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21512&date=2026-09-22",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-22",
-      "open": "15:00",
-      "start": "16:00",
-      "artist": "梅井美咲 × 北村蕗 / °pbdb 1st EP 『qpep°1』 Release Live",
-      "price": "5,400円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21614/detail/dtl_ev-21614_1_1785205410.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21614&date=2026-09-22",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21614&date=2026-09-22",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21614&date=2026-09-22",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-22",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "梅井美咲 × 北村蕗 / °pbdb 1st EP 『qpep°1』 Release Live",
-      "price": "5,400円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21614/detail/dtl_ev-21614_1_1785205410.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21614&date=2026-09-22",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21614&date=2026-09-22",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21614&date=2026-09-22",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-09-22",
-      "open": "15:30",
-      "start": "15:30",
-      "artist": "THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND",
-      "price": "¥12,500",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3992",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3992",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/miles-electric-band/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bodyandsoul",
-      "date": "2026-09-22",
-      "open": "14:00",
-      "start": "15:00",
-      "secondStart": "16:30",
-      "artist": "デイタイムライブ《椎名豊 Inspired Swing Trio》Special Guest：中島朱葉(as)",
-      "price": "￥7,000",
-      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/01/2601176-e1786580413337-166x166.jpg",
-      "media": [],
-      "source": "https://bodyandsoul.co.jp/event/260922",
-      "detailUrl": "https://bodyandsoul.co.jp/event/260922",
-      "reservationUrl": "https://bodyandsoul.co.jp/event/260922",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-09-22",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "RACHAEL YAMAGATA Starlit Alchemy Tour",
-      "price": "¥9,900",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5738.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5738",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5738",
-      "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/rachael-yamagata-260922/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-22",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "瓶底爺 サリー佐藤(eb)Mis*ty(vo)Alex(vo)Yukiko(g)深井一也(tp)日原雅子(p)中野祐次(ds)",
-      "price": "4000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-09-22",
-      "open": "14:00",
-      "start": "15:00",
-      "artist": "DANDY ALLA MODA",
-      "price": "￥7,000",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/e28d1bacad37d4da408e6088e31772ee95c45ad6-thumb-160xauto-14489.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260922",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260922",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260922",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-09-22",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "“DARK MATTER“ 90分1セット ts.electronics橋爪亮督 tabla大村亘 eb.etc阿部真武",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-22",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "Marty Holoubek 3 Days 6 Concerts 2026 — Marty Holoubek’s Trio II",
-      "lineup": "井上 銘(G)石若 駿(Ds)マーティ・ホロベック(B)",
-      "price": "￥4,400",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/07/0920marty.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260922yorumarty/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260922yorumarty/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-22",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "近藤 和彦（sax）4 田中 菜緒子（p） 安ヵ川 大樹（b） 北澤 大樹（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51610/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-22",
-      "open": "12:00",
-      "start": "13:00",
-      "secondStart": "14:30",
-      "artist": "大石 学（p）solo",
-      "price": "1,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51613/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
     {
       "venueId": "billboard_tokyo",
       "date": "2026-09-23",
@@ -701,7 +496,7 @@
       "open": "18:30",
       "start": "19:30",
       "secondStart": "21:00",
-      "artist": "《大林武司クァルテット》",
+      "artist": "《大林武司fromNY クァルテット》",
       "price": "￥8,000",
       "image": "https://bodyandsoul.co.jp/wp-content/uploads/2023/03/230311b3-e1786581064519-166x166.jpg",
       "media": [],
@@ -7655,7 +7450,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-22T14:05:00.788Z",
+  "updatedAt": "2026-09-22T23:37:25.827Z",
   "venues": [
     {
       "area": "near",
