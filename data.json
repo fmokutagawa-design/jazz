@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 9,
-      "kept": 9
+      "count": 8,
+      "kept": 8
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 7
+      "kept": 6
     },
     {
       "venueId": "bluenote",
@@ -50,7 +50,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 8
+      "kept": 7
     },
     {
       "venueId": "cottonclub",
@@ -74,7 +74,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 29,
-      "kept": 28
+      "kept": 29
     },
     {
       "venueId": "first",
@@ -97,8 +97,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 8,
-      "kept": 8
+      "count": 7,
+      "kept": 7
     },
     {
       "venueId": "kanmachi63",
@@ -162,7 +162,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 12
+      "kept": 10
     },
     {
       "venueId": "billboard_tokyo",
@@ -177,8 +177,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 8,
-      "kept": 8
+      "count": 7,
+      "kept": 7
     },
     {
       "venueId": "pitinn",
@@ -193,8 +193,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 6,
-      "kept": 6
+      "count": 5,
+      "kept": 5
     },
     {
       "venueId": "bodyandsoul",
@@ -209,8 +209,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 6,
-      "kept": 6
+      "count": 5,
+      "kept": 5
     },
     {
       "venueId": "jzbrat",
@@ -241,8 +241,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 6,
-      "kept": 6
+      "count": 5,
+      "kept": 5
     },
     {
       "venueId": "naru",
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 8,
-      "kept": 8
+      "count": 7,
+      "kept": 7
     },
     {
       "venueId": "sometime",
@@ -270,157 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-23",
-      "open": "15:00",
-      "start": "16:00",
-      "artist": "石橋凌 Ryo Ishibashi with JAZZY SOUL",
-      "price": "8,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21467/detail/dtl_ev-21467_1_1779329754.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21467&date=2026-09-23",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21467&date=2026-09-23",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21467&date=2026-09-23",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-23",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "石橋凌 Ryo Ishibashi with JAZZY SOUL",
-      "price": "8,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21467/detail/dtl_ev-21467_1_1779329754.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21467&date=2026-09-23",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21467&date=2026-09-23",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21467&date=2026-09-23",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-09-23",
-      "open": "15:30",
-      "start": "15:30",
-      "artist": "THE MILES DAVIS CENTENNIAL CELEBRATION with THE MILES ELECTRIC BAND",
-      "price": "¥12,500",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3992.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3992",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3992",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/miles-electric-band/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bodyandsoul",
-      "date": "2026-09-23",
-      "open": "17:30",
-      "start": "18:30",
-      "secondStart": "20:00",
-      "artist": "《武本和大THE REAL Veleria》",
-      "price": "￥7,000",
-      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2025/01/25011428-e1786580734547-166x166.jpg",
-      "media": [],
-      "source": "https://bodyandsoul.co.jp/event/260923",
-      "detailUrl": "https://bodyandsoul.co.jp/event/260923",
-      "reservationUrl": "https://bodyandsoul.co.jp/event/260923",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-09-23",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "RACHAEL YAMAGATA Starlit Alchemy Tour",
-      "price": "¥9,900",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5738.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5738",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5738",
-      "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/rachael-yamagata-260922/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-23",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "坂井奈々香(tp)TRIO 守屋純子(p)金子義浩(b)",
-      "price": "3500円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-09-23",
-      "open": "13:30",
-      "start": "14:30",
-      "artist": "Nao Amamiya B.D. Live 2026",
-      "price": "￥11,000",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/fdb850f632f471dcf1fa58175202396b270551f9-thumb-160xauto-14319.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260923",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260923",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260923",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-09-23",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "vo.pf.蜂谷真紀 sax.かみむら泰一 tb.etc青木タイセイ",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-09-23",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "伊藤勇司 b 田中菜緒子 p 高橋直希 ds 広瀬未来 tp 佐藤敬幸 as",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-23",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "山田貴子 y's trio",
-      "lineup": "山田貴子(P)山本裕之(B)二本松義史(Ds)",
-      "price": "￥3,300",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2023/04/0622yamada3.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260923yamada/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260923yamada/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-23",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "松島 啓之（tp）4 今泉 正明（p） 上村 信（b） 広瀬 潤次（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51616/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
     {
       "venueId": "alfie",
       "date": "2026-09-24",
@@ -7483,7 +7332,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-23T14:16:54.823Z",
+  "updatedAt": "2026-09-23T23:41:32.380Z",
   "venues": [
     {
       "area": "near",
