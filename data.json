@@ -191,16 +191,16 @@
     {
       "venueId": "bodyandsoul",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 4,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 4
     },
     {
       "venueId": "bodyandsoul",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
@@ -239,17 +239,17 @@
     {
       "venueId": "naru",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 4,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 4
     },
     {
       "venueId": "naru",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 19,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 19
     },
     {
@@ -904,7 +904,7 @@
       "open": "14:00",
       "start": "15:15",
       "secondStart": "17:45",
-      "artist": "iBlossom Live 2026 ─秋の収穫祭 ─",
+      "artist": "iBlossom Live 2026 ─秋の収穫祭─",
       "price": "￥8,000",
       "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/08/9dc71796ca2458b47d46554d7fa7eb80ef880cf2-thumb-160xauto-14588.jpg",
       "media": [],
@@ -1371,7 +1371,7 @@
       "open": "18:00",
       "start": "19:00",
       "artist": "9.29(火) vo.鶴丸 はるか",
-      "price": "¥6500",
+      "price": "¥6000",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8897.jpeg",
       "media": [
         {
@@ -1963,11 +1963,12 @@
       "start": "19:00",
       "artist": "北ジャズ 北原雅彦×香取良彦",
       "price": "¥5,500",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/%E5%8C%97%E3%82%B8%E3%83%A3%E3%82%BA%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC.png",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/%E5%8C%97%E3%82%B8%E3%83%A3%E3%82%BA%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC-1.png",
       "media": [],
       "source": "https://wonderwall-yokohama.jp/schedule/%e5%8c%97%e3%82%b8%e3%83%a3%e3%82%ba%e3%80%80%e5%8c%97%e5%8e%9f%e9%9b%85%e5%bd%a6x%e9%a6%99%e5%8f%96%e8%89%af%e5%bd%a6/",
       "secondStart": "20:10",
       "lineup": "北原雅彦(tb) 香取良彦(vib)",
+      "note": "※本公演は満席となっております ※キャンセル待ちをご希望の方はHP内の貸切・採用などお問い合わせ→キャンセル待ち受付を選んでご入力ください",
       "reservationUrl": "https://tiget.net/events/508166",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e5%8c%97%e3%82%b8%e3%83%a3%e3%82%ba%e3%80%80%e5%8c%97%e5%8e%9f%e9%9b%85%e5%bd%a6x%e9%a6%99%e5%8f%96%e8%89%af%e5%bd%a6/",
       "reservationStatus": "web"
@@ -2123,7 +2124,12 @@
       "artist": "10.3(土) THE MIDTOWN DUO",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261003Wakisaka.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=oC7qVQCPwBQ"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261003-2/",
       "secondStart": "20:30"
     },
@@ -2135,12 +2141,7 @@
       "artist": "10.3(土) ランチタイムライブ vo.村本 玲奈",
       "price": "￥4,000",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8999.jpeg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=oC7qVQCPwBQ"
-        }
-      ],
+      "media": [],
       "source": "https://ginzaswing.jp/2026103-2/",
       "secondStart": "14:30"
     },
@@ -2574,7 +2575,12 @@
       "artist": "10.6(火 )大井貴司＆Super Vibration",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261006%E5%A4%A7%E4%BA%95.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=mnAFOk7oQSA"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261006-2/",
       "secondStart": "20:30"
     },
@@ -2895,7 +2901,12 @@
       "artist": "10.8(木)vo.Maya",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99261008MAYA.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=DZdpwANhI80"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261002-2/",
       "secondStart": "20:30"
     },
@@ -3270,7 +3281,12 @@
       "artist": "10.10(土)vo.ダイナ・ミキ",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261010%E3%83%80%E3%82%A4%E3%83%8A%E3%83%9F%E3%82%AD.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=8lFIXR398xQ"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261010-2/",
       "secondStart": "20:30"
     },
@@ -4477,7 +4493,12 @@
       "artist": "10.16(金) キャノンボール トリビュート sax.岸本 美咲",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261016%E5%B2%B8%E6%9C%AC.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=QdkbIwChJxU"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261016-2/",
       "secondStart": "20:30"
     },
@@ -4676,7 +4697,12 @@
       "artist": "10.17(土)New Standard Quintet dr.木村 由紀夫 ts.右近 茂",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261017%E6%9C%A8%E6%9D%91NSQ.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=S-9J8nLg3JE"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261017-2/",
       "secondStart": "20:30"
     },
@@ -5499,7 +5525,7 @@
       "start": "19:00",
       "artist": "10.22(木) tp.中村 好江 cl.白石 幸司",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/IMG_9226.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261022%E4%B8%AD%E6%9D%91.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261022-2/",
       "secondStart": "20:30"
@@ -5672,7 +5698,12 @@
       "artist": "10.23(金) as.堤 智恵子 バースデーライブ",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261023%E5%A0%A4.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=FEHZtuI3z8k"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261023-2/",
       "secondStart": "20:30"
     },
@@ -6082,7 +6113,12 @@
       "artist": "10.25(日) p.vo.石原 江里子",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261025%E7%9F%B3%E5%8E%9F.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=m7g8fzYoM0I"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261025-2/",
       "secondStart": "15:30"
     },
@@ -6231,7 +6267,12 @@
       "artist": "10.26(月) as.寺久保 エレナ",
       "price": "￥6,000",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261026%E5%AF%BA%E4%B9%85%E4%BF%9D%E3%82%A8%E3%83%AC%E3%83%8A.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=La_3x9BJr7k"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261026-2/",
       "secondStart": "20:30"
     },
@@ -7092,7 +7133,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-24T23:53:57.996Z",
+  "updatedAt": "2026-09-25T14:39:22.507Z",
   "venues": [
     {
       "area": "near",
