@@ -121,7 +121,7 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 26,
+      "count": 27,
       "kept": 26
     },
     {
@@ -191,16 +191,16 @@
     {
       "venueId": "bodyandsoul",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 1,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 1
     },
     {
       "venueId": "bodyandsoul",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
@@ -239,17 +239,17 @@
     {
       "venueId": "naru",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 2,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 2
     },
     {
       "venueId": "naru",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 19,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 19
     },
     {
@@ -817,7 +817,7 @@
     {
       "venueId": "dolphy",
       "date": "2026-09-29",
-      "open": "18:30",
+      "open": "19:00",
       "start": "19:30",
       "artist": "TON SUR TON デビュー日本公演 Sylvie Klijn(シルヴィ・クライン：vo/key)Christoph Utzinger(クリストフ・ウッツィンガー：b) fromスイス",
       "price": "3500円",
@@ -2831,6 +2831,7 @@
       "source": "https://wonderwall-yokohama.jp/schedule/calmflames-7/",
       "secondStart": "19:40",
       "lineup": "秋田ゴールドマン(b) 武本和大(p) 山近拓音(ds) 飯島奏人(vc)",
+      "note": "本公演は事情により、軽食のみのご提供とさせていただきます。予めご了承ください。",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd9KvzM69fWQrVl9HGTSdksItUdr8i-PO0HdXcTWTmflBQHTQ/viewform?usp=pp_url&entry.1675391905=10/10(%E5%9C%9F)CalmFlames+feat.KanatoIijima",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/calmflames-7/",
       "reservationStatus": "web"
@@ -6110,6 +6111,7 @@
       "source": "https://wonderwall-yokohama.jp/schedule/%e8%b0%b7%e5%8f%a3%e8%8b%b1%e6%b2%bb%e3%82%ab%e3%83%ab%e3%83%86%e3%83%83%e3%83%88-2/",
       "secondStart": "20:10",
       "lineup": "谷口英治(cl) 田窪寛之(p) 本川悠平(b) 柳沼佑育(ds) 太田朱美(fl)",
+      "note": "本公演は事情により、軽食のみのご提供とさせていただきます。予めご了承ください。",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd9KvzM69fWQrVl9HGTSdksItUdr8i-PO0HdXcTWTmflBQHTQ/viewform?usp=pp_url&entry.1675391905=10/28(%E6%B0%B4)%E8%B0%B7%E5%8F%A3%E8%8B%B1%E6%B2%BB%E3%82%AB%E3%83%AB%E3%83%86%E3%83%83%E3%83%88with%E5%A4%AA%E7%94%B0%E6%9C%B1%E7%BE%8E",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e8%b0%b7%e5%8f%a3%e8%8b%b1%e6%b2%bb%e3%82%ab%e3%83%ab%e3%83%86%e3%83%83%e3%83%88-2/",
       "reservationStatus": "web"
@@ -6471,6 +6473,23 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "wonderwall",
+      "date": "2026-10-30",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "佐藤竹善 マイクを使わNight JazzGuitar編ft.鈴木直人",
+      "price": "¥7,700",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/09/0-1790401806088.jpg",
+      "media": [],
+      "source": "https://wonderwall-yokohama.jp/schedule/%e4%bd%90%e8%97%a4%e7%ab%b9%e5%96%84-%e3%83%9e%e3%82%a4%e3%82%af%e3%82%92%e4%bd%bf%e3%82%8fnight-jazzguitar%e7%b7%a8ft-%e9%88%b4%e6%9c%a8%e7%9b%b4%e4%ba%ba/",
+      "secondStart": "21:15",
+      "lineup": "佐藤竹善(vo) 鈴木直人(g)",
+      "note": "※本公演では、限定フードメニューをご用意しております ※本公演は入れ替え制です。 ※一回の公演時間は約70分を予定しております。 ※開場15分前から整列となります。 ※チケット番号順に入場、ご案内となります。(複数人数の場合は揃ってからの入場となります) ※録音・録画・撮影・配信等の行為は禁止とさせていただきます。 ※チケットの当日キャンセルは承っておりません。(サイト内のリセール機能をお使いください。)",
+      "reservationUrl": "https://tiget.net/events/525839",
+      "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e4%bd%90%e8%97%a4%e7%ab%b9%e5%96%84-%e3%83%9e%e3%82%a4%e3%82%af%e3%82%92%e4%bd%bf%e3%82%8fnight-jazzguitar%e7%b7%a8ft-%e9%88%b4%e6%9c%a8%e7%9b%b4%e4%ba%ba/",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "alfie",
       "date": "2026-10-31",
       "open": "18:45",
@@ -6667,7 +6686,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-26T23:37:25.954Z",
+  "updatedAt": "2026-09-27T14:44:52.085Z",
   "venues": [
     {
       "area": "near",
