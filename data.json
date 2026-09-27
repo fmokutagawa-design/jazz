@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 5,
-      "kept": 5
+      "count": 3,
+      "kept": 3
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 3
+      "kept": 2
     },
     {
       "venueId": "bluenote",
@@ -50,7 +50,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 4
+      "kept": 3
     },
     {
       "venueId": "cottonclub",
@@ -81,8 +81,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 2,
-      "kept": 2
+      "count": 1,
+      "kept": 1
     },
     {
       "venueId": "first",
@@ -97,8 +97,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 4,
-      "kept": 4
+      "count": 3,
+      "kept": 3
     },
     {
       "venueId": "kanmachi63",
@@ -113,8 +113,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 4,
-      "kept": 4
+      "count": 3,
+      "kept": 3
     },
     {
       "venueId": "wonderwall",
@@ -122,15 +122,15 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 27,
-      "kept": 26
+      "kept": 27
     },
     {
       "venueId": "barbarbar",
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 3,
-      "kept": 3
+      "count": 2,
+      "kept": 2
     },
     {
       "venueId": "barbarbar",
@@ -146,7 +146,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 8
+      "kept": 6
     },
     {
       "venueId": "billboard_yokohama",
@@ -162,7 +162,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 6
+      "kept": 4
     },
     {
       "venueId": "billboard_tokyo",
@@ -178,7 +178,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 4
+      "kept": 3
     },
     {
       "venueId": "pitinn",
@@ -191,16 +191,16 @@
     {
       "venueId": "bodyandsoul",
       "month": "2026-09",
-      "status": "failed",
-      "reason": "取得失敗",
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 1
+      "kept": 0
     },
     {
       "venueId": "bodyandsoul",
       "month": "2026-10",
-      "status": "failed",
-      "reason": "取得失敗",
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
       "count": 0,
       "kept": 0
     },
@@ -209,8 +209,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 3,
-      "kept": 3
+      "count": 2,
+      "kept": 2
     },
     {
       "venueId": "jzbrat",
@@ -225,8 +225,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 3,
-      "kept": 3
+      "count": 2,
+      "kept": 2
     },
     {
       "venueId": "alfie",
@@ -239,17 +239,17 @@
     {
       "venueId": "naru",
       "month": "2026-09",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 2,
       "kept": 2
     },
     {
       "venueId": "naru",
       "month": "2026-10",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 19,
       "kept": 19
     },
     {
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 5,
-      "kept": 5
+      "count": 3,
+      "kept": 3
     },
     {
       "venueId": "sometime",
@@ -270,248 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-09-27",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "日野\"JINO\"賢二(eb) Session Tony Suggs(pf) Jay Stixx(ds)",
-      "price": "￥5500",
-      "image": "https://alfie.tokyo/liveReport/2019/DSC04178.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202609.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-09-27",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "終日貸切",
-      "lineup": "27 終日貸切",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationUrl": null,
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-27",
-      "open": "14:00",
-      "start": "15:00",
-      "artist": "在日ファンク at Billboard Live TOKYO 2026",
-      "price": "7,000円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21580/detail/dtl_ev-21580_1_1783298257.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21580&date=2026-09-27",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21580&date=2026-09-27",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21580&date=2026-09-27",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-27",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "在日ファンク at Billboard Live TOKYO 2026",
-      "price": "7,000円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21580/detail/dtl_ev-21580_1_1783298257.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21580&date=2026-09-27",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21580&date=2026-09-27",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21580&date=2026-09-27",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-27",
-      "open": "14:00",
-      "start": "15:00",
-      "artist": "安蘭けい 35th Live 『Cherished Moments』",
-      "price": "13,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21409/detail/dtl_ev-21409_1_1776674320.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21409&date=2026-09-27",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21409&date=2026-09-27",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21409&date=2026-09-27",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-27",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "安蘭けい 35th Live 『Cherished Moments』",
-      "price": "13,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21409/detail/dtl_ev-21409_1_1776674320.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21409&date=2026-09-27",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21409&date=2026-09-27",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21409&date=2026-09-27",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-09-27",
-      "open": "15:30",
-      "start": "15:30",
-      "artist": "ANDREA MOTIS Guitar Trio \"Intimate\"",
-      "price": "¥8,500",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3943.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3943",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3943",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/andrea-motis/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bodyandsoul",
-      "date": "2026-09-27",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "【閉幕】",
-      "price": "公式で確認",
-      "image": "https://bodyandsoul.co.jp/wp-content/uploads/2026/08/e5cbdfd9-5687-4120-9f37-b2c184650220-166x166.png",
-      "media": [],
-      "source": "https://bodyandsoul.co.jp/event/260927",
-      "detailUrl": "https://bodyandsoul.co.jp/event/260927",
-      "reservationUrl": "https://bodyandsoul.co.jp/event/260927",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-09-27",
-      "open": "15:30",
-      "start": "16:30",
-      "artist": "KIYOSHI MAEKAWA LIVE2026 BEYOND ～その先へ～",
-      "price": "¥11,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5703.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5703",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5703",
-      "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/kiyoshi-maekawa-260927/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-27",
-      "open": "12:30",
-      "start": "13:00",
-      "artist": "ドルフィー・アフタヌーンジャムセッション ホスト： 小室響(p) 塚田陽太(ds)toyo(b)",
-      "price": "2000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-27",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "中村恵介(tp)HUMADOPE 吉本章紘(ts/fl)市川空(p)金森もとい(b)高橋直希(ds)",
-      "price": "4500円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "first",
-      "date": "2026-09-27",
-      "open": "16:30",
-      "start": "16:30",
-      "artist": "山本麻理子 Piano Trio Live",
-      "price": "￥2,500",
-      "image": null,
-      "media": [],
-      "source": "https://naniaru.com/events/view/14441"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-09-27",
-      "open": "14:00",
-      "start": "15:15",
-      "secondStart": "17:45",
-      "artist": "iBlossom Live 2026 ─秋の収穫祭─",
-      "price": "￥8,000",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/08/9dc71796ca2458b47d46554d7fa7eb80ef880cf2-thumb-160xauto-14588.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260927",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260927",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260927",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-09-27",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "ts.ss.山口真文 gt.東海林由孝 b.小牧良平 ds.山崎隼",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-27",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "Nu-Boycott (ぬーぼいこっと)",
-      "lineup": "ヨシガキルイ(G)富川健太(B)吉田野乃子(Sax)渋谷 徹(Ds)",
-      "price": "￥3,300",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/07/0927nu-boycott.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260927nu-boycott/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260927nu-boycott/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-27",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "竹内 直（sax）4 片倉 真由子（p） 井上 陽介（b） ジーン・ジャクソン（ds）",
-      "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51631/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-27",
-      "open": "12:00",
-      "start": "13:00",
-      "secondStart": "14:30",
-      "artist": "佐藤 達哉（sax）4 瀬田 創太（p） 早川 哲也（b） 関根 豊明（ds）",
-      "price": "2,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51634/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-09-27",
-      "open": "16:00",
-      "start": "17:00",
-      "artist": "スケ語りvol.27",
-      "price": "¥4,400",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2024/03/IMG_3561.jpeg",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/%e3%82%b9%e3%82%b1%e8%aa%9e%e3%82%8avol-27/",
-      "secondStart": "18:10",
-      "lineup": "植松陽介(vo&#038;p)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/27(%E6%97%A5)%E3%82%B9%E3%82%B1%E8%AA%9E%E3%82%8Avol.27",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e3%82%b9%e3%82%b1%e8%aa%9e%e3%82%8avol-27/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "alfie",
       "date": "2026-09-28",
@@ -2843,7 +2601,7 @@
       "start": "19:15",
       "artist": "[world] Genki(vo, per) SAYAKA(vln) & 情家みえ(vo) Carlos Cespedes(vo, g) 畠山啓(pf) 高橋佳樹(eb)",
       "price": "￥6600",
-      "image": "https://alfie.tokyo/liveReport/2022/A9_02802_.jpg",
+      "image": "https://alfie.tokyo/liveReport/20261011.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
     },
@@ -6496,7 +6254,7 @@
       "start": "19:15",
       "artist": "[jazz] akiko(vo) with 石井ひなた(pf, sax) 中山拓海(sax)",
       "price": "￥6600",
-      "image": "https://alfie.tokyo/liveReport/20260801_1.jpg",
+      "image": "https://alfie.tokyo/liveReport/20260307_.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
     },
@@ -6686,7 +6444,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-27T14:44:52.085Z",
+  "updatedAt": "2026-09-27T23:49:20.578Z",
   "venues": [
     {
       "area": "near",
