@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 3,
-      "kept": 3
+      "count": 2,
+      "kept": 2
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 2
+      "kept": 1
     },
     {
       "venueId": "bluenote",
@@ -50,7 +50,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 3
+      "kept": 2
     },
     {
       "venueId": "cottonclub",
@@ -65,8 +65,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 3,
-      "kept": 3
+      "count": 2,
+      "kept": 2
     },
     {
       "venueId": "swing",
@@ -79,10 +79,10 @@
     {
       "venueId": "first",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 1,
-      "kept": 1
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
+      "kept": 0
     },
     {
       "venueId": "first",
@@ -97,8 +97,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 3,
-      "kept": 3
+      "count": 2,
+      "kept": 2
     },
     {
       "venueId": "kanmachi63",
@@ -113,8 +113,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 3,
-      "kept": 3
+      "count": 2,
+      "kept": 2
     },
     {
       "venueId": "wonderwall",
@@ -146,7 +146,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 6
+      "kept": 4
     },
     {
       "venueId": "billboard_yokohama",
@@ -162,7 +162,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 4
+      "kept": 2
     },
     {
       "venueId": "billboard_tokyo",
@@ -178,7 +178,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 3
+      "kept": 2
     },
     {
       "venueId": "pitinn",
@@ -225,8 +225,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 2,
-      "kept": 2
+      "count": 1,
+      "kept": 1
     },
     {
       "venueId": "alfie",
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 3,
-      "kept": 3
+      "count": 2,
+      "kept": 2
     },
     {
       "venueId": "sometime",
@@ -270,208 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-09-28",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[world] SAYAKA(vln) 尾花毅(g) 伊藤志宏(pf) 岡部洋一(perc)",
-      "price": "￥5500",
-      "image": "https://alfie.tokyo/liveReport/2010/IMG_8527.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202609.html"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-28",
-      "open": "14:00",
-      "start": "15:00",
-      "artist": "LE VELVETS",
-      "price": "10,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21461/detail/dtl_ev-21461_1_1779109946.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-28",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-28",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-28",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "LE VELVETS",
-      "price": "10,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21461/detail/dtl_ev-21461_1_1779109946.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-28",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-28",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-28",
-      "open": "16:30",
-      "start": "17:30",
-      "artist": "堺正章 to MAGNETS",
-      "price": "15,300円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21552/detail/dtl_ev-21547_1_1782184183.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21552&date=2026-09-28",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21552&date=2026-09-28",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21552&date=2026-09-28",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-28",
-      "open": "19:30",
-      "start": "20:30",
-      "artist": "堺正章 to MAGNETS",
-      "price": "15,300円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21552/detail/dtl_ev-21547_1_1782184183.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21552&date=2026-09-28",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21552&date=2026-09-28",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21552&date=2026-09-28",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-09-28",
-      "open": "15:30",
-      "start": "15:30",
-      "artist": "ANDREA MOTIS Guitar Trio \"Intimate\"",
-      "price": "¥8,500",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3943.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3943",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3943",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/andrea-motis/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-09-28",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "マーティ・フリードマン JAPAN LIVE 2026",
-      "price": "¥10,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5751.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5751",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5751",
-      "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/marty-friedman-260928/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-28",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "板橋文夫(p) スペシャルユニット 纐纈之雅代(as) 吉田隆一(bs) 後藤篤(tb)高岡大祐(tuba) 瀬尾高志(b) 斉藤良(ds)",
-      "price": "4500円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "first",
-      "date": "2026-09-28",
-      "open": "18:30",
-      "start": "18:30",
-      "artist": "REUNION Vol.19 Hiro Yamanaka & Friends",
-      "price": "￥3,500",
-      "image": null,
-      "media": [],
-      "source": "https://naniaru.com/events/view/14553"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-09-28",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "gt.馬場孝喜 b.甲斐正樹 ds.今泉総之輔",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-28",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "シーン・オブ・ジャズ",
-      "lineup": "石井 彰(P)大坂昌彦(Ds)安ヵ川大樹(B)",
-      "price": "￥4,400",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/07/0928coj.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260928scene-of-jazz/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260928scene-of-jazz/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-28",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "岩崎 佳子（p） 宮野 裕司（sax） 山崎 弘一（b） サバオ・ワタナベ（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51637/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-09-28",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "9.28(月) cl.熊倉 未佐子 cl.宮崎 佳彦 cl.宮脇 惇",
-      "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8904.jpeg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=alsh9c2vb7I"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20260928-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "date": "2026-09-28",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "artist": "Special Duo　里見紀子 vln. 遠藤征志 pf.",
-      "price": "3,500円",
-      "image": "https://static.wixstatic.com/media/5fcc8d_9967bc663c054b15b21e040c34e991f0~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-09-28",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "WWY JOSEI QUARTET",
-      "price": "¥6,600",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/0-1781261512934.jpg",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/wwy-josei-quartet-4/",
-      "secondStart": "20:10",
-      "lineup": "丈青(p) 高木祥太(b) 山近拓音(ds) MELRAW(sax)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/28(%E6%9C%88)WWY+JOSEI+QUARTET",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/wwy-josei-quartet-4/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "barbarbar",
       "date": "2026-09-29",
@@ -1046,9 +844,9 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "Very Berrys 平賀 マリカ（vo） 斉田 佳子（vo） 福井 ともみ（p） 伊東 佑季（b） 利光 玲奈（ds）",
+      "artist": "Very Berrys 平賀 マリカ（vo） 斉田 佳子（vo） 福井 ともみ（p） 伊東 佑季（b） 藤井 学（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51693/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51693/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -1062,7 +860,12 @@
       "artist": "10.1(木) 小山 豊 meets 島 裕介 ～和ジャズ～",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261001%E5%92%8C%E3%82%B8%E3%83%A3%E3%82%BA.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=TXDxOMeCGxQ"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261001-2/",
       "secondStart": "20:30"
     },
@@ -1140,7 +943,7 @@
       "date": "2026-10-02",
       "open": "18:30",
       "start": "19:30",
-      "artist": "丈青(p) TRIO 秋田ゴールドマン紀彰(b) 他",
+      "artist": "丈青(p) TRIO 秋田ゴールドマン紀彰(b)小名坂誠哉(ds)",
       "price": "4500円",
       "image": "https://dolphy-jazzspot.com/musician/d_jyosei_new_s.jpg",
       "media": [],
@@ -1220,7 +1023,7 @@
       "secondStart": "20:30",
       "artist": "Lakeside Struttin’ Band タイロン・橋本（vo/g） ウスダ・ミホ（keys） 包国 充（sax） 植田 充弘（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51696/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51696/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -1237,7 +1040,7 @@
       "media": [
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=PdZKVEomPh0"
+          "url": "https://www.youtube.com/watch?v=6pTUJNy9Pj8"
         }
       ],
       "source": "https://ginzaswing.jp/20261002-3/",
@@ -1383,7 +1186,7 @@
       "secondStart": "20:30",
       "artist": "チャリート（ vo） ユキ・アリマサ（p） 清水 昭好（b） 大江 航平（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51699/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51699/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -1397,7 +1200,7 @@
       "secondStart": "14:30",
       "artist": "越智 巌（g）3 西川 直人（org） 横山 和明（ds）",
       "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51705/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51705/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -1534,7 +1337,7 @@
       "secondStart": "20:30",
       "artist": "Ms‘3 峰 厚介（sax） 守谷 美由貴（sax） 永武 幹子（p）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51702/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51702/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -1548,7 +1351,7 @@
       "secondStart": "14:30",
       "artist": "佐藤 達哉（sax） 瀬田 創太（p）",
       "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51723/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51723/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -1699,7 +1502,7 @@
       "secondStart": "20:30",
       "artist": "松島 啓之（tp）4 今泉 正明（p） 上村 信（b） 広瀬 潤次（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51708/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51708/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -1712,7 +1515,7 @@
       "start": "19:00",
       "artist": "10.5(月) gt.宮之上 貴昭",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261005%E5%AE%AE%E4%B9%8B%E4%B8%8A-1.jpg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/IMG_9342.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20261005-2/",
       "secondStart": "20:30"
@@ -1848,7 +1651,7 @@
       "secondStart": "20:30",
       "artist": "酒井 俊（vo） 松島 啓之（tp） 清水 絵理子（p）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51711/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51711/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -2014,7 +1817,7 @@
       "secondStart": "20:30",
       "artist": "Bass Talk 鈴木 良雄（b） 井上 信平（fl） 野力 奏一（p） 岡部 洋一（perc）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51714/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51714/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -2174,7 +1977,7 @@
       "secondStart": "20:30",
       "artist": "井上 功一（ds） 西尾 健一（tp） 石崎 忍（sax） 岩崎 大輔（p） 吉田 豊（b）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51716/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51716/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -2368,7 +2171,7 @@
       "secondStart": "20:30",
       "artist": "中本 マリ（vo） 中村 恵介（tp） 清水 絵理子（p） 金森 もとい（b）",
       "price": "4,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51720/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51720/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -2382,7 +2185,12 @@
       "artist": "10.9(金) KAYO BAND",
       "price": "￥6,000",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261009KAYOBand.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=VFExgXatT-I"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261009-3/",
       "secondStart": "20:30"
     },
@@ -2540,7 +2348,7 @@
       "secondStart": "20:30",
       "artist": "SUPER FUNKY 西村 知恵（vo） 吉岡 秀晃（p） 河上 修（b） ゲスト：ジーン・ジャクソン（ds）",
       "price": "4,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51726/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51726/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -2554,7 +2362,7 @@
       "secondStart": "14:30",
       "artist": "千葉 史絵（p）3 鉄井 孝司（b） 鈴木 郁（ds）",
       "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51732/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51732/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -2774,7 +2582,7 @@
       "secondStart": "20:30",
       "artist": "佐藤 公淳（sax） 高橋 知己（sax） 続木 徹（p） 荒井 美咲（b） 峯 麻衣子（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51734/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51734/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -2788,7 +2596,7 @@
       "secondStart": "14:30",
       "artist": "MG3 早坂 紗知（sax） 永田 利樹（b） 田中 信正（p）",
       "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51738/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51738/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -2969,7 +2777,7 @@
       "secondStart": "20:30",
       "artist": "DEKORATION 清水 秀子（vo） 藤田 明夫（sax） 羽仁 知治（p） 斉藤 誠（b） 藤井 摂（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51741/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51741/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -2983,7 +2791,7 @@
       "secondStart": "14:30",
       "artist": "マリテス（ vo） 青木 弘武（p） 榊原 太郎（b） 木村 由紀夫（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51812/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51812/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -3144,7 +2952,7 @@
       "secondStart": "20:30",
       "artist": "中村 恵介（tp） TRUMPET MADNESS 松島 啓之（tp） 金森 もとい（b） ゲスト：岡部 洋一（perc）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51744/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51744/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -3157,7 +2965,7 @@
       "start": "19:00",
       "artist": "10.13(火) vib.宅間 善之",
       "price": "￥4,500",
-      "image": "http://ginzaswing.jp/wp22/wp-content/uploads/2022/12/000014ogp.png",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261013%E5%AE%85%E9%96%93-1.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261013-2/",
       "secondStart": "20:30"
@@ -3348,7 +3156,7 @@
       "secondStart": "20:30",
       "artist": "BIG CATCH 浜崎 航（sax） 松本 茜（p） 大塚 義将（b） ジーン・ジャクソン（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51747/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51747/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -3543,7 +3351,7 @@
       "secondStart": "20:30",
       "artist": "Nobie （vo） 馬場 孝喜（g） 片倉 真由子（p） コモブチ・樹一郎（b） 岡部 洋一（perc）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/49867/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/49867/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -3767,7 +3575,7 @@
       "secondStart": "20:30",
       "artist": "10.16 f ri 2set ませ ひろこ（sax）4 featuring ニール・スウェインソン（b） 中嶋 錠二（p） 北澤 大樹（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51750/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51750/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -3971,7 +3779,7 @@
       "secondStart": "20:30",
       "artist": "ジョシュア・ブレイクストーン（ g）3 安ヵ川 大樹（b） 奥平 真吾（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51753/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51753/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -4125,7 +3933,7 @@
       "secondStart": "20:30",
       "artist": "ジョシュア・ブレイクストーン（ g） フィリップ・ストレンジ（p）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51756/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51756/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -4139,7 +3947,7 @@
       "secondStart": "14:30",
       "artist": "佐藤 春樹（tb）5 佐藤 達哉（sax） 福島 誠（p） 河上 修（b） 山田 祐輔（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51765/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51765/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -4288,7 +4096,7 @@
       "secondStart": "20:30",
       "artist": "高田 ひろ子（p）3 小美濃 悠太（b） 岩瀬 立飛（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51761/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51761/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -4438,7 +4246,7 @@
       "secondStart": "20:30",
       "artist": "野力 奏一（p） 岡部 洋一（perc）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51771/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51771/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -4572,7 +4380,7 @@
       "date": "2026-10-21",
       "open": "18:30",
       "start": "19:30",
-      "artist": "鬼怒無月(g) グループ 加藤一平(g)吉見継吾(b)芳垣安洋(ds)",
+      "artist": "鬼怒無月(g) グループ 加藤一平(g)岩見継吾(b)芳垣安洋(ds)",
       "price": "4500円",
       "image": null,
       "media": [],
@@ -4641,7 +4449,7 @@
       "secondStart": "20:30",
       "artist": "土田 晴信（org）3 鈴木 洋一（g） 柳沼 佑育 （ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51774/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51774/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -4655,7 +4463,12 @@
       "artist": "10.21(水)dr.八城 邦義 セクステット",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261021%E5%85%AB%E5%9F%8E.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=k4a84PvtHFc"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261021-2/",
       "secondStart": "20:30"
     },
@@ -4800,7 +4613,7 @@
       "secondStart": "20:30",
       "artist": "菅原 花月（vo） 田中 菜緒子（p） ニール・スウェインソン（b） 菅原 高志（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/49961/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/49961/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -4972,7 +4785,7 @@
       "secondStart": "20:30",
       "artist": "The Key 大野 えり（vo） 川村 健（p） 松原 慶史（g） ゲスト：小山 彰太（ds）",
       "price": "4,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51777/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51777/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -5160,7 +4973,7 @@
       "secondStart": "20:30",
       "artist": "竹内 直（sax）4 市川 秀男（p） 若井 俊也（b） 大坂 昌彦（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51780/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51780/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -5373,7 +5186,7 @@
       "secondStart": "20:30",
       "artist": "YOSHIAKI MASUO GROUP 増尾 好秋（g） 永武 幹子（p） 中林 薫平（b） 北井 誉人（ds）",
       "price": "4,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51801/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51801/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -5387,7 +5200,7 @@
       "secondStart": "14:30",
       "artist": "Jamm16 小泉 明子（p/vo） 戸谷 仁一（b） 小澤 舞（ds） 藤橋 万記（perc）",
       "price": "2,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51783/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51783/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -5541,7 +5354,7 @@
       "secondStart": "20:30",
       "artist": "ENCOUNTER 浜崎 航（sax） 堀 秀彰（p） 高瀬 裕（b） 広瀬 潤次（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51795/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51795/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -5558,7 +5371,7 @@
       "media": [
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=La_3x9BJr7k"
+          "url": "https://www.youtube.com/watch?v=yV6wjUUccQQ"
         }
       ],
       "source": "https://ginzaswing.jp/20261026-2/",
@@ -5681,7 +5494,7 @@
       "secondStart": "20:30",
       "artist": "江藤 良人（ds）3 片倉 真由子（p） 粟谷 巧（b）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51786/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51786/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -5839,7 +5652,7 @@
       "secondStart": "20:30",
       "artist": "サキソフォビア 井上JUJUヒロシ（sax） 岡 淳（sax） 緑川 英徳（sax） 吉本 章紘（sax）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51798/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51798/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -6004,7 +5817,7 @@
       "secondStart": "20:30",
       "artist": "宮之上 貴昭（g） 吉岡 秀晃（p） 山口 裕之（b） 柳沼 佑育（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/49988/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/49988/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -6018,7 +5831,12 @@
       "artist": "10.29(木)cl.北村 英治 cl.熊倉 未佐子 cl.宮脇 惇",
       "price": "￥6,000",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99261029%E5%8C%97%E6%9D%91%E7%86%8A%E5%80%89%E5%AE%AE%E8%84%87.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q4XWfqTgcT4"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261029-2/",
       "secondStart": "20:30"
     },
@@ -6207,7 +6025,7 @@
       "secondStart": "20:30",
       "artist": "近藤 和彦（sax）4 田中 菜緒子（p） 伊藤 勇司（b） 大坂 昌彦（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51789/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51789/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -6409,7 +6227,7 @@
       "secondStart": "20:30",
       "artist": "河原 厚子（vo） 清水 絵理子（p） マーク・トゥーリアン（b） 小泉 高之（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51792/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1789967629565",
+      "image": "https://www.sometime.co.jp/sometime/_src/51792/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
       "media": [],
       "source": "https://www.sometime.co.jp/sometime/live202610.html",
       "reservationUrl": null,
@@ -6423,7 +6241,12 @@
       "artist": "10.31(土)『サバオスペシャル』～スウェーデンから森 泰人を迎えて！",
       "price": "￥5,000",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261031%E3%82%B5%E3%83%90%E3%82%AA.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=_5rKcWu27GQ"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261031-3/",
       "secondStart": "20:30"
     },
@@ -6444,7 +6267,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-27T23:49:20.578Z",
+  "updatedAt": "2026-09-28T17:42:09.463Z",
   "venues": [
     {
       "area": "near",
