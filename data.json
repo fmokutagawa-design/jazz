@@ -17,8 +17,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 2,
-      "kept": 2
+      "count": 1,
+      "kept": 1
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 1
+      "kept": 0
     },
     {
       "venueId": "bluenote",
@@ -50,7 +50,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 2
+      "kept": 1
     },
     {
       "venueId": "cottonclub",
@@ -65,8 +65,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 2,
-      "kept": 2
+      "count": 1,
+      "kept": 1
     },
     {
       "venueId": "swing",
@@ -97,8 +97,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 2,
-      "kept": 2
+      "count": 1,
+      "kept": 1
     },
     {
       "venueId": "kanmachi63",
@@ -113,8 +113,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 2,
-      "kept": 2
+      "count": 1,
+      "kept": 1
     },
     {
       "venueId": "wonderwall",
@@ -129,8 +129,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 2,
-      "kept": 2
+      "count": 1,
+      "kept": 1
     },
     {
       "venueId": "barbarbar",
@@ -146,7 +146,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 4
+      "kept": 2
     },
     {
       "venueId": "billboard_yokohama",
@@ -162,7 +162,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 2
+      "kept": 0
     },
     {
       "venueId": "billboard_tokyo",
@@ -178,7 +178,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 2
+      "kept": 1
     },
     {
       "venueId": "pitinn",
@@ -209,8 +209,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 2,
-      "kept": 2
+      "count": 1,
+      "kept": 1
     },
     {
       "venueId": "jzbrat",
@@ -241,8 +241,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 2,
-      "kept": 2
+      "count": 1,
+      "kept": 1
     },
     {
       "venueId": "naru",
@@ -257,8 +257,8 @@
       "month": "2026-09",
       "status": "ok",
       "reason": "取得済み",
-      "count": 2,
-      "kept": 2
+      "count": 1,
+      "kept": 1
     },
     {
       "venueId": "sometime",
@@ -270,231 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "barbarbar",
-      "date": "2026-09-29",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "21:00",
-      "artist": "●押川聖子&二村希一Trio",
-      "lineup": "vo/gt:押川聖子 pf:二村希一 bs:新岡 誠 ds:石川 智",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/fec564d3237a6bfdfc9b99b665c3dce3.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=9",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-29",
-      "open": "14:00",
-      "start": "15:00",
-      "artist": "LE VELVETS",
-      "price": "10,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21461/detail/dtl_ev-21461_1_1779109946.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-29",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-29",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-09-29",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "LE VELVETS",
-      "price": "10,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21461/detail/dtl_ev-21461_1_1779109946.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-29",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21461&date=2026-09-29",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-29",
-      "open": "16:30",
-      "start": "17:30",
-      "artist": "生沢佑一５０＋２周年Live",
-      "price": "7,400円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21620/detail/dtl_ev-21620_1_1785315610.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21620&date=2026-09-29",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21620&date=2026-09-29",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21620&date=2026-09-29",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-09-29",
-      "open": "19:30",
-      "start": "20:30",
-      "artist": "生沢佑一５０＋２周年Live",
-      "price": "7,400円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21620/detail/dtl_ev-21620_1_1785315610.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21620&date=2026-09-29",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21620&date=2026-09-29",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21620&date=2026-09-29",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-09-29",
-      "open": "17:00",
-      "start": "17:00",
-      "artist": "JHARIS YOKLEY + BIGYUKI",
-      "price": "¥8,000",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3984.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3984",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3984",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/jharis-yokley/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-09-29",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "AYA HIRANO ANNIVERSARY LIVE 2026 ～COTTON CLUB～",
-      "price": "¥8,800",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5733.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5733",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5733",
-      "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/aya-hirano-260915/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-09-29",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "TON SUR TON デビュー日本公演 Sylvie Klijn(シルヴィ・クライン：vo/key)Christoph Utzinger(クリストフ・ウッツィンガー：b) fromスイス",
-      "price": "3500円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-09-29",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "牧山純子 Precious Space vol.33",
-      "price": "￥7,500",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/260929_top-thumb-160xauto-14485.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260929",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260929",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/09/index.html#20260929",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-09-29",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "b.安東昇 gt.増田涼一郎",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-09-29",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "近藤和彦 as David Bryant p Pat Glynn b 大坂昌彦 ds",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-09-29",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "だいだらぼっち",
-      "lineup": "酒井 俊(Vo)林 栄一(As)田中信正(P)",
-      "price": "￥3,850",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/07/0929sakai.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/260929daidara-bocchi/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/260929daidara-bocchi/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-09-29",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "サキソフォビア 井上JUJUヒロシ（sax） 岡 淳（sax） 緑川 英徳（sax） 吉本 章紘（sax）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51640/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1788332326248",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-09-29",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "9.29(火) vo.鶴丸 はるか",
-      "price": "¥6000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/IMG_8897.jpeg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=kK2x3EWgcgQ"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20260929-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "date": "2026-09-29",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "artist": "Special Trio　Harue Sekimoto vo. 市川空 pf. 廣橋契 bass.",
-      "price": "4,000円",
-      "image": "https://static.wixstatic.com/media/5fcc8d_9967bc663c054b15b21e040c34e991f0~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-09-29",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "TomokannoQuartet feat. DavidNegrete",
-      "price": "¥6,000",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/06/TomoKannoquartet%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC.png",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/tomokannoquartet-4/",
-      "secondStart": "20:10",
-      "lineup": "菅野知明(ds) 柴田敏孝(P) Zak Croxall(b) 吉田サトシ(g) David Negrete (sax)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfggSAlnFHeo6_VZGvwqdWz1wOAdBD8CJMbatAlV0bEtESvTw/viewform?usp=pp_url&entry.1675391905=9/29(%E7%81%AB)TomokannoQuartet",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/tomokannoquartet-4/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "alfie",
       "date": "2026-09-30",
@@ -3271,7 +3046,7 @@
       "date": "2026-10-15",
       "open": "18:30",
       "start": "19:30",
-      "artist": "ZABANDA 吉田歩(vo)マルセロ木村(g)工藤精(b)見谷聡一(perc)斉藤良(ds)",
+      "artist": "ZA BANDA 斉藤良(ds)吉田歩(vo)マルセロ木村(g)工藤精(b)見谷聡一(perc)",
       "price": "4000円",
       "image": null,
       "media": [],
@@ -6267,7 +6042,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-29T00:59:48.259Z",
+  "updatedAt": "2026-09-29T15:56:41.945Z",
   "venues": [
     {
       "area": "near",
