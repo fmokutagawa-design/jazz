@@ -191,16 +191,16 @@
     {
       "venueId": "bodyandsoul",
       "month": "2026-09",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
     {
       "venueId": "bodyandsoul",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
@@ -239,17 +239,17 @@
     {
       "venueId": "naru",
       "month": "2026-09",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 1,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 1
     },
     {
       "venueId": "naru",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 19,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 19
     },
     {
@@ -6042,7 +6042,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-29T15:56:41.945Z",
+  "updatedAt": "2026-09-30T00:28:37.788Z",
   "venues": [
     {
       "area": "near",
