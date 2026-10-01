@@ -26,7 +26,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 32,
-      "kept": 0
+      "kept": 32
     },
     {
       "venueId": "bluenote",
@@ -74,7 +74,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 22,
-      "kept": 0
+      "kept": 22
     },
     {
       "venueId": "first",
@@ -90,7 +90,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 14,
-      "kept": 0
+      "kept": 14
     },
     {
       "venueId": "kanmachi63",
@@ -98,7 +98,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 24,
-      "kept": 23
+      "kept": 24
     },
     {
       "venueId": "kanmachi63",
@@ -122,14 +122,14 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 30,
-      "kept": 0
+      "kept": 30
     },
     {
       "venueId": "barbarbar",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 27,
       "kept": 0
     },
     {
@@ -186,21 +186,21 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 30,
-      "kept": 0
+      "kept": 30
     },
     {
       "venueId": "bodyandsoul",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
     {
       "venueId": "bodyandsoul",
       "month": "2026-11",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
@@ -218,7 +218,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 26,
-      "kept": 0
+      "kept": 26
     },
     {
       "venueId": "alfie",
@@ -234,38 +234,38 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 22,
-      "kept": 0
+      "kept": 22
     },
     {
       "venueId": "naru",
-      "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 21,
-      "kept": 19
-    },
-    {
-      "venueId": "naru",
-      "month": "2026-11",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 19,
-      "kept": 0
-    },
-    {
-      "venueId": "sometime",
       "month": "2026-10",
       "status": "failed",
       "reason": "取得失敗",
       "count": 0,
+      "kept": 21
+    },
+    {
+      "venueId": "naru",
+      "month": "2026-11",
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
+      "kept": 19
+    },
+    {
+      "venueId": "sometime",
+      "month": "2026-10",
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 38,
       "kept": 38
     },
     {
       "venueId": "sometime",
       "month": "2026-11",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 40,
       "kept": 0
     }
   ],
@@ -280,6 +280,22 @@
       "image": "https://alfie.tokyo/liveReport/2022/A9_01136.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-01",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■中村誠一Quintet",
+      "lineup": "sax:中村誠一 tb:駒野逸美 pf:吉岡秀晃 bs:遠藤 定 ds:小泉髙之",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/7757fabcdf265597414b6c7090107d0a.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -413,9 +429,9 @@
       "secondStart": "20:30",
       "artist": "Very Berrys 平賀 マリカ（vo） 斉田 佳子（vo） 福井 ともみ（p） 伊東 佑季（b） 藤井 学（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51693/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51693/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -462,6 +478,21 @@
       "image": "https://alfie.tokyo/liveReport/2018/DSC05632.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-02",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "終日貸切",
+      "lineup": "2 終日貸切",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": null,
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -590,9 +621,9 @@
       "secondStart": "20:30",
       "artist": "Lakeside Struttin’ Band タイロン・橋本（vo/g） ウスダ・ミホ（keys） 包国 充（sax） 植田 充弘（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51696/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51696/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -640,6 +671,22 @@
       "image": "https://alfie.tokyo/liveReport/2019/DSC06466.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-03",
+      "open": "17:00",
+      "start": "18:00",
+      "secondStart": "19:40",
+      "artist": "★Metropolitan Journey Vo.9 ～Seoul～",
+      "lineup": "dance:Shinra dance:Fayruz dance:Riho vo:福山詩織 gt:中根一城 bs:手島 甫 ds:木下晋之介",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/43725a612ff91a919e272368b59009bb.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -768,9 +815,9 @@
       "secondStart": "20:30",
       "artist": "チャリート（ vo） ユキ・アリマサ（p） 清水 昭好（b） 大江 航平（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51699/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51699/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -782,9 +829,9 @@
       "secondStart": "14:30",
       "artist": "越智 巌（g）3 西川 直人（org） 横山 和明（ds）",
       "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51705/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51705/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -930,9 +977,9 @@
       "secondStart": "20:30",
       "artist": "Ms‘3 峰 厚介（sax） 守谷 美由貴（sax） 永武 幹子（p）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51702/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51702/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -944,9 +991,9 @@
       "secondStart": "14:30",
       "artist": "佐藤 達哉（sax） 瀬田 創太（p）",
       "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51723/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51723/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -964,6 +1011,22 @@
       "lineup": "柴田敏孝(P) KenKen(B) 松浦千昇(Ds) 寺久保伶矢(tp)",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd9KvzM69fWQrVl9HGTSdksItUdr8i-PO0HdXcTWTmflBQHTQ/viewform?usp=pp_url&entry.1675391905=10/4(%E6%97%A5)ToshiYukiKenYa",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/toshiyukikenya-7/",
+      "reservationStatus": "web"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-05",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●山岡美香&川久保典彦Trio",
+      "lineup": "vo:山岡美香 pf:川久保典彦 bs:古谷 悠 ds:安藤正則",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
       "reservationStatus": "web"
     },
     {
@@ -1110,9 +1173,9 @@
       "secondStart": "20:30",
       "artist": "松島 啓之（tp）4 今泉 正明（p） 上村 信（b） 広瀬 潤次（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51708/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51708/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -1154,6 +1217,22 @@
       "image": "https://alfie.tokyo/liveReport/2014/IMG_9300.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-06",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●深井克則 The TRiO",
+      "lineup": "pf:深井克則 bs:楠井五月 ds:岩瀬立飛",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/c6c82afb602a28d5f1da419407c5911b.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -1259,9 +1338,9 @@
       "secondStart": "20:30",
       "artist": "酒井 俊（vo） 松島 啓之（tp） 清水 絵理子（p）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51711/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51711/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -1308,6 +1387,22 @@
       "image": "https://alfie.tokyo/liveReport/20261007.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-07",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■八城邦義Quintet",
+      "lineup": "ds:八城邦義 tb:池田雅明 sax:堤智恵子 pf:三木成能 bs:江上友彦",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/f6f14bea1b1d0635bc49d43ea60569db.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -1410,9 +1505,9 @@
       "secondStart": "20:30",
       "artist": "Bass Talk 鈴木 良雄（b） 井上 信平（fl） 野力 奏一（p） 岡部 洋一（perc）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51714/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51714/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -1454,6 +1549,22 @@
       "image": null,
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-08",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●ほんごさとこ&皆川トオルTrio",
+      "lineup": "vo:ほんごさとこ sax:皆川トオル pf:伊藤駿介 bs:新岡 誠",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -1570,9 +1681,9 @@
       "secondStart": "20:30",
       "artist": "井上 功一（ds） 西尾 健一（tp） 石崎 忍（sax） 岩崎 大輔（p） 吉田 豊（b）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51716/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51716/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -1619,6 +1730,22 @@
       "image": "https://alfie.tokyo/liveReport/2022/A9_01728.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-09",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■大澤理央&大隅寿男Quartet",
+      "lineup": "vo:大澤理央 ds:大隅寿男 pf:三木成能 bs:永松徳文 sax:大隅卓也",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/be1d34f726d5c749f6a2261dd8fde12d.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -1764,9 +1891,9 @@
       "secondStart": "20:30",
       "artist": "中本 マリ（vo） 中村 恵介（tp） 清水 絵理子（p） 金森 もとい（b）",
       "price": "4,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51720/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51720/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -1813,6 +1940,22 @@
       "image": "https://alfie.tokyo/liveReport/2024/A9_06894.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-10",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "※JAZZPROMENADE Day１\"スインギ―奥田&ザ･ブルースカイオーケストラ with Meri\"",
+      "lineup": "ds:スインギ―奥田 tp:小野優佳 tp:菊池 宏 tp:山口雄太 tb:佐藤洋樹 tb:中 雅志 a.sax:上野 悠 a.sax:清水洋之助 t.sax:石島大輔 b.sax:大野 清 pf:金山マサ裕 bs:菅井信行 vo:Meri",
+      "price": "6,600円",
+      "image": "https://www.barbarbar.jp/calendar/uploads/a17f633edb67ae294e96e1f527ab792d.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -1941,9 +2084,9 @@
       "secondStart": "20:30",
       "artist": "SUPER FUNKY 西村 知恵（vo） 吉岡 秀晃（p） 河上 修（b） ゲスト：ジーン・ジャクソン（ds）",
       "price": "4,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51726/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51726/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -1955,9 +2098,9 @@
       "secondStart": "14:30",
       "artist": "千葉 史絵（p）3 鉄井 孝司（b） 鈴木 郁（ds）",
       "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51732/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51732/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -2005,6 +2148,22 @@
       "image": "https://alfie.tokyo/liveReport/20261011.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-11",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "■JAZZPROMENADE Day２\"MAYA&松尾明Quartet\"",
+      "lineup": "vo:MAYA ds:松尾 明 pf:寺村容子 bs:新岡 誠 gt:田辺充邦",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/2c5e19d888731f41fc1ffab9f2362d84.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2175,9 +2334,9 @@
       "secondStart": "20:30",
       "artist": "佐藤 公淳（sax） 高橋 知己（sax） 続木 徹（p） 荒井 美咲（b） 峯 麻衣子（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51734/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51734/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -2189,9 +2348,9 @@
       "secondStart": "14:30",
       "artist": "MG3 早坂 紗知（sax） 永田 利樹（b） 田中 信正（p）",
       "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51738/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51738/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -2370,9 +2529,9 @@
       "secondStart": "20:30",
       "artist": "DEKORATION 清水 秀子（vo） 藤田 明夫（sax） 羽仁 知治（p） 斉藤 誠（b） 藤井 摂（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51741/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51741/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -2384,9 +2543,9 @@
       "secondStart": "14:30",
       "artist": "マリテス（ vo） 青木 弘武（p） 榊原 太郎（b） 木村 由紀夫（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51812/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51812/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -2412,6 +2571,21 @@
       "image": "https://alfie.tokyo/liveReport/2024/A9_00447.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-13",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "終日貸切",
+      "lineup": "13 終日貸切",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": null,
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2560,9 +2734,9 @@
       "secondStart": "20:30",
       "artist": "中村 恵介（tp） TRUMPET MADNESS 松島 啓之（tp） 金森 もとい（b） ゲスト：岡部 洋一（perc）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51744/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51744/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -2604,6 +2778,22 @@
       "image": "https://alfie.tokyo/liveReport/20260212_2.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-14",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "◆BarBarBar旧店舗 メモリアルプロジェクト ご報告会",
+      "lineup": "vo:キャロル山崎 sax:皆川トオル pf:田村 博 bs:池田 聡 ds:宇山満隆",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/5b0a40f4ba799de7c2028fd2bdbc916b.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2749,9 +2939,9 @@
       "secondStart": "20:30",
       "artist": "BIG CATCH 浜崎 航（sax） 松本 茜（p） 大塚 義将（b） ジーン・ジャクソン（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51747/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51747/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -2802,6 +2992,22 @@
       "image": "https://alfie.tokyo/liveReport/20261015.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-15",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●福山詩織Quartet",
+      "lineup": "vo:福山詩織 gt:石井信義 bs:山本裕之 ds:北澤大樹",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2929,9 +3135,9 @@
       "secondStart": "20:30",
       "artist": "Nobie （vo） 馬場 孝喜（g） 片倉 真由子（p） コモブチ・樹一郎（b） 岡部 洋一（perc）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/49867/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/49867/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -2983,6 +3189,22 @@
       "image": "https://alfie.tokyo/liveReport/2021/A9_05298.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-16",
+      "open": "18:30",
+      "start": "19:20",
+      "secondStart": "21:00",
+      "artist": "■Mr.Jazz Quartet",
+      "lineup": "ds:中沢 剛 pf:遠藤征志 bs:嶌田憲二 vib:宅間善之",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/1ea59e3406fabaa899b9d6e348583615.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3153,9 +3375,9 @@
       "secondStart": "20:30",
       "artist": "10.16 f ri 2set ませ ひろこ（sax）4 featuring ニール・スウェインソン（b） 中嶋 錠二（p） 北澤 大樹（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51750/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51750/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -3202,6 +3424,22 @@
       "image": "https://alfie.tokyo/liveReport/2025/A9_05553.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-17",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■寿永アリサ ラテンジャズセッション",
+      "lineup": "vo:寿永アリサ fl:松原由紀子 pf:奥山 勝 bs:ヤマトヤスオ perc:藤橋万記",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3372,9 +3610,9 @@
       "secondStart": "20:30",
       "artist": "ジョシュア・ブレイクストーン（ g）3 安ヵ川 大樹（b） 奥平 真吾（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51753/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51753/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -3410,6 +3648,21 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd9KvzM69fWQrVl9HGTSdksItUdr8i-PO0HdXcTWTmflBQHTQ/viewform?usp=pp_url&entry.1675391905=10/17(%E5%9C%9F)%E8%A5%BF%E6%B2%A2%E8%AD%B2%C3%97%E5%B8%82%E6%9D%91%E6%B5%A9%C3%97%E5%8F%8B%E6%88%90%E5%A5%BD%E5%AE%8F%C3%97%E6%AD%A3%E5%B2%A1%E3%82%B8%E3%83%A5%E3%83%B3featuring%E5%80%89%E4%BA%95%E5%A4%8F%E6%A8%B9",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e8%a5%bf%e6%b2%a2%e8%ad%b2x%e5%b8%82%e6%9d%91%e6%b5%a9x%e5%8f%8b%e6%88%90%e5%a5%bd%e5%ae%8fx%e6%ad%a3%e5%b2%a1%e3%82%b8%e3%83%a5%e3%83%b3featuring%e5%80%89%e4%ba%95%e5%a4%8f%e6%a8%b9-6/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-18",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "終日貸切",
+      "lineup": "18 終日貸切",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": null,
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3541,9 +3794,9 @@
       "secondStart": "20:30",
       "artist": "ジョシュア・ブレイクストーン（ g） フィリップ・ストレンジ（p）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51756/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51756/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -3555,9 +3808,9 @@
       "secondStart": "14:30",
       "artist": "佐藤 春樹（tb）5 佐藤 達哉（sax） 福島 誠（p） 河上 修（b） 山田 祐輔（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51765/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51765/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -3719,9 +3972,9 @@
       "secondStart": "20:30",
       "artist": "高田 ひろ子（p）3 小美濃 悠太（b） 岩瀬 立飛（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51761/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51761/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -3764,6 +4017,22 @@
       "image": "https://alfie.tokyo/liveReport/20261020.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-20",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●スタジオKバンド",
+      "lineup": "fl/和笛:笛吹かな pf:北島直樹 bs:田中洋平 ds:佐藤隆治",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/73191cb935a1320bcfe983eb5af33532.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3884,9 +4153,9 @@
       "secondStart": "20:30",
       "artist": "野力 奏一（p） 岡部 洋一（perc）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51771/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51771/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -3928,6 +4197,22 @@
       "image": "https://alfie.tokyo/liveReport/2012/IMG_6627.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-21",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■Jay-Kohama Quintet",
+      "lineup": "tp:Jay Thomas sax:小濱安浩 pf:加藤英介 bs:上村 信 ds:横山和明",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/3defe0408b4f5d992a38f34dacf6da57.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -4087,9 +4372,9 @@
       "secondStart": "20:30",
       "artist": "土田 晴信（org）3 鈴木 洋一（g） 柳沼 佑育 （ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51774/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51774/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -4120,6 +4405,22 @@
       "image": "https://alfie.tokyo/liveReport/20260407.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-22",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●松井絵美&山本剛Trio",
+      "lineup": "vo:松井絵美 pf:山本 剛 bs:河原秀夫 ds:小泉髙之",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/671ce2500865fdb7811cb40315c52681.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -4236,9 +4537,9 @@
       "secondStart": "20:30",
       "artist": "菅原 花月（vo） 田中 菜緒子（p） ニール・スウェインソン（b） 菅原 高志（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/49961/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/49961/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -4280,6 +4581,22 @@
       "image": "https://alfie.tokyo/liveReport/20261023.png",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-23",
+      "open": "18:30",
+      "start": "19:30",
+      "secondStart": "21:00",
+      "artist": "●市川莉子&小室響Trio",
+      "lineup": "vo:市川莉子 pf:小室 響 bs:江原\"Bandy\"悠紀 ds:塚田陽太",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/5f110174b2a6949d5b023e099a2de245.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -4408,9 +4725,9 @@
       "secondStart": "20:30",
       "artist": "The Key 大野 えり（vo） 川村 健（p） 松原 慶史（g） ゲスト：小山 彰太（ds）",
       "price": "4,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51777/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51777/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -4457,6 +4774,22 @@
       "image": "https://alfie.tokyo/liveReport/2026/A9_06855.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-24",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■花岡詠二Quartet&吉澤紀子",
+      "lineup": "cl:花岡詠二 gt:岩見淳三 bs:加藤 人 ds:川島佑介 vo:吉澤紀子",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/cef9f442d5e8abc93d327766e41cd3a1.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -4596,9 +4929,9 @@
       "secondStart": "20:30",
       "artist": "竹内 直（sax）4 市川 秀男（p） 若井 俊也（b） 大坂 昌彦（ds）",
       "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51780/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51780/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -4639,6 +4972,21 @@
       "image": "https://alfie.tokyo/liveReport/2019/DSC04178.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-25",
+      "open": "17:00",
+      "start": "公式で確認",
+      "artist": "★多田誠司ドキュメンタリー映画&Teriarchy Member's Live",
+      "lineup": "pf:菊池太光 bs:楠井五月 vo:福山詩織",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/20fef0b055d58ccd228caf8816be10d7.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -4809,9 +5157,9 @@
       "secondStart": "20:30",
       "artist": "YOSHIAKI MASUO GROUP 増尾 好秋（g） 永武 幹子（p） 中林 薫平（b） 北井 誉人（ds）",
       "price": "4,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51801/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51801/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -4823,9 +5171,9 @@
       "secondStart": "14:30",
       "artist": "Jamm16 小泉 明子（p/vo） 戸谷 仁一（b） 小澤 舞（ds） 藤橋 万記（perc）",
       "price": "2,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51783/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51783/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -4992,9 +5340,9 @@
       "secondStart": "20:30",
       "artist": "ENCOUNTER 浜崎 航（sax） 堀 秀彰（p） 高瀬 裕（b） 広瀬 潤次（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51795/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51795/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -5041,6 +5389,22 @@
       "image": "https://alfie.tokyo/liveReport/2015/DSC08675.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-27",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■ダーナ&古川奈都子 ニューオリンズ Jazz Trio",
+      "lineup": "vo:ダーナ pf/vo:古川奈都子 tp/vo:中村好江 sax:海付 豊",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -5132,9 +5496,9 @@
       "secondStart": "20:30",
       "artist": "江藤 良人（ds）3 片倉 真由子（p） 粟谷 巧（b）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51786/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51786/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -5176,6 +5540,21 @@
       "image": "https://alfie.tokyo/liveReport/2023/A9_02292.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-28",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "終日貸切",
+      "lineup": "28 終日貸切",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": null,
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -5275,9 +5654,9 @@
       "secondStart": "20:30",
       "artist": "サキソフォビア 井上JUJUヒロシ（sax） 岡 淳（sax） 緑川 英徳（sax） 吉本 章紘（sax）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51798/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51798/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -5320,6 +5699,22 @@
       "image": "https://alfie.tokyo/liveReport/2024/A9_03936.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-29",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●紗野葉子&青木弘武Trio",
+      "lineup": "vo:紗野葉子 pf:青木弘武 bs:河原秀夫 ds:ジーン重村",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/e4336911bc9ce09cc8c05c039b2c2073.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -5440,9 +5835,9 @@
       "secondStart": "20:30",
       "artist": "宮之上 貴昭（g） 吉岡 秀晃（p） 山口 裕之（b） 柳沼 佑育（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/49988/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/49988/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -5489,6 +5884,22 @@
       "image": "https://alfie.tokyo/liveReport/2021/A9_00028.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-30",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■薗田憲一とデキシーキングス with FUMIKA",
+      "lineup": "tb:薗田勉慶 tp:筒井政明 cl:益田英生 banjo:永生元伸 tub:河合勝幸 ds:川島佑介 vo:FUMIKA",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -5648,9 +6059,9 @@
       "secondStart": "20:30",
       "artist": "近藤 和彦（sax）4 田中 菜緒子（p） 伊藤 勇司（b） 大坂 昌彦（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51789/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51789/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -5698,6 +6109,22 @@
       "image": "https://alfie.tokyo/liveReport/20260307_.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-10-31",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:40",
+      "artist": "MALTA“Hit & Run”",
+      "lineup": "sax:MALTA key:平下政志 bs:樋沢達彦 pf:二村希一 ds:板垣正美",
+      "price": "7,700円",
+      "image": "https://www.barbarbar.jp/calendar/uploads/6ff3202b2b1f968707ab09431ee80d28.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -5850,9 +6277,9 @@
       "secondStart": "20:30",
       "artist": "河原 厚子（vo） 清水 絵理子（p） マーク・トゥーリアン（b） 小泉 高之（ds）",
       "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51792/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790585700337",
+      "image": "https://www.sometime.co.jp/sometime/_src/51792/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
       "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202610.html",
+      "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -5968,6 +6395,34 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-01",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "megasameta 続木 徹（p） 向井 滋春（tb） 古野 光昭（b） 安藤 正則（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52499/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-01",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "Soundscape 佐藤 春樹（tb） 佐藤 達哉（sax） 宮島 れいら（p） 吉岡 大典（b） 松山 修（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52502/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-01",
       "open": "16:00",
@@ -6031,6 +6486,20 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261102twin-guitars/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261102twin-guitars/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-02",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "Amber Theater 松尾 由堂（g） 市原 ひかり（tp） 成田 祐一（p） 清水 昭好（b） 木村 紘（ds）",
+      "price": "3,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52505/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -6100,6 +6569,34 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261103aratake/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261103aratake/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-03",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "酒井 俊（vo） 田中 信正（p） 落合 康介（b）",
+      "price": "3,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52508/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-03",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "グリオ Ⅲ 小泉 明子（vo/p） 宮野 弘紀（g） 平山 織絵（cello）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52523/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -6213,6 +6710,20 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-04",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "上村 信（b）3 岩崎 壮平（p） 木村 紘（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52511/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-04",
       "open": "18:00",
@@ -6293,6 +6804,20 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-05",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "Twin Guitar Dialogue 池長 一美（ds） 馬場 孝喜（g） 市野 元彦（g） 工藤 精（b）",
+      "price": "3,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52514/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-05",
       "open": "公式で確認",
@@ -6367,6 +6892,20 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261106dos-orientale/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261106dos-orientale/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-06",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "epice 大田垣 正信（tb） 大内 光春（sax） 宮島 れいら （p） 菊田 茂伸（b） 利光 玲奈（ds）",
+      "price": "3,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/50706/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -6476,6 +7015,34 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-07",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "YOSHIAKI MASUO Bossa Animada Trio 増尾 好秋（g） 山根 幸洋（b） 吉田 和雄（ds）",
+      "price": "4,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52517/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-07",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "佐藤 達哉（sax） 瀬田 創太（p）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52526/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-07",
       "open": "17:00",
@@ -6557,6 +7124,34 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261108nagatake/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261108nagatake/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-08",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "関根 敏行（p）4 原川 誠司（sax） 吉野 弘志（b） 小泉 高之（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52529/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-08",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "牧原 正洋（tp） 相川 等（tb） 藤本 暁子（p） 伊藤 寛康（b） 美座 良彦（perc）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/50762/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -6660,6 +7255,20 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-09",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "松谷 冬太（vo） 吉澤 はじめ（p） 杉本 智和（b） 本田 珠也（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/50765/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-09",
       "open": "18:00",
@@ -6754,6 +7363,20 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-10",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "岸本 美咲（sax）4 堀 秀彰（p） 大塚 義将（b） 海野 俊輔（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52532/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-10",
       "open": "18:00",
@@ -6828,6 +7451,20 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261111nakayama/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261111nakayama/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-11",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "ジーン・下里（ g）4 市川 空（p） 座小田 諒一（b） 中道 みさき（ds）",
+      "price": "4,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52535/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -6937,6 +7574,20 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-12",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "松島 啓之（tp）4 今泉 正明（p） 上村 信（b） 広瀬 潤次（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52538/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-12",
       "open": "18:00",
@@ -7023,6 +7674,20 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261113kellhuber/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261113kellhuber/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-13",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "Equality 天野 清継（g） グレッグ・リー（b） 本田 珠也（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52541/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -7129,6 +7794,34 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261114nakamura/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261114nakamura/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-14",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "SUPER FUNKY 西村 知恵（vo） 吉岡 秀晃（p） 河上 修（b） ゲスト：緑川 英徳（sax） 天野 丘（g） ジーン・ジャクソン（ds）",
+      "price": "5,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52544/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-14",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "Lesca 西村 和彦（p） Satsuki（vo）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52547/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -7257,6 +7950,34 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-15",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "納谷 嘉彦（p） 安ヵ川 大樹（b） 大坂 昌彦（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52549/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-15",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "ユーリック・知子（ vo） デニス・ランバート（p） マーク・トゥーリアン（b）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52570/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-15",
       "open": "12:30",
@@ -7305,6 +8026,20 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261116otomo/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261116otomo/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-16",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "岩崎 佳子（p） 宮野 裕司（sax） 鈴木 克人（b） サバオ・ワタナベ（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/50789/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -7384,6 +8119,20 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261117setagaya/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261117setagaya/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-17",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "鈴木 道子（vo） 吉岡 秀晃（p） 横山 裕（b） 小泉 高之（ds）",
+      "price": "3,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52553/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -7478,6 +8227,20 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-18",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "中村 海斗（ds）5 Aidam Mckeon（sax） 馬場 孝喜（g） 布施 音人（p） 高橋 陸（b）",
+      "price": "3,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/50794/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-18",
       "open": "18:00",
@@ -7542,6 +8305,20 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261119okudaira/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261119okudaira/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-19",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "平 麻美子（vo） 古谷 淳（p）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52556/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -7622,6 +8399,20 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261120key/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261120key/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-20",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "大森 明（sax）4 森田 潔（p） 高梨 道生（b） 小泉 高之（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52558/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -7720,6 +8511,34 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-21",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "Shuto Nakagawa Live at SOMETIME -In Your Eyes- 中川 就登（p） 本田 雅人（sax） 具志堅 創（tp） 納 浩一（b） 【2部入替え制】 ［1st open18:00/start19:00］ ［2nd open20:30/start21:00］",
+      "price": "3,900円",
+      "image": "https://www.sometime.co.jp/sometime/_src/50715/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-21",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "遠藤 律子（p）3 山口 彰（b） 藤井 学（ds）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52580/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-11-21",
       "open": "12:00",
@@ -7784,6 +8603,34 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261122mundi/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261122mundi/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-22",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "近藤 和彦（sax）4 魚返 明未（p） 粟谷 巧（b） 北澤 大樹（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52562/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-22",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "佐藤 達哉（sax）4 瀬田 創太（p） 早川 哲也（b） 関根 豊明（ds）",
+      "price": "2,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52586/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -7854,6 +8701,34 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-23",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "板垣 光弘（p）Birthday LIVE!! 岡 勇希（sax） 大月 裕信（b） 関根 豊明（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52565/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-23",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "河上 修（b）4 西田 望（p） Juan Navarro（tb） 吉永 絢香（sax）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52592/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "dolphy",
       "date": "2026-11-24",
       "open": "18:30",
@@ -7905,6 +8780,20 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261124nakashima/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261124nakashima/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-24",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "竹内 直（sax）4 片倉 真由子（p） 井上 陽介（b） ジーン・ジャクソン（ds）",
+      "price": "3,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/50813/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -8006,6 +8895,20 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-25",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "本田 珠也（ds）Birthday LIVE!! 長田 信慶（org） 鈴木 直人（g） ビリー・ジーン（vo/sax）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52574/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-25",
       "open": "18:00",
@@ -8096,6 +8999,20 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-26",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "Ms’3 峰 厚介（sax） 守谷 美由貴（sax） 永武 幹子（p）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52595/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-26",
       "open": "18:00",
@@ -8171,6 +9088,20 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261127honda/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261127honda/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-27",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "ケイ・赤城（ p）3 若井 俊也（b） 吉良 創太（ds）",
+      "price": "4,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52598/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -8283,6 +9214,34 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-28",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "村田 憲一郎（ds）5 高澤 綾（tp） 中島 朱葉（sax） 関根 敏行（p） 飯田 雅春（b）",
+      "price": "3,500円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52601/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-28",
+      "open": "12:00",
+      "start": "13:00",
+      "secondStart": "14:30",
+      "artist": "大石 学（p） 鈴木 麻美（vo）",
+      "price": "2,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52604/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-11-28",
       "open": "17:30",
@@ -8369,6 +9328,20 @@
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261129honda/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261129honda/",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "sometime",
+      "date": "2026-11-29",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "清水 秀子（vo） 関根 敏行（p） 斉藤 誠（b） 安藤 正則（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52607/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
     },
@@ -8475,6 +9448,20 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "sometime",
+      "date": "2026-11-30",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "高内 HARU春彦（g） 福田 重男（p） マーク・トゥーリアン（b） 奥平 真吾（ds）",
+      "price": "3,000円",
+      "image": "https://www.sometime.co.jp/sometime/_src/52610/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790812390513",
+      "media": [],
+      "source": "https://www.sometime.co.jp/sometime/live202611.html",
+      "reservationUrl": null,
+      "reservationStatus": "check"
+    },
+    {
       "venueId": "swing",
       "date": "2026-11-30",
       "open": "18:00",
@@ -8503,7 +9490,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-09-30T15:58:16.761Z",
+  "updatedAt": "2026-10-01T00:34:32.507Z",
   "venues": [
     {
       "area": "near",
