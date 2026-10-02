@@ -74,7 +74,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 23,
-      "kept": 22
+      "kept": 23
     },
     {
       "venueId": "first",
@@ -97,7 +97,7 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 24,
+      "count": 25,
       "kept": 24
     },
     {
@@ -143,9 +143,9 @@
     {
       "venueId": "billboard_yokohama",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 38,
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
       "kept": 38
     },
     {
@@ -5600,6 +5600,17 @@
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-10-29",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "ts.ss.かみむら泰一 ag.閑喜弦介",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-10-29",
       "open": "18:00",
@@ -9304,7 +9315,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-01T16:30:17.460Z",
+  "updatedAt": "2026-10-02T00:47:04.088Z",
   "venues": [
     {
       "area": "near",
