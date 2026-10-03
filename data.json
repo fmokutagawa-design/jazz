@@ -17,8 +17,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 33,
-      "kept": 33
+      "count": 32,
+      "kept": 32
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 28
+      "kept": 27
     },
     {
       "venueId": "bluenote",
@@ -50,7 +50,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 20
+      "kept": 19
     },
     {
       "venueId": "cottonclub",
@@ -65,8 +65,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 27,
-      "kept": 27
+      "count": 25,
+      "kept": 25
     },
     {
       "venueId": "swing",
@@ -74,15 +74,15 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 25,
-      "kept": 23
+      "kept": 25
     },
     {
       "venueId": "first",
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "first",
@@ -98,7 +98,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 24,
-      "kept": 24
+      "kept": 23
     },
     {
       "venueId": "kanmachi63",
@@ -129,8 +129,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 25
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "barbarbar",
@@ -143,9 +143,9 @@
     {
       "venueId": "billboard_yokohama",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
+      "status": "rejected",
+      "reason": "不完全なため旧データ維持",
+      "count": 18,
       "kept": 36
     },
     {
@@ -162,7 +162,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 52
+      "kept": 50
     },
     {
       "venueId": "billboard_tokyo",
@@ -177,8 +177,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 29,
-      "kept": 29
+      "count": 28,
+      "kept": 28
     },
     {
       "venueId": "pitinn",
@@ -225,8 +225,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 23,
-      "kept": 23
+      "count": 22,
+      "kept": 22
     },
     {
       "venueId": "alfie",
@@ -234,7 +234,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 23,
-      "kept": 22
+      "kept": 23
     },
     {
       "venueId": "naru",
@@ -257,8 +257,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 36,
-      "kept": 36
+      "count": 34,
+      "kept": 34
     },
     {
       "venueId": "sometime",
@@ -270,194 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-10-03",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[jazz] 安ヵ川大樹(b) \"ニュートリオ\" 市川空(pf) 塚田陽太(ds) 片山士駿(fl)",
-      "price": "￥5500",
-      "image": "https://alfie.tokyo/liveReport/2019/DSC06466.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202610.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-10-03",
-      "open": "17:00",
-      "start": "18:00",
-      "secondStart": "18:45",
-      "artist": "★Metropolitan Journey Vo.9 ～Seoul～",
-      "lineup": "dance:Shinra dance:Fayruz dance:Riho vo:福山詩織 gt:中根一城 bs:手島 甫 ds:木下晋之介",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/43725a612ff91a919e272368b59009bb.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-10-03",
-      "open": "15:00",
-      "start": "16:00",
-      "artist": "川畑要 Billboard Live Tour 2026\\\\",
-      "price": "8,400円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21243/detail/dtl_ev-21243_1_1770094720.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21243&date=2026-10-03",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21243&date=2026-10-03",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21243&date=2026-10-03",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-10-03",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "川畑要 Billboard Live Tour 2026\\\\",
-      "price": "8,400円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21243/detail/dtl_ev-21243_1_1770094720.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21243&date=2026-10-03",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21243&date=2026-10-03",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21243&date=2026-10-03",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-10-03",
-      "open": "17:00",
-      "start": "17:00",
-      "artist": "YELLOWJACKETS",
-      "price": "¥9,900",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3993.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3993",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3993",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/yellowjackets/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-10-03",
-      "open": "15:00",
-      "start": "16:00",
-      "artist": "AKi LIVE 2026 『Acoustic Hideaway』",
-      "price": "¥11,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/web_mainte/img/event/5726.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5726",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5726",
-      "detailUrl": "https://www.cottonclubjapan.co.jp/jp/sp/artists/aki-20261003/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-10-03",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "古野光昭(b) スペシャルカルテット 近藤和彦(as)松本茜(p)小松伸之(ds)",
-      "price": "4500円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "first",
-      "date": "2026-10-03",
-      "open": "17:00",
-      "start": "17:00",
-      "artist": "FIRST SATURDAY JAM (毎月第1土曜日)",
-      "price": "￥2,300",
-      "image": null,
-      "media": [],
-      "source": "https://naniaru.com/events/view/14821"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-10-03",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "ds.大村亘 ag.閑喜弦介 b.甲斐正樹 ~~",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-10-03",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "竹村一哲 2DAYS — 竹村一哲 カルテット",
-      "lineup": "竹村一哲(Ds)井上 銘(G)魚返明未(P)三嶋大輝(B)",
-      "price": "￥4,400",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/08/1002takemura.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/261003takemura/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/261003takemura/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-03",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "チャリート（ vo） ユキ・アリマサ（p） 清水 昭好（b） 大江 航平（ds）",
-      "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51699/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-03",
-      "open": "12:00",
-      "start": "13:00",
-      "secondStart": "14:30",
-      "artist": "越智 巌（g）3 西川 直人（org） 横山 和明（ds）",
-      "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51705/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-10-03",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "10.3(土) THE MIDTOWN DUO",
-      "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261003Wakisaka.jpg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=oC7qVQCPwBQ"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20261003-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-10-03",
-      "open": "12:00",
-      "start": "13:00",
-      "artist": "10.3(土) ランチタイムライブ vo.村本 玲奈",
-      "price": "￥4,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8999.jpeg",
-      "media": [],
-      "source": "https://ginzaswing.jp/2026103-2/",
-      "secondStart": "14:30"
-    },
     {
       "venueId": "billboard_yokohama",
       "date": "2026-10-04",
@@ -3675,6 +3487,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-10-20",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "as.山本昌広 b.座小田諒一",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "pitinn",
       "date": "2026-10-20",
       "open": "19:00",
@@ -4636,7 +4459,7 @@
       "date": "2026-10-25",
       "open": "13:00",
       "start": "13:30",
-      "artist": "太田剣(as) 他",
+      "artist": "太田剣(as) ＆佐藤芳明(acc)DUO",
       "price": "4000円",
       "image": null,
       "media": [],
@@ -4647,7 +4470,7 @@
       "date": "2026-10-25",
       "open": "18:00",
       "start": "19:00",
-      "artist": "瓶底爺 サリー佐藤(b)Mis*ty(vo)深井一也(tp)岡延行(g)中野祐次(ds)日原雅子(p)",
+      "artist": "瓶底爺 サリー佐藤(b)Mis*ty(vo)Alex(vo)深井一也(tp)岡延行(g)Yukiko(g) 岩崎壮平(p)中野祐次(ds)",
       "price": "4000円",
       "image": null,
       "media": [],
@@ -9124,7 +8947,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-03T14:21:30.354Z",
+  "updatedAt": "2026-10-03T23:47:37.809Z",
   "venues": [
     {
       "area": "near",
