@@ -73,7 +73,7 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 23,
+      "count": 25,
       "kept": 23
     },
     {
@@ -233,7 +233,7 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 22,
+      "count": 23,
       "kept": 22
     },
     {
@@ -286,7 +286,7 @@
       "date": "2026-10-03",
       "open": "17:00",
       "start": "18:00",
-      "secondStart": "19:40",
+      "secondStart": "18:45",
       "artist": "★Metropolitan Journey Vo.9 ～Seoul～",
       "lineup": "dance:Shinra dance:Fayruz dance:Riho vo:福山詩織 gt:中根一城 bs:手島 甫 ds:木下晋之介",
       "price": "公式で確認",
@@ -1112,7 +1112,7 @@
       "start": "19:00",
       "artist": "10.7(水) p.今井 亮太郎 vo.さかもと 未明 fl.満島 貴子",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/IMG_9399.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261007%E4%BB%8A%E4%BA%95%E3%81%95%E3%81%8B%E3%82%82%E3%81%A8%E6%BA%80%E5%B3%B6.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/2026107-2/",
       "secondStart": "20:30"
@@ -2157,7 +2157,7 @@
       "start": "19:15",
       "artist": "[jazz] \"Trio 50\" クリヤ・マコト(pf) Kii(ds) 納浩一(b)",
       "price": "￥5500",
-      "image": "https://alfie.tokyo/liveReport/2024/A9_00447.jpg",
+      "image": "https://alfie.tokyo/liveReport/20261013.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
     },
@@ -5227,7 +5227,12 @@
       "artist": "10.28(水)vln.寺井 尚子",
       "price": "￥7,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261028%E5%AF%BA%E4%BA%95.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=IVlnzEtMnzg"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261028-2/",
       "secondStart": "20:30"
     },
@@ -5992,6 +5997,17 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261101-2/",
       "secondStart": "18:30"
+    },
+    {
+      "venueId": "alfie",
+      "date": "2026-11-02",
+      "open": "18:45",
+      "start": "19:15",
+      "artist": "[jazz] 板谷薫(vo) +3",
+      "price": "¥6600",
+      "image": null,
+      "media": [],
+      "source": "https://alfie.tokyo/schedule/202611.html"
     },
     {
       "venueId": "dolphy",
@@ -7988,6 +8004,18 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "swing",
+      "date": "2026-11-20",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "11.20(金) vo.Remi",
+      "price": "￥4,500",
+      "image": "http://ginzaswing.jp/wp22/wp-content/uploads/2022/12/000014ogp.png",
+      "media": [],
+      "source": "https://ginzaswing.jp/20261120-2/",
+      "secondStart": "20:30"
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-11-20",
       "open": "18:00",
@@ -8108,6 +8136,18 @@
       "source": "https://www.sometime.co.jp/sometime/live202611.html",
       "reservationUrl": null,
       "reservationStatus": "check"
+    },
+    {
+      "venueId": "swing",
+      "date": "2026-11-21",
+      "open": "18:00",
+      "start": "19:00",
+      "artist": "11.21(土) b.古野 充昭 フルノーツ",
+      "price": "￥4,500",
+      "image": "http://ginzaswing.jp/wp22/wp-content/uploads/2022/12/000014ogp.png",
+      "media": [],
+      "source": "https://ginzaswing.jp/20261121-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "wonderwall",
@@ -8826,13 +8866,14 @@
     {
       "venueId": "swing",
       "date": "2026-11-28",
-      "open": "公式で確認",
-      "start": "公式で確認",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "11.28(土)dr.大槻 カルタ 英宜",
-      "price": "公式で確認",
+      "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/10/IMG_9400.jpeg",
       "media": [],
-      "source": "https://ginzaswing.jp/20261128-2/"
+      "source": "https://ginzaswing.jp/20261128-2/",
+      "secondStart": "20:30"
     },
     {
       "venueId": "wonderwall",
@@ -9083,7 +9124,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-03T00:29:16.520Z",
+  "updatedAt": "2026-10-03T14:21:30.354Z",
   "venues": [
     {
       "area": "near",
