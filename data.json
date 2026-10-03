@@ -26,7 +26,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 33,
-      "kept": 32
+      "kept": 33
     },
     {
       "venueId": "bluenote",
@@ -242,7 +242,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 17,
-      "kept": 20
+      "kept": 17
     },
     {
       "venueId": "naru",
@@ -9083,7 +9083,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-02T15:52:41.093Z",
+  "updatedAt": "2026-10-03T00:29:16.520Z",
   "venues": [
     {
       "area": "near",
