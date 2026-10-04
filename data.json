@@ -17,8 +17,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 32,
-      "kept": 32
+      "count": 31,
+      "kept": 31
     },
     {
       "venueId": "dolphy",
@@ -34,7 +34,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 27
+      "kept": 26
     },
     {
       "venueId": "bluenote",
@@ -97,8 +97,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 24,
-      "kept": 24
+      "count": 22,
+      "kept": 22
     },
     {
       "venueId": "kanmachi63",
@@ -113,8 +113,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 25
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "wonderwall",
@@ -146,7 +146,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 36
+      "kept": 34
     },
     {
       "venueId": "billboard_yokohama",
@@ -177,8 +177,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 28,
-      "kept": 28
+      "count": 27,
+      "kept": 27
     },
     {
       "venueId": "pitinn",
@@ -191,16 +191,16 @@
     {
       "venueId": "bodyandsoul",
       "month": "2026-10",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
     {
       "venueId": "bodyandsoul",
       "month": "2026-11",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
@@ -239,17 +239,17 @@
     {
       "venueId": "naru",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 17,
-      "kept": 17
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
+      "kept": 16
     },
     {
       "venueId": "naru",
       "month": "2026-11",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 19,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 19
     },
     {
@@ -257,8 +257,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 34,
-      "kept": 34
+      "count": 32,
+      "kept": 32
     },
     {
       "venueId": "sometime",
@@ -270,155 +270,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-10-04",
-      "open": "15:00",
-      "start": "16:00",
-      "artist": "Marcus Miller",
-      "price": "14,900円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21371/detail/dtl_ev-21371_1_1775194063.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-10-04",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "Marcus Miller",
-      "price": "14,900円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21371/detail/dtl_ev-21371_1_1775194063.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21371&date=2026-10-04",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-10-04",
-      "open": "15:30",
-      "start": "15:30",
-      "artist": "RICHARD BONA QUINTET",
-      "price": "¥10,500",
-      "image": "https://reserve.bluenote.co.jp/web_mainte/img/event/3976.jpg?20260901",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3976",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3976",
-      "detailUrl": "https://www.bluenote.co.jp/jp/artists/richard-bona/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-10-04",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "羽野昌二(ds)＆Ernesto del Puerto(sax)&Cal Lyall(g)&岩見継吾(b)",
-      "price": "4000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-10-04",
-      "open": "14:30",
-      "start": "19:00",
-      "artist": "は店の都合により ライブを中止延期とさせていただきます。 ご理解のほどよろしくお願いいたします。 店主 佐々木",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-10-04",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "ts.ss.かみむら泰一 ag.閑喜弦介~~ →店の都合によりライブ延期とさせていただきます",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-10-04",
-      "open": "13:30",
-      "start": "14:00",
-      "secondStart": "15:30",
-      "artist": "太田剣 as 青柳誠 p 岡田治郎 eb 河村亮 ds",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-10-04",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "廣木光一 Neo Quinteto",
-      "lineup": "廣木光一(G)竹内理恵(Ss,Bcl)橋本 歩(Cello)飯田雅春(B)ヤヒロトモヒロ(Per)",
-      "price": "￥4,400",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/08/1004hiroki5.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/261004hiroki/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/261004hiroki/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-04",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "Ms‘3 峰 厚介（sax） 守谷 美由貴（sax） 永武 幹子（p）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51702/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-04",
-      "open": "12:00",
-      "start": "13:00",
-      "secondStart": "14:30",
-      "artist": "佐藤 達哉（sax） 瀬田 創太（p）",
-      "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51723/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1790809655127",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-10-04",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "ToshiYukiKenYa",
-      "price": "¥6,600",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/0-1784108775459.jpg",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/toshiyukikenya-7/",
-      "secondStart": "19:10",
-      "lineup": "柴田敏孝(P) KenKen(B) 松浦千昇(Ds) 寺久保伶矢(tp)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd9KvzM69fWQrVl9HGTSdksItUdr8i-PO0HdXcTWTmflBQHTQ/viewform?usp=pp_url&entry.1675391905=10/4(%E6%97%A5)ToshiYukiKenYa",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/toshiyukikenya-7/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "barbarbar",
       "date": "2026-10-05",
@@ -8947,7 +8798,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-04T14:50:35.741Z",
+  "updatedAt": "2026-10-04T23:59:16.866Z",
   "venues": [
     {
       "area": "near",
