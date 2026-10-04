@@ -98,7 +98,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 24,
-      "kept": 23
+      "kept": 24
     },
     {
       "venueId": "kanmachi63",
@@ -143,9 +143,9 @@
     {
       "venueId": "billboard_yokohama",
       "month": "2026-10",
-      "status": "rejected",
-      "reason": "不完全なため旧データ維持",
-      "count": 18,
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
+      "count": 0,
       "kept": 36
     },
     {
@@ -317,7 +317,7 @@
       "date": "2026-10-04",
       "open": "18:00",
       "start": "19:00",
-      "artist": "羽野昌二(ds)＆Ernesto del Puerto(sax)&岩見継吾(b)",
+      "artist": "羽野昌二(ds)＆Ernesto del Puerto(sax)&Cal Lyall(g)&岩見継吾(b)",
       "price": "4000円",
       "image": null,
       "media": [],
@@ -1308,9 +1308,9 @@
       "date": "2026-10-09",
       "open": "18:00",
       "start": "19:00",
-      "artist": "10.9(金) KAYO BAND",
-      "price": "￥6,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261009KAYOBand.jpg",
+      "artist": "10.9(金) T-OFF Special Friday Night Fever ！",
+      "price": "3,000円",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261009T-OOF.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261009-3/",
       "secondStart": "20:30"
@@ -4279,7 +4279,7 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "松本茜 p 安田幸司 b 広瀬潤次 ds",
+      "artist": "松本茜 p 清水昭好 b 広瀬潤次 ds",
       "price": "公式で確認",
       "image": null,
       "media": [],
@@ -4470,7 +4470,7 @@
       "date": "2026-10-25",
       "open": "18:00",
       "start": "19:00",
-      "artist": "瓶底爺 サリー佐藤(b)Mis*ty(vo)Alex(vo)深井一也(tp)岡延行(g)Yukiko(g) 岩崎壮平(p)中野祐次(ds)",
+      "artist": "瓶底爺+ サリー佐藤(b)Mis*ty(vo)Alex(vo)深井一也(tp)岡延行(g)Yukiko(g) 岩崎壮平(p)中野祐次(ds)",
       "price": "4000円",
       "image": null,
       "media": [],
@@ -8204,7 +8204,7 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "松本茜 p 安田幸司 b 広瀬潤次 ds",
+      "artist": "松本茜 p 清水昭好 b 広瀬潤次 ds",
       "price": "公式で確認",
       "image": null,
       "media": [],
@@ -8947,7 +8947,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-03T23:47:37.809Z",
+  "updatedAt": "2026-10-04T14:50:35.741Z",
   "venues": [
     {
       "area": "near",
