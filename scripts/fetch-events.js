@@ -129,6 +129,17 @@ function reserve(html, ctx, origin) {
     const img=/<img[^>]+src=["']([^"']*\/web_mainte\/img\/event\/[^"']+)["']/i.exec(block)?.[1]||null;
     for(const day of days)out.push({date:iso(ctx.y,ctx.m,day),open,start,artist:title.slice(0,200),price:price(text),image:img?absolute(img,origin):null,media:[],source:reservationUrl||detailUrl,reservationUrl,detailUrl,reservationStatus:reservationUrl?'web':'check'});
   }
+  if (out.length) return out;
+  for (const row of html.split(/<div class=["']m-schedule-list__row["']>/i).slice(1)) {
+    const block = row.split(/<div class=["']m-schedule-list__row["']>/i)[0];
+    const title = strip(/<p class=["']c-schedule-list-card__title["']>([\s\S]*?)<\/p>/i.exec(block)?.[1] || '');
+    const reservationPath = /<a[^>]+href=["']([^"']*\/reserve\/schedule\/exec\/\d+)["'][^>]*class=["'][^"']*c-schedule-list-card/i.exec(block)?.[1] || null;
+    if (!title || !reservationPath) continue;
+    const days = [...block.matchAll(/<span class=["']m-schedule-list__date-num["']>\s*(\d{1,2})\s*<\/span>/gi)].map(match => Number(match[1]));
+    const reservationUrl = absolute(reservationPath, origin);
+    const imagePath = /<img[^>]+src=["']([^"']*\/reserve\/img\/event\/[^"']+)["']/i.exec(block)?.[1] || null;
+    for (const day of days) out.push({date:iso(ctx.y,ctx.m,day),open:'公式で確認',start:'公式で確認',artist:title.slice(0,200),price:price(strip(block)),image:imagePath?absolute(imagePath,origin):null,media:[],source:reservationUrl,reservationUrl,detailUrl:reservationUrl,reservationStatus:'web'});
+  }
   return out;
 }
 
@@ -138,6 +149,7 @@ const sources = {
   dolphy: (y,m) => [m === month ? 'https://dolphy-jazzspot.com/live_schedule.html' : `https://dolphy-jazzspot.com/live_schedule${y}_${m}.html`],
   bluenote: (y,m) => [`https://reserve.bluenote.co.jp/reserve/schedule/move/${y}${pad(m)}/`],
   cottonclub: (y,m) => [`https://reserve.cottonclubjapan.co.jp/reserve/schedule/move/${y}${pad(m)}/`],
+  kingsbar: (y,m) => [`https://livebar.net/kingsbar/schedule?month=${y}-${pad(m)}`],
   swing: (y,m) => [`https://ginzaswing.jp/schedules/?month=${y}-${pad(m)}`],
   first: (y,m) => [`https://naniaru.com/events/schedule?ba=off&be=off&bp=off&month=${m}&period=0&pid=1000002305&year=${y}`],
   kanmachi63: () => ['https://r.jina.ai/http://kanmachi63.blog.fc2.com/'],
@@ -146,7 +158,6 @@ const sources = {
   billboard_yokohama: (y,m) => [`https://www.billboard-live.com/yokohama/schedules?month=${y}-${pad(m)}-01`],
   billboard_tokyo: (y,m) => [`https://www.billboard-live.com/tokyo/schedules?month=${y}-${pad(m)}-01`],
   pitinn: (y,m) => [m === month ? 'http://pit-inn.com/schedule/' : 'http://pit-inn.com/next-schedule/'],
-  bodyandsoul: (y,m) => [`https://bodyandsoul.co.jp/schedule?sy=${y}&sm=${pad(m)}`],
   jzbrat: (y,m) => [`https://www.jzbrat.com/liveinfo/${y}/${pad(m)}/index.html`],
   alfie: (y,m) => [`https://alfie.tokyo/schedule/${y}${pad(m)}.html`],
   naru: (y,m) => [m === month ? 'http://ocha-naru.com/schedule/' : 'http://ocha-naru.com/schedule-2/'],
@@ -196,26 +207,45 @@ function parse(id, html, ctx) {
     const out = [];
     const city = id === 'billboard_tokyo' ? 'tokyo' : 'yokohama';
     const normalized = html.replace(/\\\"/g, '"').replace(/\\\\n/g, ' ');
-    const re = /"block_settings":(\[[\s\S]*?\]),"holiday":([\s\S]*?)"result_status":"([^"]+)"/g;
-    let m;
-    while ((m = re.exec(normalized))) {
-      const block = m[2];
-      const date = /"play_date":"(\d{4}-\d{2}-\d{2})"/.exec(block)?.[1];
-      const eventId = /"event_id":"([^"]+)"/.exec(block)?.[1];
-      const artist = /"title_name":"([^"]+)"/.exec(block)?.[1];
+    const starts = [...normalized.matchAll(/"block_settings":/g)].map(match => {
+      let depth = 0;
+      for (let index = match.index - 1; index >= 0; index--) {
+        if (normalized[index] === '}') depth++;
+        if (normalized[index] === '{' && depth-- === 0) return index;
+      }
+      return -1;
+    }).filter(index => index >= 0);
+    for (const offset of starts) {
+      let depth = 0, quoted = false, escaped = false, end = -1;
+      for (let index = offset; index < normalized.length; index++) {
+        const char = normalized[index];
+        if (escaped) { escaped = false; continue; }
+        if (char === '\\' && quoted) { escaped = true; continue; }
+        if (char === '"') { quoted = !quoted; continue; }
+        if (quoted) continue;
+        if (char === '{') depth++;
+        if (char === '}' && --depth === 0) { end = index + 1; break; }
+      }
+      if (end < 0) continue;
+      const source = normalized.slice(offset, end);
+      let block;
+      try { block = JSON.parse(source); } catch { continue; }
+      if (!Array.isArray(block.block_settings)) continue;
+      const date = block.play_date;
+      const eventId = block.event_id;
+      const artist = block.title_name;
       if (!date || !eventId || !artist || !date.startsWith(`${ctx.y}-${pad(ctx.m)}`)) continue;
       const detailUrl = `https://www.billboard-live.com/${city}/show?event_id=${eventId}&date=${date}`;
-      const prices = [...m[1].matchAll(/"price":(\d+)/g)].map(x => Number(x[1])).filter(Boolean);
-      const web = m[3] === 'allOK';
-      const imageMatch = new RegExp('dtl_' + eventId + '_1_[^\" ]+\\.(?:jpe?g|png|webp)', 'i').exec(normalized);
-      const imageName = imageMatch ? imageMatch[0] : null;
+      const prices = (block.block_settings || []).map(item => Number(item.price)).filter(Boolean);
+      const web = block.result_status === 'allOK';
+      const imageName = (block.images || []).find(image => image.image_type === 4)?.image_name || null;
       const billboardImage = imageName ? 'https://www.billboard-live.com/public/event_img/' + eventId + '/detail/' + imageName : null;
-      const start = /"play_start":"([^"]+)"/.exec(block)?.[1] || '公式で確認';
+      const start = block.play_start || '公式で確認';
       const startParts = /^(\d{1,2}):(\d{2})$/.exec(start);
       const inferredOpen = startParts ? `${String((Number(startParts[1]) + 23) % 24).padStart(2, '0')}:${startParts[2]}` : '公式で確認';
       out.push({
         date,
-        open: /"play_open":"([^"]+)"/.exec(block)?.[1] || inferredOpen,
+        open: block.play_open || inferredOpen,
         start,
         artist: artist.slice(0, 200),
         price: prices.length ? `${Math.min(...prices).toLocaleString('ja-JP')}円〜` : '公式で確認',
@@ -263,8 +293,8 @@ function parse(id, html, ctx) {
     } return out;
   }
   if (id === 'kingsbar') {
-    const out=[]; const re=/<a[^>]+href=["']([^"']*\/events\/\d+)["'][^>]*>([\s\S]*?)(?=<a[^>]+href=["'][^"']*\/events\/\d+["']|$)/gi;let m;
-    while((m=re.exec(html))){const text=strip(m[0]),dm=/(\d{4})[\/年.-](\d{1,2})[\/月.-](\d{1,2})|(?<!\d)(\d{1,2})[\/月](\d{1,2})/.exec(text);if(!dm)continue;const mo=+(dm[2]||dm[4]),day=+(dm[3]||dm[5]);if(mo!==ctx.m)continue;const anchor=/<a[^>]*>([\s\S]*?)<\/a>/i.exec(m[0]);const artist=strip(anchor?.[1]||'').replace(/\d{1,2}[\/月]\d{1,2}日?/,'').trim();if(artist)out.push({date:iso(ctx.y,mo,day),open:time(text,'open|開場'),start:time(text,'start|開演'),artist:artist.slice(0,180),price:price(text),image:pageImage(m[0],'https://livebar.net'),media:[],source:absolute(m[1],'https://livebar.net')});}return out;
+    const out=[]; const blocks=html.split(/(?=<div onclick=["']window\.location=)/i).slice(1); let lastMonth=0, lastDay=0;
+    for(const block of blocks){const eventPath=/window\.location='([^']*\/events\/\d+)'/i.exec(block)?.[1];if(!eventPath)continue;const segment=block.split(/(?=<div onclick=["']window\.location=)/i)[0], text=strip(segment);const md=/(\d{1,2})月\s*(\d{1,2})/.exec(text);if(md){lastMonth=+md[1];lastDay=+md[2];}if(lastMonth!==ctx.m||!lastDay)continue;const artist=strip(/<h3[^>]*>([\s\S]*?)<\/h3>/i.exec(segment)?.[1]||'');if(!artist)continue;out.push({date:iso(ctx.y,lastMonth,lastDay),open:time(text,'open|開場'),start:time(text,'start|開演'),artist:artist.slice(0,180),price:price(text),image:pageImage(segment,'https://livebar.net'),media:[],source:absolute(eventPath,'https://livebar.net')});}return out;
   }
   if (id === 'swing') {
     const out=[];const re=/<h2[^>]*>\s*<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>[\s\S]{0,3000}?(\d{4})\/(\d{2})\/(\d{2})([\s\S]{0,3000}?)(?=<h2|$)/gi;let m;while((m=re.exec(html))){const artist=strip(m[2]);if(artist&&!/スケジュール表|お知らせ/.test(artist))out.push({date:`${m[3]}-${m[4]}-${m[5]}`,open:time(strip(m[6]),'open|開場'),start:time(strip(m[6]),'start|開演|1st'),artist:artist.slice(0,200),price:price(strip(m[6])),image:pageImage(m[6],'https://ginzaswing.jp'),media:[],source:absolute(m[1],'https://ginzaswing.jp')});}return out;
@@ -293,7 +323,7 @@ function parse(id, html, ctx) {
 }
 
 (async () => {
-  const fresh = new Map(), reports = [];
+  const fresh = new Map(), reports = [], criticalEmpty = [];
   for (const [venueId, urls] of Object.entries(sources)) {
     const rows=[]; let failures=0;
     for (const ctx of months) for (const url of urls(ctx.y,ctx.m)) try { const html=await get(url); let parsed=parse(venueId,html,{...ctx,url}); if(venueId==='swing')parsed=await enrichSwing(parsed); if(venueId==='wonderwall')parsed=await enrichWonderwall(parsed); rows.push(...parsed); } catch(e) { failures++; console.error(venueId,url,e.message); }
@@ -326,12 +356,14 @@ function parse(id, html, ctx) {
         const status = plausible ? (failures ? 'partial' : 'ok') : (incoming.length ? 'rejected' : (failures ? 'failed' : 'empty'));
         const reason = status === 'ok' ? '取得済み' : status === 'partial' ? '一部取得' : status === 'rejected' ? '不完全なため旧データ維持' : status === 'failed' ? '取得失敗' : '取得結果0件・公式有無未確認';
         reports.push({venueId,month:ym,status,reason,count:incoming.length,kept:existing.length});
+        if (ctx.y === year && ctx.m === month && failures === 0 && incoming.length === 0 && ['bluenote','cottonclub','billboard_yokohama','billboard_tokyo','kingsbar'].includes(venueId)) criticalEmpty.push(venueId);
       }
     }
     if (changed) fresh.set(venueId,replacement);
   }
   const untouched = previous.events.filter(e => !fresh.has(e.venueId) && e.date >= today);
   const events = [...untouched, ...[...fresh.entries()].flatMap(([venueId, rows]) => rows.map(e => ({venueId,...e})))].sort((a,b)=>a.date.localeCompare(b.date)||a.venueId.localeCompare(b.venueId));
+  if (criticalEmpty.length) throw new Error(`当月の取得結果が0件です: ${criticalEmpty.join(', ')}`);
   fs.writeFileSync(dataPath, JSON.stringify({...previous,updatedAt:fresh.size ? new Date().toISOString() : previous.updatedAt,events,crawlReports:reports},null,2)+'\n');
   console.log(`saved ${events.length} events`);
 })().catch(e=>{console.error(e);process.exit(1)});

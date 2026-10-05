@@ -78,7 +78,7 @@ const data = {"coverageStatus":{"barbarbar":{"2026-09":"公式9月分未公開"}
 const additionalVenues=[
   {area:'tokyo',areaLabel:'六本木・赤坂',id:'billboard_tokyo',name:'Billboard Live TOKYO',station:'六本木駅 徒歩約4分',status:'公式日程あり',tone:'#1b3154',url:'https://www.billboard-live.com/tokyo/schedules'},
   {area:'tokyo',areaLabel:'新宿',id:'pitinn',name:'新宿PIT INN',station:'新宿三丁目駅 徒歩約2分',status:'公式日程あり',tone:'#652d2d',url:'http://pit-inn.com/schedule/'},
-  {area:'tokyo',areaLabel:'渋谷',id:'bodyandsoul',name:'BODY&SOUL',station:'渋谷駅 徒歩約8分',status:'公式日程あり',tone:'#79543a',url:'https://bodyandsoul.co.jp/schedule'},
+  {area:'tokyo',areaLabel:'渋谷',id:'bodyandsoul',name:'BODY&SOUL',station:'渋谷駅 徒歩約8分',status:'2026年9月営業終了',tone:'#79543a',url:'https://bodyandsoul.co.jp/schedule'},
   {area:'tokyo',areaLabel:'渋谷',id:'jzbrat',name:'JZ Brat',station:'渋谷駅 徒歩約5分',status:'公式日程あり',tone:'#583759',url:'https://www.jzbrat.com/liveinfo/'},
   {area:'tokyo',areaLabel:'六本木',id:'alfie',name:'Jazz Live Alfie',station:'六本木駅 徒歩約1分',status:'公式日程あり',tone:'#623c32',url:'https://alfie.tokyo/'},
   {area:'tokyo',areaLabel:'御茶ノ水',id:'naru',name:'JAZZ HOUSE NARU',station:'御茶ノ水駅 徒歩約1分',status:'公式日程あり',tone:'#425b65',url:'http://ocha-naru.com/schedule/'},
@@ -423,13 +423,16 @@ const PARSERS = {
     },
   },
   kingsbar: {
-    urls: (y, m) => [`https://livebar.net/kingsbar/schedule?year=${y}&month=${m}`],
+    urls: (y, m) => [`https://livebar.net/kingsbar/schedule?month=${y}-${pad(m)}`],
     parse(html) {
-      const out = []; const re = /<a[^>]+href=["']([^"']*\/events\/\d+)["'][^>]*>([\s\S]{0,500}?)<\/a>/gi; let m;
-      while ((m = re.exec(html))) {
-        const text = strip(m[2]); const dm = /(\d{1,2})[\/月](\d{1,2})/.exec(text); if (!dm) continue;
-        const date = resolveDate(dm[1], dm[2]); if (!date) continue;
-        out.push({ date, open: openOf(text), start: startOf(text), artist: text.replace(/\d{1,2}[\/月]\d{1,2}日?/, '').trim().slice(0, 160), price: priceOf(text), image: null, source: abs(m[1], 'https://livebar.net/kingsbar/') });
+      const out = []; const blocks = html.split(/(?=<div onclick=["']window\.location=)/i).slice(1); let lastMonth = 0, lastDay = 0;
+      for (const block of blocks) {
+        const eventPath = /window\.location='([^']*\/events\/\d+)'/i.exec(block)?.[1]; if (!eventPath) continue;
+        const text = strip(block), dm = /(\d{1,2})月\s*(\d{1,2})/.exec(text);
+        if (dm) { lastMonth = Number(dm[1]); lastDay = Number(dm[2]); }
+        const date = resolveDate(lastMonth, lastDay); if (!date) continue;
+        const artist = strip(/<h3[^>]*>([\s\S]*?)<\/h3>/i.exec(block)?.[1] || ''); if (!artist) continue;
+        out.push({ date, open: openOf(text), start: startOf(text), artist: artist.slice(0, 160), price: priceOf(text), image: null, source: abs(eventPath, 'https://livebar.net/kingsbar/') });
       }
       return out;
     },
