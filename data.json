@@ -42,7 +42,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 23,
-      "kept": 0
+      "kept": 23
     },
     {
       "venueId": "cottonclub",
@@ -50,7 +50,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 22,
-      "kept": 19
+      "kept": 22
     },
     {
       "venueId": "cottonclub",
@@ -58,7 +58,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 27,
-      "kept": 0
+      "kept": 27
     },
     {
       "venueId": "kingsbar",
@@ -66,7 +66,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 18,
-      "kept": 0
+      "kept": 18
     },
     {
       "venueId": "kingsbar",
@@ -74,7 +74,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 1,
-      "kept": 0
+      "kept": 1
     },
     {
       "venueId": "swing",
@@ -162,7 +162,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 30,
-      "kept": 32
+      "kept": 30
     },
     {
       "venueId": "billboard_yokohama",
@@ -170,7 +170,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 42,
-      "kept": 0
+      "kept": 42
     },
     {
       "venueId": "billboard_tokyo",
@@ -186,7 +186,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 32,
-      "kept": 0
+      "kept": 32
     },
     {
       "venueId": "pitinn",
@@ -6455,9 +6455,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21629/detail/dtl_ev-21629_1_1785464540.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21629&date=2026-11-06",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21629&date=2026-11-06",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21629&date=2026-11-06",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -10605,7 +10605,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-05T23:53:13.862Z",
+  "updatedAt": "2026-10-06T00:03:51.428Z",
   "venues": [
     {
       "area": "near",
