@@ -5,6 +5,7 @@ const root = path.resolve(__dirname, '..');
 const dataPath = path.join(root, 'data.json');
 const naruImageDir = path.join(root, 'assets', 'naru');
 const previous = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+const venusImageEvents = JSON.parse(fs.readFileSync(path.join(root, 'data', 'venus-image-events.json'), 'utf8'));
 const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
 const year = Number(today.slice(0, 4));
 const month = Number(today.slice(5, 7));
@@ -361,8 +362,10 @@ function parse(id, html, ctx) {
     }
     if (changed) fresh.set(venueId,replacement);
   }
-  const untouched = previous.events.filter(e => !fresh.has(e.venueId) && e.date >= today);
-  const events = [...untouched, ...[...fresh.entries()].flatMap(([venueId, rows]) => rows.map(e => ({venueId,...e})))].sort((a,b)=>a.date.localeCompare(b.date)||a.venueId.localeCompare(b.venueId));
+  const manualVenus = venusImageEvents.filter(e => e.date >= today).map(e => ({venueId:'venus',open:e.open||'公式画像で確認',start:e.start||'19:40',price:'公式画像で確認',image:e.date.startsWith('2026-10')?'https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png':'https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png',media:[],source:'https://www.venus-hk-j.com/liveschedule',note:'公式スケジュール画像から読み取り',...e}));
+  for (const ctx of months) { const ym=`${ctx.y}-${pad(ctx.m)}`, count=manualVenus.filter(e=>e.date.startsWith(ym)).length; reports.push({venueId:'venus',month:ym,status:count?'ok':'empty',reason:count?'公式画像から取得済み':'公式画像未掲載',count,kept:count}); }
+  const untouched = previous.events.filter(e => !fresh.has(e.venueId) && e.venueId !== 'venus' && e.date >= today);
+  const events = [...untouched, ...manualVenus, ...[...fresh.entries()].flatMap(([venueId, rows]) => rows.map(e => ({venueId,...e})))].sort((a,b)=>a.date.localeCompare(b.date)||a.venueId.localeCompare(b.venueId));
   if (criticalEmpty.length) throw new Error(`当月の取得結果が0件です: ${criticalEmpty.join(', ')}`);
   fs.writeFileSync(dataPath, JSON.stringify({...previous,updatedAt:fresh.size ? new Date().toISOString() : previous.updatedAt,events,crawlReports:reports},null,2)+'\n');
   console.log(`saved ${events.length} events`);

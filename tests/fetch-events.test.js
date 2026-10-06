@@ -70,3 +70,10 @@ test('browser fallback uses the working Kings Bar URL and marks Body and Soul cl
   assert.match(html, /livebar\.net\/kingsbar\/schedule\?month=\$\{y\}-\$\{pad\(m\)\}/);
   assert.match(html, /id:'bodyandsoul'.*status:'2026年9月営業終了'/);
 });
+
+test('VENUS official image transcription covers October and November', () => {
+  const rows = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data/venus-image-events.json'), 'utf8'));
+  assert.equal(rows.filter(row => row.date.startsWith('2026-10')).length, 30);
+  assert.equal(rows.filter(row => row.date.startsWith('2026-11')).length, 25);
+  assert.ok(rows.every(row => row.artist && /^2026-(10|11)-\d{2}$/.test(row.date)));
+});

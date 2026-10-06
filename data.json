@@ -267,6 +267,22 @@
       "reason": "取得済み",
       "count": 40,
       "kept": 40
+    },
+    {
+      "venueId": "venus",
+      "month": "2026-10",
+      "status": "ok",
+      "reason": "公式画像から取得済み",
+      "count": 26,
+      "kept": 26
+    },
+    {
+      "venueId": "venus",
+      "month": "2026-11",
+      "status": "ok",
+      "reason": "公式画像から取得済み",
+      "count": 25,
+      "kept": 25
     }
   ],
   "events": [
@@ -434,6 +450,18 @@
       ],
       "source": "https://ginzaswing.jp/20261006-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-06",
+      "artist": "Standard Jazz Night　章まりこ vo. 青木弘武 pf."
     },
     {
       "venueId": "wonderwall",
@@ -611,6 +639,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/2026107-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-07",
+      "artist": "森林真知子 vo. 平岡遊一郎 gt."
     },
     {
       "venueId": "wonderwall",
@@ -803,6 +843,18 @@
       ],
       "source": "https://ginzaswing.jp/20261002-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-08",
+      "artist": "ANPONTAN　波多野美鈴 vo. 渡瀬あつ子 vo. 吉光寺智子 pf."
     },
     {
       "venueId": "wonderwall",
@@ -1024,6 +1076,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-09",
+      "artist": "Chanson Night　川島豊 vo. 小泉明子 pf. 平松加奈 vln."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-10-09",
       "open": "18:00",
@@ -1212,6 +1276,30 @@
       ],
       "source": "https://ginzaswing.jp/20261010-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "13:30",
+      "start": "14:00",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-10",
+      "artist": "JAZZ PROMENADE お昼の部 Bossa Nova Live　大澤理央 vo. 平岡遊一郎 gt. 仙道さおり perc."
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-10",
+      "artist": "JAZZ PROMENADE 夜の部 Special Trio Live　日高しず香 vo. 朝倉由里 pf. 南雲麻美 sax."
     },
     {
       "venueId": "wonderwall",
@@ -1456,6 +1544,18 @@
       "source": "https://www.sometime.co.jp/sometime/live.html",
       "reservationUrl": null,
       "reservationStatus": "check"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-11",
+      "artist": "Trinity Special Live　市川美鈴 vo. 小泉明子 pf. 里見紀子 vln."
     },
     {
       "venueId": "wonderwall",
@@ -1863,6 +1963,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-13",
+      "artist": "Mamiko Bird vo. 菊地雅子 pf."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-10-13",
       "open": "18:00",
@@ -2087,6 +2199,18 @@
       "source": "https://ginzaswing.jp/20261014-2/"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-14",
+      "artist": "山岡美香 vo. 生田さち子 pf."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-10-14",
       "open": "18:00",
@@ -2308,6 +2432,18 @@
       ],
       "source": "https://ginzaswing.jp/22201015-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-15",
+      "artist": "Jazz & Pops Night　山崎のぶ子 vo. Hiromi pf. UI cl."
     },
     {
       "venueId": "wonderwall",
@@ -2561,6 +2697,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-16",
+      "artist": "Special Trio　河原厚子 vo. 城田有子 pf. 仙道さおり perc."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-10-16",
       "open": "18:00",
@@ -2790,6 +2938,30 @@
       ],
       "source": "https://ginzaswing.jp/20261017-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "14:00",
+      "start": "14:00",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-17",
+      "artist": "昼のJam Session　Host:斎藤クミコ pf. 寺屋ナオ gt."
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-17",
+      "artist": "夜のLive　ダーナ潮田 vo. 清水ゆかり pf."
     },
     {
       "venueId": "wonderwall",
@@ -3119,6 +3291,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-19",
+      "artist": "Special Trio　朝倉由里 pf. 南雲麻美 sax. 中津裕子 bass."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-10-19",
       "open": "18:00",
@@ -3305,6 +3489,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261020-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-20",
+      "artist": "表ゆず vo. 大橋裕子 pf."
     },
     {
       "venueId": "wonderwall",
@@ -3542,6 +3738,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-21",
+      "artist": "Special Trio Live　浅田尚美 vo. 今泉正明 pf. 里見紀子 vln."
+    },
+    {
       "venueId": "alfie",
       "date": "2026-10-22",
       "open": "18:45",
@@ -3715,6 +3923,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261022-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-22",
+      "artist": "PICAVO.　浅川太平 pf."
     },
     {
       "venueId": "wonderwall",
@@ -3935,6 +4155,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-23",
+      "artist": "SIESTA Special Live　小泉明子 pf. 平松加奈 vln. 海沼正利 perc."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-10-23",
       "open": "18:00",
@@ -4147,6 +4379,30 @@
         }
       ],
       "source": "https://ginzaswing.jp/10-24%ef%bc%88%ef%bc%89/"
+    },
+    {
+      "venueId": "venus",
+      "open": "13:30",
+      "start": "14:00",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-24",
+      "artist": "お昼のLive　金井優佳 vo. 斎藤クミコ pf."
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-24",
+      "artist": "夜のLive Special Trio Live　里見紀子 vln. 田村博 pf. 宮脇惇 cl."
     },
     {
       "venueId": "wonderwall",
@@ -4562,6 +4818,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-26",
+      "artist": "Special Duo　平松加奈 vln. 遠藤征志 pf."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-10-26",
       "open": "18:00",
@@ -4722,6 +4990,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261027-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-27",
+      "artist": "吉川水砂子 vo. 小泉明子 pf."
     },
     {
       "venueId": "wonderwall",
@@ -4922,6 +5202,18 @@
       ],
       "source": "https://ginzaswing.jp/20261028-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-28",
+      "artist": "Special Trio Live　Harue Sekimoto vo. 春木香菜絵 vo. tb. 松原慶史 gt."
     },
     {
       "venueId": "wonderwall",
@@ -5146,6 +5438,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-29",
+      "artist": "Standard Jazz Night　章まりこ vo. 田村博 pf. 里見紀子 vln."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-10-29",
       "open": "18:00",
@@ -5368,6 +5672,18 @@
       ],
       "source": "https://ginzaswing.jp/20261030-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-30",
+      "artist": "吉本ひとみ vo. 砂田知宏 pf."
     },
     {
       "venueId": "wonderwall",
@@ -5597,6 +5913,18 @@
       ],
       "source": "https://ginzaswing.jp/20261031-3/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-10-31",
+      "artist": "Halloween Live Team YAMAGOYA　菅原恵衣 vo. 小泉明子 pf. 水野樹里 vln."
     },
     {
       "venueId": "wonderwall",
@@ -6106,6 +6434,18 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "venus",
+      "open": "19:00",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-03",
+      "artist": "祝日のLive　柿原薫 vo. 菊地雅之 pf."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-11-03",
       "open": "12:00",
@@ -6297,6 +6637,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-04",
+      "artist": "小泉明子 pf. 里見紀子 vln."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-11-04",
       "open": "公式で確認",
@@ -6403,6 +6755,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/2026115-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-05",
+      "artist": "Special Trio　日高しず香 vo. 朝倉由里 pf. 南雲麻美 sax."
     },
     {
       "venueId": "wonderwall",
@@ -6580,6 +6944,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/2026116-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-06",
+      "artist": "表ゆず vo. 神多恭子 pf."
     },
     {
       "venueId": "wonderwall",
@@ -6780,6 +7156,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261107-2/",
       "secondStart": "19:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-07",
+      "artist": "山岡美香 vo. 楠直孝 pf."
     },
     {
       "venueId": "wonderwall",
@@ -7089,6 +7477,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-09",
+      "artist": "金井優佳 vo. 小泉明子 pf."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-11-09",
       "open": "18:00",
@@ -7253,6 +7653,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-10",
+      "artist": "Mamiko Bird vo. 寺屋ナオ gt."
+    },
+    {
       "venueId": "alfie",
       "date": "2026-11-11",
       "open": "18:45",
@@ -7371,6 +7783,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/11-11%e6%b0%b4-sax-%e7%b1%b3%e6%be%a4-%e7%be%8e%e7%8e%96/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-11",
+      "artist": "Colorful Night　Masayo vo. 小泉明子 pf. 藤橋万記 perc."
     },
     {
       "venueId": "wonderwall",
@@ -7532,6 +7956,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261112-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-12",
+      "artist": "Special Trio　Harue Sekimoto vo. 田村博 pf. 宮脇惇 cl."
     },
     {
       "venueId": "wonderwall",
@@ -7706,6 +8142,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261113-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-13",
+      "artist": "Standard Jazz Night　章まりこ vo. 青木弘武 pf."
     },
     {
       "venueId": "wonderwall",
@@ -7910,6 +8358,30 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261114-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "14:00",
+      "start": "14:00",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-14",
+      "artist": "昼のVocal Session　Host:田村博 pf."
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-14",
+      "artist": "夜のLive Special Trio　南雲麻美 sax. 朝倉由里 pf. 中津裕子 bass."
     },
     {
       "venueId": "wonderwall",
@@ -8256,6 +8728,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-16",
+      "artist": "ダーナ潮田 vo. 深井克則 pf."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-11-16",
       "open": "18:00",
@@ -8391,6 +8875,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-17",
+      "artist": "滝沢望 vo. 川島健 pf."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-11-17",
       "open": "18:00",
@@ -8507,6 +9003,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261118-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-18",
+      "artist": "昼気なTrio　元山和泉 vo. 生田さち子 pf. 鈴木康恵 fl."
     },
     {
       "venueId": "wonderwall",
@@ -8661,6 +9169,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-19",
+      "artist": "Pops Night　渡瀬あつ子 vo. Hiromi pf."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-11-19",
       "open": "18:00",
@@ -8809,6 +9329,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261120-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-20",
+      "artist": "森林真知子 vo. 小泉明子 pf."
     },
     {
       "venueId": "wonderwall",
@@ -8999,6 +9531,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261121-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "19:00",
+      "start": "19:30",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-21",
+      "artist": "Naoe vo. 神村晃司 pf. 初出演"
     },
     {
       "venueId": "wonderwall",
@@ -9314,6 +9858,18 @@
       "reservationStatus": "check"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-23",
+      "artist": "Vocal Unit a　石川真奈美 vo. 中村早香 vo. 矢野眞道 vo. 寺屋ナオ gt."
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-11-24",
       "open": "16:30",
@@ -9477,6 +10033,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261124-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-24",
+      "artist": "波多野美鈴 vo. 吉光寺智子 pf."
     },
     {
       "venueId": "wonderwall",
@@ -9674,6 +10242,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-25",
+      "artist": "Special Trio　市川美鈴 vo. 清水絵理子 pf. 平山織絵 cell."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-11-25",
       "open": "18:00",
@@ -9818,6 +10398,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261126-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-26",
+      "artist": "Special Duo　浅田尚美 vo. 奥山勝 pf."
     },
     {
       "venueId": "wonderwall",
@@ -9967,6 +10559,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261127-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-27",
+      "artist": "X JAZZ Night　Nalmivo. 神多恭子 pf."
     },
     {
       "venueId": "wonderwall",
@@ -10187,6 +10791,18 @@
       "media": [],
       "source": "https://ginzaswing.jp/20261128-2/",
       "secondStart": "20:30"
+    },
+    {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-28",
+      "artist": "Standard Jazz Night　章まりこ vo. 田村博 pf. 加藤真一 bass."
     },
     {
       "venueId": "wonderwall",
@@ -10589,6 +11205,18 @@
       "secondStart": "20:30"
     },
     {
+      "venueId": "venus",
+      "open": "公式画像で確認",
+      "start": "19:40",
+      "price": "公式画像で確認",
+      "image": "https://static.wixstatic.com/media/5fcc8d_49ec8bd6b04a45828f16f8eaa4d0c184~mv2.png",
+      "media": [],
+      "source": "https://www.venus-hk-j.com/liveschedule",
+      "note": "公式スケジュール画像から読み取り",
+      "date": "2026-11-30",
+      "artist": "大澤理央 vo. 遠藤征志 pf."
+    },
+    {
       "venueId": "wonderwall",
       "date": "2026-11-30",
       "open": "18:00",
@@ -10605,7 +11233,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-06T00:03:51.428Z",
+  "updatedAt": "2026-10-06T01:22:21.789Z",
   "venues": [
     {
       "area": "near",
