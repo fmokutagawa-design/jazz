@@ -50,7 +50,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 21,
-      "kept": 20
+      "kept": 21
     },
     {
       "venueId": "cottonclub",
@@ -481,12 +481,13 @@
       "start": "19:00",
       "artist": "寺久保伶矢×高木祥太×山近拓音×友田ジュン",
       "price": "¥5,500",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/JPEG%E7%94%BB%E5%83%8F-450D-B5BB-99-0.jpeg",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/%E5%AF%BA%E4%B9%85%E4%BF%9D%E3%83%AC%E3%82%A4%E3%83%A4%E3%82%AB%E3%83%AB%E3%83%86%E3%83%83%E3%83%8820261008.png",
       "media": [],
       "source": "https://wonderwall-yokohama.jp/schedule/%e5%af%ba%e4%b9%85%e4%bf%9d%e4%bc%b6%e7%9f%a2x%e9%ab%98%e6%9c%a8%e7%a5%a5%e5%a4%aax%e5%b1%b1%e8%bf%91%e6%8b%93%e9%9f%b3x%e5%8f%8b%e7%94%b0%e3%82%b8%e3%83%a5%e3%83%b3-5/",
       "secondStart": "20:10",
       "lineup": "寺久保伶矢(tp) 高木祥太(b) 山近拓音(ds) 友田ジュン(p)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd9KvzM69fWQrVl9HGTSdksItUdr8i-PO0HdXcTWTmflBQHTQ/viewform?usp=pp_url&entry.1675391905=10/8(%E6%9C%A8)%E5%AF%BA%E4%B9%85%E4%BF%9D%E4%BC%B6%E7%9F%A2%C3%97%E9%AB%98%E6%9C%A8%E7%A5%A5%E5%A4%AA%C3%97%E5%B1%B1%E8%BF%91%E6%8B%93%E9%9F%B3%C3%97%E5%8F%8B%E7%94%B0%E3%82%B8%E3%83%A5%E3%83%B3",
+      "note": "※本公演は満席となっております ※キャンセル待ちをご希望の方はHP内の貸切・採用などお問い合わせ→キャンセル待ち受付を選んでご入力ください",
+      "reservationUrl": "https://www.facebook.com/sharer/sharer.php?u=https://wonderwall-yokohama.jp/schedule/%e5%af%ba%e4%b9%85%e4%bf%9d%e4%bc%b6%e7%9f%a2x%e9%ab%98%e6%9c%a8%e7%a5%a5%e5%a4%aax%e5%b1%b1%e8%bf%91%e6%8b%93%e9%9f%b3x%e5%8f%8b%e7%94%b0%e3%82%b8%e3%83%a5%e3%83%b3-5/&amp;src=sdkpreparse",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e5%af%ba%e4%b9%85%e4%bf%9d%e4%bc%b6%e7%9f%a2x%e9%ab%98%e6%9c%a8%e7%a5%a5%e5%a4%aax%e5%b1%b1%e8%bf%91%e6%8b%93%e9%9f%b3x%e5%8f%8b%e7%94%b0%e3%82%b8%e3%83%a5%e3%83%b3-5/",
       "reservationStatus": "web"
     },
@@ -10921,7 +10922,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-07T16:34:50.581Z",
+  "updatedAt": "2026-10-08T00:59:39.186Z",
   "venues": [
     {
       "area": "near",
