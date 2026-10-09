@@ -63,17 +63,17 @@
     {
       "venueId": "kingsbar",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 16,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 16
     },
     {
       "venueId": "kingsbar",
       "month": "2026-11",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 1,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 1
     },
     {
@@ -239,17 +239,17 @@
     {
       "venueId": "naru",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 15,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 15
     },
     {
       "venueId": "naru",
       "month": "2026-11",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 19,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 19
     },
     {
@@ -10717,7 +10717,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-08T16:33:13.049Z",
+  "updatedAt": "2026-10-09T01:14:13.893Z",
   "venues": [
     {
       "area": "near",
