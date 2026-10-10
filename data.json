@@ -17,8 +17,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 26,
-      "kept": 26
+      "count": 25,
+      "kept": 25
     },
     {
       "venueId": "dolphy",
@@ -33,8 +33,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 21,
-      "kept": 21
+      "count": 20,
+      "kept": 20
     },
     {
       "venueId": "bluenote",
@@ -49,8 +49,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 19,
-      "kept": 19
+      "count": 18,
+      "kept": 18
     },
     {
       "venueId": "cottonclub",
@@ -63,17 +63,17 @@
     {
       "venueId": "kingsbar",
       "month": "2026-10",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
-      "kept": 16
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 15,
+      "kept": 15
     },
     {
       "venueId": "kingsbar",
       "month": "2026-11",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 1,
       "kept": 1
     },
     {
@@ -81,8 +81,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 20,
-      "kept": 20
+      "count": 19,
+      "kept": 19
     },
     {
       "venueId": "swing",
@@ -97,8 +97,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 10,
-      "kept": 10
+      "count": 9,
+      "kept": 9
     },
     {
       "venueId": "first",
@@ -113,31 +113,31 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 19,
-      "kept": 19
+      "count": 18,
+      "kept": 18
     },
     {
       "venueId": "kanmachi63",
       "month": "2026-11",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 23,
       "kept": 0
     },
     {
       "venueId": "wonderwall",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 19,
-      "kept": 19
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
+      "kept": 18
     },
     {
       "venueId": "wonderwall",
       "month": "2026-11",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 30,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 30
     },
     {
@@ -145,8 +145,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 19,
-      "kept": 19
+      "count": 18,
+      "kept": 18
     },
     {
       "venueId": "barbarbar",
@@ -193,8 +193,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 22,
-      "kept": 22
+      "count": 21,
+      "kept": 21
     },
     {
       "venueId": "pitinn",
@@ -225,8 +225,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 18,
-      "kept": 18
+      "count": 17,
+      "kept": 17
     },
     {
       "venueId": "alfie",
@@ -239,17 +239,17 @@
     {
       "venueId": "naru",
       "month": "2026-10",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
-      "kept": 14
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 13,
+      "kept": 13
     },
     {
       "venueId": "naru",
       "month": "2026-11",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 19,
       "kept": 19
     },
     {
@@ -257,8 +257,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 27,
-      "kept": 27
+      "count": 25,
+      "kept": 25
     },
     {
       "venueId": "sometime",
@@ -273,8 +273,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "公式画像から取得済み",
-      "count": 22,
-      "kept": 22
+      "count": 20,
+      "kept": 20
     },
     {
       "venueId": "venus",
@@ -286,221 +286,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-10-10",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[jazz] 西川彩織(ds) with 竹内大輔(pf) DUO",
-      "price": "￥5500",
-      "image": "https://alfie.tokyo/liveReport/2024/A9_06894.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202610.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-10-10",
-      "open": "18:30",
-      "start": "19:30",
-      "secondStart": "21:00",
-      "artist": "※JAZZPROMENADE Day１\"スインギ―奥田&ザ･ブルースカイオーケストラ with Meri\"",
-      "lineup": "ds:スインギ―奥田 tp:小野優佳 tp:菊池 宏 tp:山口雄太 tb:佐藤洋樹 tb:中 雅志 a.sax:上野 悠 a.sax:清水洋之助 t.sax:石島大輔 b.sax:大野 清 pf:金山マサ裕 bs:菅井信行 vo:Meri",
-      "price": "6,600円",
-      "image": "https://www.barbarbar.jp/calendar/uploads/a17f633edb67ae294e96e1f527ab792d.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-10-10",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "ANOUSHKA SHANKAR",
-      "price": "¥16,500",
-      "image": "https://reserve.bluenote.co.jp/reserve/img/event/3960.jpg",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3960",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3960",
-      "detailUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3960",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-10-10",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "夏焼 雅 Premium Night 〜Velvet Voice〜",
-      "price": "¥10,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/reserve/img/event/5718.jpg",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5718",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5718",
-      "detailUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5718",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-10-10",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "横濱ジャズプロムナード 開催日 板橋文夫(p) ジャズオーケストラ 林栄一(as)纐纈之雅代(as) 吉田隆一(bs) 後藤篤(tb)高岡大祐(tube) 太田惠資(vln) 瀬尾高志(b) 外山明(ds)特別ゲスト..山本尚生(祓川神楽/笛)",
-      "price": "5000円",
-      "image": "https://dolphy-jazzspot.com/musician/d_itabashi_fumio_s2016.jpg",
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "first",
-      "date": "2026-10-10",
-      "open": "13:30",
-      "start": "13:30",
-      "artist": "横濱 JAZZ PROMENADE 2026 友金まゆみトリオ + ジョン・カイザー ライブ & セッション",
-      "price": "￥3,000",
-      "image": null,
-      "media": [],
-      "source": "https://naniaru.com/events/view/14822"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-10-10",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "pf.小太刀のばら tp.石川広行",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "kingsbar",
-      "date": "2026-10-10",
-      "open": "公式で確認",
-      "start": "11:30",
-      "artist": "プロムナードだよ♪プロからアマまで全員集合！Vol.20",
-      "price": "公式で確認",
-      "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
-      "media": [],
-      "source": "https://livebar.net/kingsbar/events/4099"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-10-10",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "大坂昌彦 ds スエナガタカフミ p 大塚義将 b David Negrete as",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-10-10",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "菊地成孔 トリオ",
-      "lineup": "菊地成孔(P)須川崇志(B)秋元 修(Ds)ゲスト:北田 学(B-cl)",
-      "price": "￥5,500",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2025/10/1202kikuchi.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/261010kikuchi/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/261010kikuchi/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-10",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "SUPER FUNKY 西村 知恵（vo） 吉岡 秀晃（p） 河上 修（b） ゲスト：ジーン・ジャクソン（ds）",
-      "price": "4,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51726/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1791184542545",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-10",
-      "open": "12:00",
-      "start": "13:00",
-      "secondStart": "14:30",
-      "artist": "千葉 史絵（p）3 鉄井 孝司（b） 鈴木 郁（ds）",
-      "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51732/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1791184542545",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-10-10",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "10.10(土)vo.ダイナ・ミキ",
-      "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261010%E3%83%80%E3%82%A4%E3%83%8A%E3%83%9F%E3%82%AD.jpg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=8lFIXR398xQ"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20261010-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "open": "13:30",
-      "start": "14:00",
-      "price": "公式画像で確認",
-      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り",
-      "date": "2026-10-10",
-      "artist": "JAZZ PROMENADE お昼の部 Bossa Nova Live　大澤理央 vo. 平岡遊一郎 gt. 仙道さおり perc."
-    },
-    {
-      "venueId": "venus",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "price": "公式画像で確認",
-      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り",
-      "date": "2026-10-10",
-      "artist": "JAZZ PROMENADE 夜の部 Special Trio Live　日高しず香 vo. 朝倉由里 pf. 南雲麻美 sax."
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-10-10",
-      "open": "17:30",
-      "start": "18:30",
-      "artist": "CalmFlames feat.KanatoIijima",
-      "price": "¥5,500",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/20240314-1080-x-1350-px%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC.png",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/calmflames-7/",
-      "secondStart": "19:40",
-      "lineup": "秋田ゴールドマン(b) 武本和大(p) 山近拓音(ds) 飯島奏人(vc)",
-      "note": "本公演は事情により、軽食のみのご提供とさせていただきます。予めご了承ください。",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd9KvzM69fWQrVl9HGTSdksItUdr8i-PO0HdXcTWTmflBQHTQ/viewform?usp=pp_url&entry.1675391905=10/10(%E5%9C%9F)CalmFlames+feat.KanatoIijima",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/calmflames-7/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "alfie",
       "date": "2026-10-11",
@@ -617,9 +402,9 @@
       "date": "2026-10-11",
       "open": "18:00",
       "start": "19:00",
-      "artist": "横濱ジャズプロムナード 開催日 グレース・マーヤ(vo/p) スペシャルカルテット 丈青(p) 他",
+      "artist": "横濱ジャズプロムナード 開催日 グレース・マーヤ(vo/p) ＆ 丈青(p)DUO",
       "price": "4500円",
-      "image": "https://dolphy-jazzspot.com/musician/d_grace_mahya_s2023.jpg",
+      "image": "https://dolphy-jazzspot.com/musician/d_grace_mahya_jyosei.jpg",
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
@@ -767,9 +552,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21648/detail/dtl_ev-21648_1_1786673423.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-12",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-12",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-12",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -1252,9 +1037,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21674/detail/dtl_ev-21674_1_1788343401.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-14",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-14",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-14",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -4801,8 +4586,8 @@
     {
       "venueId": "kanmachi63",
       "date": "2026-10-30",
-      "open": "14:30",
-      "start": "15:00",
+      "open": "19:00",
+      "start": "19:30",
       "artist": "ts.竹内直 ag.露木達也",
       "price": "3,300円",
       "image": null,
@@ -5216,6 +5001,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-01",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "渋谷毅さんの想い出 as.林栄一 gt.石渡明廣",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "pitinn",
       "date": "2026-11-01",
       "open": "19:00",
@@ -5389,6 +5185,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261102",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261102",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-11-02",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "gt.定仙哲也 b.工藤精 ds.斉藤良",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -5571,6 +5378,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261103",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261103",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-11-03",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "ts.竹内直 gt.佐々木マン正治 gt.丹波悦子",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "pitinn",
@@ -5761,6 +5579,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261104",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261104",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-11-04",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "vo.清水翠 gt.馬場孝喜",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -6102,6 +5931,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-06",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "ss.ませひろこ gt.増田涼一郎 b.小牧良平",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-11-06",
       "open": "18:00",
@@ -6289,6 +6129,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-07",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "vo.清水麻八子 pf.リンヘイテツ",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "kingsbar",
       "date": "2026-11-07",
       "open": "14:00",
@@ -6452,9 +6303,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21534/detail/dtl_ev-21533_1_1781839989.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -6505,6 +6356,17 @@
       "image": null,
       "media": [],
       "source": "https://naniaru.com/events/view/15092"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-11-08",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "未定",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -6865,6 +6727,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-10",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "vo.酒井俊 pf.田村博 b.安東昇",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-11-10",
       "open": "18:00",
@@ -7184,6 +7057,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-12",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "pf.小太刀のばら b.西嶋徹 ds.大村亘",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-11-12",
       "open": "18:00",
@@ -7397,6 +7281,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261113",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261113",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-11-13",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "vo.pf.蜂谷真紀 tb.etc青木タイセイ",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -7615,6 +7510,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-14",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "pf.西山瞳 gt.馬場孝喜",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-11-14",
       "open": "18:00",
@@ -7778,9 +7684,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21613/detail/dtl_ev-21613_1_1787231919.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -7875,6 +7781,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-15",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "ts.ss.かみむら泰一 pf.布施音人 b.西嶋徹",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "pitinn",
       "date": "2026-11-15",
       "open": "19:00",
@@ -7938,9 +7855,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21644/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -7994,6 +7911,17 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-11-16",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "b.甲斐正樹 ds.則武諒",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "pitinn",
@@ -8657,6 +8585,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-20",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "ag.閑喜弦介 as.塙正貴",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-11-20",
       "open": "18:00",
@@ -8843,6 +8782,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261121",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261121",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-11-21",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "harmo.t田中光栄 ag. .閑喜弦介",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -9032,6 +8982,17 @@
       "source": "https://naniaru.com/events/view/15100"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-22",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "ts.ss.山口真文 gt.東海林由孝 b.小牧良平 ds.山崎隼",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-11-22",
       "open": "18:00",
@@ -9180,6 +9141,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261123",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261123",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-11-23",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "“FLAT“ gt.effect 市野元彦 pf.望月慎一郎",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "pitinn",
@@ -9344,6 +9316,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261124",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261124",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-11-24",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "ts.ss.かみむら泰一 ts.橋爪亮督 b甲斐正樹",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "pitinn",
@@ -9696,6 +9679,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-26",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "pf.リンヘイテツ tp.石川広行",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-11-26",
       "open": "18:00",
@@ -9870,6 +9864,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261127",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261127",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-11-27",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "tabla.大村亘 gt.生島佳明",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -10088,6 +10093,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261128",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261128",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-11-28",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "fl.酒井麻生代 b.落合康介",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -10316,6 +10332,17 @@
       "source": "https://naniaru.com/events/view/15103"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-29",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "ts.竹内直 gt.馬場孝喜 ds.今泉総之輔",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "pitinn",
       "date": "2026-11-29",
       "open": "19:00",
@@ -10501,6 +10528,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-11-30",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "gt.福冨博 tb.etc青木タイセイ pf.布施音人",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "pitinn",
       "date": "2026-11-30",
       "open": "19:00",
@@ -10570,7 +10608,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-10T00:49:17.034Z",
+  "updatedAt": "2026-10-10T15:25:31.859Z",
   "venues": [
     {
       "area": "near",
