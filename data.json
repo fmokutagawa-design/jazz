@@ -42,7 +42,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 29,
-      "kept": 23
+      "kept": 29
     },
     {
       "venueId": "cottonclub",
@@ -63,17 +63,17 @@
     {
       "venueId": "kingsbar",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 16,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 16
     },
     {
       "venueId": "kingsbar",
       "month": "2026-11",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 1,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 1
     },
     {
@@ -239,17 +239,17 @@
     {
       "venueId": "naru",
       "month": "2026-10",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 14,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 14
     },
     {
       "venueId": "naru",
       "month": "2026-11",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 19,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 19
     },
     {
@@ -1252,9 +1252,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21674/detail/dtl_ev-21674_1_1788343401.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-14",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-14",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21674&date=2026-10-14",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -7938,9 +7938,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21644/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -10570,7 +10570,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-09T16:17:27.361Z",
+  "updatedAt": "2026-10-10T00:49:17.034Z",
   "venues": [
     {
       "area": "near",
