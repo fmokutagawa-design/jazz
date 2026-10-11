@@ -17,8 +17,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 25
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "dolphy",
@@ -33,8 +33,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 20,
-      "kept": 20
+      "count": 19,
+      "kept": 19
     },
     {
       "venueId": "bluenote",
@@ -49,8 +49,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 18,
-      "kept": 18
+      "count": 17,
+      "kept": 17
     },
     {
       "venueId": "cottonclub",
@@ -65,8 +65,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 15,
-      "kept": 15
+      "count": 14,
+      "kept": 14
     },
     {
       "venueId": "kingsbar",
@@ -97,8 +97,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 9,
-      "kept": 9
+      "count": 8,
+      "kept": 8
     },
     {
       "venueId": "first",
@@ -113,8 +113,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 18,
-      "kept": 18
+      "count": 17,
+      "kept": 17
     },
     {
       "venueId": "kanmachi63",
@@ -129,8 +129,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 18,
-      "kept": 18
+      "count": 17,
+      "kept": 17
     },
     {
       "venueId": "wonderwall",
@@ -145,8 +145,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 18,
-      "kept": 18
+      "count": 17,
+      "kept": 17
     },
     {
       "venueId": "barbarbar",
@@ -161,8 +161,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 28,
-      "kept": 28
+      "count": 26,
+      "kept": 26
     },
     {
       "venueId": "billboard_yokohama",
@@ -177,8 +177,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 40,
-      "kept": 40
+      "count": 38,
+      "kept": 38
     },
     {
       "venueId": "billboard_tokyo",
@@ -193,8 +193,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 21,
-      "kept": 21
+      "count": 20,
+      "kept": 20
     },
     {
       "venueId": "pitinn",
@@ -209,8 +209,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 18,
-      "kept": 18
+      "count": 17,
+      "kept": 17
     },
     {
       "venueId": "jzbrat",
@@ -225,8 +225,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 17,
-      "kept": 17
+      "count": 16,
+      "kept": 16
     },
     {
       "venueId": "alfie",
@@ -241,8 +241,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 13,
-      "kept": 13
+      "count": 12,
+      "kept": 12
     },
     {
       "venueId": "naru",
@@ -257,8 +257,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 25
+      "count": 23,
+      "kept": 23
     },
     {
       "venueId": "sometime",
@@ -273,8 +273,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "公式画像から取得済み",
-      "count": 20,
-      "kept": 20
+      "count": 19,
+      "kept": 19
     },
     {
       "venueId": "venus",
@@ -287,262 +287,6 @@
   ],
   "events": [
     {
-      "venueId": "alfie",
-      "date": "2026-10-11",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[world] Genki(vo, per) SAYAKA(vln) & 情家みえ(vo) Carlos Cespedes(vo, g) 畠山啓(pf) 高橋佳樹(eb)",
-      "price": "￥6600",
-      "image": "https://alfie.tokyo/liveReport/20261011.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202610.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-10-11",
-      "open": "18:30",
-      "start": "19:30",
-      "secondStart": "21:00",
-      "artist": "■JAZZPROMENADE Day２\"MAYA&松尾明Quartet\"",
-      "lineup": "vo:MAYA ds:松尾 明 pf:寺村容子 bs:新岡 誠 gt:田辺充邦",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/2c5e19d888731f41fc1ffab9f2362d84.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-10-11",
-      "open": "15:00",
-      "start": "16:00",
-      "artist": "中村佳穂 NAKAMURA KAHO Billboard Live TOUR",
-      "price": "8,400円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21648/detail/dtl_ev-21648_1_1786673423.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-11",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-11",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-11",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-10-11",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "中村佳穂 NAKAMURA KAHO Billboard Live TOUR",
-      "price": "8,400円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21648/detail/dtl_ev-21648_1_1786673423.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-11",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-11",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-11",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-10-11",
-      "open": "14:00",
-      "start": "15:00",
-      "artist": "Skoop On Somebody Discotique Nite 2026",
-      "price": "9,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21550/detail/dtl_ev-21548_1_1782183808.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_yokohama",
-      "date": "2026-10-11",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "Skoop On Somebody Discotique Nite 2026",
-      "price": "9,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21550/detail/dtl_ev-21548_1_1782183808.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
-      "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21550&date=2026-10-11",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-10-11",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "ANOUSHKA SHANKAR",
-      "price": "¥16,500",
-      "image": "https://reserve.bluenote.co.jp/reserve/img/event/3960.jpg",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3960",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3960",
-      "detailUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3960",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-10-11",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "大西結花 40周年記念+1 anniversary live「ずっと大好き！！」 ～40 years of loving YUKA～",
-      "price": "¥10,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/reserve/img/event/5710.jpg",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5710",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5710",
-      "detailUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5710",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-10-11",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "横濱ジャズプロムナード 開催日 グレース・マーヤ(vo/p) ＆ 丈青(p)DUO",
-      "price": "4500円",
-      "image": "https://dolphy-jazzspot.com/musician/d_grace_mahya_jyosei.jpg",
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "first",
-      "date": "2026-10-11",
-      "open": "16:30",
-      "start": "16:30",
-      "artist": "横濱 JAZZ PROMENADE 2026 西村公貴グループ",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "https://naniaru.com/events/view/14824"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-10-11",
-      "open": "17:00",
-      "start": "18:00",
-      "artist": "Yumeko Kitaoka LIVE 〜ときめきの夜に〜",
-      "price": "￥8,500",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/4a351033b0e988ce6ebd6e8219c2401d9ef7aa4e-thumb-160xauto-14353.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261011",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261011",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261011",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-10-11",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "未定",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "kingsbar",
-      "date": "2026-10-11",
-      "open": "公式で確認",
-      "start": "11:30",
-      "artist": "プロムナードだよ♪プロからアマまで全員集合！Vol.20",
-      "price": "公式で確認",
-      "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
-      "media": [],
-      "source": "https://livebar.net/kingsbar/events/4100"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-10-11",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "JAM SESSION !! 大坂昌彦 ds",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-10-11",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "鈴木直人 Resonance and Emission Quartet",
-      "lineup": "鈴木直人(G)熊谷ヤスマサ(P)川村 竜(B)岩瀬立飛(Ds)",
-      "price": "￥3,300",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2022/07/0925suzuki.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/261011suzuki/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/261011suzuki/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-11",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "佐藤 公淳（sax） 高橋 知己（sax） 続木 徹（p） 荒井 美咲（b） 峯 麻衣子（ds）",
-      "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51734/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1791184542545",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-11",
-      "open": "12:00",
-      "start": "13:00",
-      "secondStart": "14:30",
-      "artist": "MG3 早坂 紗知（sax） 永田 利樹（b） 田中 信正（p）",
-      "price": "2,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51738/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1791184542545",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "venus",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "price": "公式画像で確認",
-      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り",
-      "date": "2026-10-11",
-      "artist": "Trinity Special Live　市川美鈴 vo. 小泉明子 pf. 里見紀子 vln."
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-10-11",
-      "open": "17:30",
-      "start": "18:30",
-      "artist": "Luna Watanabe with Strings",
-      "price": "¥5,500",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/Untitled-design.png",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/luna-watanabe-with-strings/",
-      "secondStart": "19:40",
-      "lineup": "渡邉瑠菜 (sax,vo) 榎本響(p) 安部和奏 (b) 矢崎麦 (vln) 高月怜 (cello) 水島諒佑(per)",
-      "note": "※本公演は満席となっております ※キャンセル待ちをご希望の方はHP内の貸切・採用などお問い合わせ→キャンセル待ち受付を選んでご入力ください",
-      "reservationUrl": "https://www.facebook.com/sharer/sharer.php?u=https://wonderwall-yokohama.jp/schedule/luna-watanabe-with-strings/&amp;src=sdkpreparse",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/luna-watanabe-with-strings/",
-      "reservationStatus": "web"
-    },
-    {
       "venueId": "billboard_tokyo",
       "date": "2026-10-12",
       "open": "15:00",
@@ -552,9 +296,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21648/detail/dtl_ev-21648_1_1786673423.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-12",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-12",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21648&date=2026-10-12",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -580,9 +324,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21565/detail/dtl_ev-21564_1_1782380669.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -594,9 +338,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21565/detail/dtl_ev-21564_1_1782380669.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21565&date=2026-10-12",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -2294,7 +2038,7 @@
       "start": "19:15",
       "artist": "[jazz] \"Seiko Summer Jazz Camp at alfe\" 澤谷柑太郎(tp) QUARTET 石川誠(ts) 伊藤寿(pf) 蓼川祐紀(b) 岡田汐音(ds)",
       "price": "￥4400",
-      "image": "https://alfie.tokyo/liveReport/20261020.jpg",
+      "image": "https://alfie.tokyo/liveReport/20261020_.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202610.html"
     },
@@ -7917,7 +7661,7 @@
       "date": "2026-11-16",
       "open": "19:00",
       "start": "19:30",
-      "artist": "b.甲斐正樹 ds.則武諒",
+      "artist": "ag.閑喜弦介 b.甲斐正樹 ds.則武諒",
       "price": "3,300円",
       "image": null,
       "media": [],
@@ -8513,9 +8257,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21630/detail/dtl_ev-21629_1_1785464540.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -8527,9 +8271,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21630/detail/dtl_ev-21629_1_1785464540.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -9147,7 +8891,7 @@
       "date": "2026-11-23",
       "open": "14:30",
       "start": "15:00",
-      "artist": "“FLAT“ gt.effect 市野元彦 pf.望月慎一郎",
+      "artist": "“FLAT“ gt.effect 市野元彦 pf.shnty.望月慎一郎",
       "price": "3,300円",
       "image": null,
       "media": [],
@@ -10608,7 +10352,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-11T00:15:23.753Z",
+  "updatedAt": "2026-10-11T15:46:03.865Z",
   "venues": [
     {
       "area": "near",
