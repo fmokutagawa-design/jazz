@@ -122,22 +122,22 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 23,
-      "kept": 0
+      "kept": 23
     },
     {
       "venueId": "wonderwall",
       "month": "2026-10",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 18,
       "kept": 18
     },
     {
       "venueId": "wonderwall",
       "month": "2026-11",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 30,
       "kept": 30
     },
     {
@@ -10608,7 +10608,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-10T15:25:31.859Z",
+  "updatedAt": "2026-10-11T00:15:23.753Z",
   "venues": [
     {
       "area": "near",
