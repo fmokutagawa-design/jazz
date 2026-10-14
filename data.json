@@ -4684,8 +4684,8 @@
     {
       "venueId": "dolphy",
       "date": "2026-11-03",
-      "open": "18:30",
-      "start": "19:30",
+      "open": "18:00",
+      "start": "19:00",
       "artist": "Niklas Winter/ニクラス・ウインター(g)カルテット Soren Lee/ソーレン・リー(g) HiroyukiYamamoto(b)SumitoOi(ds)",
       "price": "4500円",
       "image": null,
@@ -5983,9 +5983,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21628/detail/dtl_ev-21625_1_1785462258.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -6302,9 +6302,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21670/detail/dtl_ev-21670_1_1788174014.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21670&date=2026-11-12",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21670&date=2026-11-12",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21670&date=2026-11-12",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -7026,9 +7026,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21618/detail/dtl_ev-21618_1_1785318279.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-15",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-15",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-15",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -8624,7 +8624,7 @@
       "venueId": "dolphy",
       "date": "2026-11-24",
       "open": "18:30",
-      "start": "19:00",
+      "start": "19:30",
       "artist": "丈青(p) 他",
       "price": "4500円",
       "image": null,
@@ -9936,7 +9936,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-13T16:59:33.541Z",
+  "updatedAt": "2026-10-14T00:18:24.405Z",
   "venues": [
     {
       "area": "near",
