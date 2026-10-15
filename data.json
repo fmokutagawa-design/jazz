@@ -323,9 +323,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21375/detail/dtl_ev-21375_1_1775204327.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21375&date=2026-10-15",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21375&date=2026-10-15",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21375&date=2026-10-15",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -337,9 +337,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21375/detail/dtl_ev-21375_1_1775204327.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21375&date=2026-10-15",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21375&date=2026-10-15",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21375&date=2026-10-15",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -1110,8 +1110,8 @@
       "date": "2026-10-18",
       "open": "18:00",
       "start": "19:00",
-      "artist": "大槻\"KALTA\"英宣(ds) スペシャルグループ",
-      "price": "公式で確認",
+      "artist": "カルタ・ピアノ・トリオ 大槻\"KALTA\"英宣(ds) 新澤健一郎(p/key)熊谷望(b)",
+      "price": "4500円",
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule.html"
@@ -5874,7 +5874,7 @@
       "open": "18:00",
       "start": "19:00",
       "artist": "11.10(火) p.山本 剛 vo.山田 ゆき",
-      "price": "公式で確認",
+      "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_9080.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20261110-2/",
@@ -6942,9 +6942,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21644/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -9543,9 +9543,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21653/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -9557,9 +9557,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21653/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -9695,7 +9695,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-14T23:56:08.727Z",
+  "updatedAt": "2026-10-15T14:13:04.615Z",
   "venues": [
     {
       "area": "near",
