@@ -323,9 +323,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21616/detail/dtl_ev-21615_1_1785292224.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21616&date=2026-10-16",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21616&date=2026-10-16",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21616&date=2026-10-16",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -337,9 +337,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21616/detail/dtl_ev-21615_1_1785292224.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21616&date=2026-10-16",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21616&date=2026-10-16",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21616&date=2026-10-16",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -351,9 +351,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21634/detail/dtl_ev-21634_1_1785899146.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -365,9 +365,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21634/detail/dtl_ev-21634_1_1785899146.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21634&date=2026-10-16",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -581,9 +581,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21451/detail/dtl_ev-21449_1_1778639629.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21451&date=2026-10-17",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21451&date=2026-10-17",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21451&date=2026-10-17",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -595,9 +595,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21451/detail/dtl_ev-21449_1_1778639629.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21451&date=2026-10-17",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21451&date=2026-10-17",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21451&date=2026-10-17",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -838,9 +838,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21488/detail/dtl_ev-21488_1_1779696252.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21488&date=2026-10-18",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21488&date=2026-10-18",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21488&date=2026-10-18",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -2414,7 +2414,7 @@
       "open": "13:30",
       "start": "14:00",
       "secondStart": "15:30",
-      "artist": "田中菜緒子 PIANO TRIO",
+      "artist": "田中菜緒子 PIANO 伊藤勇司 b 梶内胡良 ds",
       "price": "公式で確認",
       "image": "assets/naru/tanaka.jpg",
       "media": [],
@@ -4070,7 +4070,7 @@
       "open": "19:00",
       "start": "19:30",
       "artist": "The Twin Guitars Session!",
-      "lineup": "三好“3吉”功郎(G)馬場孝喜(G)井上陽介(B)奥平真吾(Ds)",
+      "lineup": "三好“3吉”功郎(G)馬場孝喜(G)井上陽介(B)鶴谷智生(Ds)",
       "price": "￥3,300",
       "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2025/11/0130miyoshibaba.jpg",
       "media": [],
@@ -4799,7 +4799,7 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "Jim Butler as quartet",
+      "artist": "ジム・バトラー as エディ・メンデンホール p 座小田諒一 bブラッキー黒田 ds",
       "price": "公式で確認",
       "image": null,
       "media": [],
@@ -5155,9 +5155,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21534/detail/dtl_ev-21533_1_1781839989.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -5507,9 +5507,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21628/detail/dtl_ev-21625_1_1785462258.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -6707,9 +6707,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21644/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -6721,9 +6721,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21644/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -7279,10 +7279,10 @@
       "date": "2026-11-19",
       "open": "19:00",
       "start": "19:30",
-      "artist": "奥平真吾 THE NEW FORCE",
-      "lineup": "奥平真吾(Ds)岡 淳(Sax)堀 秀彰(P)落合康介(B)",
+      "artist": "岡 淳 SESSION — プログラム変更のお知らせ",
+      "lineup": "岡 淳(Sax)堀 秀彰(P)落合康介(B) ほか",
       "price": "￥3,300",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2024/02/0422okudaira.jpg",
+      "image": "https://pit-inn.com/pit-inn/wp-content/themes/pitinn/images/NoImage.jpg",
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261119okudaira/",
       "detailUrl": "https://pit-inn.com/artist_live_info/261119okudaira/",
@@ -9201,7 +9201,7 @@
       "start": "19:30",
       "artist": "本多俊之 3DAYS — featuring スーパー・Wギター・セッション",
       "lineup": "本多俊之(Sax)安藤正容(G)梶原 順(G)鳴瀬喜博(B)則竹裕之(Ds)",
-      "price": "￥1,000",
+      "price": "￥5,000",
       "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2025/09/1107honda.jpg",
       "media": [],
       "source": "https://pit-inn.com/artist_live_info/261129honda/",
@@ -9322,9 +9322,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21653/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -9424,7 +9424,7 @@
       "date": "2026-11-30",
       "open": "18:00",
       "start": "19:00",
-      "artist": "11.30(月) cl.北村 英治",
+      "artist": "11.30(月) cl.北村 英治 ts.cl.右近 茂",
       "price": "￥6,000",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/05/IMG_6845.jpeg",
       "media": [],
@@ -9460,7 +9460,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-15T23:42:06.797Z",
+  "updatedAt": "2026-10-16T14:00:51.660Z",
   "venues": [
     {
       "area": "near",
