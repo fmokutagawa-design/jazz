@@ -17,8 +17,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 18,
-      "kept": 18
+      "count": 17,
+      "kept": 17
     },
     {
       "venueId": "dolphy",
@@ -33,8 +33,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 13,
-      "kept": 13
+      "count": 12,
+      "kept": 12
     },
     {
       "venueId": "bluenote",
@@ -49,8 +49,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "cottonclub",
@@ -113,8 +113,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "kanmachi63",
@@ -145,8 +145,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "barbarbar",
@@ -177,8 +177,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 26,
-      "kept": 26
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "billboard_tokyo",
@@ -193,8 +193,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 14,
-      "kept": 14
+      "count": 13,
+      "kept": 13
     },
     {
       "venueId": "pitinn",
@@ -209,8 +209,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "jzbrat",
@@ -257,8 +257,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 16,
-      "kept": 16
+      "count": 14,
+      "kept": 14
     },
     {
       "venueId": "sometime",
@@ -286,156 +286,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "barbarbar",
-      "date": "2026-10-18",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "終日貸切",
-      "lineup": "18 終日貸切",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
-      "reservationUrl": null,
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-10-18",
-      "open": "15:00",
-      "start": "16:00",
-      "artist": "Tigran Hamasyan",
-      "price": "8,900円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21488/detail/dtl_ev-21488_1_1779696252.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21488&date=2026-10-18",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21488&date=2026-10-18",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-10-18",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "Tigran Hamasyan",
-      "price": "8,900円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21488/detail/dtl_ev-21488_1_1779696252.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21488&date=2026-10-18",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21488&date=2026-10-18",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-10-18",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "THE BAD PLUS Farewell Tour",
-      "price": "¥9,500",
-      "image": "https://reserve.bluenote.co.jp/reserve/img/event/3991.jpg",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3991",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3991",
-      "detailUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3991",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-10-18",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "広末涼子 ACT/Ryoko Hirosue meets The Little Prince～星の王子さま",
-      "price": "¥12,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/reserve/img/event/5743.jpg",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5743",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5743",
-      "detailUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5743",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-10-18",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "カルタ・ピアノ・トリオ 大槻\"KALTA\"英宣(ds) 新澤健一郎(p/key)熊谷望(b)",
-      "price": "4500円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-10-18",
-      "open": "12:30",
-      "start": "13:30",
-      "artist": "白鳥光夏「Swanderful 7」",
-      "price": "￥7,500",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/07/261018_top-thumb-160xauto-14496.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261018",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261018",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261018",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-10-18",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "“FLAT“ gt.effect 市野元彦 pf.symth望月慎一郎",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-10-18",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "TOKU's New Experiment",
-      "lineup": "TOKU(Vo,Flh)矢野沙織(As)井上陽介(B)永武幹子(P)小田桐和寛(Ds)",
-      "price": "￥4,950",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/08/1018toku.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/261018toku/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/261018toku/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-18",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "ジョシュア・ブレイクストーン（ g） フィリップ・ストレンジ（p）",
-      "price": "3,500円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51756/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1791882624484",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-18",
-      "open": "12:00",
-      "start": "13:00",
-      "secondStart": "14:30",
-      "artist": "佐藤 春樹（tb）5 佐藤 達哉（sax） 福島 誠（p） 河上 修（b） 山田 祐輔（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51765/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1791882624484",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
     {
       "venueId": "billboard_tokyo",
       "date": "2026-10-19",
@@ -2189,9 +2039,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21480/detail/dtl_ev-21480_1_1779516152.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-27",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-27",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-27",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3251,17 +3101,12 @@
       "venueId": "wonderwall",
       "date": "2026-10-31",
       "open": "17:30",
-      "start": "18:30",
+      "start": "公式で確認",
       "artist": "グレース・マーヤHalloweenJazzRockNight",
       "price": "¥7,000",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/%E3%83%9E%E3%83%BC%E3%83%A4%E3%83%AD%E3%83%83%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%88.png",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/マーヤロックナイト.png",
       "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/%e3%82%b0%e3%83%ac%e3%83%bc%e3%82%b9%e3%83%bb%e3%83%9e%e3%83%bc%e3%83%a4halloweenjazzrocknight/",
-      "secondStart": "19:40",
-      "lineup": "グレース・マーヤ(vo&#038;p) Zak Croxall(b) 河村亮(Ds) 佐藤タイジ(vo&#038;g)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd9KvzM69fWQrVl9HGTSdksItUdr8i-PO0HdXcTWTmflBQHTQ/viewform?usp=pp_url&entry.1675391905=10/31(%E5%9C%9F)%E3%82%B0%E3%83%AC%E3%83%BC%E3%82%B9%E3%83%BB%E3%83%9E%E3%83%BC%E3%83%A4HalloweenJazzRockNight",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e3%82%b0%e3%83%ac%e3%83%bc%e3%82%b9%e3%83%bb%e3%83%9e%e3%83%bc%e3%83%a4halloweenjazzrocknight/",
-      "reservationStatus": "web"
+      "source": "https://wonderwall-yokohama.jp/schedule/%e3%82%b0%e3%83%ac%e3%83%bc%e3%82%b9%e3%83%bb%e3%83%9e%e3%83%bc%e3%83%a4halloweenjazzrocknight/"
     },
     {
       "venueId": "bluenote",
@@ -6509,7 +6354,7 @@
       "open": "18:45",
       "start": "19:15",
       "artist": "[jazz] 松岡杏奈(pf) Brithday Live 大塚義将(b) 河村亮(ds) Guest:宅間善之(vib)",
-      "price": "¥5500",
+      "price": "¥3300",
       "image": null,
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
@@ -8958,7 +8803,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-18T13:21:29.030Z",
+  "updatedAt": "2026-10-18T23:10:01.490Z",
   "venues": [
     {
       "area": "near",
