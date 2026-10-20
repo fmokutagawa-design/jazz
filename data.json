@@ -291,7 +291,7 @@
       "date": "2026-10-20",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] \"Seiko Summer Jazz Camp at alfe\" 澤谷柑太郎(tp) QUARTET 石川誠(ts) 伊藤寿(pf) 蓼川祐紀(b) 岡田汐音(ds)",
+      "artist": "[jazz] \"Seiko Summer Jazz Camp at alfe\" 澤谷柑太郎(tp) QUARTET 石川誠(ts) 伊東寿(pf) 蓼川祐紀(b) 岡田汐音(ds)",
       "price": "￥4400",
       "image": "https://alfie.tokyo/liveReport/20261020_.jpg",
       "media": [],
@@ -1392,7 +1392,7 @@
       "date": "2026-10-25",
       "open": "18:45",
       "start": "19:15",
-      "artist": "日野\"JINO\"賢二(eb) JINO Session",
+      "artist": "日野\"JINO\"賢二(eb) JINO Session Tony Saggs(p) Tomo Kanno (ds)",
       "price": "￥5500",
       "image": "https://alfie.tokyo/liveReport/2019/DSC04178.jpg",
       "media": [],
@@ -3060,7 +3060,7 @@
       "start": "17:00",
       "artist": "11.1(日)『Sing Jazztronik』Jazztoronik,p. 野崎良太 vo. 有坂美香 vo.TiA vo.ソラナヒトミ",
       "price": "￥6,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8688.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_9537.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20261101-2/",
       "secondStart": "18:30"
@@ -6169,7 +6169,7 @@
       "open": "18:45",
       "start": "19:15",
       "artist": "[jazz] 松岡杏奈(pf) Brithday Live 大塚義将(b) 河村亮(ds) Guest:宅間善之(vib)",
-      "price": "¥3300",
+      "price": "¥5500",
       "image": null,
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
@@ -8324,7 +8324,7 @@
       "date": "2026-11-29",
       "open": "18:00",
       "start": "19:00",
-      "artist": "林栄一(as)＆ 田中信正(p) ＆ 坂井紅介(b) ＆ 大槻\"KALTA\"英宣(ds)",
+      "artist": "林栄一(as)＆ 田中信正(p) ＆ 坂井紅介(b)",
       "price": "4500円",
       "image": null,
       "media": [],
@@ -8333,9 +8333,9 @@
     {
       "venueId": "first",
       "date": "2026-11-29",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "SILVER BLUE",
+      "open": "18:00",
+      "start": "18:00",
+      "artist": "Silver Blue project",
       "price": "￥3,500",
       "image": null,
       "media": [],
@@ -8618,7 +8618,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-20T00:20:22.672Z",
+  "updatedAt": "2026-10-20T14:21:34.423Z",
   "venues": [
     {
       "area": "near",
