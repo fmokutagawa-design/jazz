@@ -17,8 +17,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 16,
-      "kept": 16
+      "count": 15,
+      "kept": 15
     },
     {
       "venueId": "dolphy",
@@ -33,8 +33,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "bluenote",
@@ -49,8 +49,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 9,
-      "kept": 9
+      "count": 8,
+      "kept": 8
     },
     {
       "venueId": "cottonclub",
@@ -65,8 +65,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 9,
-      "kept": 9
+      "count": 8,
+      "kept": 8
     },
     {
       "venueId": "kingsbar",
@@ -81,8 +81,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "swing",
@@ -113,8 +113,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "kanmachi63",
@@ -129,8 +129,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "wonderwall",
@@ -145,8 +145,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "barbarbar",
@@ -178,7 +178,7 @@
       "status": "failed",
       "reason": "取得失敗",
       "count": 0,
-      "kept": 22
+      "kept": 20
     },
     {
       "venueId": "billboard_tokyo",
@@ -193,8 +193,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "pitinn",
@@ -209,8 +209,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 9,
-      "kept": 9
+      "count": 8,
+      "kept": 8
     },
     {
       "venueId": "jzbrat",
@@ -225,8 +225,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 11,
-      "kept": 11
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "alfie",
@@ -257,8 +257,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 13,
-      "kept": 13
+      "count": 12,
+      "kept": 12
     },
     {
       "venueId": "sometime",
@@ -273,8 +273,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "公式画像から取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "venus",
@@ -286,205 +286,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-10-20",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "[jazz] \"Seiko Summer Jazz Camp at alfe\" 澤谷柑太郎(tp) QUARTET 石川誠(ts) 伊東寿(pf) 蓼川祐紀(b) 岡田汐音(ds)",
-      "price": "￥4400",
-      "image": "https://alfie.tokyo/liveReport/20261020_.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202610.html"
-    },
-    {
-      "venueId": "barbarbar",
-      "date": "2026-10-20",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "21:00",
-      "artist": "●スタジオKバンド",
-      "lineup": "fl/和笛:笛吹かな pf:北島直樹 bs:田中洋平 ds:佐藤隆治",
-      "price": "公式で確認",
-      "image": "https://www.barbarbar.jp/calendar/uploads/73191cb935a1320bcfe983eb5af33532.jpg",
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
-      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=10",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-10-20",
-      "open": "16:30",
-      "start": "17:30",
-      "artist": "Kamasi Washington",
-      "price": "15,800円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21397/detail/dtl_ev-21397_1_1776230227.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397&date=2026-10-20",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397&date=2026-10-20",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397&date=2026-10-20",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-10-20",
-      "open": "19:30",
-      "start": "20:30",
-      "artist": "Kamasi Washington",
-      "price": "15,800円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21397/detail/dtl_ev-21397_1_1776230227.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397&date=2026-10-20",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397&date=2026-10-20",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21397&date=2026-10-20",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-10-20",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "JOSHUA REDMAN \"Words Fall Short\"",
-      "price": "¥11,000",
-      "image": "https://reserve.bluenote.co.jp/reserve/img/event/3978.jpg",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3978",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3978",
-      "detailUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3978",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-10-20",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "SHAI MAESTRO TRIO : The Guesthouse",
-      "price": "¥9,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/reserve/img/event/5722.jpg",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5722",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5722",
-      "detailUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5722",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-10-20",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "渡海真知子(vo)Encontro na Brisa 城戸夕果(fl)笹子重治(g)",
-      "price": "4000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-10-20",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "外山安樹子トリオ8thアルバム『Blue Horizon』発売記念ライブ",
-      "price": "￥5,000",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/08/FB6CBDC5-3B08-449F-B8E0-F6F8377695A1-thumb-160xauto-14571.jpeg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261020",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261020",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261020",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-10-20",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "as.山本昌広 b.座小田諒一",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "kingsbar",
-      "date": "2026-10-20",
-      "open": "公式で確認",
-      "start": "15:00",
-      "artist": "JAZZ限定ノーLIVEデー/インストセッションDAY",
-      "price": "2200円",
-      "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
-      "media": [],
-      "source": "https://livebar.net/kingsbar/events/4106"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-10-20",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "Cozinha",
-      "lineup": "海野雅威(P)小沼ようすけ(G)松原秀樹(B)沼澤 尚(Ds)",
-      "price": "￥7,700",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/02/0429cozinha.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/261020cozinha/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/261020cozinha/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-20",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "野力 奏一（p） 岡部 洋一（perc）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51771/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1791882624484",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-10-20",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "10.20(火) vocal.藤田佐奈恵",
-      "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/07/%E8%A1%A8%E7%B4%99261020%E8%97%A4%E7%94%B0.jpg",
-      "media": [],
-      "source": "https://ginzaswing.jp/20261020-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "price": "公式画像で確認",
-      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り",
-      "date": "2026-10-20",
-      "artist": "表ゆず vo. 大橋裕子 pf."
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-10-20",
-      "open": "18:00",
-      "start": "公式で確認",
-      "artist": "【延期】GARDEN TRIO",
-      "price": "公式で確認",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/GardenTrio%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC.png",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/garden-trio/",
-      "lineup": "小沼ようすけ(g) 柴田敏孝(P) 井上陽介(b)",
-      "note": "本公演は諸事情により2027/01/27(wed)に延期とさせていただきます。お客様のご理解ご了承のほどよろしくお願いします。なお、1/27のご予約は10/20(水)から開始となります。",
-      "reservationUrl": "https://www.facebook.com/sharer/sharer.php?u=https://wonderwall-yokohama.jp/schedule/garden-trio/&amp;src=sdkpreparse",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/garden-trio/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "alfie",
       "date": "2026-10-21",
@@ -8218,7 +8019,7 @@
       "date": "2026-11-29",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] JUNYA TAUCHI(vo,g) SAYAKA(vln) GENKI(vo,perc)",
+      "artist": "[jazz] JUNYA TAUCHI((田内洵也/ vo.g) SAYAKA(vln) GENKI(vo,perc)",
       "price": "¥6600",
       "image": null,
       "media": [],
@@ -8618,7 +8419,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-20T14:21:34.423Z",
+  "updatedAt": "2026-10-20T23:52:55.606Z",
   "venues": [
     {
       "area": "near",
