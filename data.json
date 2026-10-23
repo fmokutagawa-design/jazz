@@ -143,16 +143,16 @@
     {
       "venueId": "barbarbar",
       "month": "2026-10",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 8,
       "kept": 8
     },
     {
       "venueId": "barbarbar",
       "month": "2026-11",
-      "status": "failed",
-      "reason": "取得失敗",
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
       "count": 0,
       "kept": 0
     },
@@ -323,9 +323,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21537/detail/dtl_ev-21537_1_1781848277.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -337,9 +337,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21537/detail/dtl_ev-21537_1_1781848277.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21537&date=2026-10-23",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -1389,9 +1389,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21480/detail/dtl_ev-21480_1_1779516152.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -1403,9 +1403,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21480/detail/dtl_ev-21480_1_1779516152.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "cottonclub",
@@ -4538,9 +4538,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21710/detail/dtl_ev-21710_1_1790220272.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21710&date=2026-11-13",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21710&date=2026-11-13",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21710&date=2026-11-13",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -4552,9 +4552,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21710/detail/dtl_ev-21710_1_1790220272.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21710&date=2026-11-13",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21710&date=2026-11-13",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21710&date=2026-11-13",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -7571,11 +7571,12 @@
       "start": "18:30",
       "artist": "グレースマーヤトリオ",
       "price": "¥5,500",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/08/0-1787035761528.jpg",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/08/%E3%82%B0%E3%83%AC%E3%83%BC%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%A4%C3%97kenken%C3%97%E6%9D%BE%E6%B5%A6%E5%8D%83%E6%98%87%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC.png",
       "media": [],
       "source": "https://wonderwall-yokohama.jp/schedule/%e3%82%b0%e3%83%ac%e3%83%bc%e3%82%b9%e3%83%9e%e3%83%bc%e3%83%a4%e3%83%88%e3%83%aa%e3%82%aa-2/",
       "secondStart": "19:40",
-      "lineup": "グレース・マーヤ(vo&#038;p) KenKen(B) 松浦千昇(Ds)",
+      "lineup": "グレース・マーヤ(vo&#038;p) 松浦千昇(Ds) 柴田敏孝(P)",
+      "note": "※ 本公演は諸事情によりメンバーを変更させていただきます。 KenKen→柴田敏孝 お客様のご理解ご了承の程よろしくお願いします。",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdJW0VwaZZsSDkETkCgpbKHqMcHlnsOAP5DTQ7zBOCZHagdhQ/viewform?usp=pp_url&entry.1675391905=11/28(%E5%9C%9F)%E3%82%B0%E3%83%AC%E3%83%BC%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%A4%E3%83%88%E3%83%AA%E3%82%AA",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e3%82%b0%e3%83%ac%e3%83%bc%e3%82%b9%e3%83%9e%e3%83%bc%e3%83%a4%e3%83%88%e3%83%aa%e3%82%aa-2/",
       "reservationStatus": "web"
@@ -7985,7 +7986,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-23T00:01:03.528Z",
+  "updatedAt": "2026-10-23T14:17:43.744Z",
   "venues": [
     {
       "area": "near",
