@@ -17,8 +17,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 8,
-      "kept": 8
+      "count": 7,
+      "kept": 7
     },
     {
       "venueId": "dolphy",
@@ -33,8 +33,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 5,
-      "kept": 5
+      "count": 4,
+      "kept": 4
     },
     {
       "venueId": "bluenote",
@@ -49,8 +49,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 5,
-      "kept": 5
+      "count": 4,
+      "kept": 4
     },
     {
       "venueId": "cottonclub",
@@ -81,8 +81,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 6,
-      "kept": 6
+      "count": 5,
+      "kept": 5
     },
     {
       "venueId": "swing",
@@ -113,8 +113,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 5,
-      "kept": 5
+      "count": 4,
+      "kept": 4
     },
     {
       "venueId": "kanmachi63",
@@ -129,8 +129,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 6,
-      "kept": 6
+      "count": 5,
+      "kept": 5
     },
     {
       "venueId": "wonderwall",
@@ -177,8 +177,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 10,
+      "kept": 10
     },
     {
       "venueId": "billboard_tokyo",
@@ -194,7 +194,7 @@
       "status": "empty",
       "reason": "取得結果0件・公式有無未確認",
       "count": 0,
-      "kept": 6
+      "kept": 5
     },
     {
       "venueId": "pitinn",
@@ -209,8 +209,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "取得済み",
-      "count": 4,
-      "kept": 4
+      "count": 3,
+      "kept": 3
     },
     {
       "venueId": "jzbrat",
@@ -258,7 +258,7 @@
       "status": "failed",
       "reason": "取得失敗",
       "count": 0,
-      "kept": 6
+      "kept": 5
     },
     {
       "venueId": "sometime",
@@ -273,8 +273,8 @@
       "month": "2026-10",
       "status": "ok",
       "reason": "公式画像から取得済み",
-      "count": 6,
-      "kept": 6
+      "count": 5,
+      "kept": 5
     },
     {
       "venueId": "venus",
@@ -286,172 +286,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-10-26",
-      "open": "16:30",
-      "start": "17:30",
-      "artist": "ZARD Acoustic Live 2026 ～Especial moment～",
-      "price": "17,300円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21480/detail/dtl_ev-21480_1_1779516152.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-26",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-26",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-26",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-10-26",
-      "open": "19:30",
-      "start": "20:30",
-      "artist": "ZARD Acoustic Live 2026 ～Especial moment～",
-      "price": "17,300円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21480/detail/dtl_ev-21480_1_1779516152.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-26",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-26",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-26",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-10-26",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "THE LEGENDARY COUNT BASIE ORCHESTRA directed by SCOTTY BARNHART",
-      "price": "¥13,000",
-      "image": "https://reserve.bluenote.co.jp/reserve/img/event/3985.jpg",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3985",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3985",
-      "detailUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/3985",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-10-26",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "30th anniversary 蘭寿とむ 1st LIVE",
-      "price": "¥12,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/reserve/img/event/5646.jpg",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5646",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5646",
-      "detailUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5646",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-10-26",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "Pheeroan akLaff Quintet Pheeroan akLaff /フェローン・アクラフ(ds)マレー飛鳥(vln)Tom Pierson/トム・ピアソン(p)三宅准(sax)マーク・トゥーリアン(b)",
-      "price": "5000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-10-26",
-      "open": "18:30",
-      "start": "19:30",
-      "artist": "\"YUKI ENOMOTO GROUP\" Anniversary Live 04",
-      "price": "￥6,000",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/06/261026_top-thumb-160xauto-14354.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261026",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261026",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/10/index.html#20261026",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-10-26",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "gt.福冨博 gt.馬場孝喜 b,落合康介 ds.藤井信雄",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-10-26",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "山中一毅 カルテット Kazuki Yamanaka Quartet",
-      "lineup": "山中一毅(As)佐藤浩一(P)小牧良平(B)池長一美(Ds)",
-      "price": "￥4,400",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/08/1026yamanaka.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/261026yamanaka/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/261026yamanaka/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-10-26",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "ENCOUNTER 浜崎 航（sax） 堀 秀彰（p） 高瀬 裕（b） 広瀬 潤次（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/51795/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1791882624484",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-10-26",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "10.26(月) as.寺久保 エレナ",
-      "price": "￥6,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/%E8%A1%A8%E7%B4%99261026%E5%AF%BA%E4%B9%85%E4%BF%9D%E3%82%A8%E3%83%AC%E3%83%8A.jpg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=yV6wjUUccQQ"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20261026-2/",
-      "secondStart": "20:30"
-    },
-    {
-      "venueId": "venus",
-      "open": "公式画像で確認",
-      "start": "19:40",
-      "price": "公式画像で確認",
-      "image": "https://static.wixstatic.com/media/5fcc8d_758baa1c475241158257a0798ed81043~mv2.png",
-      "media": [],
-      "source": "https://www.venus-hk-j.com/liveschedule",
-      "note": "公式スケジュール画像から読み取り",
-      "date": "2026-10-26",
-      "artist": "Special Duo　平松加奈 vln. 遠藤征志 pf."
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-10-26",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "TomokannoQuartet",
-      "price": "¥6,000",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/07/0-1784439502116.jpg",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/tomokannoquartet-5/",
-      "secondStart": "20:10",
-      "lineup": "菅野知明(ds) 柴田敏孝(P) Zak Croxall(b) 吉田サトシ(g)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd9KvzM69fWQrVl9HGTSdksItUdr8i-PO0HdXcTWTmflBQHTQ/viewform?usp=pp_url&entry.1675391905=10/26(%E6%9C%88)TomokannoQuartet",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/tomokannoquartet-5/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "alfie",
       "date": "2026-10-27",
@@ -662,9 +496,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21480/detail/dtl_ev-21480_1_1779516152.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -676,9 +510,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21480/detail/dtl_ev-21480_1_1779516152.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21480&date=2026-10-28",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "cottonclub",
@@ -918,9 +752,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21558/detail/dtl_ev-21558_1_1782292325.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21558&date=2026-10-29",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21558&date=2026-10-29",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21558&date=2026-10-29",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -1701,7 +1535,12 @@
       "artist": "11.1(日)『Sing Jazztronik』Jazztoronik,p. 野崎良太 vo. 有坂美香 vo.TiA vo.ソラナヒトミ",
       "price": "￥6,000",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_9537.jpeg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=vbdcf5iQdyA"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261101-2/",
       "secondStart": "18:30"
     },
@@ -1888,7 +1727,12 @@
       "artist": "11.2(月) 大井貴司＆Super Vibration",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261102%E5%A4%A7%E4%BA%95-1.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=y8RHJipPBaA"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261102-2/",
       "secondStart": "20:30"
     },
@@ -2282,7 +2126,12 @@
       "artist": "11.4(水) MJQ dr.中沢 剛 p.遠藤 征志 b.嶌田 憲二 vib.宅間 善之",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99261104MJQ-1.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=1YY80ZEB56I"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261104-2/",
       "secondStart": "20:30"
     },
@@ -2417,7 +2266,12 @@
       "artist": "11.5(木) vln.寺井 尚子",
       "price": "￥7,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99261105%E5%AF%BA%E4%BA%95-1.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=4eGKxwzgp_U"
+        }
+      ],
       "source": "https://ginzaswing.jp/2026115-2/",
       "secondStart": "20:30"
     },
@@ -2855,7 +2709,12 @@
       "artist": "11.7(土) vo.伊藤 君子 p.若井 優也 DUO",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261107%E4%BC%8A%E8%97%A4%E5%90%9B%E5%AD%90-1.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q3Q4QeG-Nes"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261107-2/",
       "secondStart": "19:30"
     },
@@ -3428,7 +3287,12 @@
       "artist": "11.10(火) p.山本 剛 vo.山田 ゆき",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99261110%E5%B1%B1%E6%9C%AC%E5%B1%B1%E7%94%B0%E3%82%86%E3%81%8D-1.jpg",
-      "media": [],
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=8_7KOfqZfgc"
+        }
+      ],
       "source": "https://ginzaswing.jp/20261110-2/",
       "secondStart": "20:30"
     },
@@ -3983,7 +3847,7 @@
       "start": "19:00",
       "artist": "11.13 (金) vo.上西 千波 With Sextet",
       "price": "￥5,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_8998.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99261113%E4%B8%8A%E8%A5%BF.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261113-2/",
       "secondStart": "20:30"
@@ -4065,9 +3929,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21618/detail/dtl_ev-21618_1_1785318279.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-14",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-14",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-14",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -4351,9 +4215,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21618/detail/dtl_ev-21618_1_1785318279.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-15",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-15",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-15",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -4494,9 +4358,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21644/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -5188,9 +5052,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21630/detail/dtl_ev-21629_1_1785464540.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -6096,9 +5960,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21587/detail/dtl_ev-21587_1_1783685034.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21587&date=2026-11-25",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21587&date=2026-11-25",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21587&date=2026-11-25",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -6217,7 +6081,7 @@
       "start": "19:00",
       "artist": "11.25(水) as.堤 智恵子",
       "price": "￥4,500",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/06/IMG_8066.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/%E8%A1%A8%E7%B4%99261125%E5%A0%A4.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261125-2/",
       "secondStart": "20:30"
@@ -6439,7 +6303,7 @@
       "date": "2026-11-27",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] 松下聖哉(pf,vo) 佐藤洋祐(as) Mark Tourian(b)",
+      "artist": "【SOLD OUT!】[jazz] 松下聖哉(pf,vo) 佐藤洋祐(as) Mark Tourian(b)",
       "price": "¥6600",
       "image": "https://alfie.tokyo/liveReport/2024/A9_00279_1.jpg",
       "media": [],
@@ -6965,7 +6829,7 @@
       "date": "2026-11-29",
       "open": "12:30",
       "start": "13:00",
-      "artist": "ドルフィー・アフタヌーンジャムセッション ホスト： 小室響(p) toyo(b)岡野尚弥(ds)",
+      "artist": "ドルフィー・アフタヌーンジャムセッション ホスト： 小室響(p) toyo(b)山口友郎(ds)",
       "price": "2000円",
       "image": null,
       "media": [],
@@ -7236,7 +7100,7 @@
       "start": "19:00",
       "artist": "11.30(月) cl.北村 英治 ts.cl.右近 茂",
       "price": "￥6,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/05/IMG_6845.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/%E8%A1%A8%E7%B4%99261130%E5%8C%97%E6%9D%91%E5%8F%B3%E8%BF%91.jpg",
       "media": [],
       "source": "https://ginzaswing.jp/20261130-2/",
       "secondStart": "20:30"
@@ -7270,7 +7134,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-25T23:15:52.923Z",
+  "updatedAt": "2026-10-26T16:11:24.667Z",
   "venues": [
     {
       "area": "near",
