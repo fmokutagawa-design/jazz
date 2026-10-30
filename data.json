@@ -249,7 +249,7 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 19,
+      "count": 20,
       "kept": 19
     },
     {
@@ -574,9 +574,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21625/detail/dtl_ev-21625_1_1785462258.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21625&date=2026-10-31",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21625&date=2026-10-31",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21625&date=2026-10-31",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -2153,9 +2153,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21534/detail/dtl_ev-21533_1_1781839989.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2167,9 +2167,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21534/detail/dtl_ev-21533_1_1781839989.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -5060,6 +5060,21 @@
       "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
+      "venueId": "naru",
+      "date": "2026-11-23",
+      "open": "13:30",
+      "start": "14:00",
+      "secondStart": "15:30",
+      "artist": "OSF trio 清水昭好 b 大村亘 ds 成田祐一 p",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "http://ocha-naru.com/schedule-2/",
+      "detailUrl": "http://ocha-naru.com/schedule-2/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "pitinn",
       "date": "2026-11-23",
       "open": "19:00",
@@ -6515,7 +6530,7 @@
       "reservationStatus": "web"
     }
   ],
-  "updatedAt": "2026-10-29T16:12:07.541Z",
+  "updatedAt": "2026-10-30T00:59:12.037Z",
   "venues": [
     {
       "area": "near",
