@@ -15,10 +15,10 @@
     {
       "venueId": "dolphy",
       "month": "2026-11",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
-      "kept": 33
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 31,
+      "kept": 31
     },
     {
       "venueId": "dolphy",
@@ -33,8 +33,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 29,
-      "kept": 29
+      "count": 28,
+      "kept": 28
     },
     {
       "venueId": "bluenote",
@@ -49,8 +49,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 27,
-      "kept": 27
+      "count": 26,
+      "kept": 26
     },
     {
       "venueId": "cottonclub",
@@ -63,16 +63,16 @@
     {
       "venueId": "kingsbar",
       "month": "2026-11",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
-      "kept": 23
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 24,
+      "kept": 22
     },
     {
       "venueId": "kingsbar",
       "month": "2026-12",
-      "status": "failed",
-      "reason": "取得失敗",
+      "status": "empty",
+      "reason": "取得結果0件・公式有無未確認",
       "count": 0,
       "kept": 0
     },
@@ -81,8 +81,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 25
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "swing",
@@ -97,8 +97,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 15,
-      "kept": 15
+      "count": 14,
+      "kept": 14
     },
     {
       "venueId": "first",
@@ -113,8 +113,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 24,
-      "kept": 24
+      "count": 23,
+      "kept": 23
     },
     {
       "venueId": "kanmachi63",
@@ -145,8 +145,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 0
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "barbarbar",
@@ -177,7 +177,7 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 36,
+      "count": 34,
       "kept": 36
     },
     {
@@ -185,7 +185,7 @@
       "month": "2026-12",
       "status": "ok",
       "reason": "取得済み",
-      "count": 48,
+      "count": 50,
       "kept": 48
     },
     {
@@ -193,8 +193,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 30,
-      "kept": 30
+      "count": 29,
+      "kept": 29
     },
     {
       "venueId": "pitinn",
@@ -209,8 +209,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 26,
-      "kept": 26
+      "count": 25,
+      "kept": 25
     },
     {
       "venueId": "jzbrat",
@@ -239,17 +239,17 @@
     {
       "venueId": "naru",
       "month": "2026-11",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
-      "kept": 19
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 20,
+      "kept": 18
     },
     {
       "venueId": "naru",
       "month": "2026-12",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 20,
       "kept": 20
     },
     {
@@ -258,7 +258,7 @@
       "status": "failed",
       "reason": "取得失敗",
       "count": 0,
-      "kept": 40
+      "kept": 38
     },
     {
       "venueId": "sometime",
@@ -287,194 +287,6 @@
   ],
   "events": [
     {
-      "venueId": "barbarbar",
-      "date": "2026-11-01",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "終日貸切",
-      "lineup": "1 終日貸切",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
-      "reservationUrl": null,
-      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-11-01",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "KIEFER",
-      "price": "¥9,500",
-      "image": "https://reserve.bluenote.co.jp/reserve/img/event/4000.jpg",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/4000",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/4000",
-      "detailUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/4000",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-11-01",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "odol ONE-MAN LIVE 2026 at COTTON CLUB",
-      "price": "¥6,600",
-      "image": "https://reserve.cottonclubjapan.co.jp/reserve/img/event/5691.jpg",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5691",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5691",
-      "detailUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5691",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-11-01",
-      "open": "13:00",
-      "start": "13:30",
-      "artist": "「おこしやあいのすけパコニャン」 Eriko Okoshi(vln) Kounosuke(bandolim/violacaipira/g) MannOkoshi(eg)Aikawa(pandeiro) PacoDabo(tama/vo) NdiasseNiang(djembe/vo)",
-      "price": "4000円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-11-01",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "Banda Boato ! 永武哲弥(perc/vo)中村功(perc/vo)田辺卓司(7弦g/vo) 西村誠(パンデイロ/vo) 内田弘昭(カバキーニョ/vo)幸枝(fl/vo)",
-      "price": "3500円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
-    },
-    {
-      "venueId": "first",
-      "date": "2026-11-01",
-      "open": "15:30",
-      "start": "15:30",
-      "artist": "市川秀男トリオ＋梶谷陽子",
-      "price": "￥3,000",
-      "image": null,
-      "media": [],
-      "source": "https://naniaru.com/events/view/15144"
-    },
-    {
-      "venueId": "jzbrat",
-      "date": "2026-11-01",
-      "open": "13:11",
-      "start": "14:11",
-      "secondStart": "17:11",
-      "artist": "服部克久バースデーライブ～「音楽畑」をめぐって",
-      "price": "￥11,111",
-      "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/08/261101_top-thumb-160xauto-14616.jpg",
-      "media": [],
-      "source": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261101",
-      "detailUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261101",
-      "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261101",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-11-01",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "渋谷毅さんの想い出 as.林栄一 gt.石渡明廣",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "kingsbar",
-      "date": "2026-11-01",
-      "open": "公式で確認",
-      "start": "17:30",
-      "artist": "フュージョン・ジャムセッション",
-      "price": "2500円",
-      "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
-      "media": [],
-      "source": "https://livebar.net/kingsbar/events/4871"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-11-01",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "ENCOUNTER 堀秀彰 p 浜崎航 ts 高瀬裕 b 広瀬潤次 ds",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-11-01",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "Q's Bar",
-      "lineup": "天野 丘(G)岸 淑香(P)酒井麻生代(Fl)",
-      "price": "￥3,300",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/09/1101qb.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/261101qs-bar/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/261101qs-bar/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-11-01",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "megasameta 続木 徹（p） 向井 滋春（tb） 古野 光昭（b） 安藤 正則（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/52499/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1792446980296",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202611.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-11-01",
-      "open": "12:00",
-      "start": "13:00",
-      "secondStart": "14:30",
-      "artist": "Soundscape 佐藤 春樹（tb） 佐藤 達哉（sax） 宮島 れいら（p） 吉岡 大典（b） 松山 修（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/52502/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1792446980296",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202611.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "swing",
-      "date": "2026-11-01",
-      "open": "16:00",
-      "start": "17:00",
-      "artist": "11.1(日)『Sing Jazztronik』Jazztoronik,p. 野崎良太 vo. 有坂美香 vo.TiA vo.ソラナヒトミ",
-      "price": "￥6,000",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/08/IMG_9537.jpeg",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=vbdcf5iQdyA"
-        }
-      ],
-      "source": "https://ginzaswing.jp/20261101-2/",
-      "secondStart": "18:30"
-    },
-    {
       "venueId": "alfie",
       "date": "2026-11-02",
       "open": "18:45",
@@ -484,34 +296,6 @@
       "image": "https://alfie.tokyo/liveReport/2025/A9_05553.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-11-02",
-      "open": "16:30",
-      "start": "17:30",
-      "artist": "清春",
-      "price": "10,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21607/detail/dtl_ev-21607_1_1784777838.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21607&date=2026-11-02",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21607&date=2026-11-02",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21607&date=2026-11-02",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-11-02",
-      "open": "19:30",
-      "start": "20:30",
-      "artist": "清春",
-      "price": "10,500円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21607/detail/dtl_ev-21607_1_1784777838.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21607&date=2026-11-02",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21607&date=2026-11-02",
-      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -578,7 +362,7 @@
       "price": "4000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -611,9 +395,9 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "西日本ツアー2026 小沢咲希 p 粟谷巧 b 柳沼佑育 ds",
+      "artist": "MAMBO INN Steve Sacks sax. flt Jonathan Katz p. 松永敦 b 佐藤英樹 congas 鈴木ヨシロー timbales",
       "price": "公式で確認",
-      "image": "assets/naru/saki2.jpg",
+      "image": null,
       "media": [],
       "source": "http://ocha-naru.com/schedule/",
       "detailUrl": "http://ocha-naru.com/schedule/",
@@ -791,7 +575,7 @@
       "price": "4500円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -998,7 +782,7 @@
       "price": "4000円",
       "image": "https://dolphy-jazzspot.com/musician/d_onitake_miyuki2023_s.jpg",
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -1039,10 +823,10 @@
     {
       "venueId": "naru",
       "date": "2026-11-04",
-      "open": "13:30",
-      "start": "14:00",
-      "secondStart": "15:30",
-      "artist": "太田剣 as 青柳誠 p 岡田治郎 eb 河村亮 ds",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "曽我部泰紀 ts 魚返明未 p 高橋陸 b 塚田陽太 ds",
       "price": "公式で確認",
       "image": null,
       "media": [],
@@ -1175,7 +959,7 @@
       "price": "4000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -1202,6 +986,21 @@
       "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
       "media": [],
       "source": "https://livebar.net/kingsbar/events/4872"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-11-05",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "『My Ideal』Release Tour 清水行人 g 萬恭隆 b 早川紗世 ds",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -1397,7 +1196,7 @@
       "price": "4500円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -1423,6 +1222,21 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-11-06",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "ジム・バトラー as エディ・メンデンホール p 座小田諒一 bブラッキー黒田 ds",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -1585,7 +1399,7 @@
       "price": "公式で確認",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -1640,12 +1454,12 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "Kazumu Watanabe “PEPPER&#8221; Quartet 渡邉和武 tp 榎貞雄 p 佐藤潤一 b 竹村紫乃 ds",
+      "artist": "NARU 57th ANNI テッド・ローゼンタール p 植田 典子 b クインシー・デイビス ds",
       "price": "公式で確認",
-      "image": null,
+      "image": "assets/naru/ted.jpg",
       "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
+      "source": "http://ocha-naru.com/post-recommend/26-11-7/",
+      "detailUrl": "http://ocha-naru.com/post-recommend/26-11-7/",
       "reservationUrl": "http://ocha-naru.com/reservation/",
       "reservationStatus": "web"
     },
@@ -1762,7 +1576,7 @@
       "date": "2026-11-08",
       "open": "18:45",
       "start": "19:15",
-      "artist": "日野\"JINO\"賢二(eb) Session Hino&rdquo; Tony Suggs(p) Tomo Kanno(ds)",
+      "artist": "日野\"JINO\"賢二(eb) Session Hino&rdquo; Ewik(s) Tony Suggs(p) Tomo Kanno(ds)",
       "price": "¥5500",
       "image": "https://alfie.tokyo/liveReport/2019/DSC04178.jpg",
       "media": [],
@@ -1792,9 +1606,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21534/detail/dtl_ev-21533_1_1781839989.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -1833,7 +1647,7 @@
       "price": "4500円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -1878,6 +1692,21 @@
       "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
       "media": [],
       "source": "https://livebar.net/kingsbar/events/4874"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-11-08",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "JAM SESSION !! 大坂昌彦 ds 石田衛 p 手島甫 b",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -2022,7 +1851,7 @@
       "price": "4000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -2047,21 +1876,6 @@
       "source": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261109",
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261109",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/11/index.html#20261109",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-11-09",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "山口真文 ts 小牧良平 b 山崎隼 ds",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
       "reservationStatus": "web"
     },
     {
@@ -2253,7 +2067,7 @@
       "price": "4500円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -2297,7 +2111,7 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "大坂昌彦 ds スエナガタカフミ p 大塚義将 b David Negrete as",
+      "artist": "井上陽介 b 平倉初音 p 後藤龍太郎 ds",
       "price": "公式で確認",
       "image": null,
       "media": [],
@@ -2428,7 +2242,7 @@
       "price": "4500円",
       "image": "https://dolphy-jazzspot.com/musician/d_nagatake_mikiko2023.jpg",
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -2450,9 +2264,9 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "JAM SESSION !! 大坂昌彦 ds",
+      "artist": "小沢咲希 p 安田幸司 b 柵木雄斗 ds",
       "price": "公式で確認",
-      "image": null,
+      "image": "assets/naru/saki2.jpg",
       "media": [],
       "source": "http://ocha-naru.com/schedule/",
       "detailUrl": "http://ocha-naru.com/schedule/",
@@ -2620,7 +2434,7 @@
       "price": "4000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -2683,15 +2497,15 @@
     {
       "venueId": "naru",
       "date": "2026-11-12",
-      "open": "13:30",
-      "start": "14:00",
-      "secondStart": "15:30",
-      "artist": "SAMURAI BEBOP TRIO 納谷嘉彦 p 金森もとい b 大坂昌彦 ds",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "A JAZZ DIALOGUE 濱田省吾 ds 横原由梨子 ts David Bryant p 本川悠平 b LEGEND 竹内直 ts",
       "price": "公式で確認",
       "image": null,
       "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
+      "source": "http://ocha-naru.com/post-recommend/jazzdialogue/",
+      "detailUrl": "http://ocha-naru.com/post-recommend/jazzdialogue/",
       "reservationUrl": "http://ocha-naru.com/reservation/",
       "reservationStatus": "web"
     },
@@ -2889,7 +2703,7 @@
       "price": "4000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -2926,6 +2740,32 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "kingsbar",
+      "date": "2026-11-13",
+      "open": "公式で確認",
+      "start": "19:00",
+      "artist": "Jazz Live",
+      "price": "4000円",
+      "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
+      "media": [],
+      "source": "https://livebar.net/kingsbar/events/4918"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-11-13",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "ENCOUNTER 堀秀彰 p 浜崎航 ts 高瀬裕 b 広瀬潤次 ds",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -3116,7 +2956,7 @@
       "price": "4500円",
       "image": "https://dolphy-jazzspot.com/musician/d_kei_akagi2024.jpg",
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -3172,9 +3012,9 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "吉良創太 ds 菊池太光 p 織原良次 eb",
+      "artist": "『Cosmolamps』Release 三上麟太郎 ds 小倉直也tp 及川陽菜as 平倉初音 p 高橋陸b",
       "price": "公式で確認",
-      "image": null,
+      "image": "assets/naru/mikami.jpg",
       "media": [],
       "source": "http://ocha-naru.com/schedule/",
       "detailUrl": "http://ocha-naru.com/schedule/",
@@ -3345,9 +3185,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21613/detail/dtl_ev-21613_1_1787231919.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -3414,7 +3254,7 @@
       "price": "4500円",
       "image": "https://dolphy-jazzspot.com/musician/d_itabashi_fumio_s2016.jpg",
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -3473,21 +3313,6 @@
       "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
       "media": [],
       "source": "https://livebar.net/kingsbar/events/4880"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-11-15",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "A JAZZ DIALOGUE 濱田省吾 ds 横原由梨子 ts 杉山慧 g 広橋契 b 吉田桂 p",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/post-recommend/jazzdialogue/",
-      "detailUrl": "http://ocha-naru.com/post-recommend/jazzdialogue/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -3608,7 +3433,7 @@
       "price": "4500円",
       "image": "https://dolphy-jazzspot.com/musician/d_simizu_yoneki_honda.jpg",
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "kanmachi63",
@@ -3620,21 +3445,6 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-11-16",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "BONKERS LAND 渡辺翔太 p 岩月香央梨 per",
-      "price": "公式で確認",
-      "image": "assets/naru/bonk2.jpg",
-      "media": [],
-      "source": "http://ocha-naru.com/post-recommend/bonkersland/%C2%A0",
-      "detailUrl": "http://ocha-naru.com/post-recommend/bonkersland/%C2%A0",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -3802,7 +3612,7 @@
       "price": "6000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -3978,7 +3788,7 @@
       "price": "4000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -4015,6 +3825,21 @@
       "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
       "media": [],
       "source": "https://livebar.net/kingsbar/events/4882"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-11-18",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "CHORDLESS TRIO plus 原朋直 tp 平倉初音 p 朝田拓馬 g 伊東佑季 b 大儀見海 ds",
+      "price": "公式で確認",
+      "image": "assets/naru/hara.jpg",
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -4191,7 +4016,7 @@
       "price": "4000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -4217,6 +4042,21 @@
       "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
       "media": [],
       "source": "https://livebar.net/kingsbar/events/4883"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-11-19",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "中村海人 ds 馬場孝喜 g 布施音人 p 高橋陸 b Aidan McKeon ts",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -4325,9 +4165,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21630/detail/dtl_ev-21629_1_1785464540.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -4339,9 +4179,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21630/detail/dtl_ev-21629_1_1785464540.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21630&date=2026-11-20",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -4380,7 +4220,7 @@
       "price": "4500円",
       "image": "https://dolphy-jazzspot.com/musician/d_grace_mahya_s2023.jpg",
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -4417,6 +4257,21 @@
       "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
       "media": [],
       "source": "https://livebar.net/kingsbar/events/4884"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-11-20",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "大坂昌彦 ds スエナガタカフミ p 本川悠平 b 佐藤洋佑 as",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -4584,7 +4439,7 @@
       "price": "4500円",
       "image": "https://dolphy-jazzspot.com/musician/d_hashimoto_ichiko_s2015.jpg",
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -4640,7 +4495,7 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "坂崎拓也 harmonica 荻原亮 g 織原良次 eb 北沢大樹 ds",
+      "artist": "松本 茜 p 粟谷 巧 b 広瀬潤次 ds",
       "price": "公式で確認",
       "image": null,
       "media": [],
@@ -4824,7 +4679,7 @@
       "price": "4000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -4865,12 +4720,12 @@
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "Celebrating at 100 マイルス生誕100周年記念 ケイ赤城 p 若井俊也 b 吉良創太 ds",
+      "artist": "BONKERS LAND 渡辺翔太 p 古木佳祐 b 小田桐和寛 ds クリス和輝ジョーンズ g",
       "price": "公式で確認",
       "image": null,
       "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
+      "source": "http://ocha-naru.com/post-recommend/bonkersland/%C2%A0",
+      "detailUrl": "http://ocha-naru.com/post-recommend/bonkersland/%C2%A0",
       "reservationUrl": "http://ocha-naru.com/reservation/",
       "reservationStatus": "web"
     },
@@ -4982,7 +4837,7 @@
       "price": "3500円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "dolphy",
@@ -4993,7 +4848,7 @@
       "price": "4500円",
       "image": "https://dolphy-jazzspot.com/musician/d_inoue_ogaeri.jpg",
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -5045,10 +4900,10 @@
     {
       "venueId": "naru",
       "date": "2026-11-23",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "高木里代子 p 小美濃悠太 b 河村亮 ds",
+      "open": "13:30",
+      "start": "14:00",
+      "secondStart": "15:30",
+      "artist": "OSF trio 清水昭好 b 大村亘 ds 成田祐一 p",
       "price": "公式で確認",
       "image": null,
       "media": [],
@@ -5221,7 +5076,7 @@
       "price": "4500円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -5258,21 +5113,6 @@
       "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
       "media": [],
       "source": "https://livebar.net/kingsbar/events/4889"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-11-24",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "松本茜 p 清水昭好 b 広瀬潤次 ds",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -5466,7 +5306,7 @@
       "price": "4000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -5492,21 +5332,6 @@
       "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
       "media": [],
       "source": "https://livebar.net/kingsbar/events/4890"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-11-25",
-      "open": "13:30",
-      "start": "14:00",
-      "secondStart": "15:30",
-      "artist": "田中菜緒子 PIANO 伊藤勇司 b 梶内胡良 ds",
-      "price": "公式で確認",
-      "image": "assets/naru/tanaka.jpg",
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -5660,7 +5485,7 @@
       "price": "4000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -5708,6 +5533,21 @@
       "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
       "media": [],
       "source": "https://livebar.net/kingsbar/events/4891"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-11-26",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "高木里代子 p 程島日奈子 b 西川彩織 ds",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -5875,7 +5715,7 @@
       "price": "4500円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -5901,6 +5741,21 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
+      "venueId": "naru",
+      "date": "2026-11-27",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "近藤和彦 as David Bryant p 安カ川大樹 b 小松伸之 ds",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "http://ocha-naru.com/schedule/",
+      "detailUrl": "http://ocha-naru.com/schedule/",
+      "reservationUrl": "http://ocha-naru.com/reservation/",
+      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -6099,7 +5954,7 @@
       "price": "4500円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -6138,14 +5993,25 @@
       "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
+      "venueId": "kingsbar",
+      "date": "2026-11-28",
+      "open": "公式で確認",
+      "start": "19:00",
+      "artist": "Shades of Jazz Night一Voice・Keys・Strings＆Brass",
+      "price": "3000円",
+      "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
+      "media": [],
+      "source": "https://livebar.net/kingsbar/events/4919"
+    },
+    {
       "venueId": "naru",
       "date": "2026-11-28",
       "open": "18:00",
       "start": "19:00",
       "secondStart": "20:30",
-      "artist": "SARI Quartet 紗理 vo 成田祐一 p 中林薫平 b 河村亮 ds",
+      "artist": "山口真文 ts 布施音人 p 小牧良平 b 吉良創太 ds",
       "price": "公式で確認",
-      "image": "assets/naru/sari.jpg",
+      "image": null,
       "media": [],
       "source": "http://ocha-naru.com/schedule/",
       "detailUrl": "http://ocha-naru.com/schedule/",
@@ -6360,7 +6226,7 @@
       "price": "2000円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "dolphy",
@@ -6371,7 +6237,7 @@
       "price": "4500円",
       "image": null,
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "first",
@@ -6405,21 +6271,6 @@
       "image": "https://livebar.net/flyerSrc",
       "media": [],
       "source": "https://livebar.net/kingsbar/events/4892"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-11-29",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "斉田佳子 vo 田窪寛之 p 大塚義将 b 柳沼佑育 ds 浜崎航 ts",
-      "price": "公式で確認",
-      "image": "assets/naru/saita.jpg",
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -6590,7 +6441,7 @@
       "price": "4500円",
       "image": "https://dolphy-jazzspot.com/musician/d_Minyen-otomo_sugawa_yamazaki.jpg",
       "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule2026_11.html"
+      "source": "https://dolphy-jazzspot.com/live_schedule.html"
     },
     {
       "venueId": "jzbrat",
@@ -6616,21 +6467,6 @@
       "image": null,
       "media": [],
       "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-11-30",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "Nami Kano Presents 加納奈実 as 岡淳 ts 布施音人 p 高橋陸 b 山崎隼 ds",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
     },
     {
       "venueId": "pitinn",
@@ -6705,6 +6541,34 @@
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdJW0VwaZZsSDkETkCgpbKHqMcHlnsOAP5DTQ7zBOCZHagdhQ/viewform?usp=pp_url&entry.1675391905=11/30(%E6%9C%88)%E5%AE%AE%E8%84%87%E7%BF%94%E5%B9%B3%E3%83%88%E3%83%AA%E3%82%AA",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e5%ae%ae%e8%84%87%e7%bf%94%e5%b9%b3%e3%83%88%e3%83%aa%e3%82%aa-2/",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-12-01",
+      "open": "16:00",
+      "start": "17:00",
+      "artist": "浜田雅功 at Billboard Live TOKYO〜LIVE DEBUT〜",
+      "price": "11,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21790/detail/dtl_ev-21790_1_1793172923.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21790&date=2026-12-01",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21790&date=2026-12-01",
+      "reservationStatus": "check"
+    },
+    {
+      "venueId": "billboard_tokyo",
+      "date": "2026-12-01",
+      "open": "19:00",
+      "start": "20:00",
+      "artist": "浜田雅功 at Billboard Live TOKYO〜LIVE DEBUT〜",
+      "price": "11,500円〜",
+      "image": "https://www.billboard-live.com/public/event_img/ev-21790/detail/dtl_ev-21790_1_1793172923.jpg",
+      "media": [],
+      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21790&date=2026-12-01",
+      "reservationUrl": null,
+      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21790&date=2026-12-01",
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -7491,9 +7355,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21673/detail/dtl_ev-21673_1_1787826147.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21673&date=2026-12-06",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21673&date=2026-12-06",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21673&date=2026-12-06",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -11128,7 +10992,7 @@
       "open": "17:00",
       "start": "18:00",
       "artist": "TOKU Year End Live 〜一年の締めくくりに贈る、極上のジャズナイト〜",
-      "price": "￥6,000",
+      "price": "￥7,000",
       "image": "http://jzbrat.heteml.net/liveinfo/assets_c/2026/10/b06472e56c08d7ffae8b89131f0e95bc0a7db82c-thumb-160xauto-14770.jpg",
       "media": [],
       "source": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261228",
@@ -11508,7 +11372,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-01T00:08:00.766Z",
+  "updatedAt": "2026-11-01T16:05:53.779Z",
   "venues": [
     {
       "area": "near",
