@@ -26,7 +26,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 30,
-      "kept": 0
+      "kept": 30
     },
     {
       "venueId": "bluenote",
@@ -42,7 +42,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 31,
-      "kept": 0
+      "kept": 31
     },
     {
       "venueId": "cottonclub",
@@ -58,21 +58,21 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 31,
-      "kept": 0
+      "kept": 31
     },
     {
       "venueId": "kingsbar",
       "month": "2026-11",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 23,
-      "kept": 1
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
+      "kept": 23
     },
     {
       "venueId": "kingsbar",
       "month": "2026-12",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
+      "status": "failed",
+      "reason": "取得失敗",
       "count": 0,
       "kept": 0
     },
@@ -90,7 +90,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 28,
-      "kept": 0
+      "kept": 28
     },
     {
       "venueId": "first",
@@ -106,7 +106,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 12,
-      "kept": 0
+      "kept": 12
     },
     {
       "venueId": "kanmachi63",
@@ -138,14 +138,14 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 22,
-      "kept": 0
+      "kept": 22
     },
     {
       "venueId": "barbarbar",
       "month": "2026-11",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 25,
       "kept": 0
     },
     {
@@ -170,7 +170,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 54,
-      "kept": 0
+      "kept": 54
     },
     {
       "venueId": "billboard_tokyo",
@@ -186,7 +186,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 48,
-      "kept": 0
+      "kept": 48
     },
     {
       "venueId": "pitinn",
@@ -202,7 +202,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 31,
-      "kept": 0
+      "kept": 31
     },
     {
       "venueId": "jzbrat",
@@ -218,7 +218,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 21,
-      "kept": 0
+      "kept": 21
     },
     {
       "venueId": "alfie",
@@ -234,23 +234,23 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 26,
-      "kept": 0
+      "kept": 26
     },
     {
       "venueId": "naru",
       "month": "2026-11",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 19,
-      "kept": 20
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
+      "kept": 19
     },
     {
       "venueId": "naru",
       "month": "2026-12",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 20,
-      "kept": 0
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
+      "kept": 20
     },
     {
       "venueId": "sometime",
@@ -286,6 +286,21 @@
     }
   ],
   "events": [
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-01",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "終日貸切",
+      "lineup": "1 終日貸切",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": null,
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "check"
+    },
     {
       "venueId": "bluenote",
       "date": "2026-11-01",
@@ -668,6 +683,22 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-11-03",
+      "open": "17:00",
+      "start": "18:00",
+      "secondStart": "19:30",
+      "artist": "●詩とジャズCDリリース記念Live",
+      "lineup": "vo:松木翠里 pf:立石一海 bs:中村新太郎 live paint:五十嵐沙紀",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/a36f4b91d1f94226e2efc54283a301ad.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-11-03",
       "open": "14:00",
@@ -880,11 +911,27 @@
       "date": "2026-11-04",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] 横原由梨子(ts) 楠井五月(b)",
+      "artist": "[jazz] 横原由梨子(ts) 楠井五月(b) 鈴木宏紀(ds)",
       "price": "¥5500",
       "image": "https://alfie.tokyo/liveReport/2025/A9_09361.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-04",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "★北村英治Quintet",
+      "lineup": "cl:北村英治 cl:谷口英治 pf:田窪寛之 bs:山口雄三 ds:八城邦義",
+      "price": "6,600円",
+      "image": "https://www.barbarbar.jp/calendar/uploads/c42084eeba53ec440cebba7168edd6d7.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": null,
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -1090,6 +1137,22 @@
       "source": "https://alfie.tokyo/schedule/202611.html"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-11-05",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●河原厚子&羽仁知治Trio",
+      "lineup": "vo:河原厚子 pf:羽仁知治 tb:後藤 篤 perc:見谷聡一",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/20185f8f05d96e72c0ebd94a430a6cf2.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-11-05",
       "open": "公式で確認",
@@ -1224,6 +1287,22 @@
       "image": "https://alfie.tokyo/schedule/201410_files/IMG_9809.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-06",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■松村聖華&大隅寿男Quartet",
+      "lineup": "vo:松村聖華 ds:大隅寿男 pf:三木成能 bs:横山 裕 sax:大隅卓也",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/dc88ae74dbe7ca82653af2689c4656cd.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -1424,6 +1503,22 @@
       "image": "https://alfie.tokyo/liveReport/2025/A9_08560.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-07",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●深井克則 The TRiO",
+      "lineup": "pf:深井克則 bs:伊東佑季 ds:岩瀬立飛",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/e9fff1aa911bbdbfc91018b74d782e25.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -1667,7 +1762,7 @@
       "date": "2026-11-08",
       "open": "18:45",
       "start": "19:15",
-      "artist": "日野\"JINO\"賢二(eb) Session",
+      "artist": "日野\"JINO\"賢二(eb) Session Hino&rdquo; Tony Suggs(p) Tomo Kanno(ds)",
       "price": "¥5500",
       "image": "https://alfie.tokyo/liveReport/2019/DSC04178.jpg",
       "media": [],
@@ -1861,6 +1956,22 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-11-09",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■Miyui & Kaoru Yokohama Birthday Live",
+      "lineup": "vo:Miyui pf:松岡杏奈 bs:程嶋日奈子 ds:西川彩織 guest vo:板谷 薫",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/8a523ee21defdcaaf928b7f6b437fc3a.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-11-09",
       "open": "16:30",
@@ -2032,6 +2143,22 @@
       "image": "https://alfie.tokyo/liveReport/2017/DSC02892.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-10",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●福山詩織Quartet",
+      "lineup": "vo:福山詩織 gt:中根一城 bs:手島 甫 ds:木下晋之介",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/1312f6b3e8a607b5075322d32324d724.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2249,6 +2376,22 @@
       "source": "https://alfie.tokyo/schedule/202611.html"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-11-11",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■浜崎航 meets 松本茜Trio“BigCatch”",
+      "lineup": "sax:浜崎 航 pf:松本 茜 bs:大塚義将 ds:広瀬潤次",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/0d90a3b77f2b51ff8f5ce1994b790106.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-11-11",
       "open": "公式で確認",
@@ -2390,11 +2533,27 @@
       "date": "2026-11-12",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] 村田千紘(tp) + 3",
+      "artist": "[jazz] 村田千紘(tp) 石田衛(p) 若井俊也(b) 高橋直希(ds)",
       "price": "¥6600",
       "image": "https://alfie.tokyo/liveReport/2017/DSC06478.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-12",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■BASS TALK 鈴木良雄 Memorial Live",
+      "lineup": "pf:野力奏一 fl:井上信平 perc:岡部洋一",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/4cf362a777b16c6bf737dbde30f14b78.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2615,11 +2774,27 @@
       "date": "2026-11-13",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] \"Seiko Summer Jazz Camp at alfe\" 伊藤琢真(as) 伊藤寿(pf) 木村優太(b) 後藤龍太郎(ds)",
+      "artist": "[jazz] \"Seiko Summer Jazz Camp at alfe\" 伊藤琢真(as) 伊藤寿(pf) 守時諒(b) 後藤龍太郎(ds)",
       "price": "¥4400",
       "image": "https://alfie.tokyo/liveReport/20261113.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-13",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●小林陽一 Monk's Trio & ちほわたなべ",
+      "lineup": "ds:小林陽一 pf:リン･ヘイテツ bs:姫岡優太 vo:ちほわたなべ",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/38652fe4d25405a64e987d05a0c9e5b8.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -2831,6 +3006,22 @@
       "image": "https://alfie.tokyo/liveReport/2014/DSC05466.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-14",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■キャロル山崎&細野よしひこQuartet",
+      "lineup": "vo:キャロル山崎 gt:細野よしひこ pf:北島直樹 bs:遠山晃司 ds:JUN SAITO",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/b8b2d30dab756c45b734731a898823c4.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3114,6 +3305,21 @@
       "image": "https://alfie.tokyo/liveReport/2019/DSC04198.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-15",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "終日貸切",
+      "lineup": "15 終日貸切",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": null,
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3516,6 +3722,22 @@
       "source": "https://alfie.tokyo/schedule/202611.html"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-11-17",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■YOSHIAKI MASUO GROUP",
+      "lineup": "gt:増尾好秋 pf:永武幹子 bs:中林薫平 ds:北井誉人",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/16447aa6c728f217d5b5270ad8b63d26.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-11-17",
       "open": "16:30",
@@ -3704,6 +3926,22 @@
       "source": "https://alfie.tokyo/schedule/202611.html"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-11-18",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■Trio Encanto guest 岡部洋一&織原良次",
+      "lineup": "vo:布上智子 fl:酒井麻生代 pf:太宰百合 bs:織原良次 perc:岡部洋一",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/7626717599012462bd34bb2c2026b8ed.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "bluenote",
       "date": "2026-11-18",
       "open": "公式で確認",
@@ -3857,6 +4095,22 @@
       "image": "https://alfie.tokyo/liveReport/2025/A9_05368.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-19",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●紗野葉子&青木弘武Trio",
+      "lineup": "vo:紗野葉子 pf:青木弘武 bs:河原秀夫 ds:ジーン重村",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -4046,6 +4300,22 @@
       "source": "https://alfie.tokyo/schedule/202611.html"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-11-20",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■寿永アリサ ラテンワールドミュージックセッション",
+      "lineup": "vo:寿永アリサ gt:高木潤一 pf:山田メイ bs:ヤマトヤスオ",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-11-20",
       "open": "17:00",
@@ -4232,6 +4502,22 @@
       "image": "https://alfie.tokyo/liveReport/20260212_2.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-21",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■MAYA&松尾明Quartet",
+      "lineup": "vo:MAYA ds:松尾 明 pf:二村希一 bs:新岡 誠 sax:菅野 浩",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/54cc7d26cbff941e564e4908e8d8b543.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -4456,6 +4742,22 @@
       "image": "https://alfie.tokyo/liveReport/20261122.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-22",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "20:30",
+      "artist": "■加納伊都 Violin Classic Live",
+      "lineup": "vln:加納伊都 pf:森田義史 guest vln:森田真代",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/3aa27c92ad47f688cc9f8496481ad5e8.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -4811,6 +5113,22 @@
       "artist": "Vocal Unit a　石川真奈美 vo. 中村早香 vo. 矢野眞道 vo. 寺屋ナオ gt."
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-11-24",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■TONY GUPPY“JOY OF MUSIC” guest Misuzu Ichikawa",
+      "lineup": "steelpan:Tony Guppy gt:Mac福田 bs:山本賢介 ds:村上広樹 vo:市川美鈴",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/522c950e4ba0fcc08aac285945386834.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-11-24",
       "open": "16:30",
@@ -5040,6 +5358,22 @@
       "source": "https://alfie.tokyo/schedule/202611.html"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-11-25",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●浅田尚美&朝倉由里Trio",
+      "lineup": "vo:浅田尚美 pf:朝倉由里 bs:河原秀夫 ds:小泉髙之",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-11-25",
       "open": "16:30",
@@ -5260,6 +5594,22 @@
       "source": "https://alfie.tokyo/schedule/202611.html"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-11-26",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "●斉田佳子 Birthday Live",
+      "lineup": "vo:斉田佳子 pf:中嶋錠二 bs:大塚義将 ds:藤井 学",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_yokohama",
       "date": "2026-11-26",
       "open": "15:30",
@@ -5445,6 +5795,22 @@
       "source": "https://alfie.tokyo/schedule/202611.html"
     },
     {
+      "venueId": "barbarbar",
+      "date": "2026-11-27",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "※横浜ホットジャズオールスターズ",
+      "lineup": "ds:竹内 武 pf:田中和音 gt:浅葉裕文 bs:新井健太郎 sax:清水洋之助 sax:上野 悠 sax:長嶋岳人 tp:藤井 空 tp:小野ゆうか tb:藤下宗一郎 vo:中野渡章子",
+      "price": "6,050円",
+      "image": "https://www.barbarbar.jp/calendar/uploads/50611d0d7713898e6baa9b0d86d7ab05.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
+    },
+    {
       "venueId": "billboard_tokyo",
       "date": "2026-11-27",
       "open": "17:00",
@@ -5623,6 +5989,22 @@
       "image": "https://alfie.tokyo/liveReport/AnriSakamoto.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-28",
+      "open": "18:00",
+      "start": "19:00",
+      "secondStart": "21:00",
+      "artist": "■池の本和美&根市タカオQuartet",
+      "lineup": "vo:池の本和美 bs:根市タカオ pf:岩谷泰行 vib:藤井 寛 ds:遠藤真治",
+      "price": "公式で確認",
+      "image": "https://www.barbarbar.jp/calendar/uploads/60507a9b3c8f82ee1be760059cebbd96.jpg",
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -5869,6 +6251,21 @@
       "image": "https://alfie.tokyo/liveReport/20261129.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202611.html"
+    },
+    {
+      "venueId": "barbarbar",
+      "date": "2026-11-29",
+      "open": "公式で確認",
+      "start": "公式で確認",
+      "artist": "終日貸切",
+      "lineup": "29 終日貸切",
+      "price": "公式で確認",
+      "image": null,
+      "media": [],
+      "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationUrl": null,
+      "detailUrl": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -11111,7 +11508,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-10-31T15:23:15.122Z",
+  "updatedAt": "2026-11-01T00:08:00.766Z",
   "venues": [
     {
       "area": "near",
