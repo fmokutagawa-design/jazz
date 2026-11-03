@@ -26,7 +26,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 31,
-      "kept": 30
+      "kept": 31
     },
     {
       "venueId": "bluenote",
@@ -489,7 +489,8 @@
       "media": [],
       "source": "https://wonderwall-yokohama.jp/schedule/good-ole-music-band-6/",
       "secondStart": "14:10",
-      "lineup": "坂本愛江(vo,gt) 工藤精(b) 小林創(p) 木村おおじ(ds)",
+      "lineup": "坂本愛江(vo,gt) 工藤精(b) 小林創(p)",
+      "note": "木村おおじさんは体調不良のため、出演を見合わせることとなりました。お客様のご理解ご了承のほどよろしくお願いします。",
       "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdJW0VwaZZsSDkETkCgpbKHqMcHlnsOAP5DTQ7zBOCZHagdhQ/viewform?usp=pp_url&entry.1675391905=11/3(%E7%81%AB/%E7%A5%9D/DayTime)Good+Ole+Music+Band",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/good-ole-music-band-6/",
       "reservationStatus": "web"
@@ -3212,9 +3213,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21644/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -10377,9 +10378,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21612/detail/dtl_ev-21610_1_1784865981.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -11208,7 +11209,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-02T19:33:06.430Z",
+  "updatedAt": "2026-11-03T02:55:31.233Z",
   "venues": [
     {
       "area": "near",
