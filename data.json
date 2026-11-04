@@ -119,9 +119,9 @@
     {
       "venueId": "kanmachi63",
       "month": "2026-12",
-      "status": "empty",
-      "reason": "取得結果0件・公式有無未確認",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 21,
       "kept": 0
     },
     {
@@ -1975,9 +1975,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21670/detail/dtl_ev-21670_1_1788174014.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21670&date=2026-11-12",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21670&date=2026-11-12",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21670&date=2026-11-12",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -6564,6 +6564,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-12-03",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "ds.大村亘 pf.山口コーイチ",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "pitinn",
       "date": "2026-12-03",
       "open": "19:00",
@@ -6723,6 +6734,17 @@
       "image": null,
       "media": [],
       "source": "https://naniaru.com/events/view/15272"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-04",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "未定",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -6899,6 +6921,17 @@
       "image": null,
       "media": [],
       "source": "https://naniaru.com/events/view/15273"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-05",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ ag.閑喜弦介 SOLO 1st19:00~ 2nd 20:15~ ts.橋本亮督 SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -7090,6 +7123,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-12-06",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "pf.栗田妙子 SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-12-06",
       "open": "18:00",
@@ -7215,6 +7259,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261207",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261207",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-07",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "gt.定仙哲也 b.安東昇 ds.斉藤良",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -7797,6 +7852,17 @@
       "source": "https://naniaru.com/events/view/15276"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-12-11",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "gt.馬場孝喜 b.西嶋徹",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-12-11",
       "open": "18:00",
@@ -7986,6 +8052,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-12-12",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "tp.石川宏行 SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-12-12",
       "open": "18:00",
@@ -8159,6 +8236,17 @@
       "image": null,
       "media": [],
       "source": "https://naniaru.com/events/view/15279"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-13",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "gt.effect市野元彦 SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -8848,6 +8936,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-12-17",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "gt.福冨博 SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "pitinn",
       "date": "2026-12-17",
       "open": "19:00",
@@ -9011,6 +9110,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-12-18",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "as.ss.ませひろこ tb.etc青木タイセイ ds.則武諒",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-12-18",
       "open": "18:00",
@@ -9164,6 +9274,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-12-19",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ ts.ss.山口真文 gt.東海林由孝 b.小牧良平 ds.杉山貢 1st19:00~ 2nd 20:15~ oud.橋本亮督 SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-12-19",
       "open": "18:00",
@@ -9299,6 +9420,17 @@
       "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5770",
       "detailUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5770",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-20",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ pf.望月慎一郎 SOLO 1st19:00~ fl.effect酒井麻生代 90分1セット SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -9461,6 +9593,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261221",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261221",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-21",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "pf.リンヘイテツ b.落合康介 ds.藤井信雄",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -9639,6 +9782,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261222",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261222",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-22",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "vo.清水翠 gt.馬場孝喜",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -9820,6 +9974,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-12-23",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "pf.関谷友加里 SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-12-23",
       "open": "13:30",
@@ -9958,6 +10123,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261224",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261224",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-24",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "ts.etc竹内直 gt.井上智",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "pitinn",
@@ -10104,6 +10280,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261225",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261225",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-25",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "Tabla dram.大村亘 SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "pitinn",
@@ -10263,6 +10450,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261226",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261226",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-26",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ pf.小太刀のばら SOLO 1st19:00~ 2nd 20:15~ ts.ect 竹内直 SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -10433,6 +10631,17 @@
       "image": null,
       "media": [],
       "source": "https://dolphy-jazzspot.com/live_schedule2026_12.html"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-27",
+      "open": "14:30",
+      "start": "15:00",
+      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ pf.布施音人 SOLO 1st19:00~ 2nd 12:30~ gt.馬場孝喜 SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "naru",
@@ -10613,6 +10822,17 @@
       "reservationStatus": "web"
     },
     {
+      "venueId": "kanmachi63",
+      "date": "2026-12-28",
+      "open": "19:00",
+      "start": "19:30",
+      "artist": "ts.ss.かみむら泰一 b.西嶋徹 ds.塚岡陽太",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
+    },
+    {
       "venueId": "naru",
       "date": "2026-12-28",
       "open": "18:00",
@@ -10773,6 +10993,17 @@
       "detailUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261229",
       "reservationUrl": "https://www.jzbrat.com/liveinfo/2026/12/index.html#20261229",
       "reservationStatus": "web"
+    },
+    {
+      "venueId": "kanmachi63",
+      "date": "2026-12-29",
+      "open": "14:30",
+      "start": "19:00",
+      "artist": "pf.西山瞳 SOLO",
+      "price": "3,300円",
+      "image": null,
+      "media": [],
+      "source": "http://kanmachi63.blog.fc2.com/"
     },
     {
       "venueId": "pitinn",
@@ -10984,7 +11215,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-03T17:07:49.725Z",
+  "updatedAt": "2026-11-04T01:20:50.560Z",
   "venues": [
     {
       "area": "near",
