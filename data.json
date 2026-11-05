@@ -26,7 +26,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 32,
-      "kept": 31
+      "kept": 32
     },
     {
       "venueId": "bluenote",
@@ -234,7 +234,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 27,
-      "kept": 26
+      "kept": 27
     },
     {
       "venueId": "naru",
@@ -1403,9 +1403,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21628/detail/dtl_ev-21625_1_1785462258.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -2278,9 +2278,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21618/detail/dtl_ev-21618_1_1785318279.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-14",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-14",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-14",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -2562,9 +2562,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21613/detail/dtl_ev-21613_1_1787231919.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -6708,7 +6708,7 @@
       "date": "2026-12-05",
       "open": "14:30",
       "start": "15:00",
-      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ ag.閑喜弦介 SOLO 1st19:00~ 2nd 20:15~ ts.橋本亮督 SOLO",
+      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ ag.閑喜弦介 SOLO 1st19:00~ 2nd 20:15~ electronics.橋本亮督 SOLO",
       "price": "3,300円",
       "image": null,
       "media": [],
@@ -9070,7 +9070,7 @@
       "date": "2026-12-19",
       "open": "14:30",
       "start": "15:00",
-      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ ts.ss.山口真文 gt.東海林由孝 b.小牧良平 ds.杉山貢 1st19:00~ 2nd 20:15~ oud.橋本亮督 SOLO",
+      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ ts.ss.山口真文 gt.東海林由孝 b.小牧良平 ds.杉山寛 1st19:00~ 2nd 20:15~ oud.加藤吉樹 SOLO",
       "price": "3,300円",
       "image": null,
       "media": [],
@@ -9218,7 +9218,7 @@
       "date": "2026-12-20",
       "open": "14:30",
       "start": "15:00",
-      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ pf.望月慎一郎 SOLO 1st19:00~ fl.effect酒井麻生代 90分1セット SOLO",
+      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ pf.shnty望月慎一郎 SOLO 1st19:00~ fl.effect酒井麻生代 90分1セット SOLO",
       "price": "3,300円",
       "image": null,
       "media": [],
@@ -10440,7 +10440,7 @@
       "date": "2026-12-27",
       "open": "14:30",
       "start": "15:00",
-      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ pf.布施音人 SOLO 1st19:00~ 2nd 12:30~ gt.馬場孝喜 SOLO",
+      "artist": "≪昼の部 夜の部 入れ替え≫ 1st15:00~ 2nd16:15~ pf.布施音人 SOLO 1st19:00~ 2nd 20:15~ gt.馬場孝喜 SOLO",
       "price": "3,300円",
       "image": null,
       "media": [],
@@ -10629,7 +10629,7 @@
       "date": "2026-12-28",
       "open": "19:00",
       "start": "19:30",
-      "artist": "ts.ss.かみむら泰一 b.西嶋徹 ds.塚岡陽太",
+      "artist": "ts.ss.かみむら泰一 b.西嶋徹 ds.塚田陽太",
       "price": "3,300円",
       "image": null,
       "media": [],
@@ -11018,7 +11018,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-04T17:19:00.316Z",
+  "updatedAt": "2026-11-05T01:28:48.407Z",
   "venues": [
     {
       "area": "near",
