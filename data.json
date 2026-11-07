@@ -26,7 +26,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 35,
-      "kept": 34
+      "kept": 35
     },
     {
       "venueId": "bluenote",
@@ -1919,9 +1919,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21618/detail/dtl_ev-21618_1_1793955659.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-14",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-14",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21618&date=2026-11-14",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -10748,7 +10748,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-06T16:49:52.940Z",
+  "updatedAt": "2026-11-07T00:55:47.932Z",
   "venues": [
     {
       "area": "near",
