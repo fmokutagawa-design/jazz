@@ -186,7 +186,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 52,
-      "kept": 50
+      "kept": 52
     },
     {
       "venueId": "pitinn",
@@ -1925,9 +1925,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21613/detail/dtl_ev-21613_1_1787231919.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21613&date=2026-11-15",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -5141,9 +5141,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21653/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -6532,9 +6532,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21681/detail/dtl_ev-21681_1_1788834313.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21681&date=2026-12-08",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21681&date=2026-12-08",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21681&date=2026-12-08",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -10512,7 +10512,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-07T15:43:03.447Z",
+  "updatedAt": "2026-11-08T00:34:28.236Z",
   "venues": [
     {
       "area": "near",
