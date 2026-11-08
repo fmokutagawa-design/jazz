@@ -17,8 +17,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 25,
-      "kept": 25
+      "count": 24,
+      "kept": 24
     },
     {
       "venueId": "dolphy",
@@ -33,8 +33,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 22,
-      "kept": 22
+      "count": 21,
+      "kept": 21
     },
     {
       "venueId": "bluenote",
@@ -49,8 +49,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 21,
-      "kept": 21
+      "count": 20,
+      "kept": 20
     },
     {
       "venueId": "cottonclub",
@@ -65,8 +65,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 22,
-      "kept": 22
+      "count": 20,
+      "kept": 20
     },
     {
       "venueId": "kingsbar",
@@ -97,8 +97,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 12,
-      "kept": 12
+      "count": 11,
+      "kept": 11
     },
     {
       "venueId": "first",
@@ -113,8 +113,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 18,
-      "kept": 18
+      "count": 17,
+      "kept": 17
     },
     {
       "venueId": "kanmachi63",
@@ -129,8 +129,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 22,
-      "kept": 22
+      "count": 20,
+      "kept": 20
     },
     {
       "venueId": "wonderwall",
@@ -177,8 +177,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 30,
-      "kept": 30
+      "count": 28,
+      "kept": 28
     },
     {
       "venueId": "billboard_tokyo",
@@ -193,8 +193,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 23,
-      "kept": 23
+      "count": 22,
+      "kept": 22
     },
     {
       "venueId": "pitinn",
@@ -225,8 +225,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 19,
-      "kept": 19
+      "count": 18,
+      "kept": 18
     },
     {
       "venueId": "alfie",
@@ -241,8 +241,8 @@
       "month": "2026-11",
       "status": "ok",
       "reason": "取得済み",
-      "count": 16,
-      "kept": 16
+      "count": 15,
+      "kept": 15
     },
     {
       "venueId": "naru",
@@ -258,7 +258,7 @@
       "status": "failed",
       "reason": "取得失敗",
       "count": 0,
-      "kept": 30
+      "kept": 28
     },
     {
       "venueId": "sometime",
@@ -286,219 +286,6 @@
     }
   ],
   "events": [
-    {
-      "venueId": "alfie",
-      "date": "2026-11-08",
-      "open": "18:45",
-      "start": "19:15",
-      "artist": "日野\"JINO\"賢二(eb) Session Hino&rdquo; Ewik(s) Tony Suggs(p) Tomo Kanno(ds)",
-      "price": "¥5500",
-      "image": "https://alfie.tokyo/liveReport/2019/DSC04178.jpg",
-      "media": [],
-      "source": "https://alfie.tokyo/schedule/202611.html"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-11-08",
-      "open": "15:00",
-      "start": "16:00",
-      "artist": "渡辺満里奈 40th Anniversary LIVE “Still Ringing Bells”",
-      "price": "8,100円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21534/detail/dtl_ev-21533_1_1781839989.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationUrl": null,
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "billboard_tokyo",
-      "date": "2026-11-08",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "渡辺満里奈 40th Anniversary LIVE “Still Ringing Bells”",
-      "price": "8,100円〜",
-      "image": "https://www.billboard-live.com/public/event_img/ev-21534/detail/dtl_ev-21533_1_1781839989.jpg",
-      "media": [],
-      "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21534&date=2026-11-08",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "bluenote",
-      "date": "2026-11-08",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "MIKA NAKASHIMA LIVE at BLUE NOTE TOKYO 2026",
-      "price": "¥26,000",
-      "image": "https://reserve.bluenote.co.jp/reserve/img/event/4010.jpg",
-      "media": [],
-      "source": "https://reserve.bluenote.co.jp/reserve/schedule/exec/4010",
-      "reservationUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/4010",
-      "detailUrl": "https://reserve.bluenote.co.jp/reserve/schedule/exec/4010",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "cottonclub",
-      "date": "2026-11-08",
-      "open": "公式で確認",
-      "start": "公式で確認",
-      "artist": "福井晶一 デビュー30周年記念コンサート～Curtain Never Falls～",
-      "price": "¥12,000",
-      "image": "https://reserve.cottonclubjapan.co.jp/reserve/img/event/5735.jpg",
-      "media": [],
-      "source": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5735",
-      "reservationUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5735",
-      "detailUrl": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5735",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "dolphy",
-      "date": "2026-11-08",
-      "open": "18:00",
-      "start": "19:00",
-      "artist": "岩野未侑(vo/g)グループ 小川悦司(g)武藤勇樹(p)三枝俊治(b)小川このん(ds)",
-      "price": "4500円",
-      "image": null,
-      "media": [],
-      "source": "https://dolphy-jazzspot.com/live_schedule.html"
-    },
-    {
-      "venueId": "first",
-      "date": "2026-11-08",
-      "open": "13:30",
-      "start": "13:30",
-      "artist": "日曜セッション (毎月第2日曜日)",
-      "price": "￥2,300",
-      "image": null,
-      "media": [],
-      "source": "https://naniaru.com/events/view/15092"
-    },
-    {
-      "venueId": "kanmachi63",
-      "date": "2026-11-08",
-      "open": "14:30",
-      "start": "15:00",
-      "artist": "未定",
-      "price": "3,300円",
-      "image": null,
-      "media": [],
-      "source": "http://kanmachi63.blog.fc2.com/"
-    },
-    {
-      "venueId": "kingsbar",
-      "date": "2026-11-08",
-      "open": "公式で確認",
-      "start": "12:15",
-      "artist": "誰でも参加できる昼のジャムセッション",
-      "price": "1000円",
-      "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
-      "media": [],
-      "source": "https://livebar.net/kingsbar/events/4873"
-    },
-    {
-      "venueId": "kingsbar",
-      "date": "2026-11-08",
-      "open": "公式で確認",
-      "start": "18:30",
-      "artist": "色なき風の便り",
-      "price": "4000円",
-      "image": "https://livebar.net/storage/shops/branding/1c87b51a-7de4-45a6-9659-39906e75161f_display.jpg",
-      "media": [],
-      "source": "https://livebar.net/kingsbar/events/4874"
-    },
-    {
-      "venueId": "naru",
-      "date": "2026-11-08",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "JAM SESSION !! 大坂昌彦 ds 石田衛 p 手島甫 b",
-      "price": "公式で確認",
-      "image": null,
-      "media": [],
-      "source": "http://ocha-naru.com/schedule/",
-      "detailUrl": "http://ocha-naru.com/schedule/",
-      "reservationUrl": "http://ocha-naru.com/reservation/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "pitinn",
-      "date": "2026-11-08",
-      "open": "19:00",
-      "start": "19:30",
-      "artist": "永武幹子 3DAYS — Special Trio",
-      "lineup": "永武幹子(P)Grigoris Theodoridis(B)from Greece 服部マサツグ(Ds)",
-      "price": "￥4,000",
-      "image": "https://pit-inn.com/pit-inn/wp-content/uploads/2026/09/1107nagatake.jpg",
-      "media": [],
-      "source": "https://pit-inn.com/artist_live_info/261108nagatake/",
-      "detailUrl": "https://pit-inn.com/artist_live_info/261108nagatake/",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-11-08",
-      "open": "18:00",
-      "start": "19:00",
-      "secondStart": "20:30",
-      "artist": "関根 敏行（p）4 原川 誠司（sax） 吉野 弘志（b） 小泉 高之（ds）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/52529/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1792446980296",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202611.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "sometime",
-      "date": "2026-11-08",
-      "open": "12:00",
-      "start": "13:00",
-      "secondStart": "14:30",
-      "artist": "牧原 正洋（tp） 相川 等（tb） 藤本 暁子（p） 伊藤 寛康（b） 美座 良彦（perc）",
-      "price": "3,000円",
-      "image": "https://www.sometime.co.jp/sometime/_src/50762/13923853_1646003345716463_2072230070066444367_o_3.jpg?v=1792446980296",
-      "media": [],
-      "source": "https://www.sometime.co.jp/sometime/live202611.html",
-      "reservationUrl": null,
-      "reservationStatus": "check"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-11-08",
-      "open": "11:30",
-      "start": "12:00",
-      "artist": "LITTLE WING LIVE JAZZ",
-      "price": "¥4,400",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/09/att.SiHw8uC0o8weVm3wH1o4BPUggwNiBIRId3cikfKH430.jpeg",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/little-wing-jazzlive/",
-      "secondStart": "12:50",
-      "lineup": "森華燿子(p) 佐藤孝紀(b) 遠藤雄貴(ds) 佐藤ゆかり(vo)",
-      "note": "※本公演はお食事の提供はございません",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdJW0VwaZZsSDkETkCgpbKHqMcHlnsOAP5DTQ7zBOCZHagdhQ/viewform?usp=pp_url&entry.1675391905=11/8(%E6%97%A5)%E3%83%AA%E3%83%88%E3%83%AB%E3%82%A6%E3%82%A3%E3%83%B3%E3%82%B0JazzLive",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/little-wing-jazzlive/",
-      "reservationStatus": "web"
-    },
-    {
-      "venueId": "wonderwall",
-      "date": "2026-11-08",
-      "open": "16:00",
-      "start": "17:00",
-      "artist": "友田ジュンリクエストライブVol.9",
-      "price": "¥4,400",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/08/0-1787061386899.jpg",
-      "media": [],
-      "source": "https://wonderwall-yokohama.jp/schedule/%e5%8f%8b%e7%94%b0%e3%82%b8%e3%83%a5%e3%83%b3%e3%83%aa%e3%82%af%e3%82%a8%e3%82%b9%e3%83%88%e3%83%a9%e3%82%a4%e3%83%96vol-9/",
-      "secondStart": "18:10",
-      "lineup": "友田ジュン(p)",
-      "reservationUrl": "https://tiget.net/events/515694",
-      "detailUrl": "https://wonderwall-yokohama.jp/schedule/%e5%8f%8b%e7%94%b0%e3%82%b8%e3%83%a5%e3%83%b3%e3%83%aa%e3%82%af%e3%82%a8%e3%82%b9%e3%83%88%e3%83%a9%e3%82%a4%e3%83%96vol-9/",
-      "reservationStatus": "web"
-    },
     {
       "venueId": "barbarbar",
       "date": "2026-11-09",
@@ -742,9 +529,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21628/detail/dtl_ev-21625_1_1785462258.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_yokohama",
@@ -756,9 +543,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21628/detail/dtl_ev-21625_1_1785462258.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21628&date=2026-11-10",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -1990,7 +1777,7 @@
       "date": "2026-11-15",
       "open": "18:00",
       "start": "19:00",
-      "artist": "板橋文夫(p) ソロ＆デュオ",
+      "artist": "板橋文夫(p) ソロ",
       "price": "4500円",
       "image": "https://dolphy-jazzspot.com/musician/d_itabashi_fumio_s2016.jpg",
       "media": [],
@@ -2137,9 +1924,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21644/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21644&date=2026-11-16",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -3088,12 +2875,13 @@
       "start": "19:00",
       "artist": "AcousticWeatherReport",
       "price": "¥5,830",
-      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/08/0-1787035839367.jpg",
+      "image": "https://wonderwall-yokohama.jp/wp/wp-content/uploads/2026/08/Acousticweather.png",
       "media": [],
       "source": "https://wonderwall-yokohama.jp/schedule/acousticweatherreport-5/",
       "secondStart": "20:10",
       "lineup": "クリヤマコト(pf) 納浩一(B) 則竹裕之(ds)",
-      "reservationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdJW0VwaZZsSDkETkCgpbKHqMcHlnsOAP5DTQ7zBOCZHagdhQ/viewform?usp=pp_url&entry.1675391905=11/20(%E9%87%91)AcousticWeatherReport",
+      "note": "※本公演は満席となっております ※キャンセル待ちをご希望の方はHP内の貸切・採用などお問い合わせ→キャンセル待ち受付を選んでご入力ください ※キャンセルの際は必ずご一報いただきますようお願いします。当日キャンセルの場合はキャンセル料をいただく場合がございます。",
+      "reservationUrl": "https://www.facebook.com/sharer/sharer.php?u=https://wonderwall-yokohama.jp/schedule/acousticweatherreport-5/&amp;src=sdkpreparse",
       "detailUrl": "https://wonderwall-yokohama.jp/schedule/acousticweatherreport-5/",
       "reservationStatus": "web"
     },
@@ -3342,7 +3130,7 @@
       "date": "2026-11-22",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] 大和田慧(vo) 宮川純(key) Zak Croxall(b) 伊吹文裕(ds)",
+      "artist": "【SOLD OUT!】[jazz] 大和田慧(vo) 宮川純(key) Zak Croxall(b) 伊吹文裕(ds)",
       "price": "¥6600",
       "image": "https://alfie.tokyo/liveReport/20261122.jpg",
       "media": [],
@@ -4988,7 +4776,7 @@
       "date": "2026-11-29",
       "open": "18:00",
       "start": "19:00",
-      "artist": "林栄一(as)＆ 田中信正(p) ＆ 坂井紅介(b)",
+      "artist": "ドルフィースペシャルセッション 林栄一(as) 田中信正(p) 坂井紅介(b)",
       "price": "4500円",
       "image": null,
       "media": [],
@@ -5440,9 +5228,9 @@
       "date": "2026-12-02",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] TOKU(vo,flh)",
+      "artist": "[jazz] TOKU(vo, flh) 馬場智章(s) 金子雄太(org) 沼澤尚(ds)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2015/DSC00033.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -5620,7 +5408,7 @@
       "start": "19:15",
       "artist": "[jazz] 山本剛(pf) TRIO 香川裕史(b) 大隅寿男(ds)",
       "price": "¥5500",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2012/IMG_6627.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -5779,7 +5567,7 @@
       "start": "19:15",
       "artist": "[jazz] 情家みえ(vo) 後藤浩二(pf) 楠井五月(b) 浜崎航(ts)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/schedule/201410_files/IMG_9809.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -5966,7 +5754,7 @@
       "start": "19:15",
       "artist": "[jazz] MIWO(vo) 田窪寛之(pf) 池尻洋史(b) 長谷川ガク(ds)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2026/A9_02733.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -6138,9 +5926,9 @@
       "date": "2026-12-06",
       "open": "18:45",
       "start": "19:15",
-      "artist": "日野\"JINO\"賢二(eb) Session Tony Suggs(pf) +2",
+      "artist": "日野\"JINO\"賢二(eb) Session Tony Suggs(pf) + 2",
       "price": "¥5500",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2019/DSC04178.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -6490,7 +6278,7 @@
       "start": "19:15",
       "artist": "[jazz] \"Seiko Summer Jazz Camp at alfe\" 菊地立起(tp) 平倉初音(pf) 平田晃一(g) 木村優太(b) 塚田陽太(ds)",
       "price": "¥4400",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2025/A9_08931.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -6650,9 +6438,9 @@
       "date": "2026-12-09",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] 川嶋哲郎(ts) 椎名豊(pf) 坂井紅介(b) 久米雅之(ds)",
+      "artist": "[jazz] 川嶋哲郎(ts) スタンダーズ 椎名豊(pf) 坂井紅介(b) 久米雅之(ds)",
       "price": "¥5500",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2015/DSC08675.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -6788,7 +6576,7 @@
       "start": "19:15",
       "artist": "[jazz] 村田千紘(tp) 田窪寛之(pf) 吉田豊(b)",
       "price": "¥5500",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2017/DSC06478.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -6938,7 +6726,7 @@
       "start": "19:15",
       "artist": "[jazz] Erika Matsuo(vo) Marcelo Kimura(g) 海堀弘太(pf) 宮地遼(eb)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/20261211.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -7096,7 +6884,7 @@
       "start": "19:15",
       "artist": "[jazz] 酒井麻生代(fl) David Bryant(pf) 小牧良平(b) 小松伸之(ds)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2017/DSC02892.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -7463,9 +7251,9 @@
       "date": "2026-12-14",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] 【SOLD OUT】岩城直也(pf) Birthday Live",
+      "artist": "【SOLD OUT】 [jazz] 岩城直也(pf) Birthday Live",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/20251214.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -7654,7 +7442,7 @@
       "start": "19:15",
       "artist": "[jazz] 下田雄人(g) 熊谷ヤスマサ(pf) 山本裕之(b) 小田桐和寛(ds)",
       "price": "¥5500",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2018/DSC05632.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -7817,7 +7605,7 @@
       "start": "19:15",
       "artist": "[jazz] Haru Takauchi(g) 安井源之新(perc) コモブチキイチロウ(b) 羽仁知治(pf)",
       "price": "¥5500",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/20261216.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -7991,7 +7779,7 @@
       "start": "19:15",
       "artist": "[jazz] 岩野未侑(vo) 小川悦司(g) 納浩一(b) 松尾啓司(ds)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/20261217.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -8163,9 +7951,9 @@
       "date": "2026-12-18",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] 中村健吾(b) +3",
+      "artist": "[jazz] 中村健吾(b) 菊池太光(pf) 海野俊輔(ds)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/20261218.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -8258,7 +8046,7 @@
       "date": "2026-12-18",
       "open": "18:30",
       "start": "19:30",
-      "artist": "平賀マリ(vo)＆ ハクエイ・キム(p) DUO",
+      "artist": "平賀マリカ(vo)＆ ハクエイ・キム(p) DUO",
       "price": "4500円",
       "image": null,
       "media": [],
@@ -8365,7 +8153,7 @@
       "start": "19:15",
       "artist": "[jazz] 松下美月(ts) 吉田一成(g) 蓮池創太郎(b) 福原雄太(ds)",
       "price": "¥5500",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/20260212_2.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -8535,7 +8323,7 @@
       "start": "19:15",
       "artist": "[jazz] 海老沢一博(ds) \"KEEP GOING\" featuring 林正樹(pf) 須川崇志(b)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2019/DSC02919.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -8703,9 +8491,9 @@
       "date": "2026-12-21",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] 【SOLD OUT】 松井秀太郎(tp) QUINTET 金子礼(as) 市川空(pf) 小川晋平(b) きたいくにと(ds)",
+      "artist": "【SOLD OUT】[jazz] 松井秀太郎(tp) QUINTET 金子礼(as) 市川空(pf) 小川晋平(b) きたいくにと(ds)",
       "price": "¥8800",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/20261221_.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -8894,7 +8682,7 @@
       "start": "19:15",
       "artist": "[jazz] 秋元直子(vo) クリヤ・マコト(pf) 鳥越啓介(b) 山崎隼(ds)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/schedule/liveReport/20250718.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -9084,7 +8872,7 @@
       "start": "19:15",
       "artist": "[jazz] Ayuko(vo) with 市川美鈴(vo) 魚返明未(pf) 松原慶史(g) 古木佳祐(b)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2025/IMG04568.JPG",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -9274,7 +9062,7 @@
       "start": "19:15",
       "artist": "[jazz] \"山田中山 Christmas Eve\" 山田夢子(vo) 田中信正(pf) 中山拓海(as)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2025/A9_00768.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -9436,9 +9224,9 @@
       "date": "2026-12-25",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] \"HAPPY CHIRISTMAS JAZZ\" Maru(vo) クリヤ・マコト(pf) 納浩一(b) 守真人(ds)",
+      "artist": "[jazz] \"HAPPY CHRISTMAS JAZZ\" Maru(vo) クリヤ・マコト(pf) 納浩一(b) 守真人(ds)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/20261225.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -9579,7 +9367,7 @@
       "start": "19:15",
       "artist": "[world] SAYAKA(vln) Birthday Live Haruyoshi Mori Morales(eb) 荒川\"B\"琢哉(perc) 斎藤タカヤ(pf) GENKI(vo,perc)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2010/IMG_8527.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -9983,7 +9771,7 @@
       "start": "19:15",
       "artist": "[jazz] 佐藤ひびき(vo) 片倉真由子(pf) 津川久里子(b) 横原由梨子(ts)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2024/A9_03922.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -10156,7 +9944,7 @@
       "start": "19:15",
       "artist": "[jazz] 西川彩織(ds) 松原慶史(g) 成田祐一(pf) 石川隆一(b)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2024/A9_06894.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -10314,7 +10102,7 @@
       "start": "19:15",
       "artist": "[jazz] 丈青(pf) 高木祥太(b) 松浦千昇(ds)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2025/A9_02109.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -10443,7 +10231,7 @@
       "start": "19:15",
       "artist": "[jazz] \"Countdown Live\" 中村海斗(ds) 平田晃一(g) 布施音人(pf) 若井俊也(b)",
       "price": "¥6600",
-      "image": null,
+      "image": "https://alfie.tokyo/liveReport/2024/A9_02018.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -10512,7 +10300,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-08T00:34:28.236Z",
+  "updatedAt": "2026-11-08T16:01:56.742Z",
   "venues": [
     {
       "area": "near",
