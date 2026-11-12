@@ -337,9 +337,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21670/detail/dtl_ev-21670_1_1788174014.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21670&date=2026-11-12",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21670&date=2026-11-12",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21670&date=2026-11-12",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -532,7 +532,7 @@
       "date": "2026-11-13",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] \"Seiko Summer Jazz Camp at alfe\" 伊藤琢真(as) 伊藤寿(pf) 守時諒(b) 後藤龍太郎(ds)",
+      "artist": "[jazz] \"Seiko Summer Jazz Camp at alfe\" 伊藤琢真(as) 伊東寿(pf) 守時諒(b) 後藤龍太郎(ds)",
       "price": "¥4400",
       "image": "https://alfie.tokyo/liveReport/20261113.jpg",
       "media": [],
@@ -3201,9 +3201,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21587/detail/dtl_ev-21587_1_1783685034.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21587&date=2026-11-25",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21587&date=2026-11-25",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21587&date=2026-11-25",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -3391,7 +3391,7 @@
       "artist": "●斉田佳子 Birthday Live",
       "lineup": "vo:斉田佳子 pf:中嶋錠二 bs:大塚義将 ds:藤井 学",
       "price": "公式で確認",
-      "image": null,
+      "image": "https://www.barbarbar.jp/calendar/uploads/318516a60954e6ea69580b3779d72e9a.jpg",
       "media": [],
       "source": "https://www.barbarbar.jp/calendar.php?year=2026&month=11",
       "reservationUrl": "https://www.barbarbar.jp/schedule.html#sec7",
@@ -5044,9 +5044,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21677/detail/dtl_ev-21677_1_1788520089.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21677&date=2026-12-04",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21677&date=2026-12-04",
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21677&date=2026-12-04",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -5203,9 +5203,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21590/detail/dtl_ev-21590_1_1783935140.jpeg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21590&date=2026-12-05",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21590&date=2026-12-05",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21590&date=2026-12-05",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -9721,7 +9721,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-11T17:13:59.544Z",
+  "updatedAt": "2026-11-12T02:16:26.732Z",
   "venues": [
     {
       "area": "near",
