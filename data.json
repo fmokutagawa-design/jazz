@@ -1674,9 +1674,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21707/detail/dtl_ev-21707_1_1790217941.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21707&date=2026-11-19",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21707&date=2026-11-19",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21707&date=2026-11-19",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -9480,7 +9480,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-12T17:39:23.411Z",
+  "updatedAt": "2026-11-13T01:49:51.753Z",
   "venues": [
     {
       "area": "near",
