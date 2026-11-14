@@ -323,9 +323,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21637/detail/dtl_ev-21637_1_1786001539.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21637&date=2026-11-14",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21637&date=2026-11-14",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21637&date=2026-11-14",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3851,9 +3851,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21653/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -4487,9 +4487,9 @@
       "date": "2026-12-04",
       "open": "18:45",
       "start": "19:15",
-      "artist": "[jazz] 情家みえ(vo) 後藤浩二(pf) 楠井五月(b) 浜崎航(ts)",
+      "artist": "[jazz] 情家みえ(vo) 後藤浩二(pf) 楠井五月(b) 浜崎航(ts) guest 長月翠(vo)",
       "price": "¥6600",
-      "image": "https://alfie.tokyo/schedule/201410_files/IMG_9809.jpg",
+      "image": "https://alfie.tokyo/liveReport/20261204.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -6541,9 +6541,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21596/detail/dtl_ev-21595_1_1784244837.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21596&date=2026-12-16",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21596&date=2026-12-16",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21596&date=2026-12-16",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -9024,7 +9024,7 @@
       "start": "19:15",
       "artist": "[jazz] 丈青(pf) 高木祥太(b) 松浦千昇(ds)",
       "price": "¥6600",
-      "image": "https://alfie.tokyo/liveReport/2025/A9_02109.jpg",
+      "image": "https://alfie.tokyo/liveReport/20261230.jpg",
       "media": [],
       "source": "https://alfie.tokyo/schedule/202612.html"
     },
@@ -9222,7 +9222,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-13T17:16:20.346Z",
+  "updatedAt": "2026-11-14T01:27:40.837Z",
   "venues": [
     {
       "area": "near",
