@@ -111,32 +111,32 @@
     {
       "venueId": "kanmachi63",
       "month": "2026-11",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 12,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 12
     },
     {
       "venueId": "kanmachi63",
       "month": "2026-12",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 21,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 21
     },
     {
       "venueId": "wonderwall",
       "month": "2026-11",
-      "status": "ok",
-      "reason": "取得済み",
-      "count": 14,
+      "status": "failed",
+      "reason": "取得失敗",
+      "count": 0,
       "kept": 14
     },
     {
       "venueId": "wonderwall",
       "month": "2026-12",
-      "status": "ok",
-      "reason": "取得済み",
+      "status": "partial",
+      "reason": "一部取得",
       "count": 22,
       "kept": 22
     },
@@ -3966,9 +3966,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21685/detail/dtl_ev-21685_1_1788922897.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21685&date=2026-12-04",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21685&date=2026-12-04",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21685&date=2026-12-04",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -6004,9 +6004,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21596/detail/dtl_ev-21595_1_1784244837.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21596&date=2026-12-16",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21596&date=2026-12-16",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21596&date=2026-12-16",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -8685,7 +8685,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-15T16:25:35.963Z",
+  "updatedAt": "2026-11-16T01:01:26.052Z",
   "venues": [
     {
       "area": "near",
