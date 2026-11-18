@@ -4497,9 +4497,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21727/detail/dtl_ev-21727_1_1790735619.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21727&date=2026-12-09",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21727&date=2026-12-09",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21727&date=2026-12-09",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -5271,7 +5271,7 @@
       "start": "公式で確認",
       "artist": "12.13(日) 姿月あさと X&#8217;mas Special Live 昼の部",
       "price": "8,000円",
-      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/IMG_9508.jpeg",
+      "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/IMG_9858.jpeg",
       "media": [],
       "source": "https://ginzaswing.jp/20261213-2/"
     },
@@ -8329,7 +8329,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-17T18:38:25.243Z",
+  "updatedAt": "2026-11-18T02:55:04.263Z",
   "venues": [
     {
       "area": "near",
