@@ -90,7 +90,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 29,
-      "kept": 28
+      "kept": 29
     },
     {
       "venueId": "first",
@@ -186,7 +186,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 54,
-      "kept": 52
+      "kept": 54
     },
     {
       "venueId": "pitinn",
@@ -2778,7 +2778,7 @@
       "date": "2026-12-02",
       "open": "18:00",
       "start": "19:00",
-      "artist": "12.2(水) ジャズメッセンジャー特集 sax.岸本 美咲",
+      "artist": "12.2(水) ジャズメッセンジャーズ特集 sax.岸本 美咲",
       "price": "￥4,500",
       "image": "https://ginzaswing.jp/wp22/wp-content/uploads/2026/09/IMG_9834.jpeg",
       "media": [],
@@ -2995,9 +2995,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21685/detail/dtl_ev-21685_1_1788922897.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21685&date=2026-12-04",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21685&date=2026-12-04",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21685&date=2026-12-04",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -3731,9 +3731,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21681/detail/dtl_ev-21681_1_1788834313.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21681&date=2026-12-08",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21681&date=2026-12-08",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21681&date=2026-12-08",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -4001,9 +4001,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21725/detail/dtl_ev-21725_1_1790920389.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21725&date=2026-12-10",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21725&date=2026-12-10",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21725&date=2026-12-10",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -4323,9 +4323,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21752/detail/dtl_ev-21752_1_1792635196.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21752&date=2026-12-12",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21752&date=2026-12-12",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21752&date=2026-12-12",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -5592,9 +5592,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21657/detail/dtl_ev-21657_1_1788219976.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21657&date=2026-12-19",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21657&date=2026-12-19",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21657&date=2026-12-19",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -7740,7 +7740,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-20T17:52:25.836Z",
+  "updatedAt": "2026-11-21T02:12:18.756Z",
   "venues": [
     {
       "area": "near",
