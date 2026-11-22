@@ -159,33 +159,33 @@
     {
       "venueId": "billboard_yokohama",
       "month": "2026-11",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 16,
       "kept": 16
     },
     {
       "venueId": "billboard_yokohama",
       "month": "2026-12",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 54,
       "kept": 54
     },
     {
       "venueId": "billboard_tokyo",
       "month": "2026-11",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 12,
       "kept": 12
     },
     {
       "venueId": "billboard_tokyo",
       "month": "2026-12",
-      "status": "failed",
-      "reason": "取得失敗",
-      "count": 0,
+      "status": "ok",
+      "reason": "取得済み",
+      "count": 54,
       "kept": 54
     },
     {
@@ -940,9 +940,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21587/detail/dtl_ev-21587_1_1783685034.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21587&date=2026-11-25",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21587&date=2026-11-25",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21587&date=2026-11-25",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -1363,9 +1363,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21635/detail/dtl_ev-21635_1_1785988263.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21635&date=2026-11-27",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21635&date=2026-11-27",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21635&date=2026-11-27",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -1377,9 +1377,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21635/detail/dtl_ev-21635_1_1785988263.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21635&date=2026-11-27",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21635&date=2026-11-27",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21635&date=2026-11-27",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "bluenote",
@@ -2089,9 +2089,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21653/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21653&date=2026-11-30",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -2741,9 +2741,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21685/detail/dtl_ev-21685_1_1788922897.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21685&date=2026-12-04",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21685&date=2026-12-04",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21685&date=2026-12-04",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3761,9 +3761,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21725/detail/dtl_ev-21725_1_1790920389.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21725&date=2026-12-10",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21725&date=2026-12-10",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21725&date=2026-12-10",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -6594,9 +6594,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21612/detail/dtl_ev-21610_1_1784865981.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -7500,7 +7500,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-21T16:50:09.957Z",
+  "updatedAt": "2026-11-22T01:15:51.116Z",
   "venues": [
     {
       "area": "near",
