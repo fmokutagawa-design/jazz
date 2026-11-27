@@ -2707,9 +2707,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21725/detail/dtl_ev-21725_1_1790920389.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21725&date=2026-12-10",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21725&date=2026-12-10",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21725&date=2026-12-10",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -3130,7 +3130,7 @@
       "date": "2026-12-12",
       "open": "14:30",
       "start": "15:00",
-      "artist": "tp.石川宏行 SOLO",
+      "artist": "tp.石川広行 SOLO",
       "price": "3,300円",
       "image": null,
       "media": [],
@@ -6528,7 +6528,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-26T19:05:34.757Z",
+  "updatedAt": "2026-11-27T03:39:13.777Z",
   "venues": [
     {
       "area": "near",
