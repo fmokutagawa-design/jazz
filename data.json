@@ -170,7 +170,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 52,
-      "kept": 54
+      "kept": 52
     },
     {
       "venueId": "billboard_tokyo",
@@ -186,7 +186,7 @@
       "status": "ok",
       "reason": "取得済み",
       "count": 50,
-      "kept": 54
+      "kept": 50
     },
     {
       "venueId": "pitinn",
@@ -1167,9 +1167,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21738/detail/dtl_ev-21644_1_1786595931.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21738&date=2026-12-02",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21738&date=2026-12-02",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21738&date=2026-12-02",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -1844,9 +1844,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21673/detail/dtl_ev-21673_1_1787826147.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21673&date=2026-12-06",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21673&date=2026-12-06",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21673&date=2026-12-06",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -4053,9 +4053,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21657/detail/dtl_ev-21657_1_1788219976.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21657&date=2026-12-19",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21657&date=2026-12-19",
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21657&date=2026-12-19",
-      "reservationStatus": "check"
+      "reservationStatus": "web"
     },
     {
       "venueId": "billboard_tokyo",
@@ -4095,9 +4095,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21687/detail/dtl_ev-21685_1_1788922897.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/yokohama/show?event_id=ev-21687&date=2026-12-19",
-      "reservationUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21687&date=2026-12-19",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/yokohama/show?event_id=ev-21687&date=2026-12-19",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "bluenote",
@@ -5297,9 +5297,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21612/detail/dtl_ev-21610_1_1784865981.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_tokyo",
@@ -5311,9 +5311,9 @@
       "image": "https://www.billboard-live.com/public/event_img/ev-21612/detail/dtl_ev-21610_1_1784865981.jpg",
       "media": [],
       "source": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
-      "reservationUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
+      "reservationUrl": null,
       "detailUrl": "https://www.billboard-live.com/tokyo/show?event_id=ev-21612&date=2026-12-26",
-      "reservationStatus": "web"
+      "reservationStatus": "check"
     },
     {
       "venueId": "billboard_yokohama",
@@ -6258,7 +6258,7 @@
       "reservationStatus": "check"
     }
   ],
-  "updatedAt": "2026-11-27T19:03:15.141Z",
+  "updatedAt": "2026-11-28T03:18:40.281Z",
   "venues": [
     {
       "area": "near",
